@@ -1136,27 +1136,198 @@ Interestingly, whisper gives:
 ```
 where the quote is actually in English: "a 30cm long, thick Venezuelan (dick)"
 
-Nagy Ervin a sorozatban egy híres svéd pornóproducert játszik,
-hogyha igazán tökéletességre törekszünk,
-ahhoz valójában egy svéd színészre lett volna szükség,
-de mi nagyon szerettünk volna az Ervinnel dolgozni,
-és hát már ott tart ma a technika, meg az AI,
-hogy ezt meg lehet tenni.
-Az Ervin egyébként nagyon készült rá.
-Megtanulta svéd akcentussal angolul,
-meg svédül a kellő mondatait.
-[00:34.000 --> 00:36.000]  Ezt a jelentet összevágtuk.
-[00:36.000 --> 00:38.000]  Utána kiküldtük
-[00:38.000 --> 00:40.000]  Svédországba, ahol egy svéd
-[00:40.000 --> 00:42.000]  szinkronszínész
-[00:42.000 --> 00:44.000]  leszinkronizálta, de ugye
-[00:44.000 --> 00:46.000]  itt még nem ér véget ez a történet.
-[00:46.000 --> 00:48.000]  Jött az AI, ami
-[00:48.000 --> 00:50.000]  megtanulta gyakorlatilag
-[00:50.000 --> 00:52.000]  az Ervinnek az orgánumát,
-[00:52.000 --> 00:54.000]  és amit a svéd szinkronszínész
-[00:54.000 --> 00:56.000]  a helyes akcentussal elmondott,
-[00:56.000 --> 00:58.000]  az az Ervin orgánumával
-[00:58.000 --> 01:00.000]  és a hangszínével jött vissza,
-[01:00.000 --> 01:02.000]  és így kaptuk meg a végeredményt.
-"We already have a newcomer."
+**“A 30 cm long, thick Venezuelan dick.”**
+
+“A 30-centimetre-long, thick Venezuelan dick.”
+
+**Nagy Ervin a sorozatban egy híres svéd pornóproducert játszik.**
+
+Ervin Nagy plays a famous Swedish porn producer in the series.
+
+```text
+Nagy_Ervin  a    sorozat-ban  egy  híres   svéd
+Nagy_Ervin  the  series-INE   a    famous  Swedish
+
+pornó-producer-t  játsz-ik.
+porn-producer-ACC play-3SG.INDF
+```
+
+**Hogyha igazán tökéletességre törekszünk, ahhoz valójában egy svéd színészre lett volna szükség.**
+
+If we were truly striving for perfection, we would actually have needed a Swedish actor for that.
+
+```text
+Hogyha  igazán  tökéletes-ség-re  töreksz-ünk,
+if      truly   perfect-NMLZ-SBL   strive-1PL.INDF
+
+ah-hoz    való-já-ban       egy  svéd     színész-re
+that-ALL  real-3SG.POSS-INE a    Swedish  actor-SBL
+
+lett             volna       szükség.
+become.PST.3SG   AUX.COND    need
+```
+
+**De mi nagyon szerettünk volna az Ervinnel dolgozni.**
+
+But we very much wanted to work with Ervin.
+
+```text
+De   mi   nagyon  szeret-t-ünk   volna
+but  1PL  very    want-PST-1PL   AUX.COND
+
+az   Ervin-nel  dolgoz-ni.
+the  Ervin-INST work-INF
+```
+
+**És hát már ott tart ma a technika, meg az AI, hogy ezt meg lehet tenni.**
+
+And technology and AI have now reached the point where this can be done.
+
+```text
+És  hát  már      ott    tart          ma
+and  DM    already  there  be.at.3SG     today
+
+a    technika,  meg  az   AI,  hogy  ez-t
+the  technology and  the  AI   that  this-ACC
+
+meg  lehet        ten-ni.
+PV   be.POT.3SG   do-INF
+```
+
+**Az Ervin egyébként nagyon készült rá.**
+
+Ervin, incidentally, prepared for it very thoroughly.
+
+```text
+Az   Ervin  egyébként  nagyon  készül-t
+the  Ervin  incidentally very    prepare-PST.3SG
+
+rá.
+onto.3SG
+```
+
+**Megtanulta svéd akcentussal angolul, meg svédül a kellő mondatait.**
+
+He learned the necessary lines in English with a Swedish accent, and in Swedish.
+
+```text
+Meg-tanul-t-a       svéd     akcentus-sal  angol-ul,
+PV-learn-PST-3SG.DEF Swedish  accent-INST   English-ADV
+
+meg  svéd-ül      a    kell-ő       mondat-a-i-t.
+and  Swedish-ADV  the  need-PTCP    sentence-3SG.POSS-PL-ACC
+```
+
+**Ezt a jelenetet összevágtuk.**
+
+We edited this scene together.
+
+```text
+Ez-t      a    jelenet-et  össze-vág-t-uk.
+this-ACC  the  scene-ACC   PV-cut-PST-1PL.DEF
+```
+
+**Utána kiküldtük Svédországba, ahol egy svéd szinkronszínész leszinkronizálta.**
+
+Afterwards, we sent it to Sweden, where a Swedish dubbing actor dubbed it.
+
+```text
+Utána     ki-küld-t-ük       Svédország-ba,
+afterwards PV-send-PST-1PL.DEF Sweden-ILL
+
+ahol   egy  svéd     szinkron-színész
+where  a    Swedish  dubbing-actor
+
+le-szinkronizál-t-a.
+PV-dub-PST-3SG.DEF
+```
+
+**De ugye itt még nem ér véget ez a történet.**
+
+But of course this story does not end here.
+
+```text
+De   ugye  itt   még  nem  ér
+but  DM    here  yet  NEG  reach.3SG.INDF
+
+vég-et    ez    a    történet.
+end-ACC   this  the  story
+```
+
+**Jött az AI, ami gyakorlatilag megtanulta az Ervinnek az orgánumát.**
+
+Then AI came along, which effectively learned Ervin’s voice.
+
+```text
+Jö-tt          az   AI,  ami  gyakorlat-ilag
+come-PST.3SG   the  AI   REL  practical-ADV
+
+meg-tanul-t-a       az   Ervin-nek  az
+PV-learn-PST-3SG.DEF the  Ervin-DAT  the
+
+orgánum-á-t.
+voice-3SG.POSS-ACC
+```
+
+**És amit a svéd szinkronszínész a helyes akcentussal elmondott, az az Ervin orgánumával és a hangszínével jött vissza.**
+
+And what the Swedish dubbing actor said with the correct accent came back in Ervin’s voice and timbre.
+
+```text
+És  ami-t     a    svéd     szinkron-színész
+and  REL-ACC  the  Swedish  dubbing-actor
+
+a    helyes   akcentus-sal  el-mond-ott,
+the  correct  accent-INST   PV-say-PST.3SG
+
+az    az   Ervin  orgánum-á-val
+that  the  Ervin  voice-3SG.POSS-INST
+
+és   a    hang-szín-é-vel          jö-tt
+and  the  voice-colour-3SG.POSS-INST come-PST.3SG
+
+vissza.
+back
+```
+
+**És így kaptuk meg a végeredményt.**
+
+And this is how we obtained the final result.
+
+```text
+És  így   kap-t-uk       meg  a
+and  thus  get-PST-1PL.DEF PV   the
+
+vég-eredmény-t.
+final-result-ACC
+```
+
+**“We already have a newcomer.”**
+
+“Already, we have a newcomer.”
+
+## A2 vocabulary
+
+* **sorozat** — series
+* **pornóproducer** — porn producer
+* **tökéletesség** — perfection
+* **tökéletességre törekszik** — strive for perfection
+* **valójában** — actually; in reality
+* **szükség van valamire** — something is needed
+* **technika** — technology; technical capability
+* **ott tart, hogy…** — have reached the point where…
+* **meg lehet tenni** — it can be done
+* **készül valamire** — prepare for something
+* **akcentus** — accent
+* **kellő** — necessary; sufficient
+* **jelenet** — scene
+* **összevág** — edit together
+* **kiküld** — send out; send abroad
+* **szinkronszínész** — dubbing actor
+* **leszinkronizál** — dub
+* **véget ér** — come to an end
+* **gyakorlatilag** — practically; effectively
+* **orgánum** — voice; vocal quality
+* **hangszín** — timbre; tone of voice
+* **visszajön** — come back; return
+* **végeredmény** — final result
