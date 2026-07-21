@@ -540,3 +540,26 @@ PV-hang.out-INF
 * **a földön fekszik** — lie on the floor
 * **dehogy** — certainly not; no way
 * **kitereget** — hang out the laundry
+
+---
+
+[Reel](https://www.instagram.com/reels/Da2cjLfMCD2/)
+
+[00:00.260 --> 00:05.080]  Métől leszünk szerelmesek valakibe? És tényleg létezik szerelem első látásra?
+[00:05.520 --> 00:09.960]  Ha nagyon röviden kellene válaszolnom, akkor nem egyetlen dologtól leszünk szerelmesek.
+[00:10.280 --> 00:13.780]  A pszichológiában több tényező együtt alakítja ki a vonzalmat.
+[00:13.940 --> 00:15.600]  Az egyik ilyen a közelség.
+[00:15.920 --> 00:19.200]  Meglepően sokat számít, hogy milyen gyakran találkozunk valakivel.
+[00:19.620 --> 00:23.160]  Minél többször látunk egy embert, annál ismerősebbé válik számunkra,
+[00:23.240 --> 00:25.840]  és sokszor annál szimpatikusabbnak is érezzük.
+[00:25.980 --> 00:28.740]  Fontos az is, hogy vannak-e közös értékeink,
+[00:28.740 --> 00:32.260]  hogy hasonló-e a humorunk, és hogy jól érezzük-e magunkat együtt,
+[00:32.580 --> 00:35.940]  és hogy érzelmileg biztonságban érezzük-e magunkat mellettel.
+[00:36.300 --> 00:39.180]  És persze a vonzalomnak van biológiai oldala is,
+[00:39.440 --> 00:43.280]  amikor szerelmesek leszünk, különböző hormonok és ingerület átvívő anyagok
+[00:43.280 --> 00:47.820]  is szerepet játszanak abban, hogy ennyire intenzíven éljük meg az érzésünket.
+[00:48.160 --> 00:50.640]  Szóval a szerelem nem egyetlen pillanatműve.
+[00:50.980 --> 00:54.380]  Sok apró tényező találkozás, amitől egyszer csak azt veszük észre,
+[00:54.380 --> 00:56.780]  hogy valaki egyre fontosabbá válik számunkra.
+[00:56.780 --> 00:58.900]  És most kíváncsi vagyok a véleményetekre.
+[00:59.000 --> 01:04.080]  Ti hisztek a szerelemben első látásra, vagy szerintetek a szerelem inkább idővel alakul ki?
