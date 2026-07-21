@@ -1130,15 +1130,12 @@ be-INF-1PL
 [Reel](https://www.instagram.com/reels/DZ9uEr_iOdO/)
 
 Interestingly, whisper gives:
+
 ```
 [00:00.000 --> 00:02.000]  30 cm nagy,
 [00:02.000 --> 00:04.000]  venezueli...
 ```
 where the quote is actually in English: "a 30cm long, thick Venezuelan (dick)"
-
-**“A 30 cm long, thick Venezuelan dick.”**
-
-“A 30-centimetre-long, thick Venezuelan dick.”
 
 **Nagy Ervin a sorozatban egy híres svéd pornóproducert játszik.**
 
@@ -1303,8 +1300,6 @@ final-result-ACC
 ```
 
 **“We already have a newcomer.”**
-
-“Already, we have a newcomer.”
 
 ## A2 vocabulary
 
