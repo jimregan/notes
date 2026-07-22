@@ -1,3 +1,39 @@
+---
+toc: false
+layout: post
+hidden: true
+description: Harnessing Whisper for Prosodic Stress Analysis
+title: Generated paper summary
+categories: [chatgpt, summary, whisper, prosody, stress]
+---
+
+Comparison of two related papers:
+
+[Harnessing Whisper for Prosodic Stress Analysis](https://aclanthology.org/2025.findings-acl.1331/)
+
+```bibtex
+@inproceedings{sohn-etal-2025-harnessing,
+    title = "Harnessing Whisper for Prosodic Stress Analysis",
+    author = "Sohn, Samuel S.  and
+      Knutsen, Sten  and
+      Stromswold, Karin",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.1331/",
+    doi = "10.18653/v1/2025.findings-acl.1331",
+    pages = "25931--25942",
+    ISBN = "979-8-89176-256-5",
+}
+```
+and [Fine-Tuning Whisper for Inclusive Prosodic Stress Analysis](https://arxiv.org/pdf/2503.02907)
+
 ## Joint summary
 
 Both papers ask whether **Whisper large-v2 can be repurposed from ordinary transcription into an automatic annotator of prosodic stress**. Rather than adding a separate classifier to frozen speech representations, the authors fine-tune Whisper so that the transcription itself encodes the intended prosodic contrast—for example, `INsult` versus `inSULT`, or `BLACK cow` versus `black COW`. The work covers three kinds of English stress:
