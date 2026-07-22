@@ -935,12 +935,3 @@ A direct template derived from the Findings paper would be:
     * attrition/recognition plots;
     * cleaned-data results.
 
----
-
-## The expansion in one sentence
-
-The Findings paper takes a result that originally said **“fine-tuning transfers between some stress types”** and surrounds it with experiments answering:
-
-> **What part of the recording supports the decision, does it work similarly across speaker groups, how much does annotation noise matter, which natural acoustic changes move the model between categories, and where do those manipulations cease to produce valid speech inputs?**
-
-That is the most reusable set of instructions from the relationship between the two papers.
