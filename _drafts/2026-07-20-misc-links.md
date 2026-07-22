@@ -88,3 +88,28 @@ categories: [links]
 
 [wavtechyukky/pyshiro](https://github.com/wavtechyukky/pyshiro)
 
+[Harnessing Whisper for Prosodic Stress Analysis](https://aclanthology.org/2025.findings-acl.1331/)
+
+```bibtex
+@inproceedings{sohn-etal-2025-harnessing,
+    title = "Harnessing Whisper for Prosodic Stress Analysis",
+    author = "Sohn, Samuel S.  and
+      Knutsen, Sten  and
+      Stromswold, Karin",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.1331/",
+    doi = "10.18653/v1/2025.findings-acl.1331",
+    pages = "25931--25942",
+    ISBN = "979-8-89176-256-5",
+}
+```
+
+[Fine-Tuning Whisper for Inclusive Prosodic Stress Analysis](https://arxiv.org/pdf/2503.02907)
