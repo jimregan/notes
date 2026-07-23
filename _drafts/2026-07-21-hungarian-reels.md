@@ -1326,3 +1326,39 @@ final-result-ACC
 * **hangszín** — timbre; tone of voice
 * **visszajön** — come back; return
 * **végeredmény** — final result
+
+---
+
+[Reel](https://www.instagram.com/reels/DbDXi-sI1kr/)
+
+**Az emberek félnek az egyedülléttől.**
+
+People are afraid of being alone.
+
+```text
+Az   ember-ek  fél-nek        az
+the  person-PL fear-3PL.INDF  the
+
+egyedül-lét-től.
+alone-being-DEL
+```
+
+**Én azoktól félek, akik nem tudnak egyedül lenni.**
+
+I am afraid of those who cannot be alone.
+
+```text
+Én   az-ok-tól    fél-ek,        aki-k
+1SG  that-PL-DEL  fear-1SG.INDF  REL-PL
+
+nem  tud-nak       egyedül  len-ni.
+NEG  can-3PL.INDF  alone    be-INF
+```
+
+## A2 vocabulary
+
+* **fél valamitől / valakitől** — be afraid of something or someone
+* **egyedüllét** — solitude; being alone
+* **azok** — those
+* **egyedül lenni** — be alone
+* **nem tud valamit csinálni** — be unable to do something
