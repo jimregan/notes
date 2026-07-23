@@ -113,3 +113,6 @@ categories: [links]
 ```
 
 [Fine-Tuning Whisper for Inclusive Prosodic Stress Analysis](https://arxiv.org/pdf/2503.02907)
+
+[ZIM file format](https://wiki.openzim.org/wiki/ZIM_file_format)
+
