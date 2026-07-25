@@ -341,3 +341,60 @@ the  day
 * **átkel a hídon** — cross the bridge
 * **visszaér** — get back
 * **folytatódhat** — can continue
+
+---
+
+[Reel](https://www.instagram.com/reels/DYMYyUBKGNK/)
+
+[00:00.000 --> 00:04.060]  Utasok hogyan próbáltak légiótas kísérőkkel ismerkedni?
+[00:04.380 --> 00:08.420]  Ugye nagyon gyakran próbálnak felszedni egyébként az utasok légiótas kísérőket,
+[00:08.880 --> 00:11.820]  úgyhogy most majd folyamatosan mesélják pár sztorit erről.
+[00:12.900 --> 00:16.280]  Volt egyszer egy Hongkong járatom, ahol nagyon-nagyon fáradt voltam,
+[00:16.340 --> 00:20.880]  és valahogy, hogy ezt a fáradtságot legyőzzem, inkább próbáltam folyamatosan dolgozni.
+[00:22.040 --> 00:23.560]  És folyamatosan talpon lenni.
+[00:23.560 --> 00:28.020]  És hát bizniszklasszon dolgoztam, és ott olyan rendszerben dolgoztunk,
+[00:28.020 --> 00:34.420]  hogy volt egy másik kolléga, akivel együtt kellett kiszolgálni ugyanazokat az utasokat,
+[00:34.500 --> 00:35.500]  ezt úgy hívtuk, hogy a badim.
+[00:35.880 --> 00:38.860]  És akkor én ott a badimmal megyek, és csináljuk a szervizt,
+[00:38.940 --> 00:42.560]  és látom, hogy az egyik fiúnak üres a borospohara,
+[00:42.740 --> 00:47.120]  ezért így fogom magam, és akkor magamtól bemegyek a lounge-ba,
+[00:47.360 --> 00:51.120]  elhozom a bort, amit ivott, és újra töltöm a poharát.
+[00:51.640 --> 00:52.960]  És akkor erre rám néz a badim,
+[00:52.960 --> 00:54.780]  és mondom, tetszik neked ez a fiú, igaz?
+[00:55.220 --> 00:58.000]  Fel sem erült bennem, hogy esetleg tetszik,
+[00:58.060 --> 00:59.920]  csak próbáltam valahogy túlélni a járatot,
+[01:00.260 --> 01:02.620]  de hát, hogyha már így mondja, akkor elnézek a srácra,
+[01:03.120 --> 01:06.180]  hmm, egész kis helyes, cuki feje van valóban.
+[01:06.740 --> 01:09.520]  És hát a későbbiekben is, akárhányszor megyek a fiúhoz,
+[01:09.960 --> 01:13.460]  látom, hogy nagyon zavarban van, és ilyen lézer szemekkel néz rám végig.
+[01:14.080 --> 01:18.300]  És még egyszer egy kis társadalmást is kezdeményezni próbál.
+[01:19.120 --> 01:22.740]  Éppen vinném el a tálcáját, mert befejezte az ebédjét,
+[01:22.740 --> 01:25.500]  majd egy hirtelen mozdulattal odanyul a tálcájához,
+[01:25.500 --> 01:27.300]  és félreteszi a kenyerét róla.
+[01:27.540 --> 01:30.160]  Majd megszólal, mentegetőzve, hogy
+[01:30.160 --> 01:34.620]  ó, majd később még szeretnék sajtot enni, ezért tettem félre a kenyeret.
+[01:35.080 --> 01:35.920]  Ó, sajtot?
+[01:36.980 --> 01:38.920]  Igen, igen, francia vagyok.
+[01:39.280 --> 01:40.140]  Ó, francia?
+[01:40.920 --> 01:45.280]  Zombiként egy nagyon értelmes és vicces kommunikációt folytattam,
+[01:45.340 --> 01:45.740]  de mindegy.
+[01:46.360 --> 01:48.000]  Igen, senki sem tökéletes.
+[01:48.000 --> 01:52.000]  És hát igaziból tetszett ez az önironikus válasza,
+[01:53.260 --> 01:55.080]  hiszen tudja, hogy sokan nem szeretik a franciákat.
+[01:55.500 --> 01:59.320]  És akkor itt, álgondoltam, vicces is a fiú, és meg is tetszett,
+[01:59.400 --> 02:03.540]  de gondoltam, hogy nem fogok semmi kezdeményezést tenni.
+[02:05.100 --> 02:08.720]  Viszont kicsit titokban reménykedtem, hogy hát, ha majd a járat végén,
+[02:08.800 --> 02:11.920]  ott hagyja a szalvétán, vagy a menün a telefonszámát,
+[02:12.020 --> 02:13.300]  nekem vagy valami hasonló.
+[02:14.100 --> 02:17.740]  Így azért, amikor a járat végén körbejártuk a kabint,
+[02:17.740 --> 02:20.680]  azért kicsit reménykedtem, hogy hát, ha az ott lesz,
+[02:20.740 --> 02:23.040]  hát nem volt ott semmi, hát jó, hát ez van.
+[02:23.580 --> 02:25.100]  El is felejtettem az egészet.
+[02:25.500 --> 02:26.780]  Majd visszatérünk Dubájba,
+[02:27.760 --> 02:32.020]  és akkor vettem észre, hogy LinkedIn-en valahogy megtalált ez a srác,
+[02:32.100 --> 02:33.280]  és írt egy üzenetet.
+[02:34.800 --> 02:37.060]  Az üzenetbe végül kifejtett, hogy nagyon szégyenlős volt,
+[02:37.120 --> 02:38.820]  de megtetszettem neki, blablabla.
+[02:39.820 --> 02:42.100]  Húha, mondom, jó, akkor válaszoltam neki.
+[02:42.540 --> 02:45.800]  Az telefonszámot is cseréltünk, elkezdtünk Whatsappon beszélgetni.
+[02:45.800 --> 02:49.880]  Majd egy idő után közölte, hogy de egyébként neki van barátnője Hongkongban.
