@@ -348,55 +348,577 @@ the  day
 
 Hogyan próbáltak utasok légiutas-kísérőket felszedni?
 
-[00:00.000 --> 00:04.060]  Utasok hogyan próbáltak légiutas-kísérőkkel ismerkedni?
-[00:04.380 --> 00:08.420]  Ugye nagyon gyakran próbálnak felszedni egyébként az utasok légiutas-kísérőket,
-[00:08.880 --> 00:11.820]  úgyhogy most majd folyamatosan mesélek pár sztorit erről.
-[00:12.900 --> 00:16.280]  Volt egyszer egy Hongkong járatom, ahol nagyon-nagyon fáradt voltam,
-[00:16.340 --> 00:20.880]  és valahogy, hogy ezt a fáradtságot legyőzzem, inkább próbáltam folyamatosan dolgozni.
-[00:22.040 --> 00:23.560]  És folyamatosan talpon lenni.
-[00:23.560 --> 00:28.020]  És hát business classon dolgoztam. És ott olyan rendszerben dolgoztunk,
-[00:28.020 --> 00:34.420]  hogy volt egy másik kolléga, akivel együtt kellett kiszolgálni ugyanazokat az utasokat.
-[00:34.500 --> 00:35.500]  Ezt úgy híttük, hogy a buddym.
-[00:35.880 --> 00:38.860]  És akkor én ott a buddymmal megyek, és csináljuk a szervizt,
-[00:38.940 --> 00:42.560]  és látom, hogy az egyik fiúnak üres a boros poharra
-[00:42.740 --> 00:47.120]  ezért így fogom magam, és akkor magamtól bemegyek a lounge-ba,
-[00:47.360 --> 00:51.120]  elhozom a bort, amit ivott, és újratöltöm a poharát.
-[00:51.640 --> 00:52.960]  És akkor erre rám néz a buddym.
-[00:52.960 --> 00:54.780]  Hmm, tetszik neked ez a fiú? Igaz?
-[00:55.220 --> 00:58.000]  Hát fel se merült bennem, hogy esetleg tetszik,
-[00:58.060 --> 00:59.920]  csak próbáltam valahogy túlélni a járatot.
-[01:00.260 --> 01:02.620]  De hát, hogyha már így mondja, akkor ránézek a srácra.
-[01:03.120 --> 01:06.180]  Hmm, egész kis helyes, cuki feje van valóban.
-[01:06.740 --> 01:09.520]  És hát a későbbiekben is, akárhányszor megyek a fiúhoz,
-[01:09.960 --> 01:13.460]  látom, hogy nagyon zavarban van, és ilyen lézer szemekkel néz rám végig.
-[01:14.080 --> 01:18.300]  És még egyszer egy kis társalgást is kezdeményezni próbál.
-[01:19.120 --> 01:22.740]  Éppen vinném el a tálcáját, mert befejezte az ebédjét,
-[01:22.740 --> 01:25.500]  majd egy hirtelen mozdulattal odanyúl a tálcájához,
-[01:25.500 --> 01:27.300]  és félreteszi a kenyerét róla,
-[01:27.540 --> 01:30.160]  majd megszólal mentegetőzve, hogy
-[01:30.160 --> 01:34.620]  ó, majd majd később még szeretnék sajtot enni ezért tettem félre a kenyeret.
-[01:35.080 --> 01:35.920]  Ó, sajtot?
-[01:36.980 --> 01:38.920]  Igen, igen, francia vagyok.
-[01:39.280 --> 01:40.140]  Ó, francia?
-[01:40.920 --> 01:45.280]  Zombiként egy nagyon értelmes és vicces kommunikációt folytattam.
-[01:45.340 --> 01:45.740]  De mindegy
-[01:46.360 --> 01:48.000]  Igen, senki sem tökéletes.
-[01:48.000 --> 01:52.000]  És hát igaziból tetszett ez az önironikus válasza,
-[01:53.260 --> 01:55.080]  hiszen tudja, hogy sokan nem szeretik a franciákat.
-[01:55.500 --> 01:59.320]  És akkor itt, gondoltam, vicces is a fiú is meg is tetszett,
-[01:59.400 --> 02:03.540]  de hát gondoltam én nem fogok semmi kezdeményezést tenni.
-[02:05.100 --> 02:08.720]  Viszont kicsit titokban reménykedtem, hogy hátha majd a járat végén
-[02:08.800 --> 02:11.920]  otthagyja a szalvétán vagy a menün a telefonszámát
-[02:12.020 --> 02:13.300]  nekem vagy valami hasonló.
-[02:14.100 --> 02:17.740]  Így azért, amikor a végén a járat végén körbejártuk a kabint
-[02:17.740 --> 02:20.680]  azért kicsit reménykedtem, hogy hátha az ott lesz.
-[02:20.740 --> 02:23.040]  Hát nem volt ott semmi. Hát jó volt ez van
-[02:23.580 --> 02:25.100]  el is felejtettem az egészet
-[02:25.500 --> 02:26.780]  majd visszatérünk Dubaiba,
-[02:27.760 --> 02:32.020]  és akkor vettem észre, hogy LinkedIn-en valahogy megtalált ez a srác
-[02:32.100 --> 02:33.280]  és írt egy üzenetet.
-[02:34.800 --> 02:37.060]  Az üzenetben végül kifejtette, hogy nagyon szégyellős volt,
-[02:37.120 --> 02:38.820]  de megtetszettem neki, blablabla.
-[02:39.820 --> 02:42.100]  Húha mondom jó akkor válaszoltam neki
-[02:42.540 --> 02:45.800]  telefonszámot is cseréltünk, elkezdtünk Whatsappon beszélgetni,
-[02:45.800 --> 02:49.880]  majd egy idő után közölte, hogy de egyébként neki van barátnője Hongkongban.
+**Utasok hogyan próbáltak légiutas-kísérőkkel ismerkedni?**
+
+How have passengers tried to get acquainted with flight attendants?
+
+```text
+Utas-ok     hogyan  próbál-t-ak    légiutas-kísérő-k-kel
+passenger-PL how    try-PST-3PL    flight.attendant-PL-INST
+
+ismerked-ni?
+get.acquainted-INF
+```
+
+**Ugye nagyon gyakran próbálnak egyébként az utasok légiutas-kísérőket felszedni.**
+
+Passengers do, of course, very often try to pick up flight attendants.
+
+```text
+Ugye  nagyon  gyakran  próbál-nak     egyébként
+DM    very    often    try-3PL.INDF   incidentally
+
+az   utas-ok      légiutas-kísérő-k-et  fel-szed-ni.
+the  passenger-PL flight.attendant-PL-ACC PV-pick.up-INF
+```
+
+**Úgyhogy most majd folyamatosan mesélek pár sztorit erről.**
+
+So now I am going to tell a few stories about this from time to time.
+
+```text
+Úgyhogy  most  majd  folyamatos-an  mesél-ek
+so       now   FUT   continuous-ADV tell-1SG.INDF
+
+pár  sztori-t  erről.
+few  story-ACC about.this
+```
+
+**Volt egyszer egy Hongkong-járatom, ahol nagyon-nagyon fáradt voltam.**
+
+I once had a flight to Hong Kong on which I was extremely tired.
+
+```text
+Volt         egyszer  egy  Hongkong-járat-om,
+be.PST.3SG   once     a    Hong.Kong-flight-1SG.POSS
+
+ahol   nagyon-nagyon  fáradt  volt-am.
+where  very-very      tired   be.PST-1SG
+```
+
+**És valahogy, hogy ezt a fáradtságot legyőzzem, inkább próbáltam folyamatosan dolgozni.**
+
+And somehow, in order to overcome this tiredness, I instead tried to keep working continuously.
+
+```text
+És  valahogy  hogy  ez-t      a    fáradt-ság-ot
+and somehow   that  this-ACC  the  tired-NMLZ-ACC
+
+le-győz-z-em,             inkább  próbál-t-am
+PV-overcome-SBJV-1SG.DEF  rather  try-PST-1SG
+
+folyamatos-an  dolgoz-ni.
+continuous-ADV work-INF
+```
+
+**És folyamatosan talpon lenni.**
+
+And to remain on my feet constantly.
+
+```text
+És  folyamatos-an  talp-on   len-ni.
+and continuous-ADV sole-SUP  be-INF
+```
+
+**És hát business classon dolgoztam.**
+
+And, well, I was working in business class.
+
+```text
+És  hát  business_class-on  dolgoz-t-am.
+and  DM   business_class-SUP work-PST-1SG
+```
+
+**És ott olyan rendszerben dolgoztunk, hogy volt egy másik kolléga, akivel együtt kellett kiszolgálni ugyanazokat az utasokat.**
+
+And we worked there under a system in which there was another colleague with whom I had to serve the same passengers.
+
+```text
+És  ott    olyan  rendszer-ben  dolgoz-t-unk,
+and  there  such   system-INE    work-PST-1PL
+
+hogy  volt         egy  másik  kolléga,
+that  be.PST.3SG   a    other   colleague
+
+aki-vel   együtt    kell-ett      ki-szolgál-ni
+REL-INST  together  must-PST.3SG  PV-serve-INF
+
+ugyan-az-ok-at  az   utas-ok-at.
+same-that-PL-ACC the passenger-PL-ACC
+```
+
+**Ezt úgy hívtuk, hogy a buddym.**
+
+We called this person my “buddy.”
+
+```text
+Ez-t      úgy   hív-t-uk,        hogy  a    buddy-m.
+this-ACC  thus  call-PST-1PL.DEF that  the  buddy-1SG.POSS
+```
+
+**És akkor én ott a buddymmal megyek, és csináljuk a szervizt.**
+
+And so I am going around there with my buddy, and we are doing the service.
+
+```text
+És  akkor  én   ott    a    buddy-m-mal
+and  then   1SG  there  the  buddy-1SG.POSS-INST
+
+megy-ek,       és   csinál-juk      a    szerviz-t.
+go-1SG.INDF   and  do-1PL.DEF       the  service-ACC
+```
+
+**És látom, hogy az egyik fiúnak üres a borospohara.**
+
+And I see that one of the men’s wine glass is empty.
+
+```text
+És  lát-om,       hogy  az   egy-ik  fiú-nak
+and  see-1SG.DEF  that  the  one-ONE boy-DAT
+
+üres   a    boros-pohar-a.
+empty  the  wine-glass-3SG.POSS
+```
+
+**Ezért így fogom magam, és akkor magamtól bemegyek a lounge-ba.**
+
+So I take it upon myself and go into the lounge on my own.
+
+```text
+Ezért  így   fog-om       mag-am-at,
+so     thus  take-1SG.DEF self-1SG.POSS-ACC
+
+és   akkor  mag-am-tól        be-megy-ek
+and  then   self-1SG.POSS-DEL  PV-go-1SG.INDF
+
+a    lounge-ba.
+the  lounge-ILL
+```
+
+**Elhozom a bort, amit ivott, és újratöltöm a poharát.**
+
+I bring the wine he had been drinking and refill his glass.
+
+```text
+El-hoz-om       a    bor-t,   ami-t     i-v-ott,
+PV-bring-1SG.DEF the  wine-ACC REL-ACC   drink-PST-3SG
+
+és   újra-tölt-öm       a    pohar-á-t.
+and  again-fill-1SG.DEF the  glass-3SG.POSS-ACC
+```
+
+**És akkor erre rám néz a buddym.**
+
+And at that, my buddy looks at me.
+
+```text
+És  akkor  erre       rá-m      néz
+and  then   onto.this  onto-1SG  look.3SG
+
+a    buddy-m.
+the  buddy-1SG.POSS
+```
+
+**„Hmm, tetszik neked ez a fiú, igaz?”**
+
+“Hmm, you like this guy, don’t you?”
+
+```text
+Hmm,  tetsz-ik       nek-ed   ez    a    fiú,
+INTJ  appeal-3SG     DAT-2SG  this  the  boy
+
+igaz?
+right
+```
+
+**Hát fel se merült bennem, hogy esetleg tetszik.**
+
+Well, it had not even occurred to me that I might like him.
+
+```text
+Hát  fel  se        merül-t       benn-em,
+DM    PV   also.NEG  arise-PST.3SG in-1SG
+
+hogy  esetleg  tetsz-ik.
+that  perhaps   appeal-3SG
+```
+
+**Csak próbáltam valahogy túlélni a járatot.**
+
+I was merely trying somehow to survive the flight.
+
+```text
+Csak  próbál-t-am  valahogy  túl-él-ni
+only  try-PST-1SG somehow   beyond-live-INF
+
+a    járat-ot.
+the  flight-ACC
+```
+
+**De hát, hogyha már így mondja, akkor ránézek a srácra.**
+
+But, well, since she puts it that way, I look at the guy.
+
+```text
+De   hát  hogyha  már  így   mond-ja,
+but  DM    if      DM   thus  say-3SG.DEF
+
+akkor  rá-néz-ek       a    srác-ra.
+then   PV-look-1SG.INDF the  guy-SBL
+```
+
+**Hmm, egész kis helyes, cuki feje van valóban.**
+
+Hmm, he really does have quite a cute little face.
+
+```text
+Hmm,  egész  kis     helyes  cuki  fej-e
+INTJ  quite  little  cute    cute  head-3SG.POSS
+
+van      valóban.
+be.3SG   indeed
+```
+
+**És hát a későbbiekben is, akárhányszor megyek a fiúhoz, látom, hogy nagyon zavarban van, és ilyen lézerszemekkel néz rám végig.**
+
+And later on, whenever I go over to the man, I can see that he is very embarrassed, and he stares at me the entire time with these laser eyes.
+
+```text
+És  hát  a    későbbi-ek-ben  is,
+and  DM    the  later-PL-INE    also
+
+akár-hány-szor  megy-ek       a    fiú-hoz,
+any-how.many-times go-1SG.INDF the  boy-ALL
+
+lát-om,       hogy  nagyon  zavar-ban  van,
+see-1SG.DEF  that  very    embarrassment-INE be.3SG
+
+és   ilyen  lézer-szem-ek-kel  néz
+and  such   laser-eye-PL-INST  look.3SG
+
+rá-m      végig.
+onto-1SG  throughout
+```
+
+**És még egyszer egy kis társalgást is kezdeményezni próbál.**
+
+And once again, he even tries to start a little conversation.
+
+```text
+És  még    egyszer  egy  kis     társalgás-t
+and  still  once     a    little  conversation-ACC
+
+is    kezdeményez-ni  próbál.
+also  initiate-INF    try.3SG
+```
+
+**Éppen vinném el a tálcáját, mert befejezte az ebédjét.**
+
+I was just about to take away his tray, because he had finished his lunch.
+
+```text
+Éppen  vi-nné-m         el  a    tálcá-já-t,
+just   take-COND-1SG.DEF PV  the  tray-3SG.POSS-ACC
+
+mert     be-fejez-t-e         az   ebéd-jé-t.
+because  PV-finish-PST-3SG.DEF the  lunch-3SG.POSS-ACC
+```
+
+**Majd egy hirtelen mozdulattal odanyúl a tálcájához, és félreteszi róla a kenyerét.**
+
+Then, with a sudden movement, he reaches towards his tray and puts his bread aside from it.
+
+```text
+Majd  egy  hirtelen  mozdulat-tal  oda-nyúl
+then  a    sudden    movement-INST to-there-reach.3SG
+
+a    tálcá-já-hoz,       és   félre-tesz-i
+the  tray-3SG.POSS-ALL   and  aside-put-3SG.DEF
+
+ról-a       a    kenyer-é-t.
+from-3SG    the  bread-3SG.POSS-ACC
+```
+
+**Majd megszólal mentegetőzve, hogy: „Ó, majd később még szeretnék sajtot enni, ezért tettem félre a kenyeret.”**
+
+Then he speaks up apologetically: “Oh, I would still like to eat cheese later, so that is why I put the bread aside.”
+
+```text
+Majd  meg-szólal        mentegetőz-ve,  hogy
+then  PV-speak.3SG      make.excuses-CVB that
+
+Ó,   majd  később  még    szeret-né-k
+oh   FUT   later    still  want-COND-1SG
+
+sajt-ot    en-ni,  ezért  tet-t-em
+cheese-ACC eat-INF so     put-PST-1SG.DEF
+
+félre  a    kenyer-et.
+aside  the  bread-ACC
+```
+
+**„Ó, sajtot?”**
+
+“Oh, cheese?”
+
+```text
+Ó,   sajt-ot?
+oh   cheese-ACC
+```
+
+**„Igen, igen, francia vagyok.”**
+
+“Yes, yes, I am French.”
+
+```text
+Igen,  igen,  francia  vagy-ok.
+yes    yes    French   be-1SG
+```
+
+**„Ó, francia?”**
+
+“Oh, French?”
+
+```text
+Ó,   francia?
+oh   French
+```
+
+**Zombiként egy nagyon értelmes és vicces kommunikációt folytattam.**
+
+As a zombie, I conducted a very intelligent and witty conversation.
+
+```text
+Zombi-ként  egy  nagyon  értelmes  és
+zombie-ESS  a    very    intelligent and
+
+vicces  kommunikáció-t  folytat-t-am.
+funny   communication-ACC conduct-PST-1SG
+```
+
+**De mindegy.**
+
+But never mind.
+
+```text
+De   mindegy.
+but  no.matter
+```
+
+**„Igen, senki sem tökéletes.”**
+
+“Yes, nobody is perfect.”
+
+```text
+Igen,  senki   sem  tökéletes.
+yes    nobody  NEG  perfect
+```
+
+**És hát igaziból tetszett ez az önironikus válasza, hiszen tudja, hogy sokan nem szeretik a franciákat.**
+
+And I actually liked this self-deprecating answer of his, since he knows that many people do not like the French.
+
+```text
+És  hát  igazi-ból  tetsz-ett      ez    az
+and  DM    real-ELA   appeal-PST.3SG this  the
+
+ön-ironikus  válasz-a,       hiszen  tud-ja,
+self-ironic  answer-3SG.POSS since   know-3SG.DEF
+
+hogy  sok-an  nem  szeret-ik     a    franciá-k-at.
+that  many-ADV NEG  like-3PL.DEF  the  French-PL-ACC
+```
+
+**És akkor itt gondoltam: vicces is a fiú, és meg is tetszett.**
+
+And at that point I thought: the guy is funny too, and I started to like him.
+
+```text
+És  akkor  itt   gondol-t-am:
+and  then   here  think-PST-1SG
+
+vicces  is    a    fiú,  és   meg  is
+funny   also  the  boy   and  PV   also
+
+tetsz-ett.
+appeal-PST.3SG
+```
+
+**De hát gondoltam, én nem fogok semmi kezdeményezést tenni.**
+
+But I thought that I was not going to make any kind of move.
+
+```text
+De   hát  gondol-t-am,  én   nem  fog-ok
+but  DM    think-PST-1SG 1SG  NEG  FUT-1SG
+
+semmi    kezdeményezés-t  ten-ni.
+nothing  initiative-ACC   do-INF
+```
+
+**Viszont kicsit titokban reménykedtem, hogy hátha majd a járat végén otthagyja a szalvétán vagy a menün a telefonszámát nekem, vagy valami hasonló.**
+
+But secretly I was hoping a little that perhaps, at the end of the flight, he would leave his phone number for me on the napkin or the menu, or something similar.
+
+```text
+Viszont  kicsi-t     titok-ban  reményked-t-em,
+however  little-ACC  secret-INE hope-PST-1SG
+
+hogy  hátha    majd  a    járat  vég-é-n
+that  perhaps  FUT   the  flight end-3SG.POSS-SUP
+
+ott-hagy-ja          a    szalvétá-n  vagy
+there-leave-3SG.DEF  the  napkin-SUP  or
+
+a    menü-n  a    telefon-szám-á-t
+the  menu-SUP the  telephone-number-3SG.POSS-ACC
+
+nek-em,   vagy  vala-mi  hasonló.
+DAT-1SG   or    some-thing similar
+```
+
+**Így azért, amikor a végén, a járat végén körbejártuk a kabint, azért kicsit reménykedtem, hogy hátha az ott lesz.**
+
+So when, at the end of the flight, we walked around the cabin, I was still hoping a little that perhaps it would be there.
+
+```text
+Így   azért      amikor  a    vég-é-n,
+thus  for.that   when    the  end-3SG.POSS-SUP
+
+a    járat  vég-é-n          körbe-jár-t-uk
+the  flight end-3SG.POSS-SUP around-walk-PST-1PL.DEF
+
+a    kabin-t,  azért     kicsi-t     reményked-t-em,
+the  cabin-ACC for.that  little-ACC  hope-PST-1SG
+
+hogy  hátha    az    ott    lesz.
+that  perhaps  that  there  be.FUT.3SG
+```
+
+**Hát nem volt ott semmi. Hát jó, ez van.**
+
+Well, there was nothing there. Oh well, that is how it is.
+
+```text
+Hát  nem  volt         ott    semmi.
+DM    NEG  be.PST.3SG   there  nothing
+
+Hát  jó,   ez    van.
+DM    good  this  be.3SG
+```
+
+**El is felejtettem az egészet.**
+
+I completely forgot about the whole thing.
+
+```text
+El  is    felejt-ett-em      az   egész-et.
+PV  also  forget-PST-1SG.DEF the  whole-ACC
+```
+
+**Majd visszatérünk Dubaiba, és akkor vettem észre, hogy LinkedInen valahogy megtalált ez a srác, és írt egy üzenetet.**
+
+Then we return to Dubai, and that was when I noticed that this guy had somehow found me on LinkedIn and written a message.
+
+```text
+Majd  vissza-tér-ünk  Dubai-ba,  és   akkor
+then  back-return-1PL Dubai-ILL  and  then
+
+vet-t-em       észre,  hogy  LinkedIn-en
+take-PST-1SG.DEF notice that  LinkedIn-SUP
+
+valahogy  meg-talál-t       ez    a    srác,
+somehow   PV-find-PST.3SG   this  the  guy
+
+és   ír-t          egy  üzenet-et.
+and  write-PST.3SG a    message-ACC
+```
+
+**Az üzenetben végül kifejtette, hogy nagyon szégyellős volt, de megtetszettem neki, blablabla.**
+
+In the message, he eventually explained that he had been very shy but had taken a liking to me, blah blah blah.
+
+```text
+Az   üzenet-ben  végül      ki-fejt-ett-e,
+the  message-INE eventually PV-explain-PST-3SG.DEF
+
+hogy  nagyon  szégyellő-s  volt,
+that  very    shy-ADJ      be.PST.3SG
+
+de   meg-tetsz-ett-em       nek-i,   blablabla.
+but  PV-appeal-PST-1SG      DAT-3SG  blah.blah.blah
+```
+
+**Húha, mondom, jó, akkor válaszoltam neki.**
+
+Wow, I thought, all right, so I replied to him.
+
+```text
+Húha,  mond-om,       jó,   akkor  válaszol-t-am
+wow    say-1SG.DEF    good  then   reply-PST-1SG
+
+nek-i.
+DAT-3SG
+```
+
+**Telefonszámot is cseréltünk, elkezdtünk WhatsAppon beszélgetni.**
+
+We also exchanged phone numbers and started talking on WhatsApp.
+
+```text
+Telefon-szám-ot  is    cserél-t-ünk,
+telephone-number-ACC also exchange-PST-1PL
+
+el-kezd-t-ünk       WhatsApp-on  beszélget-ni.
+PV-begin-PST-1PL    WhatsApp-SUP converse-INF
+```
+
+**Majd egy idő után közölte, hogy de egyébként neki van barátnője Hongkongban.**
+
+Then after a while he informed me that, incidentally, he had a girlfriend in Hong Kong.
+
+```text
+Majd  egy  idő  után  közöl-t-e,
+then  a    time  after state-PST-3SG.DEF
+
+hogy  de   egyébként    nek-i   van
+that  but  incidentally DAT-3SG be.3SG
+
+barátnő-je          Hongkong-ban.
+girlfriend-3SG.POSS Hong.Kong-INE
+```
+
+## A2 vocabulary
+
+* **légiutas-kísérő** — flight attendant
+* **ismerkedik valakivel** — get acquainted with someone
+* **felszed valakit** — pick someone up; try to attract someone
+* **folyamatosan** — continuously
+* **legyőz** — overcome
+* **talpon van** — be on one’s feet
+* **kiszolgál** — serve a customer or passenger
+* **ugyanaz** — the same
+* **borospohár** — wine glass
+* **fogja magát** — take it upon oneself; simply go and do something
+* **újratölt** — refill
+* **felmerül valakiben** — occur to someone
+* **túlél** — survive
+* **zavarban van** — be embarrassed or flustered
+* **akárhányszor** — whenever
+* **társalgást kezdeményez** — initiate a conversation
+* **éppen készül valamire** — be just about to do something
+* **hirtelen mozdulat** — sudden movement
+* **odanyúl** — reach towards something
+* **félretesz** — set aside
+* **mentegetőzik** — make excuses; explain oneself apologetically
+* **önironikus** — self-deprecating; self-ironic
+* **megteszik valakinek** — someone comes to like or find someone attractive
+* **kezdeményezést tesz** — make a move; take the initiative
+* **titokban reménykedik** — secretly hope
+* **hátha** — perhaps; in the hope that
+* **otthagy** — leave something behind
+* **körbejár** — walk around; make a circuit
+* **kifejt** — explain in detail
+* **szégyellős** — shy
+* **telefonszámot cserél** — exchange phone numbers
+* **közöl valamit** — inform someone of something; state something
