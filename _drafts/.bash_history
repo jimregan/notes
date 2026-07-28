@@ -1,31 +1,3 @@
-du -sh gallery-dl/
-grep varga temp-file-list 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/ineartagaveytia/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/jeleniewska/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/rozgajelenaofficial/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/smashedely/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/theanyamatusevich/ https://www.instagram.com/itsgigimay/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/carolinezalog/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/cherryrebelle_/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/blairbishopp/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/kimmy_repond/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/reels/DZKPe4_vgGo/ https://www.instagram.com/reel/DacH2Q-q-Qq/ https://www.instagram.com/stories/mary___ostrovska/3939792804058271453/ https://www.instagram.com/stories/_tsaralunga/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/_tsaralunga/ https://www.instagram.com/mary___ostrovska/ https://www.instagram.com/borzhko_reserve/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/alevtina_h_/ https://www.instagram.com/lieslvv/ https://www.instagram.com/devdar_ia/ https://www.instagram.com/reel/DZylWG_vC1j/ https://www.instagram.com/stories/devdar_ia/ https://www.instagram.com/stories/lieslvv/ https://www.instagram.com/stories/alevtina_h_/ https://www.instagram.com/stories/isabella.l.flores/ 
-grep isabella.l.flores temp-file-list 
-grep br0wn temp-file-list 
-grep alevtina_h_ temp-file-list 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/emiliasilberg/ https://www.instagram.com/kendelkayofficial/ https://www.instagram.com/charlottegadeke/ https://www.instagram.com/isabellavbt/ https://www.instagram.com/nika_yammys/ 
-du -sh gallery-dl/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/vveryss/ https://www.instagram.com/stories/kira_artamonova_/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/viki_odintcova/ https://www.instagram.com/stories/pytanienasniadanie/ https://www.instagram.com/stories/shipilovaks https://www.instagram.com/stories/theshamrockwarsaw/3939652606654085908/ https://www.instagram.com/stories/alexisren/ https://www.instagram.com/stories/lubimaya_yulya/ https://www.instagram.com/stories/katesytsevich/ https://www.instagram.com/stories/maren_tschinkel/ https://www.instagram.com/stories/anna.kondra/ https://www.instagram.com/stories/viki_virgo/ https://www.instagram.com/stories/masha_lobanovaa/ https://www.instagram.com/stories/_alena__savchenko/ https://www.instagram.com/stories/alina_akilova/ https://www.instagram.com/stories/__dasha__one/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/madina__sssk/ https://www.instagram.com/stories/anetasnake/ https://www.instagram.com/stories/katushalobanova/ https://www.instagram.com/stories/shishmareva_ksu/3940279423172910860/ https://www.instagram.com/stories/kraseczka/ https://www.instagram.com/stories/oksanamiyy/ https://www.instagram.com/stories/malgorzata__tomaszewska/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/shishmareva_ksu/ https://www.instagram.com/stories/madina__sssk/ https://www.instagram.com/stories/katushalobanova/ https://www.instagram.com/stories/ola_nowak/ https://www.instagram.com/stories/twinschojnackie/ https://www.instagram.com/stories/ewazpralni/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/twinschojnackie/ https://www.instagram.com/ewazpralni/ https://www.instagram.com/ola_nowak/ 
-cat all_gdl_ids |sort|uniq > /tmp/newids
-less /tmp/newids 
-rm /tmp/newids  all_gdl_ids 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/evakim_m/
 gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/vvikaraa/ https://www.instagram.com/itsgigimay https://www.instagram.com/k8.tierain/reel/Das07r_ha44/ https://www.instagram.com/mrs.honey/reel/DZNed9dthzA/ https://www.instagram.com/mrs.honey/reel/DDt2XKXuQZM/ https://www.instagram.com/mrs.honey/reel/DBrOiXyt7yL/ https://www.instagram.com/mrs.honey/reel/C99wNu4tEBN/ https://www.instagram.com/reel/DaFo9g9Nxk8/ https://www.instagram.com/stories/mrs.honey/ https://www.instagram.com/reel/DX_4Liht0f9/ https://www.instagram.com/klaudiakxn https://www.instagram.com/mrs.honey/p/DXZDO3uDRBR/ https://www.instagram.com/mrs.honey/p/DIjVtMptHAk/ https://www.instagram.com/mrs.honey/p/DGIj666NE6J/ https://www.instagram.com/mrs.honey/p/C89h5Z6taUU/ https://www.instagram.com/mrs.honey/p/C4sbtsFPY1s/ https://www.instagram.com/paige__carter13 https://www.instagram.com/paige__carter13/reels/ https://www.instagram.com/itsbella.sky https://www.instagram.com/stories/itsbella.sky/ https://www.instagram.com/sufleshka__ https://www.instagram.com/stories/sufleshka__/ https://www.instagram.com/sufleshka__/reels/ https://www.instagram.com/heejnikola https://www.instagram.com/ajsa__luna https://www.instagram.com/stories/ajsa__luna/ https://www.instagram.com/itshollypage https://www.instagram.com/stories/itshollypage/ https://www.instagram.com/stories/anna_strigl/ 
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/k8.tierain https://www.instagram.com/gothxbyb https://www.instagram.com/mrs.honey https://www.instagram.com/abbyhowellsplease https://www.instagram.com/cori.story https://www.instagram.com/gracie.kramer https://www.instagram.com/nataliaanamiotko https://www.instagram.com/julia.via.ferrata
 gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
@@ -498,3 +470,31 @@ git add writing/
 git commit -m more
 git add writing/
 git commit -m chatgpt
+cd ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/
+grep nicolinesolberg id_mapping 
+vi id_mapping 
+git add id_mapping 
+git commit -m more
+cat id_mapping /tmp/idnew |sort|uniq > aaaa
+mv aaaa id_mapping 
+git diff
+git diff id_mapping
+vi id_mapping 
+git diff id_mapping
+git add id_mapping 
+git commit -m 'new; sort|uniq'
+cat id_mapping /tmp/idnew |sort|uniq > aaaa
+mv aaaa id_mapping 
+vi id_mapping 
+git diff id_mapping
+git add id_mapping 
+git commit -m 'new; sort|uniq'
+cat id_mapping /tmp/idnew |sort|uniq > aaaa
+mv aaaa id_mapping 
+git diff id_mapping
+git add id_mapping 
+git commit -m 'new; sort|uniq'
+cat id_mapping /tmp/idnew |sort|uniq > aaaa
+mv aaaa id_mapping 
+git diff id_mapping
+grep kowalew id_mapping 
