@@ -122,3 +122,24 @@ grep "agendalist" /Users/joregan/Playing/rdapi/api_output/*|grep -v null|head
 less /Users/joregan/Playing/rdapi/api_output/H201CU12
 echo Burger |espeak -v de --ipa
 less /Users/joregan/Playing/rdapi/api_output/H201CU12
+cd /tmp
+wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442206150016301021_480p.mp4
+ffplay 2442206150016301021_480p.mp4 
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4
+finder ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4
+show ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 26
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 26
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 26
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 25
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 24
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 33
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 33
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 54
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 72
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 72
+ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.mp4 -ss 72
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu ~/Playing/instascr/gallery-dl/instagram/turbulenciatamival/3894596788353000266.mp4
+ffplay ~/Playing/instascr/gallery-dl/instagram/turbulenciatamival/3894596788353000266.mp4
