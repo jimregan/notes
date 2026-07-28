@@ -1195,8 +1195,6 @@ possible    emergency     case-3SG.POSS-SUP
 
 [Reel](https://www.instagram.com/reels/DanrX0oq4eW/)
 
-The reel itself gives the name as **Proactory**, so I have preserved that. I could not identify a tool by that name whose stated purpose matches the description; **Proactor** is a separate meeting-recording and transcription application. ([Instagram][1])
-
 **Top 5 AI-eszköz 2026-ban.**
 
 The top five AI tools in 2026.
@@ -1461,4 +1459,3 @@ this-PL   the  app-PL
 * **rövid leírás** — brief description
 * **hogyan működik?** — how does it work?
 
-[1]: https://www.instagram.com/reel/DanrX0oq4eW/?utm_source=chatgpt.com "Top 5 AI Eszköz 2026-ban 🥳 Chat GPT mellett érdemes ..."
