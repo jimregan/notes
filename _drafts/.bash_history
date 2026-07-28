@@ -1,5 +1,3 @@
-bsgal https://babesource.com/galleries/natalie-knight-sis-loves-me-58647.html
-bsgal https://babesource.com/galleries/natalie-knight-private-casting-x-60174.html
 bsgal https://babesource.com/galleries/natalie-knight-jay-s-pov-60741.html
 bsgal https://babesource.com/galleries/emma-starletto-natalie-knight-bratty-sis-73887.html
 bsgal https://babesource.com/galleries/megan-marx-bratty-sis-211232.html
@@ -498,3 +496,5 @@ cat ~/Playing/rd_phonetic/2442206150016301021_480p.json |jq .|less
 ls
 pwd
 ls ..
+cd ~/Playing/
+git clone https://github.com/wavtechyukky/pyshiro
