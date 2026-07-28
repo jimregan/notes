@@ -1,137 +1,3 @@
-find . -type f|sed -e 's/\.\///'|grep /|grep -v gallery-dl/ >> ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/instascr-current-filelist2 
-find . -type f|sed -e 's/\.\///'|grep /|grep -v gallery-dl/ >> /tmp/flist
-cat /tmp/flist 
-cat /tmp/flist |while read i;do  rm ./$i;done
-find . -type d -empty
-find . -type d -empty -delete
-ls
-ls gallery-dl/
-ls gallery-dl/instagram/
-rm -rf gallery-dl/
-gallery-dl  --write-metadata  https://www.instagram.com/dosiaczux
-less gallery-dl/instagram/dosiaczux/3310004762095313107_3310004753731903137.jpg.json 
-gallery-dl  --write-metadata  https://www.instagram.com/maariiyar/
-gallery-dl  --write-metadata  https://www.instagram.com/laurensaliu/
-gallery-dl  --write-metadata  https://www.instagram.com/camimendes/
-gallery-dl  --write-metadata  https://www.instagram.com/only_lola._
-gallery-dl  --write-metadata  https://www.instagram.com/gabrielawloszek
-ls gallery-dl/
-ls gallery-dl/instagram/
-vi todo
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/yudintseva_veronika/
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/eugeniamadar
-gallery-dl  --write-metadata  https://www.instagram.com/gracieegolfs
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/gracieegolfs
-less 
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/only_lola._
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/tonyxdorn
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/bambi.ofc
-less ./gallery-dl/instagram/only_lola._/3929622594902466998.mp4.json 
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/bambi.ofc
-gallery-dl  --write-metadata  https://www.instagram.com/cicho_flower/
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/antal_lili_
-vi todo-new
-vi todo-new
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/linaaa.cs/
-vi todo-new
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/linaaa.cs/
-vi todo-new
-gallery-dl  --write-metadata  https://www.instagram.com/kasiakr0l
-ls gallery-dl/instagram/
-instaloader kasiakr0l
-gallery-dl  --write-metadata  https://www.instagram.com/bailey.harrisonn
-vi todo-new
-gallery-dl --range 1-12  --write-metadata  https://www.instagram.com/linaaa.cs/
-gallery-dl --cookies-from-browser chrome --range 1-12  --write-metadata  https://www.instagram.com/linaaa.cs/
-gallery-dl --cookies-from-browser chrome --range 1-12  --write-metadata  https://www.instagram.com/justestarinskaite https://www.instagram.com/iamsolomonica 
-vi todo-new
-vi todo-new
-cat todo-new |wc
-cat todo-new|sort|uniq |wc
-gallery-dl --cookies-from-browser chrome --range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --range 1-12  --write-metadata  $(cat todo-new2 )
-ls gallery-dl/instagram/elia.anbari
-ls gallery-dl/instagram/
-gallery-dl --cookies-from-browser chrome --range 1-12  --write-metadata  $(cat todo-new2 )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-tail todo-new
-du -sh .
-ls
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/victorialomnasan
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/rhianmaries
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kira_artamonova_/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/beautyandbrainswithatwist/ https://www.instagram.com/stories/elisha__h/ https://www.instagram.com/stories/frida_aasen/ https://www.instagram.com/stories/kimdammer/ https://www.instagram.com/stories/xenia/ https://www.instagram.com/stories/asiaopozda/ https://www.instagram.com/stories/victoriaswarovski/ https://www.instagram.com/stories/anya.sokoloval/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/marlucas/ https://www.instagram.com/stories/marta_surnik/ https://www.instagram.com/stories/mrslauea/ https://www.instagram.com/stories/mariia_arsentieva/ https://www.instagram.com/stories/carina/ https://www.instagram.com/stories/ilonarsentieva/ https://www.instagram.com/stories/elizabethfortmeyer/ https://www.instagram.com/stories/yelikova/ https://www.instagram.com/stories/lizakovalenkoo/ https://www.instagram.com/stories/liss.thl/ https://www.instagram.com/stories/sogoyasha/ https://www.instagram.com/stories/officiallizsanchez/ https://www.instagram.com/stories/saracrumbleleg/ https://www.instagram.com/stories/willow.hand/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/dosiaczux/ https://www.instagram.com/stories/guadadia/ https://www.instagram.com/stories/vitasidorkina/ https://www.instagram.com/stories/dashapogadaevaa/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/vasilinskiy/ https://www.instagram.com/stories/nikolnekrasovan/3937421434855283686/ https://www.instagram.com/stories/mariabiosca2/ https://www.instagram.com/stories/kerina.wang/ https://www.instagram.com/stories/haileygrice/ https://www.instagram.com/stories/thekinsleywyatt/ https://www.instagram.com/stories/kate___marko/ https://www.instagram.com/stories/geroinoviy90shik/ https://www.instagram.com/stories/kriss_drummer/ https://www.instagram.com/stories/cata.leyah/ https://www.instagram.com/stories/zuueva/ https://www.instagram.com/stories/bruletova_/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/_susiesy_/ https://www.instagram.com/stories/miller.om/ https://www.instagram.com/stories/katharinanahlik/ https://www.instagram.com/stories/i.s.nesquik/ https://www.instagram.com/stories/masha_lobanovaa/ https://www.instagram.com/stories/milevskate/ https://www.instagram.com/stories/kraseczka/ https://www.instagram.com/stories/shipilovaks/ https://www.instagram.com/stories/sofia_maloletova/ https://www.instagram.com/stories/madina__sssk/ https://www.instagram.com/stories/summerlovesummerl/ https://www.instagram.com/stories/veronika_chachyna/ https://www.instagram.com/stories/katushalobanova/ https://www.instagram.com/stories/l_kondra/ https://www.instagram.com/stories/valerialipovetsky/ https://www.instagram.com/stories/angelina_dimova/ https://www.instagram.com/stories/sps.luca/ https://www.instagram.com/stories/amaliestar/ https://www.instagram.com/stories/celinebethmann/ https://www.instagram.com/stories/dasha.ilyushchyts/ https://www.instagram.com/stories/sillestaunstrup/ https://www.instagram.com/stories/vanessalealia/ https://www.instagram.com/stories/ameliagray/ https://www.instagram.com/stories/tashha_s/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/palonekk/ https://www.instagram.com/stories/_sophiesilva_/ https://www.instagram.com/stories/the.rebecca.rose/ https://www.instagram.com/stories/megalcarmen/ https://www.instagram.com/stories/itsmoosmith/ https://www.instagram.com/stories/impoppy/ https://www.instagram.com/stories/vain.virgos/ https://www.instagram.com/stories/mary_amber._/ https://www.instagram.com/stories/veronicaa.k_/ https://www.instagram.com/stories/julejensen/ https://www.instagram.com/stories/joykpn/ https://www.instagram.com/stories/the.rebecca.rose/ https://www.instagram.com/stories/tanusha_dukaaa/ https://www.instagram.com/stories/cinnamarollslut/ https://www.instagram.com/stories/nbrum__/ https://www.instagram.com/stories/maggda02/ https://www.instagram.com/stories/anyamazurock/ https://www.instagram.com/stories/ellashcraft/ https://www.instagram.com/stories/tynnamaus/ https://www.instagram.com/stories/aborundtynna/ https://www.instagram.com/stories/tautumeitas/ https://www.instagram.com/stories/liza.m.m/ https://www.instagram.com/stories/maligoshik/ https://www.instagram.com/stories/liiztk/ https://www.instagram.com/stories/emmakokofficial/ https://www.instagram.com/stories/evamurati/ https://www.instagram.com/stories/lolo/ https://www.instagram.com/stories/vasilinskiy/ https://www.instagram.com/stories/k.hism/ https://www.instagram.com/stories/darth_cydious/ https://www.instagram.com/stories/vveryss/ https://www.instagram.com/stories/abileeboivin/ https://www.instagram.com/stories/kateevteeva/ https://www.instagram.com/stories/karolina.juza/ https://www.instagram.com/stories/soszasosz/ https://www.instagram.com/stories/oliviagrivas/ https://www.instagram.com/stories/alinaaboyko/ https://www.instagram.com/stories/annstoliar/ https://www.instagram.com/stories/morganalexandraaaof/ https://www.instagram.com/stories/32gl_/ https://www.instagram.com/stories/kira_artamonova_/ https://www.instagram.com/stories/tixteafox/ https://www.instagram.com/stories/polinamalinovskaya/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
-find gallery-dl -type f > temp-file-list
-less temp-file-list 
-tail -f all_gdl_ids 
-wc -l all_gdl_ids 
-cat all_gdl_ids |sort| uniq > aaa
-mv aaa all_gdl_ids 
-wc -l all_gdl_ids 
-less all_gdl_ids 
-du -sh gallery-dl/
-rm all_gdl_ids 
-less temp-file-list 
-wc -l temp-file-list 
-split -l temp-file-list 
-split -l 1000 temp-file-list 
-less xaz 
-ll=a
-echo $ll
-cat xa$ll | zip ig$ll.zip -@
-cat xaa |while read i;do rm "$i";done
-ll=b
-cat xa$ll | zip ig$ll.zip -@
-cat xab |while read i;do rm "$i";done
-ll=c
-cat xa$ll | zip ig$ll.zip -@
-cat xac |while read i;do rm "$i";done
-ll=d
-cat xa$ll | zip ig$ll.zip -@
-cat xad |while read i;do rm "$i";done
-rm xa[a-d]
-ll=e
-cat xa$ll | zip ig$ll.zip -@
-cat xae |while read i;do rm "$i";done
-ll=f
-cat xa$ll | zip ig$ll.zip -@
-cat xaf |while read i;do rm "$i";done
-ll=g
-cat xa$ll | zip ig$ll.zip -@
-cat xag |while read i;do rm "$i";done
-ll=h
-cat xa$ll | zip ig$ll.zip -@
-cat xa$ll |while read i;do rm "$i";done
-ll=i
-cat xa$ll | zip ig$ll.zip -@
-cat xa$ll |while read i;do rm "$i";done
-ll=j
 cat xa$ll | zip ig$ll.zip -@
 cat xa$ll |while read i;do rm "$i";done
 ll=k
@@ -498,3 +364,137 @@ python /Users/joregan/Playing/work-2026/flickr_upload.py .
 cd ..
 rm -rf Instagram\ 2/
 rm Instagram.zip 
+cd ~/Playing/work-2026/
+git add writing/
+git commit -m more
+git diff
+git add site/index.qmd 
+git commit -m more
+git diff
+git add writing/
+git commit -m more
+git add writing/
+git commit -m more
+cd writing/
+cat Éamonn\ Ua\ Ciórrthais.md 
+cat Éamonn\ Ua\ Ciórrthais.md |sed -e 's/\. /\.\n/'
+cat Éamonn\ Ua\ Ciórrthais.md |sed -e 's/\. /\.\n/g'
+cat Éamonn\ Ua\ Ciórrthais.md |sed -e 's/\. /\.\n/g' > tmp
+mv tmp Éamonn\ Ua\ Ciórrthais.md 
+git diff
+git add .
+git commit -m more
+vi  Éamonn\ Ua\ Ciórrthais.md 
+grep -v '\.$'  Éamonn\ Ua\ Ciórrthais.md 
+git add .
+git commit -m more
+less Éamuinn\ Ui\ Ciórrthais\ phones.md 
+git add .
+git commit -m more
+cat Éamuinn\ Ui\ Ciórrthais\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g'
+cat Éamuinn\ Ui\ Ciórrthais\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+mv tmp Éamuinn\ Ui\ Ciórrthais\ phones.md 
+git diff
+git add .
+git commit -m more
+git diff
+git add .
+git commit -m more
+vi  Éamonn\ Ua\ Ciórrthais.md 
+git diff
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md 
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
+vi Éamonn\ Ua\ Ciórrthais.md 
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
+vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
+git add .
+git commit -m more
+vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
+vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
+vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
+vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
+vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
+cat Éamuinn\ Ui\ Ciórrthais\ phones.md 
+cat Éamuinn\ Ui\ Ciórrthais\ phones.md |awk '{print "# text_phonetic = " $0}'
+git add .
+git commit -m more
+paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
+vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
+cat Eoin\ phonetic.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+mv tmp Eoin\ phonetic.md 
+vi Eoin\ phonetic.md 
+git add .
+git commit -m more
+vi sceal\ phones.md 
+cat sceal\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+mv tmp sceal\ phones.md 
+cat sceal\ text.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+mv tmp sceal\ text.md 
+git add .
+git commit -m more
+paste sceal\ phones.md sceal\ text.md |less
+vi sceal\ phones.md 
+paste sceal\ phones.md sceal\ text.md |less
+vi sceal\ phones.md 
+paste sceal\ phones.md sceal\ text.md |less
+vi sceal\ phones.md 
+paste sceal\ phones.md sceal\ text.md |less
+paste sceal\ phones.md sceal\ text.md |less
+paste sceal\ phones.md sceal\ text.md |less
+git add .
+git commit -m more
+vi leadairt\ phones.md 
+cat leadairt\ text.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+rm tmp 
+git add .
+git commit -m more
+cat leadairt\ text.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+mv tmp leadairt\ text.md 
+cat leadairt\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+mv tmp leadairt\ phones.md 
+paste leadairt\ phones.md leadairt\ text.md |less
+vi leadairt\ phones.md 
+paste leadairt\ phones.md leadairt\ text.md |less
+vi leadairt\ phones.md 
+git diff
+git add .
+git commit -m more
+paste leadairt\ phones.md leadairt\ text.md |less
+vi chevalier\ phones.md 
+git add .
+git commit -m more
+vi chevalier\ phones.md 
+git add .
+git commit -m more
+cat chevalier\ text.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+mv tmp chevalier\ text.md 
+cat chevalier\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
+mv tmp chevalier\ phones.md 
+git add .
+git commit -m more
+cat chevalier\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g'|sed -e 's/|| /||\n/g' > tmp
+mv tmp chevalier\ phones.md 
+git diff
+git add .
+git commit -m more
+paste chevalier\ text.md chevalier\ phones.md |less
+git add .
+git commit -m more
+ls
+git diff
+git add .
+git commit -m more
+pip install gallery-dl
+ps aux|grep Java
+kill -9 29033
+git status
+git diff
+git add ../gemma4_ocr.py 
+git commit -m update
+git diff
+git diff
