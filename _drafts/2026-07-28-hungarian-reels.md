@@ -714,3 +714,44 @@ the  water-ELA
 * **bekövetkezik** — happen; occur
 * **halászat** — fishing
 * **kiment valamit valamiből** — rescue or remove something from something
+
+---
+
+[Reel](https://www.instagram.com/reels/DaXQvYoqX_N/)
+
+[00:00.000 --> 00:04.520]  A kerekes székes utasok nem, hogy járni tanulnak meg landolás végén, hanem egyenesen futni.
+[00:04.860 --> 00:08.000]  Ezt a csodát légiótaskísérőként mind megtapasztalhattuk már.
+[00:08.160 --> 00:10.500]  A kerekes székes utasoknak három típusok van.
+[00:10.920 --> 00:13.440]  Van a WCHC, wheelchair cabin.
+[00:14.520 --> 00:17.240]  Ő a mozgásában teljesen korlátozott, nem tud járni.
+[00:17.680 --> 00:22.160]  Személyzeti segítséget igényel ahhoz is, hogy a székébe beleüljön.
+[00:22.160 --> 00:24.880]  Van a WCHS, wheelchair steps.
+[00:24.880 --> 00:30.000]  Ez az utas nem tud lépcsőzni, a székéig el tud sétálni magától és bele tud ülni,
+[00:30.160 --> 00:34.860]  de általában segítség szükséges neki az, hogy a terminálon belül mozogjon.
+[00:35.220 --> 00:37.760]  És akkor itt jönnek a csodák. Van a WCHR.
+[00:38.200 --> 00:40.220]  A WCHR a wheelchair rampa.
+[00:40.560 --> 00:46.960]  Ez az utas kisebb távolságokat még tud járni, de már a hosszabb, nagyobb távolságok nehézséget okoznak neki,
+[00:47.040 --> 00:51.920]  de általában önállóan el tud jutni a székéig és a folyosón is tud önállóan mászkálni.
+[00:51.920 --> 00:54.840]  Ez az a szolgáltatás, amit bárki kérhet arra hivatkozva,
+[00:54.880 --> 00:58.440]  hogy nem tud hosszabb távolságokat megtenni.
+[00:58.800 --> 01:00.380]  És egyébként ezzel nincs is semmi baj.
+[01:00.820 --> 01:03.960]  Vannak azok is, és szerintem ez is teljesen normális,
+[01:04.100 --> 01:09.720]  akik azért kérik ezt a szolgáltatást, mert idősek, vagy csak nem akarnak elveszni,
+[01:09.820 --> 01:13.780]  nem értik a nyelvet, vannak óriási repterek a világon,
+[01:13.860 --> 01:17.720]  ahol tényleg könnyű elveszni, főleg, hogyha az ember először jár repülőtéren,
+[01:18.080 --> 01:20.300]  és hogyha már idősebb is, vagy nem beszélsz angolul,
+[01:20.300 --> 01:24.480]  akkor teljesen egyértelmű, szerintem teljesen jogos kérni ezt a szolgáltatást,
+[01:24.480 --> 01:31.060]  és nagyon hasznos, mert ilyenkor a check-intől kezdve jön egy úriember,
+[01:31.220 --> 01:34.660]  aki végigtól egy tolószékkel az egész terminálon,
+[01:35.380 --> 01:40.720]  prioritit is élvezel, tehát nem kell végigvárni a biztonsági ellenőri, stb.,
+[01:40.720 --> 01:44.400]  és egészen a géppajtóig elvisz, és ott megmutatják a helyedet.
+[01:44.820 --> 01:47.100]  Viszont vannak ezek a bizonyos USA járatok.
+[01:47.240 --> 01:49.640]  Mellesleg az USA járatok indiaiakkal vannak tele.
+[01:50.340 --> 01:53.460]  Megérkezik 20 vilcseres tolószékes,
+[01:53.460 --> 01:58.200]  majd amikor landolunk, hirtelen ebből csak 5 marad.
+[01:58.440 --> 02:02.260]  Mi a probléma azzal, hogyha valaki jogosulatlanul kéri ezt a tolószéket?
+[02:02.660 --> 02:08.220]  Egyrészt a reptereken véges számú tolószék és kísérő személyzet van erre,
+[02:08.300 --> 02:13.800]  másrészt tegyük fel a repülőgépen egy vészhelyzeti eset adódik,
+[02:15.800 --> 02:19.580]  és vannak akik tényleg rászorulnak segítségre, és vannak akik nem.
+[02:19.580 --> 02:23.360]  És a személyzet így nem fogja tudni, hogy ki az, akinek tényleg segítségre,
+[02:23.460 --> 02:25.740]  szüksége egy esetleges vészhelyzet esetén
