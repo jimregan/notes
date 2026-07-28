@@ -1,25 +1,3 @@
-cat xa$ll | zip ig$ll.zip -@
-cat xa$ll |while read i;do rm "$i";done
-ll=l
-cat xa$ll | zip ig$ll.zip -@
-cat xa$ll |while read i;do rm "$i";done
-ll=m
-cat xa$ll | zip ig$ll.zip -@
-cat xa$ll |while read i;do rm "$i";done
-for ll in n o p q r s t u v w x y z;do cat xa$ll | zip ig$ll.zip -@ && cat xa$ll |while read i;do rm "$i";done ;done
-find gallery-dl -type d -empty
-find gallery-dl -type d -empty -delete
-ls
-grep prestynsmithmusic temp-file-list 
-grep natalieeens temp-file-list 
-grep zina_bee_ temp-file-list 
-grep mcz temp-file-list 
-grep faithladzinski temp-file-list 
-grep saasha.eagle temp-file-list 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-history > /tmp/histt
-vi /tmp/histt 
-grep camimendes temp-file-list 
 vi /tmp/histt 
 grep vikyvarga temp-file-list 
 vi /tmp/histt 
@@ -498,3 +476,25 @@ git diff
 tail ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs 
 vi /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/id_mapping 
 less ~/Playing/rdctm/2442205210012862421_480p.ctm 
+ls
+ls unix/
+less unix/Makefile.in 
+less unix/Makefile.fc3 
+ls
+git log
+git push
+git push origin agent/fc3-rpm-build 
+less unix/Makefile.fc3 
+git log
+git diff
+git log
+git format-patch -1 421393ad446db274c7b228e30b1b2fe7da3e1c5a
+cat 0001-Find-plugin-data-in-Mozilla-directory.patch 
+vi unix/npunixplatf.c 
+git add unix/npunixplatf.c 
+git commit -m 'add the specific path for FC3'
+git log
+git push origin agent/fc3-rpm-build 
+rm 0001-Find-plugin-data-in-Mozilla-directory.patch 
+ls
+pwd
