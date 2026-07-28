@@ -1,16 +1,3 @@
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/reels/DW4uicVDVOt/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/marta_surnik/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/morilloalixanciencompte/ https://www.tiktok.com/@alix.morillo/video/7471913167019445526 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/p/DUqoBBeDF2A/?img_index=1
-less ./gallery-dl/instagram/futur.mgmt/3831050425189817728_3831050200735851629.jpg.json 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DXt1eFkAiga/ https://www.instagram.com/p/DXPRxvZliK-/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/stories/katesytsevich/3940597597348130703/ https://www.instagram.com/stories/katesytsevich/3940598411118711419/ https://www.instagram.com/stories/katesytsevich/3940598800129490583/ https://www.instagram.com/stories/katesytsevich/3940599568626641912/ https://www.instagram.com/stories/sandrakubicka/3940599453652152483/ https://www.instagram.com/stories/sandrakubicka/3940599701854288026/ https://www.instagram.com/stories/sandrakubicka/3940599994702278227/ https://www.instagram.com/stories/sandrakubicka/3940602201432974760/ https://www.instagram.com/stories/sandrakubicka/3940606901075087062/ https://www.instagram.com/stories/sandrakubicka/3940607811943662045/ https://www.instagram.com/stories/sandrakubicka/3940628623635544573/ https://www.instagram.com/stories/sandrakubicka/3940629506789837988/ https://www.instagram.com/stories/sandrakubicka/3940642252449360685/ https://www.instagram.com/stories/summerlovesummerl/3940605618113331909/ https://www.instagram.com/stories/pytanienasniadanie/3940612766868190637/ https://www.instagram.com/stories/i.s.nesquik/3940615189657637056/ https://www.instagram.com/stories/milevskate/3940540182359652944/ https://www.instagram.com/stories/milevskate/3940640455859661489/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/p/Daq6XUCoQhj/ https://www.instagram.com/p/Daq8YoUoau2/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/___anesta___/ https://www.instagram.com/stories/miller.om/ https://www.instagram.com/stories/pytanienasniadanie/3940910134482217503/ https://www.instagram.com/stories/pytanienasniadanie/3940911272665332291/ https://www.instagram.com/stories/pytanienasniadanie/3940912991719982497/ https://www.instagram.com/stories/pytanienasniadanie/3940971214092947583/ https://www.instagram.com/stories/aniasoporek/ https://www.instagram.com/stories/offi_anastasiasergeeva/ https://www.instagram.com/stories/alina_akilova/3940978234161973796/ https://www.instagram.com/stories/alina_akilova/3940978396880805735/ https://www.instagram.com/stories/madina__sssk/ https://www.instagram.com/stories/anna.kondra/ https://www.instagram.com/stories/sandrakubicka/3940957955194673577/ https://www.instagram.com/stories/wiktoria_gasiewska/3940942480115914420/ https://www.instagram.com/stories/veronika_chachyna/3940922979990551288/ https://www.instagram.com/stories/monika.chmielecka/3940941032887991327/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/reels/Dau1ZT7tUQk/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/holzyeahh/ https://www.instagram.com/reels/DXt1BXUjO-d/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/biancaolivia/reels/
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/Dav0wN8RppV/ https://www.instagram.com/monayim.wav/ https://www.instagram.com/stories/monayim.wav/ 
 ffplay ./gallery-dl/instagram/monayim.wav/3940600210895837781.mp4
 ffplay ./gallery-dl/instagram/languagelockin/3885995243716013981.mp4
@@ -498,3 +485,16 @@ git diff id_mapping
 grep kowalew id_mapping 
 less ~/Playing/rd_phonetic/2442206150016301021_480p.json 
 cat ~/Playing/rd_phonetic/2442206150016301021_480p.json |jq .|less
+cd ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/
+ls prn
+ls
+cd prn
+ls
+less inp.log 
+grep web.archive.org/web/20241124160113/https:/media.babesource.com/galleries/611631d5d9474/124086_019.jpg  ~/Playing/8c08e58ba0638cacfea6a84a97fae1f4/
+cd ..
+pwd
+mkdir prn
+cd prn/
+ls
+pwd
