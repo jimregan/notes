@@ -106,3 +106,19 @@ git add web/
 git commit -m web\ interface
 less web/repeated-phones/app.js 
 less web/repeated-phones/README.md 
+grep 2442101120000147521 ~/Playing/rdapi/api_output/*
+less /Users/joregan/Playing/rdapi/api_output/H1C220130920ou1
+grep 2442101120000147521 ~/Playing/rdapi/api_output/*
+grep 2442101120000186421 ~/Playing/rdapi/api_output/*
+less /Users/joregan/Playing/rdapi/api_output/H3C220151014os1
+grep 2442101120000186121 ~/Playing/rdapi/api_output/*
+less /Users/joregan/Playing/rdapi/api_output/H2C220150626ar1
+grep 2442101120000355621 ~/Playing/rdapi/api_output/*
+less /Users/joregan/Playing/rdapi/api_output/H1C220131204se1
+grep "agendalist" /Users/joregan/Playing/rdapi/api_output/*
+grep "agendalist" /Users/joregan/Playing/rdapi/api_output/*|grep -v null
+less /Users/joregan/Playing/rdapi/api_output/H9C120210914ro
+grep "agendalist" /Users/joregan/Playing/rdapi/api_output/*|grep -v null|head
+less /Users/joregan/Playing/rdapi/api_output/H201CU12
+echo Burger |espeak -v de --ipa
+less /Users/joregan/Playing/rdapi/api_output/H201CU12
