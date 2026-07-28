@@ -1,4 +1,3 @@
-mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3898494853333610768.mp4
 mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/randivonal.hu/3922362236436658333.mp4
 unzip -l /Users/joregan/Downloads/WhatsApp\ Chat\ with\ Joe\ O\'Regan\,\ Jr..zip 
 unzip -l /Users/joregan/Downloads/Ss-20260714T234800Z-1-001.zip 
@@ -498,3 +497,4 @@ ls
 git status
 less CODEBASE.md 
 rm CODEBASE.md 
+ls
