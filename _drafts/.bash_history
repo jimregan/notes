@@ -1,12 +1,3 @@
-wc -l xbc
-tail -f all_gdl_ids 
-cat all_gdl_ids |sort|uniq > /tmp/newids
-rm all_gdl_ids /tmp/newids 
-ls
-rm x*
-ls
-cat inlist temp-file-list |sort |uniq > tt
-mv tt temp-file-list 
 wc -l temp-file-list 
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/stories/boerinanna/ https://www.instagram.com/boerinanna
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/kulakova_po/
@@ -498,3 +489,12 @@ less /Users/joregan/.bash_sessions/F92475D1-BD2B-4189-A5F2-50FD7111C372.session
 less /Users/joregan/.bash_sessions/F92475D1-BD2B-4189-A5F2-50FD7111C372.historynew 
 ls -al /Users/joregan/.bash_sessions/*.historynew 
 less /Users/joregan/.bash_sessions/F9005403-56CD-47AA-A6C6-9AE58414E453.historynew
+ls
+ls
+ls src/
+less src/corpus_build/model/identity.py 
+unzip /Users/joregan/Downloads/filesx.zip 
+rm /Users/joregan/Downloads/filesx.zip 
+git diff
+git status
+git diff
