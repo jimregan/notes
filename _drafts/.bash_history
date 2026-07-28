@@ -1,29 +1,3 @@
-tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0"}'
-tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}'
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/ngizerskaya/3938639466189304848/ https://www.instagram.com/stories/furaeva_tatyana/3938788553664651816/ https://www.instagram.com/stories/milevskate/3938863062639733086/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
-tail -f all_gdl_ids 
-less all_gdl_ids 
-tail -f all_gdl_ids 
-cat all_gdl_ids |sort|uniq > /tmp/newids
-rm all_gdl_ids /tmp/newids 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/katushalobanova/ https://www.instagram.com/stories/juleczkaaa_jula/3938953665226532370/ https://www.instagram.com/stories/juleczkaaa_jula/3938983467847717037/ https://www.instagram.com/stories/lubimaya_yulya/3939095297662017710/ https://www.instagram.com/stories/monika.chmielecka/3938910109661160739/ https://www.instagram.com/stories/monika.chmielecka/3938914255294490441/ https://www.instagram.com/stories/malgorzata__tomaszewska/3939016387679069133/ https://www.instagram.com/stories/malgorzata__tomaszewska/3939066195676570832/ https://www.instagram.com/stories/__dasha__one/ https://www.instagram.com/stories/maren_tschinkel/3938989932365753298/ https://www.instagram.com/stories/nikolaprochniak/3939029371818094420/ https://www.instagram.com/stories/katesytsevich/ https://www.instagram.com/stories/katushalobanova/3939157351627724002/ https://www.instagram.com/stories/katushalobanova/3939157893437722872/ https://www.instagram.com/stories/katushalobanova/3939158634405112981/ https://www.instagram.com/stories/insane260688/3939124209882546927/ https://www.instagram.com/stories/izabellakrzan/3938894125137481371/ https://www.instagram.com/stories/anetasnake/3939012452859789597/ https://www.instagram.com/stories/jennyfrennberg/3938943822939577679/ https://www.instagram.com/stories/royczykova/3938938214551391390/ https://www.instagram.com/stories/lilyjamesofficial/3939092606990740207/ https://www.instagram.com/stories/rteone/3938882842155063360/ https://www.instagram.com/stories/mariyafishman/3939155835779671133/ https://www.instagram.com/stories/milevskate/3939157692113970948/ https://www.instagram.com/stories/katushalobanova/3939159369641525168/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/katushalobanova/3939161098901038613/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/eirenebelle/ https://www.instagram.com/michelle_laza/p/DXjs_eIDAVb/ https://www.instagram.com/michelle_laza/reel/DT5v28aDBy3/ https://www.instagram.com/michelle_laza/p/DUq1VZejlkN/ https://www.instagram.com/michelle_laza/p/DRZfr6njAfz/ https://www.instagram.com/michelle_laza/p/DJHZ71aImRR/ https://www.instagram.com/michelle_laza/p/DGLWQ6XyP8O/ https://www.instagram.com/rubywagner_ https://www.instagram.com/emmy.mabess https://www.instagram.com/stories/nesii.nicole/ https://www.instagram.com/fayelouise_brennan https://www.instagram.com/stories/fayelouise_brennan/ https://www.instagram.com/eesmauslan https://www.instagram.com/stories/eesmauslan/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/p/DZ4SNKPoOBu/ https://www.instagram.com/p/DVpzI91CGD5/ https://www.instagram.com/p/DVlgKgECG6D/ https://www.instagram.com/p/DUH1_XECP3G/ https://www.instagram.com/stories/nicutanicoletaa/ https://www.instagram.com/vviviaannee https://www.instagram.com/stories/chloeslater333/  https://www.instagram.com/lanie.lately/reel/DXb7NMmDdt-/ https://www.instagram.com/lanie.lately/reel/DTYFoVujVST/ https://www.instagram.com/stories/__natixxa__/ https://www.tiktok.com/@lanie_lately/video/7600756060701478175 https://www.instagram.com/p/DXFAVv_Debf/?hl=en https://www.instagram.com/stories/papillonsesil/ https://www.instagram.com/p/DaNB29jtN2F/ https://www.instagram.com/samthompsonuk/reel/DUEL4dkiPAP/ https://www.instagram.com/talitha.balinska/ https://www.instagram.com/stories/its_cassidybybee/3938575016516990556/ https://www.instagram.com/reel/DW_nVfSzX1R/ https://www.instagram.com/reel/DU-6EFmkkDc/ https://www.instagram.com/reel/DUYSoS6Ex9F/ https://www.instagram.com/reel/DTVTlsIk6Ft/ https://www.instagram.com/reel/DEhq6unyGnk/ https://www.instagram.com/reel/DQmKoLlk_ku/ https://www.instagram.com/reel/DQhMNWyk-57/ https://www.instagram.com/rimoczizsofi/reel/DZcgJ9MI8B5/ https://www.instagram.com/rimoczizsofi/reel/DSN0I91CJ_x/ https://www.instagram.com/rimoczizsofi/p/DQfTcgPCDj5/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/tolloczko.klaudia/ https://www.instagram.com/_arinkovv_ https://www.instagram.com/stories/juttaleerdam/ https://www.instagram.com/stories/tg4tv/3939171045802367476/ https://www.instagram.com/stories/katushalobanova/3939162709111133529/ https://www.instagram.com/stories/katushalobanova/3939168320771073344/ https://www.instagram.com/p/DappPH4D9PN/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/topital.hu/reel/DQHWvD9AM7m/ https://www.instagram.com/p/DaS2PJejlCQ/ https://www.instagram.com/p/DZSyu1ZgeDp/ https://www.instagram.com/p/DY9ZccjDJ-W/ https://www.instagram.com/flojahazi https://www.instagram.com/stories/flojahazi/ https://www.instagram.com/stories/villa.delly/ https://www.instagram.com/maximevelly/reel/DTx7Wmbje_z/ https://www.tiktok.com/@handerovibe/photo/7585411644994456852 https://www.tiktok.com/@handerovibe/photo/7585088413733293332 https://www.tiktok.com/@handerovibe/photo/7581734019876867349 https://www.tiktok.com/@handerovibe/photo/7582479770303106325 https://www.youtube.com/shorts/XLiq6Dvx1HY
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/petite.princessxo/ https://www.instagram.com/reel/DH8SZ4GMiMV/ https://www.instagram.com/reel/DQq_FXlAdzn/ https://www.instagram.com/reel/DWlr7otDfa3/ https://www.instagram.com/daphnesunny26 https://www.instagram.com/stories/daphnesunny26/ https://www.instagram.com/giuliahere https://www.instagram.com/stories/scarlettmilano/ https://www.instagram.com/sissiinbp 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/alwayzami_/reel/DXEprIJE6NA/ https://www.instagram.com/p/DXJl9tXk4MZ/ https://www.instagram.com/p/DWlr4A9E8kc/ https://www.instagram.com/stories/misspatipe/ https://www.instagram.com/stories/annamo.1/ https://www.instagram.com/stories/sanderareels/ https://www.instagram.com/sensu.nati 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/mariiaaziza/3938751571949331444/ https://www.instagram.com/mariiaaziza/p/DYDD9F8jWdf/ https://www.instagram.com/mariiaaziza/p/DWjtZh4DL9L/ https://www.instagram.com/mariiaaziza/p/DVmLK8FDbtS/ https://www.instagram.com/mariiaaziza/p/DVD3VhLCPYv/ https://www.instagram.com/mariiaaziza/p/DRo1bCVCBJi/ https://www.instagram.com/p/DW6XdkAiI61/ https://www.instagram.com/p/DWlMn4ZjDmY/ https://www.instagram.com/p/DXL2ILXDVKh/ https://www.instagram.com/reel/DaVstBwobrZ/ https://www.instagram.com/reel/DXTppbNDVSy/ https://www.instagram.com/stories/heyhollanhart/ 
-grep bettinabalazss temp-file-list 
-grep franciskatorocsik temp-file-list 
-grep xtasiatv temp-file-list 
-grep celine.dept 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/celine.dept/ https://www.instagram.com/malina_berinde https://www.instagram.com/stories/malina_berinde/
 tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}'
 gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
@@ -498,3 +472,29 @@ mv tclplugin-* /tmp
 vi tabs_4
 git add tabs_4
 git commit -m more
+c d/t
+cd /tmp
+wget https://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz
+tar ztvf snack2.2.10.tar.gz 
+tar zxvf snack2.2.10.tar.gz 
+cd snack2.2.10/
+pwd
+ls
+scp snack.spec sbtaldeep22:dockerfiles/redhat72/
+pwd
+ls
+find . -type f |xargs grep spectrogram
+less ./demos/tcl/Spectrogram.tcl
+less ./generic/jkCanvSpeg.c
+find . -type f |xargs grep yAxis
+find . -type f |xargs grep snack_
+find . -type f |xargs grep snack_y
+less ./unix/snack.tcl 
+find . -type f |xargs grep snack_y_axis
+less mac/snack.res 
+cd ..
+scp -r sbtaldeep22:dockerfiles/fc3-qemu/lab/ .
+cd lab/
+less setgain.tcl 
+rm /Users/joregan/Downloads/PXL_20260727_135015093.LS.mp4 
+scp *.tcl sbtaldeep22:dockerfiles/fc3-qemu/lab/ 
