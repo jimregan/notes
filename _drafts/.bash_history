@@ -1,21 +1,3 @@
-bsgal https://babesource.com/galleries/natalie-knight-jay-s-pov-60741.html
-bsgal https://babesource.com/galleries/emma-starletto-natalie-knight-bratty-sis-73887.html
-bsgal https://babesource.com/galleries/megan-marx-bratty-sis-211232.html
-bsgal https://babesource.com/galleries/cherry-crush-maya-sinn-bratty-sis-207310.html
-bsgal https://babesource.com/galleries/ali-jones-bratty-sis-209914.html
-bsgal https://babesource.com/galleries/daisy-fox-bratty-sis-191670.html
-bsgal https://babesource.com/galleries/melody-marks-bratty-sis-187908.html
-bsgal https://babesource.com/galleries/eva-nyx-bratty-sis-187501.html
-bsgal https://babesource.com/galleries/aria-valencia-bratty-sis-189176.html
-bsgal https://babesource.com/galleries/nicole-aniston-zz-series-65349.html
-bsgal https://babesource.com/galleries/nicole-aniston-playboy-plus-120378.html
-bsgal https://babesource.com/galleries/nicole-aniston-momentary-hospitality-penthouse-12157.html
-bsgal https://babesource.com/galleries/renee-rose-bratty-sis-156460.html?pl=paysite
-bsgal https://babesource.com/galleries/megan-marx-renee-rose-bratty-sis-173057.html
-bsgal https://babesource.com/galleries/renee-rose-my-family-pies-169322.html
-bsgal https://babesource.com/galleries/renee-rose-bratty-sis-156460.html
-bsgal https://babesource.com/galleries/renee-rose-my-babysitters-club-156970.html
-bsgal https://babesource.com/galleries/penelope-kay-renee-rose-step-siblings-caught-157703.html
 bsgal https://babesource.com/galleries/renee-rose-bratty-sis-155503.html
 bsgal https://babesource.com/galleries/renee-rose-atk-galleria-155144.html
 bsgal https://babesource.com/galleries/renee-rose-atk-galleria-150796.html
@@ -498,3 +480,21 @@ pwd
 ls ..
 cd ~/Playing/
 git clone https://github.com/wavtechyukky/pyshiro
+cd waxholm-module/waxholm/tgrid/
+ls
+grep '`' *id
+ls
+less fp2068.pr.11.textgrid
+ls
+c d..
+cd ..
+ls
+git status
+ls fsout/
+ls
+git status
+ls web/
+git add web/
+git commit -m web\ interface
+less web/repeated-phones/app.js 
+less web/repeated-phones/README.md 
