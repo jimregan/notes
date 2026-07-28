@@ -1,196 +1,3 @@
-dotn https://www.thenude.com/cover/nubiles/279828/kosa-in-table-fun
-vi inp1 
-dotn https://www.thenude.com/cover/stunning18/1357419/anais-in-anais---uniform-and-stockings-by-antonio-clemens
-dotn https://www.thenude.com/cover/metart/12913/sabrina-c-in-eventis
-dotn https://www.thenude.com/cover/teendreams/387238/anna-in-anna
-dotn https://www.thenude.com/cover/clubsweethearts/325743/vera-g-in-brunettes-061
-dotn https://www.thenude.com/cover/metart/31955/sabrina-c-in-pakisa
-vi inp1 
-vi inp1 
-dotn https://www.thenude.com/cover/letsdoeit/906878/emily-thorne-in-blonde-russian-tourist-emily-thorne-eats-cum-and-gets-banged-abroad-pov
-dotn https://www.thenude.com/cover/clubsweethearts/414094/barbie-b-in-busty-bimbo-knows-how-to-handle-a-cock
-dotn https://www.thenude.com/cover/naughtymag/864248/emili-in-emili-loves-anal
-vi inp1 
-dotn https://www.thenude.com/cover/metmodels/148753/karina-m-in-brunett
-vi inp1 
-dotn https://www.thenude.com/cover/stunning18/1244892/lina-b-in-lina---mirror-mirror-by-antonio-clemens
-dotn https://www.thenude.com/cover/femjoy/859094/kate-k-in-temptation
-dotn https://www.thenude.com/cover/nubiles/279730/maleena-in-black-stockings
-dotn https://www.thenude.com/cover/clubsweethearts/324912/amber-b-and-martha-d-in-yll-430
-dotn https://www.thenude.com/cover/clubsweethearts/421738/arwen-gold-in-beautiful-brunette-fucked-at-a-picnic
-dotn https://www.thenude.com/cover/metart/1232734/anastasia-barbi-in-presenting-anastasia-barbi
-vi inp1 
-dotn https://www.thenude.com/cover/clubsweethearts/324592/aina-in-masturbation-417
-vi inp1 
-dotn https://www.thenude.com/cover/nubiles/278735/emanuelle-in-sheer-nightie
-dotn https://www.thenude.com/cover/metart/31955/sabrina-c-in-pakisa
-vi inp1 
-dotn https://www.thenude.com/cover/atkexotics/565239/netta-and-willa-in-gallery-210243
-vi inp1 
-dotn https://www.thenude.com/cover/nubiles/283148/sheri-vi-in-lace-panties
-dotn https://www.thenude.com/cover/nubiles/283386/sheri-vi-in-soft-and-slow
-dotn https://www.thenude.com/cover/nubiles/283092/sheri-vi-in-hardcore
-dotn https://www.thenude.com/cover/nubiles/284002/sheri-vi-in-working-it
-dotn https://www.thenude.com/cover/stunning18/1148716/venessa-in-studying-my-pussy-by-thierry-murrell
-vi inp1 
-dotn https://www.thenude.com/cover/metart/812837/lovenia-lux-in-presenting-lovenia-lux-by-deltagamma
-dotn https://www.thenude.com/cover/stunning18/411651/april-in-presenting-april-by-antonio-clemens
-dotn https://www.thenude.com/cover/clubsweethearts/417105/loveina-in-nasty-teen-gets-her-ass-penetrated
-dotn https://www.thenude.com/cover/stunning18/1138614/april-in-charming-secretary-by-thierry-murrell
-dotn https://www.thenude.com/cover/stunning18/1262593/april-in-do-not-wake-me-up-by-thierry-murrell 
-dotn https://www.thenude.com/cover/stunning18/1359537/april-in-secret-curves-by-thierry-murrell
-dotn https://www.thenude.com/cover/metart/812837/lovenia-lux-in-presenting-lovenia-lux-by-deltagamma
-dotn https://www.thenude.com/cover/denudeart/798790/chloe-in-fancy-me-by-lorenzo-renzi
-vi inp1 
-dotn https://www.thenude.com/cover/clubsweethearts/323574/linda-p-in-blondes-250
-dotn https://www.thenude.com/cover/clubsweethearts/323574/linda-p-in-blondes-250
-vi inp1 
-lynx -dump https://babesource.com/galleries/irene-stunning-18-44914.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-vi inp1 
-lynx -dump https://babesource.com/galleries/alisabelle-stunning-18-77449.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/antanta-stunning-18-74478.html >> inp1 
-lynx -dump https://babesource.com/galleries/antanta-stunning-18-74478.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/roza-a-stunning-18-68837.html >> inp1 
-lynx -dump https://babesource.com/galleries/roza-a-stunning-18-68837.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/alice-e-stunning-18-68729.html>> inp1 
-lynx -dump https://babesource.com/galleries/alice-e-stunning-18-68729.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/martina-a-stunning-18-87128.html>> inp1 
-lynx -dump https://babesource.com/galleries/martina-a-stunning-18-87128.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/anoushka-e-stunning-18-85550.html>> inp1 
-lynx -dump https://babesource.com/galleries/anoushka-e-stunning-18-85550.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/roza-a-stunning-18-111324.html>> inp1 
-lynx -dump https://babesource.com/galleries/roza-a-stunning-18-111324.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/irene-stunning-18-43296.html>> inp1 
-lynx -dump https://babesource.com/galleries/irene-stunning-18-43296.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/lynx-stunning-18-50977.html>> inp1 
-lynx -dump https://babesource.com/galleries/lynx-stunning-18-50977.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-echo https://babesource.com/galleries/irene-stunning-18-43099.html>> inp1 
-lynx -dump https://babesource.com/galleries/irene-stunning-18-43099.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-vi inp1 
-wget --warc-file=p4.4 -x -c -i inp1 
-ls
-rm -rf www.* static.thenude.com/ pix-fl.phncdn.com/ babesource.com/ ei.phncdn.com/ gccdn.metartnetwork.com/
-ls
-vi inp1 
-wget -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3c3f115c317 'https://pix-cdn77.phncdn.com/c6371/videos/202606/24/53288205/original_53288205.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1127?hash=9wJDLTIZbKOrsVqbrxCWRBAQMic=&validto=1783327723'
-wget --warc-file=og4-1 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3c3f115c317 'https://pix-cdn77.phncdn.com/c6371/videos/202606/24/53288205/original_53288205.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1127?hash=9wJDLTIZbKOrsVqbrxCWRBAQMic=&validto=1783327723'
-zless og4-1.warc.gz 
-cp pix-cdn77.phncdn.com/c6371/videos/202606/24/53288205/original_53288205.mp4/plain/ex\:1\:no/bg\:0\:0\:0/rs\:fit\:640\:360/vts\:1127\?hash\=9wJDLTIZbKOrsVqbrxCWRBAQMic\=\&validto\=1783327723 /tmp/v.jpg
-rm /private/tmp/v.jpg 
-rm -rf pix-cdn77.phncdn.com/
-ls
-zless p4.warc.gz 
-zless p4.1.warc.gz 
-zless p4.2.warc.gz 
-wget --warc-file=og4-2 -x -c https://www.pornhub.com/view_video.php?viewkey=6a439d3231a28 'https://pix-cdn77.phncdn.com/c6251/videos/202606/30/53951755/original/019f1821-c82a-798f-bbdd-d1639f43de41.jpg/plain/rs:fit:640:360?hash=jkAi8q8-OCEtj700ADpnkEzf5EI=&validto=1783328096'
-wget --warc-file=og4-2 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a439d3231a28 'https://pix-cdn77.phncdn.com/c6251/videos/202606/30/53951755/original/019f1821-c82a-798f-bbdd-d1639f43de41.jpg/plain/rs:fit:640:360?hash=jkAi8q8-OCEtj700ADpnkEzf5EI=&validto=1783328096'
-cp pix-cdn77.phncdn.com/c6251/videos/202606/30/53951755/original/019f1821-c82a-798f-bbdd-d1639f43de41.jpg/plain/rs\:fit\:640\:360\?hash\=jkAi8q8-OCEtj700ADpnkEzf5EI\=\&validto\=1783328096 /tmp/w.jpg
-echo https://babesource.com/freegalleries/ashley-rabbit-first-anal-quest-204164/ >> inp1
-lynx -dump https://babesource.com/freegalleries/ashley-rabbit-first-anal-quest-204164/|grep jpg|grep http|awk '{print $NF}' >> inp1 
-vi inp1 
-lynx -dump https://babesource.com/galleries/aria-sloane-net-girl-151163.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
-vi inp1 
-wget --warc-file=og4-3 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a43bc3798995 'https://pix-fl.phncdn.com/c6371/videos/202606/30/53959725/original_53959725.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1161?hdnea=st=1783217672~exp=1783304072~hdl=-1~hmac=ab3f07b4a8822cf55e20828f6b93507ef459badc'
-wget --warc-file=og4-3 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3e80c43ca26 'https://pix-cdn77.phncdn.com/c6251/videos/202606/26/53477485/original/019f0464-844d-7d29-8fd2-1a851511f0dd.jpg/plain/rs:fit:640:360?hash=w2QVCv0yv84cfsR_1FxF9fJ-ndM=&validto=1783304105'
-wget --warc-file=og4-3 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a43bc3798995 'https://pix-fl.phncdn.com/c6371/videos/202606/30/53959725/original_53959725.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1161?hdnea=st=1783217672~exp=1783304072~hdl=-1~hmac=ab3f07b4a8822cf55e20828f6b93507ef459badc'
-wget --warc-file=og4-4 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3e80c43ca26 'https://pix-cdn77.phncdn.com/c6251/videos/202606/26/53477485/original/019f0464-844d-7d29-8fd2-1a851511f0dd.jpg/plain/rs:fit:640:360?hash=w2QVCv0yv84cfsR_1FxF9fJ-ndM=&validto=1783304105'
-wget --warc-file=og4-5 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3e295283eaf 'https://pix-fl.phncdn.com/c6371/videos/202606/26/53448575/original_53448575.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:150?hdnea=st=1783217768~exp=1783304168~hdl=-1~hmac=b303c45fea5a282a61ca688c61261db2eb86925b'
-wget --warc-file=og4-6 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3c3f115c317 'https://pix-cdn77.phncdn.com/c6371/videos/202606/24/53288205/original_53288205.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1127?hash=1f7_2-2w_x4O4OdJe6dIIClT5Lg=&validto=1783304253'
-wget --warc-file=og4-7 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=69d527e2c92c9 'https://pix-fl.phncdn.com/c6251/videos/202604/07/44603855/original/019d68c4-89bc-7df8-a2b4-730b4c07eacc.jpg/plain/rs:fit:640:360?hdnea=st=1783242473~exp=1783328873~hdl=-1~hmac=2b520c299eaeae8ffe1cc52ce48e923e4feaa16b'
-cnt=8
-refgrab(){ wget --warc-file=og4-$cnt -x -c --referer=$1 $2 ;}
-bsgal(){ echo $1 >> inp; lynx -dump $1|grep jpg|grep http|awk '{print $NF}' >> inp1 ; }
-bsgal https://babesource.com/galleries/olivia-madison-married-cheating-129001.html
-vi inp1 
-bsgal(){ echo $1 >> inp1; lynx -dump $1|grep jpg|grep http|awk '{print $NF}' >> inp1 ; }
-vi inp1 
-bsgal https://babesource.com/galleries/olivia-madison-wankz-vr-211357.html
-vi inp1 
-bsgal https://babesource.com/galleries/olivia-madison-chloe-rose-vr-bangers-170733.html
-bsgal https://babesource.com/galleries/lena-anderson-olivia-madison-slayed-169680.html
-bsgal https://babesource.com/galleries/olivia-madison-daddy-4k-144934.html
-bsgal https://babesource.com/galleries/bella-rolland-olivia-madison-lesbianx-136354.html
-bsgal https://babesource.com/galleries/olivia-madison-ftv-girls-4-121854.html
-bsgal https://babesource.com/galleries/olivia-madison-ftv-girls-8-123177.html
-bsgal https://babesource.com/galleries/lia-lin-first-class-pov-211255.html
-bsgal https://babesource.com/galleries/lia-lin-istripper-191448.html
-bsgal https://babesource.com/galleries/lia-lin-dorcel-club-170588.html
-bsgal https://babesource.com/galleries/gina-gerson-lia-lin-penthouse-169886.html
-bsgal https://babesource.com/galleries/lia-lin-penthouse-170192.html
-bsgal https://babesource.com/galleries/lia-lin-private-163685.html
-bsgal https://babesource.com/galleries/ashly-rabbit-metartx-209256.html
-bsgal https://babesource.com/galleries/ashly-rabbit-sexart-211003.html
-bsgal https://babesource.com/galleries/ashly-rabbit-karup-s-hometown-amateurs-212482.html
-bsgal https://babesource.com/galleries/ashly-rabbit-metart-207675.html
-bsgal https://babesource.com/galleries/ashly-rabbit-rim-4k-204211.html
-bsgal https://babesource.com/galleries/ashly-rabbit-metart-204721.html
-bsgal https://babesource.com/galleries/ashley-rabbit-first-anal-quest-204164.html
-bsgal https://babesource.com/galleries/aria-sloane-metart-194537.html
-bsgal https://babesource.com/galleries/aria-sloane-strokies-208157.html
-bsgal https://babesource.com/galleries/aria-sloane-metartx-199537.html
-bsgal https://babesource.com/galleries/aria-sloane-pornfidelity-205545.html
-bsgal https://babesource.com/galleries/aria-sloane-metartx-185174.html
-bsgal https://babesource.com/galleries/aria-sloane-blaire-johnson-innocent-high-166132.html
-bsgal https://babesource.com/galleries/aria-sloane-karup-s-hometown-amateurs-165848.html
-bsgal https://babesource.com/galleries/aria-sloane-blacked-raw-168194.html
-bsgal https://babesource.com/galleries/aria-sloane-lethal-hardcore-168548.html
-bsgal https://babesource.com/galleries/fibi-euro-only-tarts-205589.html
-bsgal https://babesource.com/galleries/fibi-euro-only-tarts-205082.html
-bsgal https://babesource.com/galleries/fibi-euro-the-life-erotic-196994.html
-bsgal https://babesource.com/galleries/fibi-euro-college-uniform-193812.html
-bsgal https://babesource.com/galleries/fibi-euro-karup-s-older-women-189374.html
-bsgal https://babesource.com/galleries/fibi-euro-college-uniform-188190.html 
-refgrab(){ wget --warc-file=og4-$cnt -x -c --referer=$1 $2 ; cnt=$(($cnt + 1)); }
-cnt=9
-bsgal https://babesource.com/galleries/fibi-euro-all-over-30-167464.html
-bsgal https://babesource.com/galleries/andi-rose-wetvr-164423.html
-bsgal https://babesource.com/galleries/andi-rose-princess-cum-148939.html
-bsgal https://babesource.com/galleries/andi-rose-bratty-sis-148544.html
-bsgal https://babesource.com/galleries/andi-rose-nubile-films-146290.html
-bsgal https://babesource.com/galleries/andi-rose-nuru-massage-133060.html
-bsgal https://babesource.com/galleries/andi-rose-girl-cum-127429.html
-bsgal https://babesource.com/galleries/andi-rose-younger-mommy-118148.html
-bsgal https://babesource.com/galleries/jazmin-luv-badoink-vr-157920.html
-bsgal https://babesource.com/galleries/jazmin-luv-bic-cock-mood-148285.html
-bsgal https://babesource.com/galleries/hime-marie-jazmin-luv-stepsiblings-139686.html
-refgrab https://www.pornhub.com/view_video.php?viewkey=66b0636e64066 'https://ei.phncdn.com/videos/202408/05/456098491/original/(m=q2T3JRZbeaAaGwObaaaa)(mh=5_56cGQPFCdDHIA2)0.jpg'
-echo $cnt
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a285f9cdcb87 'https://pix-fl.phncdn.com/c6371/videos/202606/09/51711405/original_51711405.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:188?hdnea=st=1783243357~exp=1783329757~hdl=-1~hmac=f4affe6ccbff01e32855b03805841fbe13f42740'
-refgrab https://www.pornhub.com/view_video.php?viewkey=66d7751a7d6b7 https://ei.phncdn.com/videos/202409/03/457324151/original/(m=qJQXVTZbeaAaGwObaaaa)(mh=ijLuEu2XVfyyZRQA)0.jpg
-refgrab https://www.pornhub.com/view_video.php?viewkey=66d7751a7d6b7 'https://ei.phncdn.com/videos/202409/03/457324151/original/(m=qJQXVTZbeaAaGwObaaaa)(mh=ijLuEu2XVfyyZRQA)0.jpg'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a0efa4f7974d 'https://pix-fl.phncdn.com/c6371/videos/202605/18/49318235/original_49318235.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:357?hdnea=st=1783243440~exp=1783329840~hdl=-1~hmac=65672c09665027e2c3ab97337135faadb834e6e1'
-refgrab https://www.pornhub.com/view_video.php?viewkey=68d3ff4703912 'https://pix-fl.phncdn.com/c6371/videos/202509/24/23811455/original_23811455.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:494?hdnea=st=1783243475~exp=1783329875~hdl=-1~hmac=e81c42f5c569ba01059bb716a3b9f44add004c71'
-refgrab https://www.pornhub.com/view_video.php?viewkey=68d35c99f16dd 'https://pix-fl.phncdn.com/c6371/videos/202509/24/23757495/original_23757495.mov/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:697?hdnea=st=1783243503~exp=1783329903~hdl=-1~hmac=33ca06ec6d98110fd7bccafaed0d001555f03d4c'
-refgrab(){ wget --warc-file=og4-$cnt -x -c --referer=$1 $1 $2 ; cnt=$(($cnt + 1)); }
-refgrab https://www.pornhub.com/view_video.php?viewkey=68d35c99f16dd 'https://pix-fl.phncdn.com/c6371/videos/202509/24/23757495/original_23757495.mov/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:697?hdnea=st=1783243503~exp=1783329903~hdl=-1~hmac=33ca06ec6d98110fd7bccafaed0d001555f03d4c'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6983bc69335d8 'https://pix-cdn77.phncdn.com/c6251/videos/202602/04/38368485/original/019c8586-d62d-7efd-bd95-d4318e455986.jpg/plain/rs:fit:640:360?hash=LHYAfn6_dRWzegVeTAVBYe_boMM=&validto=1783329948'
-refgrab https://www.pornhub.com/view_video.php?viewkey=66d611a43c594 'https://ei.phncdn.com/videos/202409/02/457277001/original/(m=qYVWSTZbeaAaGwObaaaa)(mh=Q8hdfoCxFvo_SDJ9)0.jpg'
-refgrab https://www.pornhub.com/view_video.php?viewkey=686167d465c1b 'https://pix-fl.phncdn.com/c6251/videos/202506/29/13029975/original/0197d146-7b4e-7f44-8887-5089573a76b8.png/plain/rs:fit:640:360?hdnea=st=1783243605~exp=1783330005~hdl=-1~hmac=fe86af546d1b36c66aa554a0e6208c3e3e1f2a4f'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228e33eaf2 'https://pix-cdn77.phncdn.com/c6371/videos/202606/29/53812895/original_53812895.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:448?hash=joZJcejtVtW1wZVCLQKZcpQVKuc=&validto=1783330033'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228bb9688d 'https://pix-fl.phncdn.com/c6371/videos/202606/29/53812715/original_53812715.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:667?hdnea=st=1783243665~exp=1783330065~hdl=-1~hmac=e3d8894fdf244972a890d2304287dbcc248a2678'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228fa56afa 'https://pix-fl.phncdn.com/c6371/videos/202606/29/53813075/original_53813075.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:655?hdnea=st=1783243693~exp=1783330093~hdl=-1~hmac=5298aad31221978e83ddd94945dca4b082578b2e'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6803b21fa3725 'https://ei.phncdn.com/videos/202504/19/467485985/original/(m=qW50NG0beaAaGwObaaaa)(mh=Gg1QyIBYh8r6h33d)0.jpg'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6887e61a0feaa 'https://pix-cdn77.phncdn.com/c6371/videos/202507/28/17474475/original_17474475.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1173?hash=TDSYGSzRJybjZBxskF6QTCYZSYU=&validto=1783330157'
-bsgal https://babesource.com/galleries/veronica-church-my-pervy-family-133387.html
-vi inp1 
-refgrab https://www.pornhub.com/view_video.php?viewkey=6668595115be8 'https://ei.phncdn.com/videos/202406/11/453680671/original/(m=eaAaGwObaaaa)(mh=P_pMtM1tQV-CvJRE)12.jpg'
-bsgal https://babesource.com/galleries/freya-von-doom-my-pervy-family-142554.html
-refgrab https://www.pornhub.com/view_video.php?viewkey=68419752ca0bb 'https://ei.phncdn.com/videos/202506/05/469823225/original/(m=q1QSJK0beaAaGwObaaaa)(mh=ntW-uVz-g5TxnO5h)0.jpg'
-bsgal https://babesource.com/galleries/lou-laine-my-pervy-family-130508.html
-bsgal https://babesource.com/galleries/khloe-kapri-my-pervy-family-122618.html
-bsgal https://babesource.com/galleries/khloe-kapri-charmed-205942.html
-bsgal https://babesource.com/galleries/khloe-kapri-brat-tamer-182091.html
-bsgal https://babesource.com/galleries/khloe-kapri-laya-rae-stepsiblings-147749.html
-bsgal https://babesource.com/galleries/sydney-hail-my-pervy-family-122076.html
-bsgal https://babesource.com/galleries/yumi-sin-my-pervy-family-117842.html
-bsgal https://babesource.com/galleries/khloe-kapri-my-pervy-family-118360.html
-bsgal https://babesource.com/galleries/evelin-stone-anastasia-knight-my-pervy-family-57033.html
-bsgal https://babesource.com/galleries/evelin-stone-reality-kings-167588.html
-bsgal https://babesource.com/galleries/evelin-stone-cherry-pimps-65735.html
-bsgal https://babesource.com/galleries/anastasia-knight-teens-love-huge-cocks-64465.html
-bsgal 
-bsgal https://babesource.com/galleries/anastasia-knight-sis-loves-me-34849.html
-bsgal https://babesource.com/galleries/stella-chiyoki-my-pervy-family-140897.html 
 bsgal https://babesource.com/galleries/chloe-temple-khloe-kapri-my-pervy-family-138202.html
 bsgal https://babesource.com/galleries/anais-amore-my-pervy-family-135043.html
 bsgal https://babesource.com/galleries/gia-oh-my-my-pervy-family-134130.html
@@ -498,3 +305,196 @@ rm bs7jul.warc.gz og4-*gz
 ls
 rm inp 
 ls -al
+ls
+zless p2.warc.gz 
+zless p2.warc.gz 
+ls -al
+curl https://www.pornhub.com/view_video.php?viewkey=ph5fa4d22a641bd
+tail inp 
+curl http://localhost:8000/links-rdf.nt |less
+curl -v http://localhost:8000/links-rdf.nt |less
+curl -v http://localhost:8000/links-rdf.nt 
+curl -i http://localhost:8000/links-rdf.nt 
+curl -i http://localhost:8000/links-rdf.nt |less
+ls
+rm -rf c*
+ls
+rm -rf media.babesource.com/
+rm -rf www.*
+rm -rf thumbs.freeones.com/
+rm -rf static.thenude.com/
+rm -rf localhost\:8000/
+rm -rf ei*
+rm -rf img.tnaflix.com/
+ls
+grep virtua inp 
+grep virtua inp > inp1
+cd ../../
+cd prn
+ls
+rm inp
+rm inp.log 
+find ei.phncdn.com media.babesource.com |zip ../prn4/w/p1.zip -@
+ls
+rm nohup.out 
+fdupes -r .
+fdupes -r .|perl ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/fdupes-proc.pl 
+fdupes -r .|perl ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/fdupes-proc.pl > ../prn2/src/identical1.nt
+ls
+less ../prn2/src/identical1.nt
+cd ..
+rm -rf prn
+cd prn2/
+ls
+find ei.phncdn.com media.babesource.com |zip ../prn4/w/p2.zip -@
+l
+ls
+rm fash-rdf-links 
+fdupes -r .|perl ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/fdupes-proc.pl > ../prn2/src/identical2.nt
+less ../prn2/src/identical2.nt
+rm ../prn2/src/identical2.nt
+less ../prn2/src/identical1.nt
+ls
+rm -rf media.babesource.com/ ei.phncdn.com/
+cd ../prn3/
+ls
+fdupes -r .|perl ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/fdupes-proc.pl > ../prn2/src/identical3.nt
+less ../prn2/src/identical3.nt
+ls
+find c* e* gallery.virtuagirlhd.com img.tnaflix.com media.babesource.com static* thumbs.freeones.com/ www.directstripper.com www.freeones.com |zip ../prn4/w/p3.zip -@
+rm -rf c* e* gallery.virtuagirlhd.com img.tnaflix.com media.babesource.com static* thumbs.freeones.com/ www.directstripper.com www.freeones.com 
+ls
+rm -rf web.archive.org/
+cd ..
+rm -rf prn3/
+cd prn4/
+ls
+find babesource.com |zip ../prn4/w/p4.zip -@
+ls
+rm -rf babesource.com/
+rm fash-rdf-links 
+less inp 
+rm inp 
+ls
+ls w/
+rm -rf w/gallery.virtuagirlhd.com/
+ls
+. ../sourceme.sh 
+grep pornhub /Users/joregan/Desktop/httpswwwpornhubcomvi.md 
+grep pornhub /Users/joregan/Desktop/httpswwwpornhubcomvi.md |uniq
+grep pornhub /Users/joregan/Desktop/httpswwwpornhubcomvi.md |uniq|while read i;do ogimageproc $i;done
+ls
+mv fash-rdf-links ../prn2/src/links-rdf.nt
+ls
+ls w
+zless w/p3.1.wa
+zless w/p3.1.warc.gz 
+zless w/p3.warc.gz 
+ls
+find ei.phncdn.com/ pix-* -type f
+ls
+cp /Users/joregan/Desktop/httpswwwpornhubcomvi.md  inp
+ls
+find ei.phncdn.com pix-* -type f|awk '{print "https://" $0}' >> inp 
+ls
+cd w
+;s
+ls
+vi inp1
+lynx -dump https://www.pornpics.com/galleries/brunette-chick-marcelin-abadir-gets-fucked-in-the-ass-while-wearing-socks-11021931/
+lynx -dump https://www.pornpics.com/galleries/brunette-chick-marcelin-abadir-gets-fucked-in-the-ass-while-wearing-socks-11021931/|grep 'jpg$'
+lynx -dump https://www.pornpics.com/galleries/brunette-chick-marcelin-abadir-gets-fucked-in-the-ass-while-wearing-socks-11021931/|grep 'jpg$'|awk '{print $NF}'
+lynx -dump https://www.pornpics.com/galleries/brunette-chick-marcelin-abadir-gets-fucked-in-the-ass-while-wearing-socks-11021931/|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://www.pornpics.com/galleries/kinky-teen-marcelin-abadir-leans-on-a-wall-and-takes-a-dick-from-behind-82163352/|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://www.pornpics.com/galleries/little-nympho-marcelin-abadir-getting-anally-banged-in-the-bathroom-12314498/|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://www.pornpics.com/galleries/pornstar-with-a-fantastic-ass-marcelin-abadir-takes-a-dick-in-her-asshole-97914611/|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://www.pornpics.com/galleries/little-pornstar-marcelin-abadir-gets-analized-doggystyle-in-her-gaming-chair-10206681/|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://www.pornpics.com/galleries/teen-with-pink-hair-marcelin-abadir-gets-her-asshole-rammed-after-giving-head-60202337/|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://www.babepedia.com/babe/Esa_Dicen|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+echo https://babesource.com/galleries/valentina-nappi-tushy-198389.html >> inp1 
+lynx -dump https://babesource.com/galleries/valentina-nappi-tushy-198389.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+echo https://babesource.com/galleries/valentina-nappi-big-butts-like-it-big-118430.html >> inp1 
+lynx -dump https://babesource.com/galleries/valentina-nappi-big-butts-like-it-big-118430.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+echo https://babesource.com/galleries/valentina-nappi-badoink-vr-115261.html >> inp1 
+lynx -dump https://babesource.com/galleries/valentina-nappi-badoink-vr-115261.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+echo https://babesource.com/galleries/valentina-nappi-rk-prime-70022.html >> inp1 
+lynx -dump https://babesource.com/galleries/valentina-nappi-rk-prime-70022.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+echo https://babesource.com/galleries/valentina-nappi-spizoo-37192.html >> inp1 
+lynx -dump https://babesource.com/galleries/valentina-nappi-spizoo-37192.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+echo https://babesource.com/galleries/valentina-nappi-the-new-metro-zishy-22438.html >> inp1 
+lynx -dump https://babesource.com/galleries/valentina-nappi-the-new-metro-zishy-22438.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/naomi-swann-my-sexy-little-stepdaughter-5-84569.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-als-scan-140767.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-teamskeet-x-my-best-sex-life-168128.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-my-family-pies-146025.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-bratty-sis-140420.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-atk-galleria-139900.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-girl-cum-140130.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-anal-4k-137053.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-nubiles-8-145986.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-nubiles-5-145686.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/veronica-church-the-cute-little-babysitter-13-141694.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/freya-von-doom-oops-family-204705.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/freya-von-doom-vr-bangers-199889.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/freya-von-doom-als-scan-181661.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/freya-von-doom-als-scan-129071.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/freya-von-doom-freeuse-fantasy-122630.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/lou-laine-karup-s-hometown-amateurs-1-133088.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/ellie-eilish-only-teen-blowjobs-70691.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/ellie-eilish-family-strokes-79113.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/ellie-eilish-als-scan-80326.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/meloni-moon-atk-galleria-104944.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/meloni-moon-daddy-s-favorite-3-109905.html|grep 'jpg$'|awk '{print $NF}' >> inp1
+s
+ls
+rm -rf pix-fl.phncdn.com/ www.pornhub.com/ babesource.com/ ei.phncdn.com/
+lynx -dump https://babesource.com/pornstars/lucy-foxx-2-15316/ |grep -i explo
+vi inp
+vi inp1
+vi inp1
+vi inp1
+lynx -dump https://babesource.com/galleries/olivia-madison-married-cheating-129001.html|grep jpg
+vi inp1
+less inp
+vp inp inped
+cp inp inped
+vi inped 
+cat inped |while read i;do grep $i inp1;done
+vi inped 
+ls
+pwd
+cd ../..
+info history
+help history
