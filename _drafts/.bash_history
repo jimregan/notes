@@ -1,10 +1,3 @@
-wc -l temp-file-list 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/stories/boerinanna/ https://www.instagram.com/boerinanna
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/kulakova_po/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/annacramling/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/babamyaso/ https://www.instagram.com/mash_chere/ https://www.instagram.com/amaliesnolos/ https://www.instagram.com/nastya_sportik_/ https://www.instagram.com/isabelvangelder/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/anna_markusson/ https://www.instagram.com/charlottecardin/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/marta_surnik/ https://www.instagram.com/stories/marlucas/ https://www.instagram.com/stories/ilonarsentieva/3939597474921435561/ https://www.instagram.com/stories/ilonarsentieva/3939603094984054045/ https://www.instagram.com/stories/ilonarsentieva/3939604808469021315/ https://www.instagram.com/stories/ilonarsentieva/3939605463457157394/ https://www.instagram.com/stories/ilonarsentieva/3939734225220525659/ https://www.instagram.com/stories/miloutamara/ https://www.instagram.com/stories/carina/ https://www.instagram.com/stories/kat_safarova/ https://www.instagram.com/stories/sogoyasha/ https://www.instagram.com/stories/officiallizsanchez/3939761636361867002/ https://www.instagram.com/stories/tabithatempler/ https://www.instagram.com/stories/saracrumbleleg/ https://www.instagram.com/stories/willow.hand/ https://www.instagram.com/stories/mariabiosca2/ https://www.instagram.com/stories/kerina.wang/ https://www.instagram.com/stories/kate___marko/ https://www.instagram.com/stories/geroinoviy90shik/ 
 du -sh gallery-dl/
 grep varga temp-file-list 
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/ineartagaveytia/
@@ -498,3 +491,10 @@ rm /Users/joregan/Downloads/filesx.zip
 git diff
 git status
 git diff
+cd ~/Playing/work-2026/
+git add writing/
+git commit -m more
+git add writing/
+git commit -m more
+git add writing/
+git commit -m chatgpt
