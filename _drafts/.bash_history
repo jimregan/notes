@@ -165,3 +165,7 @@ git add gemma4_ocr.py
 git commit -m 'fix fallback prompt'
 git branch
 git push origin g4ocr 
+pwd
+ls
+code
+claude 
