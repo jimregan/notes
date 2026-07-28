@@ -1,8 +1,3 @@
-grep charity.grace temp-file-list 
-grep sarell temp-file-list 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
-grep vargagretapszichologus temp-file-list 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/gittamol/3938202646020400526/  https://www.instagram.com/stories/zsigmond_angii/ https://www.instagram.com/stories/vladasoloviova/ https://www.instagram.com/stories/katiestatonfitness/ https://www.instagram.com/reel/DQuZiP4juQO/ https://www.instagram.com/p/DTNmBXwCLDQ/  https://www.instagram.com/skyshowtimehu/reel/DXRbDC_kYZW/ https://www.instagram.com/skyshowtimehu/p/DUELjIWATnc/ https://www.instagram.com/skyshowtimehu/p/DT4ztKQkkVI/ https://www.instagram.com/skyshowtimehu/reel/DT3abfZimx6/ https://www.instagram.com/francescaoxuereb/ 
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new )
 gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/skyshowtimehu/reel/DCHxAeZuVHk/ https://www.instagram.com/p/DS74HLSk0ub/ https://www.instagram.com/karolinabajcer6/reel/DJ9wBEGIHFv/ https://www.instagram.com/karolinabajcer6/reel/DJ2GcCiulYk/ https://www.instagram.com/karolinabajcer6/reel/DJuZ1WruBzV/ https://www.instagram.com/karolinabajcer6/reel/DKKNcoSIWWQ/ https://www.instagram.com/lini.klein_/ https://www.instagram.com/reel/DWbEf_VsjQG/ 
 gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/nikkkihawkes/ https://www.instagram.com/stories/cassadvantures/ https://www.instagram.com/reel/DTkS-OqjUfp/ https://www.instagram.com/reel/DTsHWxjDQ5O/ https://www.instagram.com/reel/DS0x_sNDPuz/ https://www.instagram.com/irynabondar017/ https://www.instagram.com/your_master2705/ https://www.instagram.com/stories/your_master2705/ https://www.instagram.com/stories/thewarwickreport/ 
@@ -498,3 +493,8 @@ rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
 rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
 rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
 rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
+cd ~/Playing/notes/_drafts/
+grep 2204.02697 tabs_*
+vi tabs_7 
+git add tabs_7 
+git commit -m more
