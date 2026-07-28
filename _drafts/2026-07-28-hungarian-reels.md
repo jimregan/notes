@@ -1195,21 +1195,270 @@ possible    emergency     case-3SG.POSS-SUP
 
 [Reel](https://www.instagram.com/reels/DanrX0oq4eW/)
 
-Top 5 AI eszköz 2026-ban.
-[00:00.000 --> 00:03.740]  Top 5 AI eszköz, amit sokkal többet kellene használnod 2026-ban.
-[00:03.980 --> 00:05.980]  ChatGPT 5. Mire használd?
-[00:06.020 --> 00:07.980]  Napi kérdések, brainstorming, ötletelés.
-[00:08.240 --> 00:11.240]  Viszont 2026-ban ennél már vannak sokkal jobb eszközök is.
-[00:11.560 --> 00:13.780]  Perplexity 4. Mire használd?
-[00:14.060 --> 00:16.740]  Ez a Google-nek a helyettesítője, hogyha gyors fact-check kell,
-[00:17.060 --> 00:19.900]  nem kell 20 oldalt megnyitnot, gyors és jó alkalmazás.
-[00:20.160 --> 00:22.220]  Notion 3. Mire használd?
-[00:22.520 --> 00:25.500]  Rendszerezésre, cheklistek, content naptárak, projektek, ötletek.
-[00:25.840 --> 00:27.360]  Nem kreatív, hanem rendet rak.
-[00:27.360 --> 00:28.600]  Gamma 2. Hely.
-[00:28.600 --> 00:30.400]  A PowerPoint-nak a helyettesítője.
-[00:30.640 --> 00:33.980]  Nem kell a prezentációkkal szenvedned, kettő perc alatt profi anyagot kapsz.
-[00:34.200 --> 00:39.640]  Az első helyen pedig Proactory, amivel vizuálokat, reklámokat, videókat és képeket is kaphatsz.
-[00:39.900 --> 00:42.400]  Gyors, skálázható és hirdetés kompatibilis is.
-[00:42.600 --> 00:46.660]  Azt fontos megjegyezni, hogy néhány alkalmazásnál a magyar nyelv csak korlátozottan érhető el.
-[00:47.000 --> 00:50.720]  Kommenteld, hogy AI, és elküldjük a rövid leírását, hogy hogyan működnek ezek az appok!
+The reel itself gives the name as **Proactory**, so I have preserved that. I could not identify a tool by that name whose stated purpose matches the description; **Proactor** is a separate meeting-recording and transcription application. ([Instagram][1])
+
+**Top 5 AI-eszköz 2026-ban.**
+
+The top five AI tools in 2026.
+
+```text
+Top  5  AI-eszköz  2026-ban.
+top  five AI-tool  2026-INE
+```
+
+**Top 5 AI-eszköz, amit sokkal többet kellene használnod 2026-ban.**
+
+The top five AI tools that you should be using much more in 2026.
+
+```text
+Top  5  AI-eszköz,  ami-t    sok-kal
+top  five AI-tool   REL-ACC  much-INST
+
+több-et   kell-ene       használ-n-od
+more-ACC  must-COND.3SG  use-INF-2SG
+
+2026-ban.
+2026-INE
+```
+
+**ChatGPT: 5. hely. Mire használd?**
+
+ChatGPT: fifth place. What should you use it for?
+
+```text
+ChatGPT:  5.     hely.   Mi-re
+ChatGPT   fifth  place   what-SBL
+
+használ-d?
+use-IMP.2SG.DEF
+```
+
+**Napi kérdések, brainstorming, ötletelés.**
+
+Everyday questions, brainstorming and generating ideas.
+
+```text
+Nap-i    kérdés-ek,  brainstorming,
+day-ADJ  question-PL brainstorming
+
+ötlet-el-és.
+idea-VBZ-NMLZ
+```
+
+**Viszont 2026-ban ennél már vannak sokkal jobb eszközök is.**
+
+However, in 2026 there are already much better tools than this.
+
+```text
+Viszont  2026-ban  en-nél    már
+however  2026-INE  this-ADE  already
+
+van-nak  sok-kal    jobb   eszköz-ök  is.
+be-3PL   much-INST  better  tool-PL   also
+```
+
+**Perplexity: 4. hely. Mire használd?**
+
+Perplexity: fourth place. What should you use it for?
+
+```text
+Perplexity:  4.      hely.   Mi-re
+Perplexity   fourth  place   what-SBL
+
+használ-d?
+use-IMP.2SG.DEF
+```
+
+**Ez a Google-nek a helyettesítője, hogyha gyors fact-check kell.**
+
+This is a substitute for Google when you need a quick fact-check.
+
+```text
+Ez    a    Google-nek  a    helyettesítő-je,
+this  the  Google-DAT  the  substitute-3SG.POSS
+
+hogyha  gyors  fact-check  kell.
+if      quick  fact-check  be.needed.3SG
+```
+
+**Nem kell húsz oldalt megnyitnod; gyors és jó alkalmazás.**
+
+You do not need to open twenty pages; it is a quick and good application.
+
+```text
+Nem  kell       húsz    oldal-t   meg-nyit-n-od;
+NEG  be.needed  twenty  page-ACC  PV-open-INF-2SG
+
+gyors  és   jó    alkalmazás.
+quick  and  good  application
+```
+
+**Notion: 3. hely. Mire használd?**
+
+Notion: third place. What should you use it for?
+
+```text
+Notion:  3.     hely.   Mi-re
+Notion   third  place   what-SBL
+
+használ-d?
+use-IMP.2SG.DEF
+```
+
+**Rendszerezésre, checklistekre, contentnaptárakra, projektekre, ötletekre.**
+
+For organising, checklists, content calendars, projects and ideas.
+
+```text
+Rendszerez-és-re,  checklist-ek-re,
+organise-NMLZ-SBL   checklist-PL-SBL
+
+content-naptár-ak-ra,  projekt-ek-re,
+content-calendar-PL-SBL project-PL-SBL
+
+ötlet-ek-re.
+idea-PL-SBL
+```
+
+**Nem kreatív, hanem rendet rak.**
+
+It is not creative; it puts things in order.
+
+```text
+Nem  kreatív,  hanem       rend-et
+NEG  creative  but.rather  order-ACC
+
+rak.
+put.3SG
+```
+
+**Gamma: 2. hely.**
+
+Gamma: second place.
+
+```text
+Gamma:  2.      hely.
+Gamma   second  place
+```
+
+**A PowerPointnak a helyettesítője.**
+
+It is a substitute for PowerPoint.
+
+```text
+A    PowerPoint-nak  a    helyettesítő-je.
+the  PowerPoint-DAT  the  substitute-3SG.POSS
+```
+
+**Nem kell a prezentációkkal szenvedned; kettő perc alatt profi anyagot kapsz.**
+
+You do not need to struggle with presentations; you get professional material in two minutes.
+
+```text
+Nem  kell       a    prezentáció-k-kal
+NEG  be.needed  the  presentation-PL-INST
+
+szenved-n-ed;     kettő  perc  alatt
+struggle-INF-2SG  two    minute under
+
+profi         anyag-ot      kap-sz.
+professional  material-ACC  get-2SG.INDF
+```
+
+**Az első helyen pedig Proactory, amivel vizuálokat, reklámokat, videókat és képeket is kaphatsz.**
+
+And in first place is Proactory, with which you can get visuals, advertisements, videos and images.
+
+```text
+Az   első  hely-en  pedig  Proactory,
+the  first place-SUP while Proactory
+
+ami-vel   vizuál-ok-at,  reklám-ok-at,
+REL-INST  visual-PL-ACC  advertisement-PL-ACC
+
+videó-k-at  és   kép-ek-et  is
+video-PL-ACC and  image-PL-ACC also
+
+kap-hat-sz.
+get-POT-2SG
+```
+
+**Gyors, skálázható és hirdetéskompatibilis is.**
+
+It is quick, scalable and also suitable for advertising.
+
+```text
+Gyors,  skáláz-ható      és
+quick   scale-POT.PTCP   and
+
+hirdetés-kompatibilis  is.
+advertising-compatible also
+```
+
+**Azt fontos megjegyezni, hogy néhány alkalmazásnál a magyar nyelv csak korlátozottan érhető el.**
+
+It is important to note that with some applications, Hungarian is available only to a limited extent.
+
+```text
+Az-t      fontos     meg-jegyez-ni,  hogy
+that-ACC  important  PV-note-INF     that
+
+néhány  alkalmazás-nál  a    magyar
+some    application-ADE the  Hungarian
+
+nyelv      csak  korlátoz-ott-an
+language  only  restrict-PTCP-ADV
+
+ér-hető        el.
+reach-POT.PTCP PV
+```
+
+**Kommenteld, hogy „AI”, és elküldjük a rövid leírását annak, hogy hogyan működnek ezek az appok!**
+
+Comment “AI,” and we will send you a brief description of how these apps work.
+
+```text
+Kommentel-d,      hogy  AI,  és
+comment-IMP.2SG.DEF that AI   and
+
+el-küld-jük      a    rövid  leírás-á-t
+PV-send-1PL.DEF  the  brief  description-3SG.POSS-ACC
+
+an-nak,    hogy  hogyan  működ-nek
+that-DAT   that  how     function-3PL
+
+ez-ek     az   app-ok!
+this-PL   the  app-PL
+```
+
+## A2 vocabulary
+
+* **eszköz** — tool
+* **sokkal többet** — much more
+* **mire használ valamit?** — what does one use something for?
+* **napi kérdés** — everyday question
+* **ötletelés** — brainstorming; generating ideas
+* **ennél jobb** — better than this
+* **helyettesítő** — substitute; replacement
+* **gyors ellenőrzés** — quick check
+* **oldalt megnyit** — open a webpage
+* **alkalmazás** — application; app
+* **rendszerezés** — organising
+* **checklist** — checklist
+* **tartalomnaptár** — content calendar
+* **rendet rak** — put things in order
+* **prezentáció** — presentation
+* **szenved valamivel** — struggle with something
+* **két perc alatt** — within two minutes
+* **profi anyag** — professional material
+* **első helyen** — in first place
+* **vizuál** — visual asset
+* **reklám** — advertisement
+* **skálázható** — scalable
+* **korlátozottan** — to a limited extent
+* **elérhető** — available; accessible
+* **fontos megjegyezni** — it is important to note
+* **rövid leírás** — brief description
+* **hogyan működik?** — how does it work?
+
+[1]: https://www.instagram.com/reel/DanrX0oq4eW/?utm_source=chatgpt.com "Top 5 AI Eszköz 2026-ban 🥳 Chat GPT mellett érdemes ..."
