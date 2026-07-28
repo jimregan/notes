@@ -175,3 +175,10 @@ less sbt24
 git log sbt24 
 rm sbt24 
 ls
+git diff
+git add gemma4_ocr.py 
+git commit -m 'more verbose error messages'
+git diff
+git status
+git branch
+git push origin g4ocr 
