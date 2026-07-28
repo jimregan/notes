@@ -144,3 +144,7 @@ ffplay ~/Playing/instascr/gallery-dl/instagram/delneevelin/3907836216496939077.m
 mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu ~/Playing/instascr/gallery-dl/instagram/turbulenciatamival/3894596788353000266.mp4
 ffplay ~/Playing/instascr/gallery-dl/instagram/turbulenciatamival/3894596788353000266.mp4
 less ~/rd_ctm_edit/H201CU12 
+cd ~/Playing/sync_asr/
+ls
+claude 
+ls /tmp
