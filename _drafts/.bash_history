@@ -483,3 +483,4 @@ git commit -m more
 vi sourceme.sh 
 vi id_mapping 
 vi id_mapping 
+tail ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs 
