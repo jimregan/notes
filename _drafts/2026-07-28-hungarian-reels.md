@@ -719,39 +719,474 @@ the  water-ELA
 
 [Reel](https://www.instagram.com/reels/DaXQvYoqX_N/)
 
-[00:00.000 --> 00:04.520]  A kerekes székesutasok nemhogy járni tanulnak meg landolás végén, hanem egyenesen futni.
-[00:04.860 --> 00:08.000]  Ezt a csodát légiutas-kísérőként mind megtapasztalhattuk már.
-[00:08.160 --> 00:10.500]  A kerekesszékes utasoknak három típusok van.
-[00:10.920 --> 00:13.440]  Van a WCHC, wheelchair cabin.
-[00:14.520 --> 00:17.240]  Ő a mozgásában teljesen korlátozott, nem tud járni,
-[00:17.680 --> 00:22.160]  személyzeti segítséget igényel ahhoz is, hogy a székébe beleüljön.
-[00:22.160 --> 00:24.880]  Van a WCHS, a wheelchair steps.
-[00:24.880 --> 00:30.000]  Ez az utas nem tud lépcsőzni, a székéig el tud sétálni magától és bele tud ülni,
-[00:30.160 --> 00:34.860]  de általában segítség szükséges neki ahhoz, hogy a terminálon belül mozogjon.
-[00:35.220 --> 00:37.760]  És akkor itt jönnek a csodák. Van a WCHR.
-[00:38.200 --> 00:40.220]  A WCHR a wheelchair rampa.
-[00:40.560 --> 00:46.960]  Ez az utas kisebb távolságokat még tud járni, de már a hosszabb, nagyobb távolságok nehézséget okoznak neki.
-[00:47.040 --> 00:51.920]  De általában önállóan el tud jutni a székéig és a folyosón is tud önállóan mászkálni.
-[00:51.920 --> 00:54.840]  Ez az a szolgáltatás, amit bárki kérhet arra hivatkozva,
-[00:54.880 --> 00:58.440]  hogy Ő nem tud hosszabb távolságokat megtenni.
-[00:58.800 --> 01:00.380]  És egyébként ezzel nincs is semmi baj.
-[01:00.820 --> 01:03.960]  Vannak azok is, és szerintem ez is teljesen normális,
-[01:04.100 --> 01:09.720]  akik azért kérik ezt a szolgáltatást, mert idősek, vagy csak nem akarnak elveszni,
-[01:09.820 --> 01:13.780]  nem értik a nyelvet. Vannak óriási repterek a világon,
-[01:13.860 --> 01:17.720]  ahol tényleg könnyű elveszni, főleg, hogyha az ember először jár repülőtéren,
-[01:18.080 --> 01:20.300]  és hogyha már idősebb is vagy. Nem beszélsz angolul,
-[01:20.300 --> 01:24.480]  akkor teljesen egyértelmű, és szerintem teljesen jogos kérni ezt a szolgáltatást.
-[01:24.480 --> 01:31.060]  És nagyon hasznos, mert úgy mert ilyenkor a check-intől kezdve jön egy úriember,
-[01:31.220 --> 01:34.660]  aki végigtól egy tolószékkel az egész terminálon.
-[01:35.380 --> 01:40.720]  Priorityt is élvezel, tehát nem kell végigvárni a biztonsági ellenőrzést satobbi,
-[01:40.720 --> 01:44.400]  és egészen a gépajtóig elvisz, és ott megmutatják a helyedet.
-[01:44.820 --> 01:47.100]  Viszont vannak ezek a bizonyos USA járatok.
-[01:47.240 --> 01:49.640]  Mellesleg az USA járatok indiaiakkal vannak tele,
-[01:50.340 --> 01:53.460]  Megérkezik 20 wheelchaires tolószékes,
-[01:53.460 --> 01:58.200]  majd amikor landolunk, hirtelen ebből csak 5 marad.
-[01:58.440 --> 02:02.260]  Mi a probléma azzal, hogyha valaki jogosulatlanul kéri ezt a tolószéket?
-[02:02.660 --> 02:08.220]  Egyrészt a reptereken véges számú tolószék és személyzet kísérő személyzet van erre,
-[02:08.300 --> 02:13.800]  másrészt tegyük fel a repülőgépen egy vészhelyzeti eset adódik,
-[02:15.800 --> 02:19.580]  és vannak akik tényleg rászorulnak segítségre, és vannak akik nem,
-[02:19.580 --> 02:23.360]  És a személyzet így nem fogja tudni, hogy ki az, akinek tényleg segítségre
-[02:23.460 --> 02:25.740]  van szüksége egy esetleges vészhelyzet esetén.
+**A kerekesszékes utasok nemhogy járni tanulnak meg a landolás végén, hanem egyenesen futni.**
+
+Wheelchair passengers not only learn to walk by the end of the landing, but actually to run.
+
+```text
+A    kerekes-szék-es  utas-ok      nemhogy  jár-ni
+the  wheel-chair-ADJ  passenger-PL  not.only walk-INF
+
+tanul-nak     meg  a    landolás  vég-é-n,
+learn-3PL     PV   the  landing   end-3SG.POSS-SUP
+
+hanem       egyenes-en  fut-ni.
+but.rather  straight-ADV run-INF
+```
+
+**Ezt a csodát légiutas-kísérőként mind megtapasztalhattuk már.**
+
+As flight attendants, we have all experienced this miracle before.
+
+```text
+Ez-t      a    csodá-t  légiutas-kísérő-ként
+this-ACC  the  miracle-ACC flight.attendant-ESS
+
+mind  meg-tapasztal-hat-t-uk      már.
+all   PV-experience-POT-PST-1PL.DEF already
+```
+
+**A kerekesszékes utasoknak három típusa van.**
+
+There are three types of wheelchair passenger.
+
+```text
+A    kerekes-szék-es  utas-ok-nak
+the  wheel-chair-ADJ  passenger-PL-DAT
+
+három  típus-a        van.
+three  type-3SG.POSS  be.3SG
+```
+
+**Van a WCHC, wheelchair cabin.**
+
+There is WCHC, “wheelchair cabin.”
+
+```text
+Van     a    WCHC,  wheelchair_cabin.
+be.3SG  the  WCHC   wheelchair_cabin
+```
+
+**Ő a mozgásában teljesen korlátozott, nem tud járni.**
+
+This passenger has completely restricted mobility and cannot walk.
+
+```text
+Ő    a    mozgás-á-ban       teljes-en
+3SG  the  movement-3SG.POSS-INE complete-ADV
+
+korlátoz-ott,  nem  tud       jár-ni.
+restrict-PTCP  NEG  can.3SG   walk-INF
+```
+
+**Személyzeti segítséget igényel ahhoz is, hogy a székébe beleüljön.**
+
+They require assistance from the crew even to sit down in their seat.
+
+```text
+Személyzet-i  segítség-et  igényel
+crew-ADJ      help-ACC     require.3SG
+
+ah-hoz    is,    hogy  a    szék-é-be
+that-ALL  also   that  the  seat-3SG.POSS-ILL
+
+bele-ül-j-ön.
+into-sit-SBJV-3SG
+```
+
+**Van a WCHS, a wheelchair steps.**
+
+There is WCHS, “wheelchair steps.”
+
+```text
+Van     a    WCHS,  a    wheelchair_steps.
+be.3SG  the  WCHS   the  wheelchair_steps
+```
+
+**Ez az utas nem tud lépcsőzni, a székéig el tud sétálni magától, és bele tud ülni.**
+
+This passenger cannot use stairs, but can walk to their seat by themselves and sit down in it.
+
+```text
+Ez    az   utas      nem  tud      lépcső-z-ni,
+this  the  passenger NEG  can.3SG  stair-VBZ-INF
+
+a    szék-é-ig          el  tud      sétál-ni
+the  seat-3SG.POSS-TERM  PV  can.3SG  walk-INF
+
+magá-tól,      és   bele  tud      ül-ni.
+self.3SG-DEL   and  into  can.3SG  sit-INF
+```
+
+**De általában segítség szükséges neki ahhoz, hogy a terminálon belül mozogjon.**
+
+But they generally need assistance to move around within the terminal.
+
+```text
+De   általá-ban  segítség  szükség-es
+but  general-INE help      necessary-ADJ
+
+nek-i   ah-hoz,    hogy  a    terminál-on
+DAT-3SG that-ALL   that  the  terminal-SUP
+
+belül   mozog-j-on.
+within  move-SBJV-3SG
+```
+
+**És akkor itt jönnek a csodák. Van a WCHR.**
+
+And this is where the miracles begin. There is WCHR.
+
+```text
+És  akkor  itt   jön-nek      a    csodá-k.
+and  then   here  come-3PL     the  miracle-PL
+
+Van     a    WCHR.
+be.3SG  the  WCHR
+```
+
+**A WCHR a wheelchair ramp.**
+
+WCHR means “wheelchair ramp.”
+
+```text
+A    WCHR  a    wheelchair_ramp.
+the  WCHR  the  wheelchair_ramp
+```
+
+**Ez az utas kisebb távolságokat még tud járni, de a hosszabb, nagyobb távolságok már nehézséget okoznak neki.**
+
+This passenger can still walk shorter distances, but longer, greater distances cause them difficulty.
+
+```text
+Ez    az   utas      kis-ebb     távolság-ok-at
+this  the  passenger small-CMPR  distance-PL-ACC
+
+még    tud      jár-ni,   de   a    hossz-abb,
+still  can.3SG  walk-INF  but  the  long-CMPR
+
+nagy-obb     távolság-ok  már
+big-CMPR     distance-PL  already
+
+nehézség-et  okoz-nak     nek-i.
+difficulty-ACC cause-3PL   DAT-3SG
+```
+
+**De általában önállóan el tud jutni a székéig, és a folyosón is tud önállóan mászkálni.**
+
+But they can generally reach their seat independently and can also move around the aisle by themselves.
+
+```text
+De   általá-ban  önálló-an    el  tud
+but  general-INE independent-ADV PV can.3SG
+
+jut-ni     a    szék-é-ig,         és   a
+reach-INF  the  seat-3SG.POSS-TERM and  the
+
+folyosó-n  is    tud      önálló-an
+aisle-SUP  also  can.3SG  independent-ADV
+
+mászkál-ni.
+walk.around-INF
+```
+
+**Ez az a szolgáltatás, amit bárki kérhet arra hivatkozva, hogy ő nem tud hosszabb távolságokat megtenni.**
+
+This is the service that anyone may request by claiming that they cannot cover longer distances.
+
+```text
+Ez    az   a    szolgáltatás,  ami-t    bárki
+this  the  the  service        REL-ACC  anyone
+
+kér-het       ar-ra      hivatkoz-va,
+request-POT   that-SBL   refer-CVB
+
+hogy  ő    nem  tud      hossz-abb
+that  3SG  NEG  can.3SG  long-CMPR
+
+távolság-ok-at  meg-ten-ni.
+distance-PL-ACC PV-do-INF
+```
+
+**És egyébként ezzel nincs is semmi baj.**
+
+And there is actually nothing wrong with this.
+
+```text
+És  egyébként  ez-zel    nincs      is
+and  incidentally this-INST NEG.be.3SG also
+
+semmi    baj.
+nothing  problem
+```
+
+**Vannak azok is – és szerintem ez is teljesen normális –, akik azért kérik ezt a szolgáltatást, mert idősek, vagy csak nem akarnak elveszni, nem értik a nyelvet.**
+
+There are also those—and I think this is completely normal—who request this service because they are elderly, or simply do not want to get lost and do not understand the language.
+
+```text
+Van-nak  az-ok     is,    és   szerint-em
+be-3PL   that-PL   also   and  according.to-1SG
+
+ez    is    teljes-en  normális,  aki-k
+this  also  complete-ADV normal   REL-PL
+
+azért      kér-ik       ez-t      a
+for.that   request-3PL.DEF this-ACC the
+
+szolgáltatás-t,  mert     idős-ek,  vagy
+service-ACC      because  elderly-PL or
+
+csak  nem  akar-nak  el-vesz-ni,
+only  NEG  want-3PL  PV-get.lost-INF
+
+nem  ért-ik       a    nyelv-et.
+NEG  understand-3PL.DEF the language-ACC
+```
+
+**Vannak óriási repterek a világon, ahol tényleg könnyű elveszni.**
+
+There are enormous airports in the world where it is genuinely easy to get lost.
+
+```text
+Van-nak  óriási  reptér-ek  a    világ-on,
+be-3PL   enormous airport-PL the  world-SUP
+
+ahol   tényleg  könnyű  el-vesz-ni.
+where  really   easy    PV-get.lost-INF
+```
+
+**Főleg, hogyha az ember először jár repülőtéren, és hogyha már idősebb is vagy, nem beszélsz angolul.**
+
+Especially if someone is visiting an airport for the first time, and if you are also elderly and do not speak English.
+
+```text
+Főleg       hogyha  az   ember   elő-ször
+especially  if      the  person  first-time
+
+jár          repülőtér-en,  és   hogyha  már
+visit.3SG    airport-SUP    and  if      already
+
+idős-ebb     is    vagy,    nem  beszél-sz
+elderly-CMPR also  be.2SG   NEG  speak-2SG
+
+angol-ul.
+English-ADV
+```
+
+**Akkor teljesen egyértelmű, és szerintem teljesen jogos kérni ezt a szolgáltatást.**
+
+Then it is completely understandable, and I think it is entirely justified to request this service.
+
+```text
+Akkor  teljes-en  egyértelmű,  és
+then   complete-ADV clear        and
+
+szerint-em       teljes-en  jogos
+according.to-1SG complete-ADV justified
+
+kér-ni       ez-t      a    szolgáltatás-t.
+request-INF  this-ACC  the  service-ACC
+```
+
+**És nagyon hasznos, mert ilyenkor a check-intől kezdve jön egy úriember, aki végigtol egy tolószékkel az egész terminálon.**
+
+And it is very useful, because in such cases, from check-in onwards, a gentleman comes and pushes you in a wheelchair all the way through the terminal.
+
+```text
+És  nagyon  hasznos,  mert     ilyen-kor
+and very    useful    because   such-TEMP
+
+a    check-in-től  kezd-ve  jön
+the  check-in-DEL  begin-CVB come.3SG
+
+egy  úriember,  aki  végig-tol
+a    gentleman  REL  through-push.3SG
+
+egy  toló-szék-kel  az   egész  terminál-on.
+a    push-chair-INST the whole  terminal-SUP
+```
+
+**Priorityt is élvezel, tehát nem kell végigvárni a biztonsági ellenőrzést, satöbbi.**
+
+You also receive priority, so you do not have to wait through the security check, and so on.
+
+```text
+Priority-t  is    élvez-el,     tehát  nem
+priority-ACC also enjoy-2SG     so     NEG
+
+kell       végig-vár-ni  a    biztonság-i
+must.3SG   through-wait-INF the security-ADJ
+
+ellenőrzés-t,  satöbbi.
+inspection-ACC and.so.on
+```
+
+**És egészen a gépajtóig elvisz, és ott megmutatják a helyedet.**
+
+And they take you all the way to the aircraft door, and there they show you your seat.
+
+```text
+És  egészen  a    gép-ajtó-ig     el-visz,
+and all.the.way the aircraft-door-TERM PV-take.3SG
+
+és   ott    meg-mutat-já-k    a    hely-ed-et.
+and  there  PV-show-3PL.DEF   the  place-2SG.POSS-ACC
+```
+
+**Viszont vannak ezek a bizonyos USA-járatok.**
+
+However, there are these particular flights to the USA.
+
+```text
+Viszont  van-nak  ez-ek     a    bizonyos
+however  be-3PL   this-PL   the  particular
+
+USA-járat-ok.
+USA-flight-PL
+```
+
+**Mellesleg az USA-járatok indiaiakkal vannak tele.**
+
+Incidentally, flights to the USA are full of Indian passengers.
+
+```text
+Mellesleg   az   USA-járat-ok  india-i-ak-kal
+incidentally the USA-flight-PL India-ADJ-PL-INST
+
+van-nak  tele.
+be-3PL   full
+```
+
+**Megérkezik húsz wheelchaires, tolószékes utas, majd amikor landolunk, hirtelen ebből csak öt marad.**
+
+Twenty wheelchair passengers arrive, but when we land, suddenly only five of them remain.
+
+```text
+Meg-érkez-ik  húsz  wheelchair-es,
+PV-arrive-3SG twenty wheelchair-ADJ
+
+toló-szék-es  utas,      majd  amikor
+push-chair-ADJ passenger then  when
+
+landol-unk,  hirtelen  ez-ből    csak  öt
+land-1PL     suddenly  this-ELA  only  five
+
+marad.
+remain.3SG
+```
+
+**Mi a probléma azzal, hogyha valaki jogosulatlanul kéri ezt a tolószéket?**
+
+What is the problem if someone requests this wheelchair service without being entitled to it?
+
+```text
+Mi    a    probléma  az-zal,    hogyha  valaki
+what  the  problem   that-INST  if      someone
+
+jogosulatlan-ul  kér-i         ez-t      a
+unauthorised-ADV request-3SG.DEF this-ACC the
+
+toló-szék-et?
+push-chair-ACC
+```
+
+**Egyrészt a reptereken véges számú tolószék és kísérő személyzet van erre.**
+
+For one thing, airports have a limited number of wheelchairs and accompanying staff available for this.
+
+```text
+Egy-részt     a    reptér-ek-en  vég-es
+one-part.ADV  the  airport-PL-SUP end-ADJ
+
+szám-ú      toló-szék  és   kísér-ő
+number-PROP push-chair and  accompany-PTCP
+
+személyzet  van     er-re.
+staff       be.3SG  this-SBL
+```
+
+**Másrészt tegyük fel, hogy a repülőgépen egy vészhelyzet adódik.**
+
+Secondly, suppose that an emergency occurs on the aircraft.
+
+```text
+Más-részt     tegy-ük       fel,  hogy  a
+other-part.ADV put-IMP.1PL   PV    that  the
+
+repülőgép-en  egy  vész-helyzet  adód-ik.
+aircraft-SUP  an   emergency      arise-3SG
+```
+
+**És vannak, akik tényleg rászorulnak segítségre, és vannak, akik nem.**
+
+And there are people who genuinely require assistance, and others who do not.
+
+```text
+És  van-nak,  aki-k  tényleg  rá-szorul-nak
+and be-3PL   REL-PL really   PV-need-3PL
+
+segítség-re,  és   van-nak,  aki-k  nem.
+help-SBL     and  be-3PL   REL-PL NEG
+```
+
+**És a személyzet így nem fogja tudni, hogy ki az, akinek tényleg segítségre van szüksége egy esetleges vészhelyzet esetén.**
+
+And so the crew will not know who genuinely needs assistance in the event of a possible emergency.
+
+```text
+És  a    személyzet  így   nem  fog-ja
+and the  crew        thus  NEG  FUT-3SG.DEF
+
+tud-ni,  hogy  ki   az,   aki-nek  tényleg
+know-INF that  who  that  REL-DAT  really
+
+segítség-re  van     szükség-e  egy
+help-SBL     be.3SG  need-3SG.POSS a
+
+esetleges  vész-helyzet  eset-é-n.
+possible    emergency     case-3SG.POSS-SUP
+```
+
+## A2 vocabulary
+
+* **kerekesszékes** — wheelchair-using; in a wheelchair
+* **nemhogy…, hanem…** — not only…, but…
+* **megtapasztal** — experience
+* **mozgásában korlátozott** — mobility-impaired
+* **személyzeti segítség** — assistance from staff
+* **segítséget igényel** — require assistance
+* **lépcsőzik** — use or climb stairs
+* **magától** — by oneself
+* **terminálon belül** — within the terminal
+* **kisebb távolság** — shorter distance
+* **nehézséget okoz** — cause difficulty
+* **önállóan** — independently
+* **eljut valahová** — reach somewhere
+* **folyosó** — aisle; corridor
+* **szolgáltatás** — service
+* **arra hivatkozva, hogy…** — claiming that…; on the grounds that…
+* **távolságot megtesz** — cover a distance
+* **nincs vele semmi baj** — there is nothing wrong with it
+* **elveszik** — get lost
+* **óriási** — enormous
+* **először jár valahol** — visit somewhere for the first time
+* **jogos** — justified; legitimate
+* **a check-intől kezdve** — from check-in onwards
+* **végigtol** — push all the way through
+* **tolószék** — wheelchair
+* **elsőbbséget élvez** — receive priority
+* **biztonsági ellenőrzés** — security check
+* **egészen valamiig** — all the way to something
+* **gépajtó** — aircraft door
+* **mellesleg** — incidentally
+* **tele van valamivel** — be full of something
+* **jogosulatlanul** — without entitlement; without authorisation
+* **véges számú** — limited in number
+* **kísérő személyzet** — accompanying staff
+* **tegyük fel, hogy…** — suppose that…
+* **vészhelyzet** — emergency
+* **adódik** — arise; occur
+* **rászorul valamire** — be in genuine need of something
+* **esetleges** — possible; potential
+* **vészhelyzet esetén** — in the event of an emergency
