@@ -477,3 +477,9 @@ less regios
 rm regios 
 cd ..
 rm -rf 2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/
+cd ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/
+git add sourceme.sh 
+git commit -m more
+vi sourceme.sh 
+vi id_mapping 
+vi id_mapping 
