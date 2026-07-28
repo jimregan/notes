@@ -578,10 +578,139 @@ scold-INF
 
 [Reel](https://www.instagram.com/reels/DbVVp1IofIx/)
 
-[00:00.000 --> 00:04.960]  Rekord a Dunán. Soha nem volt még annyira alacsony a vízszint Budapesten, mint ma reggel.
-[00:05.420 --> 00:10.640]  Az Országos Vízügyi Igazgatóság szakemberei hajnalban harmincegy centimétert mértek,
-[00:11.140 --> 00:13.340]  eddig harminchárom centi volt a rekord.
-[00:13.700 --> 00:18.420]  Közben augusztusra megszűnhet az összefüggő vízfelület a Velencei-Tavon.
-[00:18.940 --> 00:23.160]  Erről az élő környezetért felelős minisztérium sajtófőnöke beszélt a Telexnek.
-[00:23.620 --> 00:28.320]  Orbán Zoltán szerint a következő hetekben akár húsz centire is csökkenhet a vízszint.
-[00:28.320 --> 00:33.840]  Arra készülnek, ha ez bekövetkezik, akkor halászattal mentik majd ki a halakat a vízből.
+**Rekord a Dunán.**
+
+A record on the Danube.
+
+```text
+Rekord  a    Duná-n.
+record  the  Danube-SUP
+```
+
+**Soha nem volt még annyira alacsony a vízszint Budapesten, mint ma reggel.**
+
+The water level in Budapest has never been as low as it was this morning.
+
+```text
+Soha   nem  volt         még  annyi-ra
+never  NEG  be.PST.3SG   yet  that.much-SBL
+
+alacsony  a    víz-szint  Budapest-en,
+low       the  water-level Budapest-SUP
+
+mint  ma     reggel.
+as    today  morning
+```
+
+**Az Országos Vízügyi Igazgatóság szakemberei hajnalban harmincegy centimétert mértek.**
+
+The experts from the National Directorate General for Water Management measured thirty-one centimetres at dawn.
+
+```text
+Az   Országos_Vízügyi_Igazgatóság
+the  National_Water_Directorate
+
+szakember-e-i          hajnal-ban
+expert-3SG.POSS-PL     dawn-INE
+
+harminc-egy  centiméter-t  mér-t-ek.
+thirty-one  centimetre-ACC measure-PST-3PL
+```
+
+**Eddig harminchárom centi volt a rekord.**
+
+Until now, the record had been thirty-three centimetres.
+
+```text
+Eddig      harminc-három  centi
+until.now  thirty-three   centimetre
+
+volt         a    rekord.
+be.PST.3SG   the  record
+```
+
+**Közben augusztusra megszűnhet az összefüggő vízfelület a Velencei-tavon.**
+
+Meanwhile, the continuous expanse of water on Lake Velence may disappear by August.
+
+```text
+Közben    augusztus-ra  meg-szűn-het
+meanwhile August-SBL    PV-cease-POT.3SG
+
+az   össze-függ-ő      víz-felület
+the  together-hang-PTCP water-surface
+
+a    Velencei-tav-on.
+the  Lake_Velence-SUP
+```
+
+**Erről az élő környezetért felelős minisztérium sajtófőnöke beszélt a Telexnek.**
+
+The press chief of the ministry responsible for the living environment spoke to Telex about this.
+
+```text
+Erről       az   élő     környezet-ért
+about.this  the  living  environment-CAUS
+
+felelős      minisztérium  sajtó-főnök-e
+responsible  ministry      press-chief-3SG.POSS
+
+beszél-t         a    Telex-nek.
+speak-PST.3SG    the  Telex-DAT
+```
+
+**Orbán Zoltán szerint a következő hetekben akár húsz centire is csökkenhet a vízszint.**
+
+According to Zoltán Orbán, the water level may fall to as little as twenty centimetres in the coming weeks.
+
+```text
+Orbán_Zoltán  szerint       a    következ-ő
+Orbán_Zoltán  according.to  the  follow-PTCP
+
+het-ek-ben  akár  húsz  centi-re   is
+week-PL-INE even  twenty centimetre-SBL also
+
+csökken-het       a    víz-szint.
+decrease-POT.3SG  the  water-level
+```
+
+**Arra készülnek, hogy ha ez bekövetkezik, akkor halászattal mentik majd ki a halakat a vízből.**
+
+They are preparing for the possibility that, if this happens, they will rescue the fish from the water by netting them.
+
+```text
+Ar-ra      készül-nek,      hogy  ha  ez
+that-SBL   prepare-3PL      that  if  this
+
+be-következ-ik,  akkor  halászat-tal
+PV-occur-3SG     then   fishing-INST
+
+ment-ik        majd  ki  a    hal-ak-at
+rescue-3PL.DEF FUT   PV  the  fish-PL-ACC
+
+a    víz-ből.
+the  water-ELA
+```
+
+## A2 vocabulary
+
+* **vízszint** — water level
+* **annyira alacsony** — so low
+* **szakember** — expert
+* **hajnalban** — at dawn
+* **mér** — measure
+* **eddig** — until now; so far
+* **közben** — meanwhile
+* **augusztusra** — by August
+* **megszűnik** — cease; disappear
+* **összefüggő** — continuous; unbroken
+* **vízfelület** — water surface; expanse of water
+* **felelős valamiért** — responsible for something
+* **sajtófőnök** — press chief
+* **a következő hetekben** — in the coming weeks
+* **akár** — even; as much or as little as
+* **csökken** — decrease; fall
+* **arra készül, hogy…** — prepare for the possibility that…
+* **bekövetkezik** — happen; occur
+* **halászat** — fishing
+* **kiment valamit valamiből** — rescue or remove something from something
