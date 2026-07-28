@@ -148,3 +148,9 @@ cd ~/Playing/sync_asr/
 ls
 claude 
 ls /tmp
+cd ~/Playing/
+mkdir corpus-build
+cd corpus-build/
+vi AGENTS.md
+claude 
+ls
