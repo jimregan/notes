@@ -186,3 +186,79 @@ scp sbtaldeep23:dockerfiles/gemma4-ocr/output2.zip .
 ls
 unzip -l output2.zip 
 unzip output2.zip 
+cd m1jun26/
+ls
+cd ../m14jun26/
+ls
+cd ..
+ls
+cd m14jun26/
+ls
+ls
+rm Sc-20260426T194304Z-3-001.zip.txt
+ls > ../list
+cd ..
+mkdir tmp
+cd tmp/
+£for i in cat ../list |do cp ../m14jun26/$i .; unzip $i; mv *~*
+mkdir crop
+for i in cat ../list |do cp ../m14jun26/$i .; unzip $i; mv *~* crop/; rm $i *jpg;done
+for i in cat ../list ;do cp ../m14jun26/$i .; unzip $i; mv *~* crop/; rm $i *jpg;done
+ls crop/
+ls 
+cat list 
+for i in $(cat list) ;do cp ../m14jun26/$i .; unzip $i; mv *~* crop/; rm $i *jpg;done
+ls
+rm list 
+cd ../
+ls
+ls m12feb26/
+cd m12feb26/
+ls S* > ../tmp/list
+cd -
+cd tmp/
+ls
+for i in $(cat list) ;do cp ../m12feb26/$i .; unzip $i; mv *~* crop/; rm $i *jpg;done
+ls
+ffplay PXL_20260502_213240320.LS.mp4 
+rm PXL_20260502_213240320.LS.mp4 
+ls
+ls crop/
+cd ..
+rm tmp/list 
+ls
+cd crop/
+ls
+ls *jpg|zip ../m14jun26/cr1.zip -@
+ls
+rm *jpg
+ls
+mv ../tmp/crop/* .
+rm /Users/joregan/backup/crop/PXL_20260304_223331036\~2.jpg /Users/joregan/backup/crop/PXL_20260304_223332136\~2.jpg 
+rm /Users/joregan/backup/crop/PXL_20260422_133537814\~2.jpg 
+cd ../tmp/
+ls
+for i in $(cat list) ;do cp ../m1jun26/$i .; unzip $i; mv *~* crop/; rm $i *jpg;done
+ls
+ls
+ls crop/|wc
+mv crop/* ../crop/
+rm /Users/joregan/backup/crop/PXL_20260603_222158962\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222159392\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222200265\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222201480\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222303591\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222348453\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222158033\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222157411\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222157078\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222353948\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222350503\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222349499\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222349034\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222354263\~2.jpg /Users/joregan/backup/crop/PXL_20260603_222354699\~2.jpg 
+pw
+pwd
+ls
+cd /tmp
+scp sbtaldeep23:storspigg-tbi-w'*'.zip .
+less ~/Playing/braxen/dict/braxen-sv.tsv 
+cd ~/Playing/work-2026/
+ls
+less gemma4_ocr.py 
+find . -name entrypoint.sh
+echo *ocr*
+ls falcon-pdf-ocr/
+cd falcon-pdf-ocr/
+ls
+git status
+ls
+less batch_ocr.py 
+caffeinate 
