@@ -1,8 +1,3 @@
-mlx_whisper --help
-mlx_whisper --model mlx-community/whisper-small --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3912775871210122362.mp4
-mlx_whisper --model mlx-community/whisper-large --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3912775871210122362.mp4
-mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3912775871210122362.mp4
-mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/adelmarki/3940503899306644627.mp4
 mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3898494853333610768.mp4
 mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/randivonal.hu/3922362236436658333.mp4
 unzip -l /Users/joregan/Downloads/WhatsApp\ Chat\ with\ Joe\ O\'Regan\,\ Jr..zip 
@@ -498,3 +493,8 @@ ls
 rm igxar.zip igxas.zip igxat.zip igxau.zip igxav.zip igxaw.zip igxax.zip igxay.zip igxaz.zip igxba.zip igxbb.zip igxbc.zip igxbd.zip 
 ls
 ls
+claude 
+ls
+git status
+less CODEBASE.md 
+rm CODEBASE.md 
