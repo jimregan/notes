@@ -573,3 +573,15 @@ scold-INF
 * **kézen fogás** — holding hands
 * **véleményt nyilvánít** — express an opinion
 * **utasokat szid** — insult or bad-mouth passengers
+
+---
+
+[Reel](https://www.instagram.com/reels/DbVVp1IofIx/)
+
+[00:00.000 --> 00:04.960]  Rekord a Dunán. Soha nem volt még annyira alacsony a vízszint Budapesten, mint ma reggel.
+[00:05.420 --> 00:10.640]  Az Országos Vízügyi Igazgatóság szakemberei hajnalban 31 centimétert mértek.
+[00:11.140 --> 00:13.340]  Eddig 33 centi volt a rekord.
+[00:13.700 --> 00:18.420]  Közben augusztusra megszűnhet az összefüggő vízfelület a Velencei Tavon.
+[00:18.940 --> 00:23.160]  Erről az élő környezetért felelős minisztérium sajtófőnöke beszélt a Telexnek.
+[00:23.620 --> 00:28.320]  Orbán Zoltán szerint a következő hetekben akár 20 centire is csökkenhet a vízszint.
+[00:28.320 --> 00:33.840]  Ha arra készülnek, ha ez bekövetkezik, akkor halászattal mentik majd ki a halakat a vízből.
