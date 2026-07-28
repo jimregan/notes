@@ -1,500 +1,500 @@
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/Dav0wN8RppV/ https://www.instagram.com/monayim.wav/ https://www.instagram.com/stories/monayim.wav/ 
-ffplay ./gallery-dl/instagram/monayim.wav/3940600210895837781.mp4
-ffplay ./gallery-dl/instagram/languagelockin/3885995243716013981.mp4
-cp ./gallery-dl/instagram/languagelockin/3885995243716013981.mp4 /tmp
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DalUniZtS3d/
-ffplay ./gallery-dl/instagram/emazon.official/3937644127133707741.mp4
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/Daf9BGahJ6R/
-ffplay ./gallery-dl/instagram/mandyrosebish/3936132955789106833.mp4
-ffplay ./gallery-dl/instagram/emazon.official/3937644127133707741.mp4
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DY7W6cVshSC/
-ffplay ./gallery-dl/instagram/nukutabu_nr1/3907817874855695490.mp4
-ffplay ./gallery-dl/instagram/nukutabu_nr1/3907817874855695490.mp4 -ss 106
-ffplay ./gallery-dl/instagram/nukutabu_nr1/3907817874855695490.mp4 -ss 107
-echo $PWD/gallery-dl/instagram/nukutabu_nr1/3907817874855695490.mp4 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DYZ64SWIWCI/ 
-ffplay gallery-dl/instagram/emazon.official/3898405907152855176.mp4
-ffplay gallery-dl/instagram/emazon.official/3898405907152855176.mp4
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DZHrcFdqMk2/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DZM-OyRMux6/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/Dave2syNtST/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/stories/adelmarki/ https://www.instagram.com/adelmarki/
-ffplay ./gallery-dl/instagram/adelmarki/3940503899306644627.mp4
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DYaPGn7o3EQ/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/stories/emazon.official/3940813019147709991/ https://www.instagram.com/emazon.official/ 
-ffplay ./gallery-dl/instagram/emazon.official/3898494853333610768.mp4
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DZAmSS8gctu/ https://www.instagram.com/hermi.na_you/reels/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/reels/DZvB6wnNrid/ https://www.instagram.com/hermi.na_you/
-gallery-dl --cookies-from-browser chrome --write-metadata   
-ffplay ./gallery-dl/instagram/emazon.official/3898494853333610768.mp4
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  https://www.instagram.com/stories/mandyrosebish/ https://www.instagram.com/mandyrosebish/ https://www.instagram.com/nayadison_/ https://www.instagram.com/stories/nayadison_/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/katharinanahlik/3941104836867409752/ https://www.instagram.com/stories/bruletova_/ https://www.instagram.com/stories/miller.om/ https://www.instagram.com/stories/anna.kondra/ https://www.instagram.com/stories/i.s.nesquik/ https://www.instagram.com/stories/sofia_maloletova/ https://www.instagram.com/stories/mr.s_kris/ https://www.instagram.com/stories/shipilovaks/ https://www.instagram.com/stories/marii212121/ https://www.instagram.com/stories/wiktoria_gasiewska/3941013638646678720/ https://www.instagram.com/stories/milevskate/ https://www.instagram.com/stories/masha_lobanovaa/ https://www.instagram.com/stories/veronika_chachyna/ https://www.instagram.com/stories/katesytsevich/ https://www.instagram.com/stories/katushalobanova/ https://www.instagram.com/stories/izabellakrzan/ https://www.instagram.com/stories/kraseczka/ https://www.instagram.com/stories/alexisren/3941267442595818876/ https://www.instagram.com/stories/alexisren/3941285223559192992/ https://www.instagram.com/stories/alina_akilova/ https://www.instagram.com/stories/sandrakubicka/ https://www.instagram.com/stories/natalia_szroeder/3941374652411180258/ https://www.instagram.com/stories/natalia_szroeder/3941097128493980453/ https://www.instagram.com/stories/shishmareva_ksu/3941227110055597041/ https://www.instagram.com/stories/m_lewinska/3940981108338756708/ https://www.instagram.com/stories/agnieszkadziekan/ https://www.instagram.com/stories/liberateme.1/ https://www.instagram.com/stories/ngizerskaya/3941120358224852924/ https://www.instagram.com/stories/ngizerskaya/3941120379842276924/ https://www.instagram.com/stories/summerlovesummerl/3941180800002127054/ https://www.instagram.com/stories/aidainnesghazlan/3941321529554533880/ https://www.instagram.com/stories/arishabo/3940988819499621928/ https://www.instagram.com/stories/malgorzata__tomaszewska/3941226043579154010/ https://www.instagram.com/stories/madina__sssk/3940986982880578879/ https://www.instagram.com/stories/maren_tschinkel/3941357665661279922/ https://www.instagram.com/stories/viki_odintcova/3941061672908702539/ https://www.instagram.com/stories/anetasnake/3941069791830013185/ https://www.instagram.com/stories/nikolaprochniak/3941212716144558996/ https://www.instagram.com/stories/pilipenko_12/3941215301697819922/ https://www.instagram.com/stories/titorenkonastyaa/3941222044008377616/ https://www.instagram.com/stories/klaudiahalejcio/3941280468439994074/ https://www.instagram.com/stories/dii.al3/3941053094593425284/ https://www.instagram.com/stories/dii.al3/3941338144140471377/ https://www.instagram.com/stories/klaudiahalejcio/3941283289780523501/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/easy.in.pvc https://www.instagram.com/joliesharpe https://www.instagram.com/paulina_wojcikk https://www.instagram.com/csenge_h https://www.instagram.com/luciamihalyfi https://www.instagram.com/rimoczizsofi https://www.instagram.com/carolchafauzer https://www.instagram.com/kristinafoxx https://www.instagram.com/princesskiaralord https://www.instagram.com/leyagornaya https://www.instagram.com/egeszseges_hedonizmus https://www.instagram.com/kata.dance https://www.instagram.com/wifeybella https://www.instagram.com/danielamilagros https://www.instagram.com/yaseminserpil https://www.instagram.com/officialjasminehenry https://www.instagram.com/varvolgyianna https://www.instagram.com/stories/heyitspaulina_xx/ https://www.instagram.com/heyitspaulina_xx/p/DaUr7mmjDfl/ https://www.instagram.com/heyitspaulina_xx/p/DaxN2jpjHP7/ https://www.instagram.com/p/DavCTcmMUgA/ https://www.instagram.com/p/Dau9u2xjHec/?img_index=1 https://www.instagram.com/p/DaucQJADFWM/?img_index=1 https://www.instagram.com/p/DauahS8DEZl/?img_index=1 https://www.instagram.com/p/DauYWEos8oo/ https://www.instagram.com/p/DatA_r9DJsn/?img_index=1 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/itsgigimay https://www.instagram.com/1iryna_ https://www.instagram.com/ania_dubinska https://www.instagram.com/violalotti/ https://www.instagram.com/timella https://www.instagram.com/stories/katesytsevich/3941385678414387914
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/eliryinn/ https://www.instagram.com/kalchenko.valeriia/ https://www.instagram.com/malinfuruhaug/ https://www.instagram.com/carlyhymz/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/n.wolniewicz/ https://www.instagram.com/iga_parada/ https://www.instagram.com/stories/n.wolniewicz/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/daniellemarcan/ https://www.instagram.com/stories/daniellemarcan/ https://www.instagram.com/leyagornaya/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/reels/DavbMyrqDYs/ https://www.instagram.com/b_patriii/reels/ https://www.instagram.com/stories/b_patriii/ https://www.instagram.com/b_patriii/ https://www.instagram.com/reels/DaxoI3RMKXF/ https://www.instagram.com/reels/Daxq2fqNY38/ https://www.instagram.com/reels/DZYKlf0s1jm/ https://www.instagram.com/reels/DavsPYPx5ez/ https://www.instagram.com/emmazr_24/reels/ https://www.instagram.com/nesii.nicole/reels/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/reels/DYxD6LWIVGN/ https://www.instagram.com/annalaurkaaa/ https://www.instagram.com/reels/DZAmhErox2o/ https://www.instagram.com/adriiicaa/reels/ https://www.instagram.com/reels/DZKA16AsY8i/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/oliwia_drozdzyk/ https://www.instagram.com/stories/oliwia_drozdzyk/ https://www.instagram.com/reels/DZhZ7yNE0Vl/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/reels/DayEjtAKXLM/ https://www.instagram.com/bryska/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/stories/summerlovesummerl/3941750839735852440/ https://www.instagram.com/stories/summerlovesummerl/3941751577046703835/ https://www.instagram.com/stories/pilipenko_12/3941749845243126275/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/sofia_maloletova/ https://www.instagram.com/stories/_alena__savchenko/ https://www.instagram.com/anastasiaa.maksimovnaa/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/_mirrorbeauty__/reel/DZSJcJkN6dB/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/highlights/18458818690106057/
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/izabellakrzan/
-du -sh gallery-dl/
-pip install -U gallery-dl
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/izabellakrzan/
-du -sh gallery-dl/
-cat all_gdl_ids |sort|uniq > /tmp/newids
-grep 3942052259601287849 gallery-dl/instagram/kira_artamonova_/*json
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/marylep_/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/beautyandbrainswithatwist/ https://www.instagram.com/boroka_sotonyi https://www.instagram.com/renatahamikus https://www.instagram.com/vikafalileeva https://www.instagram.com/stories/dear.mathilda/ https://www.instagram.com/stories/viktoriya_poberezhnaya/ https://www.instagram.com/stories/elisha__h/ https://www.instagram.com/stories/delilahbelle/ https://www.instagram.com/stories/elladieke/ https://www.instagram.com/stories/kira_artamonova_/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/beautyandbrainswithatwist/ https://www.instagram.com/stories/boroka_sotonyi https://www.instagram.com/stories/renatahamikus https://www.instagram.com/stories/vikafalileeva https://www.instagram.com/stories/dear.mathilda/ https://www.instagram.com/stories/viktoriya_poberezhnaya/ https://www.instagram.com/stories/elisha__h/ https://www.instagram.com/stories/delilahbelle/ https://www.instagram.com/stories/elladieke/ https://www.instagram.com/stories/kira_artamonova_/ https://www.instagram.com/stories/xenia/ https://www.instagram.com/stories/irrnova/3945475610135220476/ https://www.instagram.com/stories/frida_aasen/3945611161411968398/ https://www.instagram.com/stories/anya.sokoloval/ https://www.instagram.com/stories/lizakovalenkoo/ https://www.instagram.com/stories/yelikova/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/miloutamara/ https://www.instagram.com/stories/sogoyasha/ https://www.instagram.com/stories/mariia_arsentieva/ https://www.instagram.com/stories/ilonarsentieva/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/officiallizsanchez/3944990702773586534/ https://www.instagram.com/stories/saracrumbleleg/ https://www.instagram.com/stories/mariabiosca2/ https://www.instagram.com/stories/kerina.wang/ https://www.instagram.com/stories/thekinsleywyatt/ https://www.instagram.com/stories/kate___marko/ https://www.instagram.com/stories/kriss_drummer/ https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/cata.leyah/ https://www.instagram.com/stories/nikolnekrasovan/ https://www.instagram.com/stories/oliwiakaszowska/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/gulyaevaam/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kristiarrt/ https://www.instagram.com/stories/brizitskaya/ https://www.instagram.com/stories/edapalushi/ https://www.instagram.com/stories/natasha_mankovskaya/ https://www.instagram.com/stories/danielledenicola/ https://www.instagram.com/stories/wishalice/ https://www.instagram.com/stories/ivycosplay/ https://www.instagram.com/stories/majkelowska/ https://www.instagram.com/stories/anna.efimenko_official/ https://www.instagram.com/stories/dashapogadaevaa/ https://www.instagram.com/stories/andreeabostanica/ https://www.instagram.com/stories/emmyxtech/ https://www.instagram.com/stories/yulianna_bun/ https://www.instagram.com/stories/bemy_bun/ https://www.instagram.com/stories/mayuko_asian/ https://www.instagram.com/stories/cristinacataman/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/iselin_haaland/ https://www.instagram.com/stories/lazareva__vi/  https://www.instagram.com/stories/angelina_dimova/ https://www.instagram.com/stories/popochino__/ https://www.instagram.com/stories/sps.luca/3945540972867781817/ https://www.instagram.com/stories/nicole.luckic/ https://www.instagram.com/stories/dariasariic/ https://www.instagram.com/stories/chiaraacasadei/ https://www.instagram.com/stories/amaliestar/ https://www.instagram.com/stories/celinebethmann/ https://www.instagram.com/stories/vanessalealia/ https://www.instagram.com/stories/tashha_s/ https://www.instagram.com/stories/valerialipovetsky/ https://www.instagram.com/stories/kendallthebeck/ https://www.instagram.com/stories/hoskelsa/ https://www.instagram.com/stories/mirandakerr/ https://www.instagram.com/stories/andreeadiddy/ https://www.instagram.com/stories/anna_shiyanova/ https://www.instagram.com/stories/nicola/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/vitasidorkina/ https://www.instagram.com/stories/anaisardanza/ https://www.instagram.com/stories/im_oksi/ https://www.instagram.com/stories/itszoyevans/ https://www.instagram.com/stories/vikissecret/ https://www.instagram.com/stories/elizabethrage/ https://www.instagram.com/stories/clarawyy/ https://www.instagram.com/stories/anialewandowska_official/ https://www.instagram.com/stories/nic_the_pixie/ https://www.instagram.com/stories/karengcos/ https://www.instagram.com/stories/di_vavilova_di_7/ https://www.instagram.com/stories/ola_ciupa/ https://www.instagram.com/stories/zoogirlq/ https://www.instagram.com/stories/ayliee_k/ https://www.instagram.com/stories/marina_kadik/ https://www.instagram.com/stories/mariamotina/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/kyla.doddsss/ https://www.instagram.com/stories/juliettesureau/ https://www.instagram.com/stories/sxmaraa/ https://www.instagram.com/stories/pariyacarello/ https://www.instagram.com/stories/lesterrrisa/ https://www.instagram.com/stories/nessti.m/ https://www.instagram.com/stories/palonekk/3945569961716313110/ https://www.instagram.com/stories/seattlesbeauty/ https://www.instagram.com/stories/vendala18/ https://www.instagram.com/stories/beautyandbrainswithatwist/ https://www.instagram.com/stories/vishnevskaiazlata/ https://www.instagram.com/stories/missalena10/ https://www.instagram.com/stories/sophiegamergirl/ https://www.instagram.com/stories/mary_amber._/3945644159506934112/ https://www.instagram.com/stories/sup3rprettyblonde/ https://www.instagram.com/stories/julejensen/ https://www.instagram.com/stories/oona.linna/ https://www.instagram.com/stories/the.rebecca.rose/ https://www.instagram.com/stories/itsmoosmith/ https://www.instagram.com/stories/reyzcos/ https://www.instagram.com/stories/nbrum__/ https://www.instagram.com/stories/maggda02/ https://www.instagram.com/stories/liza.m.m/ https://www.instagram.com/stories/maligoshik/ https://www.instagram.com/stories/emmakokofficial/ https://www.instagram.com/stories/_syllvanas_/ https://www.instagram.com/stories/lolo/ https://www.instagram.com/stories/vasilinskiy/ https://www.instagram.com/stories/di_litvinova_di/ https://www.instagram.com/stories/vveryss/ https://www.instagram.com/stories/darth_cydious/ https://www.instagram.com/stories/purple.amelie/ https://www.instagram.com/stories/abileeboivin/ https://www.instagram.com/stories/32gl_/ https://www.instagram.com/stories/karolina.juza/ https://www.instagram.com/stories/oliviagrivas/ https://www.instagram.com/stories/annstoliar/ https://www.instagram.com/stories/morganalexandraaaof/ https://www.instagram.com/stories/lerussha_/ https://www.instagram.com/stories/samoylens/ https://www.instagram.com/stories/kira_artamonova_/ https://www.instagram.com/stories/tixteafox/  https://www.instagram.com/stories/miller.om/ https://www.instagram.com/stories/bruletova_/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/shipilovaks/ https://www.instagram.com/stories/wiktoria_gasiewska/ https://www.instagram.com/stories/masha_lobanovaa/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/summerlovesummerl/ https://www.instagram.com/stories/lilymaymac/ https://www.instagram.com/stories/anna.kondra/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/milevskate/?r=1
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/mytherapistsays/3945432028466033255/ https://www.instagram.com/stories/malgorzata__tomaszewska/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/monika.chmielecka/3945623051035277848/ https://www.instagram.com/stories/theqielves/3945363716648232505/ https://www.instagram.com/stories/hollycarpenter/3945651112539606993/ https://www.instagram.com/stories/reel_irish_dance_entertainment/ https://www.instagram.com/stories/thesarahlouise_/ https://www.instagram.com/stories/ruthiebella.c/ https://www.instagram.com/stories/louisesully23/ https://www.instagram.com/roisin_mcmanus94/p/DL87JxwxeFK/ https://www.instagram.com/stories/oliviadeano/ https://www.instagram.com/lorna_collins_/p/DMs8Q_osFX1/ https://www.instagram.com/p/DUyqmjGCG58/?img_index=1 https://www.instagram.com/p/DaLFfems25E/ https://www.instagram.com/pati_bookworm/p/DOoMEfZCBCj/ https://www.instagram.com/pati_bookworm/p/DaVf__5iI_p/ https://www.instagram.com/dollface.airways/reel/Da04AssBGHj/ https://www.instagram.com/stories/laurkacute/ https://www.instagram.com/stories/melimlisa/ https://www.instagram.com/tramon.tane https://www.instagram.com/stories/tramon.tane/ https://www.instagram.com/l1navolpi https://www.instagram.com/stories/l1navolpi/ https://www.instagram.com/stories/cryingbutslaying/ https://www.instagram.com/stories/adelinafien/ https://www.instagram.com/georgiabown_ https://www.instagram.com/stories/mymlt/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/romyeikema https://www.instagram.com/olivialanesecrett https://www.instagram.com/stories/olivialanesecrett/ https://www.instagram.com/graciebooom https://www.instagram.com/stories/dosiaczux/3945518594561776788/ https://www.instagram.com/stories/dori.fch/ https://www.instagram.com/warsawpubcrawl/p/Da1UisGjJrC/ https://www.instagram.com/stories/aitanatoday/ https://www.instagram.com/stories/highlights/18068911916402649/ https://www.instagram.com/americanincsepel/reel/Da7_bPZAl9f/ https://www.instagram.com/reel/Da-YETSsSVa/ https://www.instagram.com/stories/evgenia_alex/ https://www.instagram.com/olivialaneskits https://www.instagram.com/stories/olivialaneskits/ https://www.instagram.com/stories/victoria_teddyluv/ https://www.instagram.com/stories/kiarakacvinskyy/ https://www.instagram.com/ariannitalagringa/reel/Da1Hr9zx1ND/ https://www.instagram.com/stories/mariaema___/ https://www.instagram.com/stories/ameliamoon0/ https://www.instagram.com/stories/peytonalexandr/ https://www.instagram.com/utahja.z https://www.instagram.com/stories/utahja.z/ https://www.instagram.com/stories/nemochess/ https://www.instagram.com/yarra_m/p/Davpl5tjLR6/ https://www.instagram.com/stories/anna_gyorgyhorvath/ https://www.instagram.com/oolessen.ph/reel/Dah0ZvKCvkT/ https://www.instagram.com/stories/annaauroraegger/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/_rakhmanova.valeria_ https://www.instagram.com/stories/_rakhmanova.valeria_/ https://www.instagram.com/stories/thebeachesband/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/a.reshetova/ https://www.instagram.com/stories/i.s.nesquik/ https://www.instagram.com/stories/milevskate/3945735538351025372/ https://www.instagram.com/stories/oksanamiyy/3945502369861439920/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/eliryinn/  https://www.instagram.com/stories/yudintseva_veronika/ https://www.instagram.com/p/DaYBt_Rsmuv/ https://www.instagram.com/stories/manukyananya_/ https://www.instagram.com/manukyananya_/p/Da_cobxjQU4/ https://www.instagram.com/manukyananya_/p/Da88HsqDW5V/ https://www.instagram.com/jack5kellington/ https://www.instagram.com/finja.hnb/ https://www.instagram.com/stories/finja.hnb/ https://www.instagram.com/stories/rachelc00k/ https://www.instagram.com/malinfuruhaug/reels/ https://www.instagram.com/stories/isabella.l.flores/ https://www.instagram.com/audrey.yael https://www.instagram.com/p/Da2Ti_iSMli/ https://www.instagram.com/p/Dau2G8YSJOx/ https://www.instagram.com/p/DaxVeHhylsU/ https://www.instagram.com/p/Dad2aVfklFk/?img_index=1 https://www.instagram.com/p/DalknvMSCMw/ https://www.instagram.com/p/DaaMK5aEs1_/?img_index=1 https://www.instagram.com/stories/soofsnoeck/ https://www.instagram.com/stories/izabellakrzan/ https://www.instagram.com/izabellakrzan/p/Da-6gSJDAYJ/ https://www.instagram.com/evagoddamn https://www.instagram.com/stories/nikola_klimas/ https://www.instagram.com/stories/karol_villalobos_/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/silviasoll/ https://www.instagram.com/shadenataliestar/reels/ https://www.instagram.com/stories/simihaze/3945576418203104090/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/cyoxrl/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/hannah_cpalmer/ https://www.instagram.com/stories/krisstal7/ https://www.instagram.com/stories/hannahberner/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/shadenataliestar/reels/ https://www.instagram.com/erin.riley06 https://www.instagram.com/stories/pytanienasniadanie/3945940394293048712/ https://www.instagram.com/stories/pytanienasniadanie/3945940504424499758/ https://www.instagram.com/stories/pytanienasniadanie/3946032139867004011/ https://www.instagram.com/stories/pytanienasniadanie/3946074475779066326/ https://www.instagram.com/stories/pytanienasniadanie/3946074522950703475/ https://www.instagram.com/stories/pytanienasniadanie/3946074635794168492/ https://www.instagram.com/stories/madina__sssk/3945837447866790190/ https://www.instagram.com/stories/madina__sssk/3945977207126258912/ https://www.instagram.com/stories/madina__sssk/3946088654791567779/ https://www.instagram.com/stories/miller.om/ https://www.instagram.com/stories/sandrakubicka/ https://www.instagram.com/stories/masha_lobanovaa/ https://www.instagram.com/stories/nataliazasadzka/3946111322932696225/ https://www.instagram.com/stories/asiaopozda/ https://www.instagram.com/stories/i.s.nesquik/ https://www.instagram.com/stories/katesytsevich/ https://www.instagram.com/stories/anna.kondra/3946031484148251035/ https://www.instagram.com/stories/liberateme.1/ https://www.instagram.com/stories/hollycarpenter/3946085315381349189/ https://www.instagram.com/stories/izabellakrzan/ https://www.instagram.com/stories/__dasha__one/ https://www.instagram.com/stories/lilyjamesofficial/ https://www.instagram.com/stories/klaudiahalejcio/ https://www.instagram.com/stories/georgehtakei/3945951264979971151/ https://www.instagram.com/stories/milevskate https://www.instagram.com/stories/furaeva_tatyana/3946108873185238072/ https://www.instagram.com/stories/arishabo/3945918241538398690/ https://www.instagram.com/stories/shipilovaks/ https://www.instagram.com/stories/malgorzata__tomaszewska/ https://www.instagram.com/stories/alina_umyarova1/ https://www.instagram.com/stories/royczykova/ https://www.instagram.com/stories/katushalobanova https://www.instagram.com/stories/juleczkaaa_jula/3946120773977050172/ https://www.instagram.com/stories/_alena__savchenko/ https://www.instagram.com/stories/mrcake/3946086655696802153/ https://www.instagram.com/stories/malinhoijer/ https://www.instagram.com/stories/shishmareva_ksu/ https://www.instagram.com/stories/wiktoria_gasiewska/ https://www.instagram.com/stories/_liliyapetrova_/  https://www.instagram.com/stories/bettertogether_weddingplanner/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/kira_artamonova_/ https://www.instagram.com/stories/dear.mathilda/ https://www.instagram.com/stories/beautyandbrainswithatwist/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/vitasidorkina/ https://www.instagram.com/stories/valerialipovetsky/ https://www.instagram.com/stories/___nastyal___/ https://www.instagram.com/stories/reneeherbert_/ https://www.instagram.com/stories/elisha__h/ https://www.instagram.com/stories/frida_aasen/ https://www.instagram.com/stories/kimdammer/ https://www.instagram.com/stories/lizakovalenkoo/ https://www.instagram.com/stories/yelikova/ https://www.instagram.com/stories/elizabethfortmeyer/ https://www.instagram.com/stories/ilonarsentieva/ https://www.instagram.com/stories/mariia_arsentieva/ https://www.instagram.com/stories/marta_surnik/ https://www.instagram.com/stories/mariabiosca2/ https://www.instagram.com/stories/kerina.wang/ https://www.instagram.com/stories/kate___marko/ https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/danielledenicola/ https://www.instagram.com/stories/wishalice/ https://www.instagram.com/stories/ivycosplay/ https://www.instagram.com/stories/anna.efimenko_official/ https://www.instagram.com/stories/emmyxtech/ https://www.instagram.com/stories/yulianna_bun/ https://www.instagram.com/stories/rebeccaseals/ https://www.instagram.com/stories/angelina_dimova/ https://www.instagram.com/stories/popochino__/ https://www.instagram.com/stories/dariasariic/ https://www.instagram.com/stories/karengcos/ https://www.instagram.com/stories/majusantana.oficial/ https://www.instagram.com/stories/dashadigi/ https://www.instagram.com/stories/ameliagray/ https://www.instagram.com/stories/tashha_s/ https://www.instagram.com/stories/kendallthebeck/ https://www.instagram.com/stories/josephineskriver/ https://www.instagram.com/stories/andreeadiddy/ https://www.instagram.com/stories/anna_shiyanova/ https://www.instagram.com/stories/borovusha/ https://www.instagram.com/stories/mirkahri/ https://www.instagram.com/stories/nicola/ https://www.instagram.com/stories/lazareva__vi/ https://www.instagram.com/stories/di_vavilova_di_7/ https://www.instagram.com/stories/andreeabostanica/ https://www.instagram.com/stories/vikissecret/ https://www.instagram.com/stories/viktoriakpa/ https://www.instagram.com/stories/elizabethrage/ https://www.instagram.com/stories/ola_ciupa/ https://www.instagram.com/stories/anialewandowska_official/ https://www.instagram.com/stories/chewie_chou/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/katushalobanova/ https://www.instagram.com/stories/aleksanina.k/ https://www.instagram.com/stories/klaudiahalejcio/ https://www.instagram.com/stories/ngizerskaya/3946206603544180094/ https://www.instagram.com/stories/kayla_shyx/ https://www.instagram.com/stories/pinamici/ https://www.instagram.com/stories/dosiaczux/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/sofia.levaa/ https://www.instagram.com/stories/thelizalowe/ https://www.instagram.com/stories/0043ss/ https://www.instagram.com/stories/allyflexible/ https://www.instagram.com/stories/ellaalexandra.x/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/somurevix/ https://www.instagram.com/stories/somurevix/ https://www.instagram.com/tessalux_official/ https://www.instagram.com/stories/tessalux_official/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/tamiillaaa/ 
-du -sh gallery-dl/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/reels/Da06T0CN1gz/ https://www.instagram.com/reels/DZSoLEvIVl3/ https://www.instagram.com/reels/DbBYPe6MzDx/ https://www.instagram.com/reels/Da2cjLfMCD2/ https://www.instagram.com/reels/Dax8tWhK5d0/ https://www.instagram.com/reels/Dai7k_fs0_z/ https://www.instagram.com/reels/DZ9uEr_iOdO/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/asiaopozda/ https://www.instagram.com/stories/forsurprise/3946220186730288729/ https://www.instagram.com/stories/klaudiahalejcio/ https://www.instagram.com/stories/malgorzata__tomaszewska/ https://www.instagram.com/stories/summerlovesummerl/ https://www.instagram.com/stories/katushalobanova/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/katesytsevich https://www.instagram.com/stories/pytanienasniadanie/3946252311678943423/ https://www.instagram.com/stories/mariyafishman/3946300257867247570/ https://www.instagram.com/stories/ineesgaarcia/ https://www.instagram.com/stories/aleksanina.k/ https://www.instagram.com/stories/sandrakubicka/ https://www.instagram.com/stories/i.s.nesquik/ https://www.instagram.com/stories/zuueva/ https://www.instagram.com/stories/shipilovaks/ https://www.instagram.com/stories/anetasnake/3946331814813312732/ https://www.instagram.com/stories/marlydoll/3946265303552751174/ https://www.instagram.com/stories/alina_umyarova1/3946381892377951740/ https://www.instagram.com/stories/izabellakrzan/ https://www.instagram.com/stories/iveta_kindlmanova/ https://www.instagram.com/stories/hollycarpenter/ https://www.instagram.com/stories/bruletova_/3946338936448080482/ https://www.instagram.com/stories/__dasha__one/ https://www.instagram.com/stories/miller.om/ https://www.instagram.com/stories/shishmareva_ksu/ https://www.instagram.com/stories/_alena__savchenko/ https://www.instagram.com/stories/milevskate/ https://www.instagram.com/stories/monika.chmielecka/3946265233555488188/ https://www.instagram.com/stories/chiarabransi/ https://www.instagram.com/stories/titorenkonastyaa/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/kira_artamonova_
-ls ~/Playing/waxholm-pyshiro/
-less ~/Playing/waxholm-pyshiro/convert.py 
-cp ~/Playing/waxholm-pyshiro/convert.py ~/Playing/waxholm-module/waxholm/scripts/convert_to_pyshiro.py
-cp ~/Playing/waxholm-pyshiro/eval_align.py ~/Playing/waxholm-module/waxholm/scripts/pyshiro_eval_align.py
-cp ~/Playing/waxholm-pyshiro/convert.py ~/Playing/waxholm-module/waxholm/scripts/convert_to_pyshiro.py
-cp ~/Playing/waxholm-pyshiro/eval_align.py ~/Playing/waxholm-module/waxholm/scripts/pyshiro_eval_align.py
-cp ~/Playing/waxholm-pyshiro/eval_align.py ~/Playing/waxholm-module/waxholm/scripts/pyshiro_eval_align.py
-cp ~/Playing/waxholm-pyshiro/phonemap.json ~/Playing/waxholm-module/waxholm/scripts/
-less ~/Playing/waxholm-pyshiro/lab/fp2051.14.09.lab 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/miller.om/ https://www.instagram.com/stories/oksanamiyy/3946410905290266949/ https://www.instagram.com/stories/masha_lobanovaa/ https://www.instagram.com/stories/__dasha__one/3946454310372039344/ https://www.instagram.com/reels/DbDXi-sI1kr/ https://www.instagram.com/reels/DbDNFvFi9g8/ https://www.instagram.com/reels/DZNbY73s5l-/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/soy.elsaa/reels/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/reels/Da_TWhlTOON/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/hmmmkiki/ https://www.instagram.com/stories/hmmmkiki/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/i.s.nesquik/ https://www.instagram.com/stories/shipilovaks https://www.instagram.com/stories/miller.om/ https://www.instagram.com/stories/madina__sssk/3946935617116208564/ https://www.instagram.com/stories/katushalobanova/ https://www.instagram.com/stories/veronika_chachyna/ https://www.instagram.com/stories/debasersthlm/3946818129241862041/ https://www.instagram.com/stories/anna.kondra/ https://www.instagram.com/stories/pytanienasniadanie/3946731864706563846/ https://www.instagram.com/stories/pytanienasniadanie/3946758828897112926/ https://www.instagram.com/stories/izabellakrzan/ https://www.instagram.com/stories/a.reshetova/ https://www.instagram.com/stories/nikolaprochniak/ https://www.instagram.com/stories/masha_lobanovaa/ https://www.instagram.com/stories/lilymaymac/ https://www.instagram.com/stories/aleksanina.k/3947008220509821672/ https://www.instagram.com/stories/katesytsevich/ https://www.instagram.com/stories/camillekaftan/ https://www.instagram.com/stories/sandrakubicka/ https://www.instagram.com/stories/vikafalileeva/ https://www.instagram.com/stories/172.4cm/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/ilonarsentieva/ https://www.instagram.com/stories/mariia_arsentieva/ https://www.instagram.com/stories/marlucas/ https://www.instagram.com/stories/carina/ https://www.instagram.com/stories/liss.thl/ https://www.instagram.com/stories/sogoyasha/ https://www.instagram.com/stories/torideasyy/ https://www.instagram.com/stories/officiallizsanchez/ https://www.instagram.com/stories/saracrumbleleg/ https://www.instagram.com/stories/kerina.wang/ https://www.instagram.com/stories/thekinsleywyatt/ https://www.instagram.com/stories/geroinoviy90shik/ https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/cata.leyah/ https://www.instagram.com/stories/nikolnekrasovan/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/brizitskaya/ https://www.instagram.com/stories/gulyaevaam/ https://www.instagram.com/stories/kristiarrt/ https://www.instagram.com/stories/natasha_mankovskaya/ https://www.instagram.com/stories/danielledenicola/3946502813714264721/ https://www.instagram.com/stories/majkelowska/ https://www.instagram.com/stories/anna.efimenko_official/ https://www.instagram.com/stories/dashapogadaevaa/ https://www.instagram.com/stories/emmyxtech/ https://www.instagram.com/stories/yulianna_bun/ https://www.instagram.com/stories/mayuko_asian/ https://www.instagram.com/stories/cristinacataman/ https://www.instagram.com/stories/dariasariic/ https://www.instagram.com/stories/valerialipovetsky/ https://www.instagram.com/stories/popochino__/ https://www.instagram.com/stories/chiaraacasadei/ https://www.instagram.com/stories/majusantana.oficial/ https://www.instagram.com/stories/dashadigi/ https://www.instagram.com/stories/celinebethmann/ https://www.instagram.com/stories/ameliagray/ https://www.instagram.com/stories/vanessalealia/ https://www.instagram.com/stories/anna_shiyanova/ https://www.instagram.com/stories/borovusha/ https://www.instagram.com/stories/iselin_haaland/ https://www.instagram.com/stories/lazareva__vi/ https://www.instagram.com/stories/mirandakerr/ https://www.instagram.com/stories/andreeadiddy/3946862525156740277/ https://www.instagram.com/stories/jacmonika/ https://www.instagram.com/stories/alina_enero/ https://www.instagram.com/stories/magdalenadelichote/ https://www.instagram.com/stories/kendallthebeck/ https://www.instagram.com/klaudiatolloczko https://www.instagram.com/stories/tolloczko.klaudia/ https://www.instagram.com/tolloczko.klaudia/p/DV8ANDZDAoV/  https://www.instagram.com/p/DZ7JpVeNIWf/ https://www.instagram.com/stories/skvision.ai/ https://www.instagram.com/p/DNtcNNe4v6R/?img_index=2 https://www.instagram.com/reels/DXCP1Qpimsn/ https://www.instagram.com/reels/DJPptmMSqL2/ https://www.instagram.com/p/DQ0LpfQkRJC/ https://www.instagram.com/stories/suicidegirls/ https://www.instagram.com/p/Da8XQUclDYp/?img_index=1 https://www.instagram.com/milkydamesgh/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/ilonarsentieva/ https://www.instagram.com/stories/mariia_arsentieva/ https://www.instagram.com/stories/marlucas/ https://www.instagram.com/stories/nataliazasadzka 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/pasergelstorg/3947672307581623448/ https://www.instagram.com/stories/pasergelstorg/3947673907196875560/ https://www.instagram.com/stories/a.reshetova/3947681150509647730/ https://www.instagram.com/stories/marii212121/3947653436064945503/ https://www.instagram.com/stories/marii212121/3947663929181783371/ https://www.instagram.com/stories/kira_artamonova_/ https://www.instagram.com/stories/asiaopozda/3947687803204343458/ https://www.instagram.com/stories/__dasha__one/ https://www.instagram.com/stories/summerlovesummerl/3947684110160212289/ https://www.instagram.com/stories/sandrakubicka/ https://www.instagram.com/stories/monika.chmielecka/3947674809366528214/ https://www.instagram.com/stories/malgorzata__tomaszewska/3947657082425965993/ https://www.instagram.com/stories/masha_lobanovaa/3947676041543313125/ https://www.instagram.com/stories/shipilovaks/3947686224441398857/ https://www.instagram.com/stories/172.4cm/ https://www.instagram.com/stories/renatahamikus/ https://www.instagram.com/stories/patriciakoncz/ https://www.instagram.com/stories/boroka_sotonyi/ https://www.instagram.com/stories/dosiaczux/ https://www.instagram.com/stories/shaniceslatter/ https://www.instagram.com/stories/mynessielife/ https://www.instagram.com/stories/dear.mathilda/ https://www.instagram.com/stories/viktoriya_poberezhnaya/ https://www.instagram.com/stories/shatkoshechka/ https://www.instagram.com/stories/irrnova/ https://www.instagram.com/stories/lizakovalenkoo/  https://www.instagram.com/stories/marta_surnik/ https://www.instagram.com/stories/mrslauea/ https://www.instagram.com/stories/sogoyasha/ https://www.instagram.com/stories/tabithatempler/ https://www.instagram.com/stories/officiallizsanchez/ https://www.instagram.com/stories/saracrumbleleg/ https://www.instagram.com/stories/mariabiosca2/ https://www.instagram.com/stories/kerina.wang/ https://www.instagram.com/stories/thekinsleywyatt/ https://www.instagram.com/stories/gulyaevaam/ https://www.instagram.com/stories/geroinoviy90shik/ https://www.instagram.com/stories/andreeabostanica/ https://www.instagram.com/stories/kriss_drummer/ https://www.instagram.com/stories/cata.leyah/ https://www.instagram.com/stories/nikolnekrasovan/ https://www.instagram.com/stories/alina_enero/ https://www.instagram.com/stories/beautyandbrainswithatwist/ https://www.instagram.com/stories/valerialipovetsky/ https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/vitasidorkina/ https://www.instagram.com/stories/dashapogadaevaa/ https://www.instagram.com/stories/kriss_drummer/ https://www.instagram.com/stories/asiaopozda/ https://www.instagram.com/stories/pasergelstorg/3947689848286761592/ https://www.instagram.com/stories/pasergelstorg/3947692825537997843/ https://www.instagram.com/stories/liberateme.1/3947690929460640500/ https://www.instagram.com/stories/liberateme.1/3947640801598830720/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/brizitskaya/ https://www.instagram.com/stories/kristiarrt/ https://www.instagram.com/stories/wishalice/ https://www.instagram.com/stories/majkelowska/ https://www.instagram.com/stories/anna.efimenko_official/ https://www.instagram.com/stories/yulianna_bun/ https://www.instagram.com/stories/bemy_bun/ https://www.instagram.com/stories/mayuko_asian/ https://www.instagram.com/stories/cristinacataman/ https://www.instagram.com/stories/rebeccaseals/ https://www.instagram.com/stories/angelina_dimova/ https://www.instagram.com/stories/popochino__/ https://www.instagram.com/stories/chiaraacasadei/ https://www.instagram.com/stories/pollyhelbert/ https://www.instagram.com/stories/majusantana.oficial/ https://www.instagram.com/stories/dashadigi/ https://www.instagram.com/stories/andrea_subotic/ https://www.instagram.com/stories/celinebethmann/ https://www.instagram.com/stories/vanessalealia/ https://www.instagram.com/stories/ameliagray/ https://www.instagram.com/stories/tashha_s/ https://www.instagram.com/stories/kendallthebeck/ https://www.instagram.com/stories/magdalenadelichote/ https://www.instagram.com/stories/josephineskriver/ https://www.instagram.com/stories/hoskelsa/ https://www.instagram.com/stories/andreeadiddy/ https://www.instagram.com/stories/anna_shiyanova/ https://www.instagram.com/stories/nicola/ https://www.instagram.com/stories/lazareva__vi/ https://www.instagram.com/stories/mariamotina/ https://www.instagram.com/stories/ayliee_k/ https://www.instagram.com/stories/zoogirlq/ https://www.instagram.com/stories/qgirlzoo/ https://www.instagram.com/stories/ola_ciupa/ https://www.instagram.com/stories/di_vavilova_di_7/ https://www.instagram.com/stories/vitasidorkina/ https://www.instagram.com/stories/itszoyevans/ https://www.instagram.com/stories/vikissecret/ https://www.instagram.com/stories/viktoriakpa/ https://www.instagram.com/stories/elizabethrage/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/alexisren/ https://www.instagram.com/stories/katharinanahlik/ https://www.instagram.com/stories/natasha_mankovskaya/ https://www.instagram.com/stories/bruletova_/ https://www.instagram.com/stories/wiktoria_gasiewska https://www.instagram.com/stories/katushalobanova/ https://www.instagram.com/stories/yuliya_vladiii/ https://www.instagram.com/stories/izabellakrzan/ https://www.instagram.com/stories/_liliyapetrova_ https://www.instagram.com/stories/masha_lobanovaa https://www.instagram.com/stories/zuueva https://www.instagram.com/stories/_alena__savchenko https://www.instagram.com/stories/nikolaprochniak/ https://www.instagram.com/stories/summerlovesummerl/ https://www.instagram.com/stories/__dasha__one https://www.instagram.com/stories/pasergelstorg/3947793687484617020/ https://www.instagram.com/stories/lilymaymac/3947754834635532292/ https://www.instagram.com/stories/marii212121/ https://www.instagram.com/stories/y_gaar/3947790821851926874/ https://www.instagram.com/stories/shipilovaks/3947743451291886718/ https://www.instagram.com/stories/milevskate/3947812547040888583/ https://www.instagram.com/stories/agnieszkadziekan/3947761640980229691/ https://www.instagram.com/stories/agnieszkadziekan/3947745148431670736/ https://www.instagram.com/stories/sandrakubicka/3947727750351629946/ https://www.instagram.com/stories/iveta_kindlmanova/3947830303953821784/ https://www.instagram.com/stories/royczykova/3947831165822211158/ https://www.instagram.com/stories/aidainnesghazlan/3947802986408910374/ https://www.instagram.com/stories/tg4tv/3947734324149592152/ https://www.instagram.com/stories/malgorzata__tomaszewska/3947812790501206279/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/kira_artamonova_/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/zuueva/ https://www.instagram.com/stories/lilyjamesofficial/3947838535804118747/ https://www.instagram.com/stories/katushalobanova/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/vitasidorkina/ https://www.instagram.com/stories/valerialipovetsky/ https://www.instagram.com/stories/alina_enero/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/alexisren/ https://www.instagram.com/stories/dii.al3/3947879373709527573/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/alexisren/ https://www.instagram.com/stories/pytanienasniadanie/3948182171420485495/ https://www.instagram.com/stories/pytanienasniadanie/3948187639126082432/ https://www.instagram.com/stories/pytanienasniadanie/3948193239039524355/ https://www.instagram.com/stories/pytanienasniadanie/3948194229457311881/ https://www.instagram.com/stories/pytanienasniadanie/3948195688353681231/ https://www.instagram.com/stories/summerlovesummerl/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/chiarabransi/ https://www.instagram.com/stories/madina__sssk/ https://www.instagram.com/stories/sandrakubicka/ https://www.instagram.com/stories/_daria___igorevna_/3948227786052748880/ https://www.instagram.com/stories/malgorzata__tomaszewska/3948109392092422610/ https://www.instagram.com/stories/monika.chmielecka/3948213927821449948/ https://www.instagram.com/stories/i.s.nesquik/ https://www.instagram.com/stories/liberateme.1/3948165489658174929/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/chiarabransi/ https://www.instagram.com/stories/viki_odintcova/
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/vikafalileeva/ https://www.instagram.com/stories/renatahamikus/ https://www.instagram.com/stories/patriciakoncz/ https://www.instagram.com/stories/___nastyal___/ https://www.instagram.com/stories/dariasariic/ https://www.instagram.com/stories/dashapogadaevaa/ https://www.instagram.com/stories/172.4cm/ https://www.instagram.com/stories/dear.mathilda/ https://www.instagram.com/stories/bemy_bun/ https://www.instagram.com/stories/viragbabel/ https://www.instagram.com/stories/elisha__h/ https://www.instagram.com/stories/kimdammer/ https://www.instagram.com/stories/beautyandbrainswithatwist/ https://www.instagram.com/stories/kira_artamonova_/ https://www.instagram.com/stories/lizakovalenkoo/ https://www.instagram.com/stories/yelikova/ https://www.instagram.com/stories/ilonarsentieva/ https://www.instagram.com/stories/marlucas/ https://www.instagram.com/stories/marta_surnik/ https://www.instagram.com/stories/miloutamara/ https://www.instagram.com/stories/carina/ https://www.instagram.com/stories/sogoyasha/ https://www.instagram.com/stories/officiallizsanchez/ https://www.instagram.com/stories/tabithatempler/ https://www.instagram.com/stories/saracrumbleleg/ https://www.instagram.com/stories/kerina.wang/ https://www.instagram.com/stories/thekinsleywyatt/ https://www.instagram.com/stories/kate___marko/ https://www.instagram.com/stories/geroinoviy90shik/ https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/cata.leyah/ https://www.instagram.com/stories/nikolnekrasovan/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/brizitskaya/ https://www.instagram.com/stories/danielledenicola/ https://www.instagram.com/stories/wishalice/ https://www.instagram.com/stories/ivycosplay/ https://www.instagram.com/stories/majkelowska/ https://www.instagram.com/stories/kalinka.fox/ https://www.instagram.com/stories/anna.efimenko_official/ https://www.instagram.com/stories/yulianna_bun/ https://www.instagram.com/stories/mayuko_asian/ https://www.instagram.com/stories/cristinacataman/ https://www.instagram.com/stories/rebeccaseals/ https://www.instagram.com/stories/valerialipovetsky/ https://www.instagram.com/stories/angelina_dimova/ https://www.instagram.com/stories/sps.luca/ https://www.instagram.com/stories/nicole.luckic/ https://www.instagram.com/stories/chiaraacasadei/ https://www.instagram.com/stories/majusantana.oficial/ https://www.instagram.com/stories/dashadigi/ https://www.instagram.com/stories/andrea_subotic/ https://www.instagram.com/stories/celinebethmann/ https://www.instagram.com/stories/dasha.ilyushchyts/ https://www.instagram.com/stories/magdalenadelichote/ https://www.instagram.com/stories/alina_enero/ https://www.instagram.com/stories/josephineskriver/ https://www.instagram.com/stories/hoskelsa/ https://www.instagram.com/stories/mirandakerr/ https://www.instagram.com/stories/andreeadiddy/ https://www.instagram.com/stories/aleksanina.k/ https://www.instagram.com/stories/anna_shiyanova/ https://www.instagram.com/stories/borovusha/ https://www.instagram.com/stories/iselin_haaland/ https://www.instagram.com/stories/lazareva__vi/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/emxllouise https://www.instagram.com/stories/summerlovesummerl/3948370707241948423/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/__natixxa__/ https://www.instagram.com/stories/__natixxa__/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata   https://www.instagram.com/satakime/ https://www.instagram.com/janas_soultalk https://www.instagram.com/stories/janas_soultalk/ https://www.instagram.com/honzavavricka https://www.instagram.com/miss_ceskerepubliky/ https://www.instagram.com/cammrn/ https://www.instagram.com/bighonkincaboose2 https://www.instagram.com/stories/bighonkincaboose2/ https://www.instagram.com/popper.petra/
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata https://www.instagram.com/stories/yarra_m/   https://www.instagram.com/zsoanna44 https://www.instagram.com/gydorejj https://www.instagram.com/stories/gydorejj/ https://www.instagram.com/acupmami https://www.instagram.com/stories/acupmami/ https://www.instagram.com/lilyjustinside https://www.instagram.com/fit_ravenn https://www.instagram.com/oliviatied https://www.instagram.com/climbwithmia https://www.instagram.com/stories/climbwithmia/3947945432674869762/ https://www.instagram.com/sydney_.waters https://www.instagram.com/wpieciukiewicz https://www.instagram.com/stories/wpieciukiewicz/ https://www.instagram.com/ssannyue https://www.instagram.com/stories/ssannyue/ https://www.instagram.com/nicolinesolberg https://www.instagram.com/stories/zaradeeleygold/ https://www.instagram.com/vvarivq https://www.instagram.com/stories/vvarivq/ https://www.instagram.com/yarra_m  https://www.instagram.com/jenparkerdavis https://www.instagram.com/stories/peytonalexandr/ https://www.instagram.com/chickbar.cebu https://www.instagram.com/heyy.imemmaa https://www.instagram.com/stories/heyy.imemmaa/ https://www.instagram.com/kotovn_ https://www.instagram.com/stories/kotovn_/ https://www.instagram.com/aylawinterss https://www.instagram.com/c1ara.will https://www.instagram.com/stories/c1ara.will/ https://www.instagram.com/zarinaa12._ https://www.instagram.com/voronina_model https://www.instagram.com/ffanni.szabo https://www.instagram.com/shiana.me https://www.instagram.com/stories/shiana.me/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata https://www.instagram.com/dzabiiakaa https://www.instagram.com/stories/dzabiiakaa/ https://www.instagram.com/capraneagra https://www.instagram.com/stories/capraneagra/ https://www.instagram.com/p/DZ8HQc5sgCP/ https://www.instagram.com/p/DaOV7MBkdnX/?img_index=1 https://www.instagram.com/silviasilll/ https://www.instagram.com/stories/silviasilll/ https://www.instagram.com/reel/DY64qyPjwwq/ https://www.instagram.com/stories/devdar_ia/ https://www.instagram.com/devdar_ia https://www.instagram.com/nesii.nicole https://www.instagram.com/stories/nesii.nicole/ https://www.instagram.com/karolinazientek https://www.instagram.com/stories/karolinazientek/ https://www.instagram.com/nikolettszabo_ifbbpro https://www.instagram.com/stories/nikolettszabo_ifbbpro/ https://www.instagram.com/borbelyaliz https://www.instagram.com/eni_explores https://www.instagram.com/stories/eni_explores/ https://www.instagram.com/csilla.zs https://www.instagram.com/f1csajoknak https://www.instagram.com/enikoschiller/ https://www.instagram.com/stories/enikoschiller/ https://www.instagram.com/p/DbI5mUlAVhL/ https://www.instagram.com/javasholt https://www.instagram.com/stories/javasholt/ https://www.instagram.com/stories/korneliatal/ https://www.instagram.com/rebekagergely_ https://www.instagram.com/delneevelin https://www.instagram.com/stories/delneevelin/ https://www.instagram.com/adel.orszagh https://www.instagram.com/_merommy_ https://www.instagram.com/dielehreriin https://www.instagram.com/stories/dielehreriin/ https://www.instagram.com/debrecenilena.tdg https://www.instagram.com/p/DbL-DzTMKaa/ https://www.instagram.com/stories/fiona_ni_fhlaithearta/ https://www.instagram.com/stories/zsanettbartaarchitects/ https://www.instagram.com/p/DbK3ouLjOQe/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata https://www.instagram.com/inez.soltys https://www.instagram.com/stories/inez.soltys/ 
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata https://www.instagram.com/katonenifinomsagai/reel/DbLvi5nNgxX/ https://www.instagram.com/p/Da3H42jtHyZ/ https://www.instagram.com/p/DaqTfxmt1Qp/ https://www.instagram.com/p/DalIMA1tkyW/ https://www.instagram.com/p/DaQd2b-N71S/ https://www.instagram.com/stories/itispolly/ https://www.instagram.com/itispolly https://www.instagram.com/tany.agabriel https://www.instagram.com/halton.kimi https://www.instagram.com/halton.kimi/reels/ https://www.instagram.com/livvydunne/ https://www.instagram.com/stories/livvydunne/ https://www.instagram.com/twojakurierka https://www.instagram.com/cuteslavic https://www.instagram.com/stories/cuteslavic/ https://www.instagram.com/stories/shiana.me/ https://www.instagram.com/stories/shaniceslatter/ 
+dotn https://www.thenude.com/cover/nubiles/279828/kosa-in-table-fun
+vi inp1 
+dotn https://www.thenude.com/cover/stunning18/1357419/anais-in-anais---uniform-and-stockings-by-antonio-clemens
+dotn https://www.thenude.com/cover/metart/12913/sabrina-c-in-eventis
+dotn https://www.thenude.com/cover/teendreams/387238/anna-in-anna
+dotn https://www.thenude.com/cover/clubsweethearts/325743/vera-g-in-brunettes-061
+dotn https://www.thenude.com/cover/metart/31955/sabrina-c-in-pakisa
+vi inp1 
+vi inp1 
+dotn https://www.thenude.com/cover/letsdoeit/906878/emily-thorne-in-blonde-russian-tourist-emily-thorne-eats-cum-and-gets-banged-abroad-pov
+dotn https://www.thenude.com/cover/clubsweethearts/414094/barbie-b-in-busty-bimbo-knows-how-to-handle-a-cock
+dotn https://www.thenude.com/cover/naughtymag/864248/emili-in-emili-loves-anal
+vi inp1 
+dotn https://www.thenude.com/cover/metmodels/148753/karina-m-in-brunett
+vi inp1 
+dotn https://www.thenude.com/cover/stunning18/1244892/lina-b-in-lina---mirror-mirror-by-antonio-clemens
+dotn https://www.thenude.com/cover/femjoy/859094/kate-k-in-temptation
+dotn https://www.thenude.com/cover/nubiles/279730/maleena-in-black-stockings
+dotn https://www.thenude.com/cover/clubsweethearts/324912/amber-b-and-martha-d-in-yll-430
+dotn https://www.thenude.com/cover/clubsweethearts/421738/arwen-gold-in-beautiful-brunette-fucked-at-a-picnic
+dotn https://www.thenude.com/cover/metart/1232734/anastasia-barbi-in-presenting-anastasia-barbi
+vi inp1 
+dotn https://www.thenude.com/cover/clubsweethearts/324592/aina-in-masturbation-417
+vi inp1 
+dotn https://www.thenude.com/cover/nubiles/278735/emanuelle-in-sheer-nightie
+dotn https://www.thenude.com/cover/metart/31955/sabrina-c-in-pakisa
+vi inp1 
+dotn https://www.thenude.com/cover/atkexotics/565239/netta-and-willa-in-gallery-210243
+vi inp1 
+dotn https://www.thenude.com/cover/nubiles/283148/sheri-vi-in-lace-panties
+dotn https://www.thenude.com/cover/nubiles/283386/sheri-vi-in-soft-and-slow
+dotn https://www.thenude.com/cover/nubiles/283092/sheri-vi-in-hardcore
+dotn https://www.thenude.com/cover/nubiles/284002/sheri-vi-in-working-it
+dotn https://www.thenude.com/cover/stunning18/1148716/venessa-in-studying-my-pussy-by-thierry-murrell
+vi inp1 
+dotn https://www.thenude.com/cover/metart/812837/lovenia-lux-in-presenting-lovenia-lux-by-deltagamma
+dotn https://www.thenude.com/cover/stunning18/411651/april-in-presenting-april-by-antonio-clemens
+dotn https://www.thenude.com/cover/clubsweethearts/417105/loveina-in-nasty-teen-gets-her-ass-penetrated
+dotn https://www.thenude.com/cover/stunning18/1138614/april-in-charming-secretary-by-thierry-murrell
+dotn https://www.thenude.com/cover/stunning18/1262593/april-in-do-not-wake-me-up-by-thierry-murrell 
+dotn https://www.thenude.com/cover/stunning18/1359537/april-in-secret-curves-by-thierry-murrell
+dotn https://www.thenude.com/cover/metart/812837/lovenia-lux-in-presenting-lovenia-lux-by-deltagamma
+dotn https://www.thenude.com/cover/denudeart/798790/chloe-in-fancy-me-by-lorenzo-renzi
+vi inp1 
+dotn https://www.thenude.com/cover/clubsweethearts/323574/linda-p-in-blondes-250
+dotn https://www.thenude.com/cover/clubsweethearts/323574/linda-p-in-blondes-250
+vi inp1 
+lynx -dump https://babesource.com/galleries/irene-stunning-18-44914.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+vi inp1 
+lynx -dump https://babesource.com/galleries/alisabelle-stunning-18-77449.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/antanta-stunning-18-74478.html >> inp1 
+lynx -dump https://babesource.com/galleries/antanta-stunning-18-74478.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/roza-a-stunning-18-68837.html >> inp1 
+lynx -dump https://babesource.com/galleries/roza-a-stunning-18-68837.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/alice-e-stunning-18-68729.html>> inp1 
+lynx -dump https://babesource.com/galleries/alice-e-stunning-18-68729.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/martina-a-stunning-18-87128.html>> inp1 
+lynx -dump https://babesource.com/galleries/martina-a-stunning-18-87128.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/anoushka-e-stunning-18-85550.html>> inp1 
+lynx -dump https://babesource.com/galleries/anoushka-e-stunning-18-85550.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/roza-a-stunning-18-111324.html>> inp1 
+lynx -dump https://babesource.com/galleries/roza-a-stunning-18-111324.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/irene-stunning-18-43296.html>> inp1 
+lynx -dump https://babesource.com/galleries/irene-stunning-18-43296.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/lynx-stunning-18-50977.html>> inp1 
+lynx -dump https://babesource.com/galleries/lynx-stunning-18-50977.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+echo https://babesource.com/galleries/irene-stunning-18-43099.html>> inp1 
+lynx -dump https://babesource.com/galleries/irene-stunning-18-43099.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+vi inp1 
+wget --warc-file=p4.4 -x -c -i inp1 
 ls
-gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata https://www.instagram.com/paula_kowalewska https://www.instagram.com/stories/natasha_mankovskaya/ https://www.instagram.com/stories/asiaopozda/ https://www.instagram.com/stories/tg4tv/3949007104055187374/ https://www.instagram.com/stories/veewvee/ https://www.instagram.com/veewvee https://www.instagram.com/stories/masha_lobanovaa/ https://www.instagram.com/stories/pytanienasniadanie/3948419557979092096/ https://www.instagram.com/stories/pytanienasniadanie/3948499829298873831/ https://www.instagram.com/stories/pytanienasniadanie/3948834806733514570/ https://www.instagram.com/stories/pytanienasniadanie/3948862233102829713/ https://www.instagram.com/stories/pytanienasniadanie/3948933937246268395/ https://www.instagram.com/stories/pytanienasniadanie/3948935131727872268/ https://www.instagram.com/stories/pytanienasniadanie/3948940075786341389/ https://www.instagram.com/stories/veronika_chachyna/3948948068443003142/ https://www.instagram.com/stories/veronika_chachyna/3948953444148243298/ https://www.instagram.com/stories/veronika_chachyna/3949001844981891931/ https://www.instagram.com/stories/veronika_chachyna/3949002679765856019/ https://www.instagram.com/stories/i.s.nesquik https://www.instagram.com/stories/shishmareva_ksu https://www.instagram.com/stories/anetasnake https://www.instagram.com/stories/bruletova_ https://www.instagram.com/stories/miller.om https://www.instagram.com/stories/sandrakubicka https://www.instagram.com/stories/klaudiahalejcio https://www.instagram.com/stories/summerlovesummerl/ https://www.instagram.com/stories/viki_virgo https://www.instagram.com/stories/__dasha__one https://www.instagram.com/stories/chiarabransi https://www.instagram.com/stories/wiktoria_gasiewska https://www.instagram.com/stories/maren_tschinkel https://www.instagram.com/stories/iveta_kindlmanova/3948556696477820787/ https://www.instagram.com/stories/zuueva/3948382411838826480/ https://www.instagram.com/stories/agnieszkadziekan/3948576085553891769/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/liss.thl/  https://www.instagram.com/stories/viragbabel/ https://www.instagram.com/stories/marylep_/ https://www.instagram.com/stories/patriciakoncz/ https://www.instagram.com/stories/muellerida/ https://www.instagram.com/stories/anya.sokoloval/ https://www.instagram.com/stories/lizakovalenkoo/ https://www.instagram.com/stories/marlucas/ https://www.instagram.com/stories/marta_surnik/ https://www.instagram.com/stories/mrslauea/ https://www.instagram.com/stories/carina/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/cristinacataman/  https://www.instagram.com/stories/dashapogadaevaa/ https://www.instagram.com/stories/emmyxtech/ https://www.instagram.com/stories/yulianna_bun/ https://www.instagram.com/stories/mayuko_asian/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/marina_kadik/  https://www.instagram.com/stories/magdalenadelichote/ https://www.instagram.com/stories/alina_enero/ https://www.instagram.com/stories/meikawoollard/ https://www.instagram.com/stories/josephineskriver/ https://www.instagram.com/stories/anna_shiyanova/ https://www.instagram.com/stories/borovusha/ https://www.instagram.com/stories/mirkahri/3949092848117034728/ https://www.instagram.com/stories/nicola/ https://www.instagram.com/stories/lazareva__vi/ https://www.instagram.com/stories/mariamotina/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/dariazaritskaya/ https://www.instagram.com/stories/kyla.doddsss/ https://www.instagram.com/stories/juliettesureau/ https://www.instagram.com/stories/sxmaraa/ https://www.instagram.com/stories/pariyacarello/ https://www.instagram.com/stories/lesterrrisa/ https://www.instagram.com/stories/nessti.m/ https://www.instagram.com/stories/palonekk/ https://www.instagram.com/stories/seattlesbeauty/ https://www.instagram.com/stories/_sophiesilva_/ https://www.instagram.com/stories/mary_amber._/ https://www.instagram.com/stories/sup3rprettyblonde/ https://www.instagram.com/stories/julejensen/ https://www.instagram.com/stories/gulyaevaam/ https://www.instagram.com/stories/hannahxgda/ https://www.instagram.com/stories/oona.linna/ https://www.instagram.com/stories/tanusha_dukaaa/ https://www.instagram.com/stories/cinnamarollslut/ https://www.instagram.com/stories/megalcarmen/ https://www.instagram.com/stories/reyzcos/ https://www.instagram.com/stories/nbrum__/ https://www.instagram.com/stories/tniwe/ https://www.instagram.com/stories/maggda02/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/kateevteeva/ https://www.instagram.com/stories/oliviagrivas/ https://www.instagram.com/stories/alinaaboyko/ https://www.instagram.com/stories/annstoliar/ https://www.instagram.com/stories/morganalexandraaaof/ https://www.instagram.com/stories/32gl_/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/nataliazasadzka/ https://www.instagram.com/stories/aidainnesghazlan https://www.instagram.com/stories/asiaopozda https://www.instagram.com/stories/summerlovesummerl/ https://www.instagram.com/stories/offi_anastasiasergeeva https://www.instagram.com/stories/_alena__savchenko https://www.instagram.com/stories/tg4tv/3949140921149121678/ https://www.instagram.com/stories/pasergelstorg/3949099958083038296/ https://www.instagram.com/stories/i.s.nesquik https://www.instagram.com/stories/rteone/3949107378041452874/ https://www.instagram.com/stories/agnieszkadziekan https://www.instagram.com/stories/sandrakubicka https://www.instagram.com/stories/milevskate https://www.instagram.com/stories/zuueva https://www.instagram.com/stories/miller.om https://www.instagram.com/stories/kraseczka https://www.instagram.com/stories/bruletova_ https://www.instagram.com/stories/yuliya_vladiii/3949176645069840944/ https://www.instagram.com/stories/shipilovaks/3949114796439818748/ https://www.instagram.com/stories/misslilan/3949131243144139338/ https://www.instagram.com/stories/liberateme.1 https://www.instagram.com/stories/lubimaya_yulya/3949044394169019074/ https://www.instagram.com/stories/klaudiahalejcio https://www.instagram.com/stories/izabellakrzan https://www.instagram.com/stories/oksanamiyy https://www.instagram.com/stories/camillekaftan https://www.instagram.com/stories/__dasha__one https://www.instagram.com/stories/nikolaprochniak
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/saintt.nasty/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/gingerosepalaza/ https://www.instagram.com/stories/vikafalileeva/ https://www.instagram.com/stories/boroka_sotonyi/ https://www.instagram.com/stories/patriciakoncz/ https://www.instagram.com/stories/172.4cm/ https://www.instagram.com/stories/muellerida/ https://www.instagram.com/stories/edvarda_/ https://www.instagram.com/stories/mynessielife/ https://www.instagram.com/stories/dear.mathilda/ https://www.instagram.com/stories/elisha__h/ https://www.instagram.com/stories/frida_aasen/ https://www.instagram.com/stories/kimdammer/ https://www.instagram.com/stories/irrnova/ https://www.instagram.com/stories/xenia/ https://www.instagram.com/stories/beautyandbrainswithatwist/ https://www.instagram.com/stories/kira_artamonova_/ https://www.instagram.com/stories/dashapogadaevaa/ https://www.instagram.com/stories/valerialipovetsky/ 
-gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/krisgoman/ https://www.instagram.com/stories/amaliestar/ https://www.instagram.com/stories/dashadigi/ https://www.instagram.com/stories/celinebethmann/ https://www.instagram.com/stories/ameliagray/ https://www.instagram.com/stories/tashha_s/ https://www.instagram.com/stories/alina_enero/ https://www.instagram.com/stories/hoskelsa/ https://www.instagram.com/stories/borovusha/ https://www.instagram.com/stories/lazareva__vi/ https://www.instagram.com/stories/ola_ciupa/ https://www.instagram.com/stories/andreeabostanica/ https://www.instagram.com/stories/elizabethrage/ https://www.instagram.com/stories/anialewandowska_official/ https://www.instagram.com/stories/sladkoslava/ https://www.instagram.com/stories/undeadnatalie/ https://www.instagram.com/stories/vishnevskaiazlata/ https://www.instagram.com/stories/nadyasonika/ https://www.instagram.com/stories/ohkaybunny/ https://www.instagram.com/stories/palonekk/ https://www.instagram.com/stories/seattlesbeauty/ https://www.instagram.com/stories/_sophiesilva_/ https://www.instagram.com/stories/sophiegamergirl/ https://www.instagram.com/stories/gulyaevaam/ https://www.instagram.com/stories/oona.linna/ https://www.instagram.com/stories/cinnamarollslut/ https://www.instagram.com/stories/maggda02/ https://www.instagram.com/stories/dariazaritskaya/ https://www.instagram.com/stories/tautumeitas/ https://www.instagram.com/stories/maligoshik/ https://www.instagram.com/stories/lolo/ https://www.instagram.com/stories/di_litvinova_di/ https://www.instagram.com/stories/darth_cydious/ https://www.instagram.com/stories/abileeboivin/ https://www.instagram.com/stories/wanderlustluca/ https://www.instagram.com/stories/alinaaboyko/ https://www.instagram.com/stories/samoylens/ https://www.instagram.com/stories/kira_artamonova_/ https://www.instagram.com/stories/polinamalinovskaya/ 
-cd /tmp
-mkdir reels
-gallery-dl https://www.instagram.com/reels/DY7bFWUtOBF/
-rm /Users/joregan/Desktop/Screenshot\ 2026-07-18\ at\ 19.33.37.png /Users/joregan/Desktop/Screenshot\ 2026-07-19\ at\ 17.35.38.png /Users/joregan/Desktop/Screenshot\ 2026-07-23\ at\ 13.20.21.png 
-cd ~/Desktop/
-ls Screenshot\ 2026-07-*|zip ~/backup/ig22jun26/Ss20jul26.zip -@
-rm Scr*
-grep aroline ~/Playing/braxen/dict/braxen-sv.tsv 
-grep aroline ~/Playing/braxen/dict/braxen-sv.tsv |less
-grep -e '[CK]aroline\t' ~/Playing/braxen/dict/braxen-sv.tsv |less
-grep -e '[CK]aroline\t' ~/Playing/braxen/dict/braxen-sv.tsv 
-grep -e '^[CK]aroline\t' ~/Playing/braxen/dict/braxen-sv.tsv 
-cd /tmp/
-wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442207150019881721_480p.mp4
-ffplay 2442207150019881721_480p.mp4 -ss 84
-ffplay 2442207150019881721_480p.mp4 -ss 88
-ffplay 2442207150019881721_480p.mp4 -ss 87
-ffplay 2442207150019881721_480p.mp4 -ss 88
-ffplay 2442207150019881721_480p.mp4 -ss 88
-ffplay 2442207150019881721_480p.mp4 -ss 88
-ffplay 2442207150019881721_480p.mp4 -ss 88
-ffplay 2442207150019881721_480p.mp4 -ss 88
-ffplay 2442207150019881721_480p.mp4 -ss 88
+rm -rf www.* static.thenude.com/ pix-fl.phncdn.com/ babesource.com/ ei.phncdn.com/ gccdn.metartnetwork.com/
 ls
-git clone git@github.com:jimregan/dockerfiles.git
-cd dockerfiles/
-git checkout cvs-to-svn 
+vi inp1 
+wget -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3c3f115c317 'https://pix-cdn77.phncdn.com/c6371/videos/202606/24/53288205/original_53288205.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1127?hash=9wJDLTIZbKOrsVqbrxCWRBAQMic=&validto=1783327723'
+wget --warc-file=og4-1 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3c3f115c317 'https://pix-cdn77.phncdn.com/c6371/videos/202606/24/53288205/original_53288205.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1127?hash=9wJDLTIZbKOrsVqbrxCWRBAQMic=&validto=1783327723'
+zless og4-1.warc.gz 
+cp pix-cdn77.phncdn.com/c6371/videos/202606/24/53288205/original_53288205.mp4/plain/ex\:1\:no/bg\:0\:0\:0/rs\:fit\:640\:360/vts\:1127\?hash\=9wJDLTIZbKOrsVqbrxCWRBAQMic\=\&validto\=1783327723 /tmp/v.jpg
+rm /private/tmp/v.jpg 
+rm -rf pix-cdn77.phncdn.com/
 ls
-git rm -r rhl72-qemu/
-git commit -m tidy
-git push origin cvs-to-svn 
-cd ~/Downloads/Instagram
+zless p4.warc.gz 
+zless p4.1.warc.gz 
+zless p4.2.warc.gz 
+wget --warc-file=og4-2 -x -c https://www.pornhub.com/view_video.php?viewkey=6a439d3231a28 'https://pix-cdn77.phncdn.com/c6251/videos/202606/30/53951755/original/019f1821-c82a-798f-bbdd-d1639f43de41.jpg/plain/rs:fit:640:360?hash=jkAi8q8-OCEtj700ADpnkEzf5EI=&validto=1783328096'
+wget --warc-file=og4-2 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a439d3231a28 'https://pix-cdn77.phncdn.com/c6251/videos/202606/30/53951755/original/019f1821-c82a-798f-bbdd-d1639f43de41.jpg/plain/rs:fit:640:360?hash=jkAi8q8-OCEtj700ADpnkEzf5EI=&validto=1783328096'
+cp pix-cdn77.phncdn.com/c6251/videos/202606/30/53951755/original/019f1821-c82a-798f-bbdd-d1639f43de41.jpg/plain/rs\:fit\:640\:360\?hash\=jkAi8q8-OCEtj700ADpnkEzf5EI\=\&validto\=1783328096 /tmp/w.jpg
+echo https://babesource.com/freegalleries/ashley-rabbit-first-anal-quest-204164/ >> inp1
+lynx -dump https://babesource.com/freegalleries/ashley-rabbit-first-anal-quest-204164/|grep jpg|grep http|awk '{print $NF}' >> inp1 
+vi inp1 
+lynx -dump https://babesource.com/galleries/aria-sloane-net-girl-151163.html|grep jpg|grep http|awk '{print $NF}' >> inp1 
+vi inp1 
+wget --warc-file=og4-3 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a43bc3798995 'https://pix-fl.phncdn.com/c6371/videos/202606/30/53959725/original_53959725.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1161?hdnea=st=1783217672~exp=1783304072~hdl=-1~hmac=ab3f07b4a8822cf55e20828f6b93507ef459badc'
+wget --warc-file=og4-3 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3e80c43ca26 'https://pix-cdn77.phncdn.com/c6251/videos/202606/26/53477485/original/019f0464-844d-7d29-8fd2-1a851511f0dd.jpg/plain/rs:fit:640:360?hash=w2QVCv0yv84cfsR_1FxF9fJ-ndM=&validto=1783304105'
+wget --warc-file=og4-3 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a43bc3798995 'https://pix-fl.phncdn.com/c6371/videos/202606/30/53959725/original_53959725.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1161?hdnea=st=1783217672~exp=1783304072~hdl=-1~hmac=ab3f07b4a8822cf55e20828f6b93507ef459badc'
+wget --warc-file=og4-4 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3e80c43ca26 'https://pix-cdn77.phncdn.com/c6251/videos/202606/26/53477485/original/019f0464-844d-7d29-8fd2-1a851511f0dd.jpg/plain/rs:fit:640:360?hash=w2QVCv0yv84cfsR_1FxF9fJ-ndM=&validto=1783304105'
+wget --warc-file=og4-5 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3e295283eaf 'https://pix-fl.phncdn.com/c6371/videos/202606/26/53448575/original_53448575.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:150?hdnea=st=1783217768~exp=1783304168~hdl=-1~hmac=b303c45fea5a282a61ca688c61261db2eb86925b'
+wget --warc-file=og4-6 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=6a3c3f115c317 'https://pix-cdn77.phncdn.com/c6371/videos/202606/24/53288205/original_53288205.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1127?hash=1f7_2-2w_x4O4OdJe6dIIClT5Lg=&validto=1783304253'
+wget --warc-file=og4-7 -x -c --referer=https://www.pornhub.com/view_video.php?viewkey=69d527e2c92c9 'https://pix-fl.phncdn.com/c6251/videos/202604/07/44603855/original/019d68c4-89bc-7df8-a2b4-730b4c07eacc.jpg/plain/rs:fit:640:360?hdnea=st=1783242473~exp=1783328873~hdl=-1~hmac=2b520c299eaeae8ffe1cc52ce48e923e4feaa16b'
+cnt=8
+refgrab(){ wget --warc-file=og4-$cnt -x -c --referer=$1 $2 ;}
+bsgal(){ echo $1 >> inp; lynx -dump $1|grep jpg|grep http|awk '{print $NF}' >> inp1 ; }
+bsgal https://babesource.com/galleries/olivia-madison-married-cheating-129001.html
+vi inp1 
+bsgal(){ echo $1 >> inp1; lynx -dump $1|grep jpg|grep http|awk '{print $NF}' >> inp1 ; }
+vi inp1 
+bsgal https://babesource.com/galleries/olivia-madison-wankz-vr-211357.html
+vi inp1 
+bsgal https://babesource.com/galleries/olivia-madison-chloe-rose-vr-bangers-170733.html
+bsgal https://babesource.com/galleries/lena-anderson-olivia-madison-slayed-169680.html
+bsgal https://babesource.com/galleries/olivia-madison-daddy-4k-144934.html
+bsgal https://babesource.com/galleries/bella-rolland-olivia-madison-lesbianx-136354.html
+bsgal https://babesource.com/galleries/olivia-madison-ftv-girls-4-121854.html
+bsgal https://babesource.com/galleries/olivia-madison-ftv-girls-8-123177.html
+bsgal https://babesource.com/galleries/lia-lin-first-class-pov-211255.html
+bsgal https://babesource.com/galleries/lia-lin-istripper-191448.html
+bsgal https://babesource.com/galleries/lia-lin-dorcel-club-170588.html
+bsgal https://babesource.com/galleries/gina-gerson-lia-lin-penthouse-169886.html
+bsgal https://babesource.com/galleries/lia-lin-penthouse-170192.html
+bsgal https://babesource.com/galleries/lia-lin-private-163685.html
+bsgal https://babesource.com/galleries/ashly-rabbit-metartx-209256.html
+bsgal https://babesource.com/galleries/ashly-rabbit-sexart-211003.html
+bsgal https://babesource.com/galleries/ashly-rabbit-karup-s-hometown-amateurs-212482.html
+bsgal https://babesource.com/galleries/ashly-rabbit-metart-207675.html
+bsgal https://babesource.com/galleries/ashly-rabbit-rim-4k-204211.html
+bsgal https://babesource.com/galleries/ashly-rabbit-metart-204721.html
+bsgal https://babesource.com/galleries/ashley-rabbit-first-anal-quest-204164.html
+bsgal https://babesource.com/galleries/aria-sloane-metart-194537.html
+bsgal https://babesource.com/galleries/aria-sloane-strokies-208157.html
+bsgal https://babesource.com/galleries/aria-sloane-metartx-199537.html
+bsgal https://babesource.com/galleries/aria-sloane-pornfidelity-205545.html
+bsgal https://babesource.com/galleries/aria-sloane-metartx-185174.html
+bsgal https://babesource.com/galleries/aria-sloane-blaire-johnson-innocent-high-166132.html
+bsgal https://babesource.com/galleries/aria-sloane-karup-s-hometown-amateurs-165848.html
+bsgal https://babesource.com/galleries/aria-sloane-blacked-raw-168194.html
+bsgal https://babesource.com/galleries/aria-sloane-lethal-hardcore-168548.html
+bsgal https://babesource.com/galleries/fibi-euro-only-tarts-205589.html
+bsgal https://babesource.com/galleries/fibi-euro-only-tarts-205082.html
+bsgal https://babesource.com/galleries/fibi-euro-the-life-erotic-196994.html
+bsgal https://babesource.com/galleries/fibi-euro-college-uniform-193812.html
+bsgal https://babesource.com/galleries/fibi-euro-karup-s-older-women-189374.html
+bsgal https://babesource.com/galleries/fibi-euro-college-uniform-188190.html 
+refgrab(){ wget --warc-file=og4-$cnt -x -c --referer=$1 $2 ; cnt=$(($cnt + 1)); }
+cnt=9
+bsgal https://babesource.com/galleries/fibi-euro-all-over-30-167464.html
+bsgal https://babesource.com/galleries/andi-rose-wetvr-164423.html
+bsgal https://babesource.com/galleries/andi-rose-princess-cum-148939.html
+bsgal https://babesource.com/galleries/andi-rose-bratty-sis-148544.html
+bsgal https://babesource.com/galleries/andi-rose-nubile-films-146290.html
+bsgal https://babesource.com/galleries/andi-rose-nuru-massage-133060.html
+bsgal https://babesource.com/galleries/andi-rose-girl-cum-127429.html
+bsgal https://babesource.com/galleries/andi-rose-younger-mommy-118148.html
+bsgal https://babesource.com/galleries/jazmin-luv-badoink-vr-157920.html
+bsgal https://babesource.com/galleries/jazmin-luv-bic-cock-mood-148285.html
+bsgal https://babesource.com/galleries/hime-marie-jazmin-luv-stepsiblings-139686.html
+refgrab https://www.pornhub.com/view_video.php?viewkey=66b0636e64066 'https://ei.phncdn.com/videos/202408/05/456098491/original/(m=q2T3JRZbeaAaGwObaaaa)(mh=5_56cGQPFCdDHIA2)0.jpg'
+echo $cnt
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a285f9cdcb87 'https://pix-fl.phncdn.com/c6371/videos/202606/09/51711405/original_51711405.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:188?hdnea=st=1783243357~exp=1783329757~hdl=-1~hmac=f4affe6ccbff01e32855b03805841fbe13f42740'
+refgrab https://www.pornhub.com/view_video.php?viewkey=66d7751a7d6b7 https://ei.phncdn.com/videos/202409/03/457324151/original/(m=qJQXVTZbeaAaGwObaaaa)(mh=ijLuEu2XVfyyZRQA)0.jpg
+refgrab https://www.pornhub.com/view_video.php?viewkey=66d7751a7d6b7 'https://ei.phncdn.com/videos/202409/03/457324151/original/(m=qJQXVTZbeaAaGwObaaaa)(mh=ijLuEu2XVfyyZRQA)0.jpg'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a0efa4f7974d 'https://pix-fl.phncdn.com/c6371/videos/202605/18/49318235/original_49318235.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:357?hdnea=st=1783243440~exp=1783329840~hdl=-1~hmac=65672c09665027e2c3ab97337135faadb834e6e1'
+refgrab https://www.pornhub.com/view_video.php?viewkey=68d3ff4703912 'https://pix-fl.phncdn.com/c6371/videos/202509/24/23811455/original_23811455.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:494?hdnea=st=1783243475~exp=1783329875~hdl=-1~hmac=e81c42f5c569ba01059bb716a3b9f44add004c71'
+refgrab https://www.pornhub.com/view_video.php?viewkey=68d35c99f16dd 'https://pix-fl.phncdn.com/c6371/videos/202509/24/23757495/original_23757495.mov/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:697?hdnea=st=1783243503~exp=1783329903~hdl=-1~hmac=33ca06ec6d98110fd7bccafaed0d001555f03d4c'
+refgrab(){ wget --warc-file=og4-$cnt -x -c --referer=$1 $1 $2 ; cnt=$(($cnt + 1)); }
+refgrab https://www.pornhub.com/view_video.php?viewkey=68d35c99f16dd 'https://pix-fl.phncdn.com/c6371/videos/202509/24/23757495/original_23757495.mov/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:697?hdnea=st=1783243503~exp=1783329903~hdl=-1~hmac=33ca06ec6d98110fd7bccafaed0d001555f03d4c'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6983bc69335d8 'https://pix-cdn77.phncdn.com/c6251/videos/202602/04/38368485/original/019c8586-d62d-7efd-bd95-d4318e455986.jpg/plain/rs:fit:640:360?hash=LHYAfn6_dRWzegVeTAVBYe_boMM=&validto=1783329948'
+refgrab https://www.pornhub.com/view_video.php?viewkey=66d611a43c594 'https://ei.phncdn.com/videos/202409/02/457277001/original/(m=qYVWSTZbeaAaGwObaaaa)(mh=Q8hdfoCxFvo_SDJ9)0.jpg'
+refgrab https://www.pornhub.com/view_video.php?viewkey=686167d465c1b 'https://pix-fl.phncdn.com/c6251/videos/202506/29/13029975/original/0197d146-7b4e-7f44-8887-5089573a76b8.png/plain/rs:fit:640:360?hdnea=st=1783243605~exp=1783330005~hdl=-1~hmac=fe86af546d1b36c66aa554a0e6208c3e3e1f2a4f'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228e33eaf2 'https://pix-cdn77.phncdn.com/c6371/videos/202606/29/53812895/original_53812895.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:448?hash=joZJcejtVtW1wZVCLQKZcpQVKuc=&validto=1783330033'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228bb9688d 'https://pix-fl.phncdn.com/c6371/videos/202606/29/53812715/original_53812715.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:667?hdnea=st=1783243665~exp=1783330065~hdl=-1~hmac=e3d8894fdf244972a890d2304287dbcc248a2678'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228fa56afa 'https://pix-fl.phncdn.com/c6371/videos/202606/29/53813075/original_53813075.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:655?hdnea=st=1783243693~exp=1783330093~hdl=-1~hmac=5298aad31221978e83ddd94945dca4b082578b2e'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6803b21fa3725 'https://ei.phncdn.com/videos/202504/19/467485985/original/(m=qW50NG0beaAaGwObaaaa)(mh=Gg1QyIBYh8r6h33d)0.jpg'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6887e61a0feaa 'https://pix-cdn77.phncdn.com/c6371/videos/202507/28/17474475/original_17474475.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:1173?hash=TDSYGSzRJybjZBxskF6QTCYZSYU=&validto=1783330157'
+bsgal https://babesource.com/galleries/veronica-church-my-pervy-family-133387.html
+vi inp1 
+refgrab https://www.pornhub.com/view_video.php?viewkey=6668595115be8 'https://ei.phncdn.com/videos/202406/11/453680671/original/(m=eaAaGwObaaaa)(mh=P_pMtM1tQV-CvJRE)12.jpg'
+bsgal https://babesource.com/galleries/freya-von-doom-my-pervy-family-142554.html
+refgrab https://www.pornhub.com/view_video.php?viewkey=68419752ca0bb 'https://ei.phncdn.com/videos/202506/05/469823225/original/(m=q1QSJK0beaAaGwObaaaa)(mh=ntW-uVz-g5TxnO5h)0.jpg'
+bsgal https://babesource.com/galleries/lou-laine-my-pervy-family-130508.html
+bsgal https://babesource.com/galleries/khloe-kapri-my-pervy-family-122618.html
+bsgal https://babesource.com/galleries/khloe-kapri-charmed-205942.html
+bsgal https://babesource.com/galleries/khloe-kapri-brat-tamer-182091.html
+bsgal https://babesource.com/galleries/khloe-kapri-laya-rae-stepsiblings-147749.html
+bsgal https://babesource.com/galleries/sydney-hail-my-pervy-family-122076.html
+bsgal https://babesource.com/galleries/yumi-sin-my-pervy-family-117842.html
+bsgal https://babesource.com/galleries/khloe-kapri-my-pervy-family-118360.html
+bsgal https://babesource.com/galleries/evelin-stone-anastasia-knight-my-pervy-family-57033.html
+bsgal https://babesource.com/galleries/evelin-stone-reality-kings-167588.html
+bsgal https://babesource.com/galleries/evelin-stone-cherry-pimps-65735.html
+bsgal https://babesource.com/galleries/anastasia-knight-teens-love-huge-cocks-64465.html
+bsgal 
+bsgal https://babesource.com/galleries/anastasia-knight-sis-loves-me-34849.html
+bsgal https://babesource.com/galleries/stella-chiyoki-my-pervy-family-140897.html 
+bsgal https://babesource.com/galleries/chloe-temple-khloe-kapri-my-pervy-family-138202.html
+bsgal https://babesource.com/galleries/anais-amore-my-pervy-family-135043.html
+bsgal https://babesource.com/galleries/gia-oh-my-my-pervy-family-134130.html
+bsgal https://babesource.com/galleries/katrina-colt-my-pervy-family-130230.html
+bsgal https://babesource.com/galleries/eva-nyx-my-pervy-family-131289.html
+bsgal https://babesource.com/galleries/maria-kazi-my-pervy-family-126973.html
+bsgal https://babesource.com/galleries/gia-ohmy-breed-me-209735.html
+bsgal https://babesource.com/galleries/gia-ohmy-wankz-vr-208959.html
+bsgal https://babesource.com/galleries/gia-ohmy-cherry-pimps-134122.html
+bsgal https://babesource.com/galleries/gia-ohmy-i-know-that-girl-125238.html
+bsgal https://babesource.com/galleries/gia-oh-my-my-pervy-family-115201.html
+bsgal https://babesource.com/galleries/gia-ohmy-family-strokes-108967.html
+bsgal https://babesource.com/galleries/maria-kazi-porn-mega-load-200076.html
+bsgal https://babesource.com/galleries/maria-kazi-wankz-vr-165574.html
+bsgal https://babesource.com/galleries/maria-kazi-bratty-sis-165716.html
+bsgal https://babesource.com/galleries/maria-kazi-princess-cum-160951.html
+bsgal https://babesource.com/galleries/maria-kazi-cheating-sis-150800.html
+bsgal https://babesource.com/galleries/katie-kush-maria-kazi-my-family-pies-141920.html
+bsgal https://babesource.com/galleries/maria-kazi-atk-galleria-137511.html
+bsgal https://babesource.com/galleries/hyley-winters-maria-kazi-family-strokes-137357.html
+bsgal https://babesource.com/galleries/maria-kazi-atk-galleria-137182.html
+bsgal https://babesource.com/galleries/anais-amore-my-dirty-maid-140810.html
+bsgal https://babesource.com/galleries/anais-amore-my-pervy-family-135043.html
+bsgal https://babesource.com/galleries/anais-amore-rk-prime-140012.html
+bsgal https://babesource.com/galleries/anais-amore-reality-kings-196384.html
+bsgal https://babesource.com/galleries/stella-chiyoki-milfty-146853.html
+bsgal https://babesource.com/galleries/stella-chiyoki-bangbus-141157.html
+bsgal https://babesource.com/galleries/stella-chiyoki-my-pervy-family-140897.html
+bsgal https://babesource.com/galleries/kallie-taylor-my-pervy-family-159331.html
+bsgal https://babesource.com/galleries/xxlayna-marie-my-pervy-family-159800.html
+bsgal https://babesource.com/galleries/haley-spades-my-pervy-family-158695.html
+bsgal https://babesource.com/galleries/justine-jakobs-my-pervy-family-153977.html
+bsgal https://babesource.com/galleries/jc-wilds-my-pervy-family-153497.html
+bsgal https://babesource.com/galleries/violet-gems-my-pervy-family-152599.html
+bsgal https://babesource.com/galleries/jojo-austin-my-pervy-family-151663.html
+bsgal https://babesource.com/galleries/haley-reed-my-pervy-family-149339.html
+bsgal https://babesource.com/galleries/natalia-queen-my-pervy-family-150758.html
+bsgal https://babesource.com/galleries/violet-starr-my-pervy-family-148575.html
+bsgal https://babesource.com/galleries/sherrie-moon-angelina-moon-my-pervy-famiy-145472.html
+bsgal https://babesource.com/galleries/stella-luxx-my-pervy-family-179174.html
+bsgal https://babesource.com/galleries/sasha-tatcha-my-pervy-family-175439.html
+bsgal https://babesource.com/galleries/aria-banks-my-pervy-family-173843.html
+bsgal https://babesource.com/galleries/ashlyn-angel-my-pervy-family-166180.html
+bsgal https://babesource.com/galleries/ashley-alexander-my-pervy-family-163840.html
+bsgal https://babesource.com/galleries/violet-starr-true-anal-210260.html
+bsgal https://babesource.com/galleries/violet-starr-the-pov-god-170703.html
+bsgal https://babesource.com/galleries/violet-starr-touch-my-wife-146698.html
+bsgal https://babesource.com/galleries/sophia-grace-jane-wilde-violet-starr-haley-reed-london-river-frisky-anal-nymphos-02-116563.html
+bsgal https://babesource.com/galleries/jojo-austin-mofos-209362.html
+bsgal https://babesource.com/galleries/jojo-austin-als-scan-209114.html
+bsgal https://babesource.com/galleries/jojo-austin-tiny-4k-206867.html
+bsgal https://babesource.com/galleries/jojo-austin-filthy-taboo-207787.html
+bsgal https://babesource.com/galleries/jojo-austin-passion-hd-204210.html
+bsgal https://babesource.com/galleries/jojo-austin-cum4k-164668.html
+bsgal https://babesource.com/galleries/jojo-austin-nubiles-4-159908.html
+bsgal https://babesource.com/galleries/jojo-austin-lubed-159591.html
+bsgal https://babesource.com/galleries/jojo-austin-girl-cum-157015.html
+bsgal https://babesource.com/galleries/jojo-austin-princess-cum-159289.html
+bsgal https://babesource.com/galleries/jojo-austin-nubiles-2-159634.html
+bsgal https://babesource.com/galleries/xxlayna-marie-tag-team-pov-211140.html
+bsgal https://babesource.com/galleries/xxlayna-marie-mr-lucky-raw-211141.html
+bsgal https://babesource.com/galleries/xxlayna-marie-brazzers-205276.html
+bsgal https://babesource.com/galleries/xxlayna-marie-vr-bangers-167049.html
+bsgal https://babesource.com/galleries/xxlayna-marie-britt-blair-slayed-163291.html
+bsgal https://babesource.com/galleries/xxlayna-marie-my-pervy-family-159800.html
+bsgal https://babesource.com/galleries/kate-dalia-my-pervy-family-195192.html
+bsgal https://babesource.com/galleries/serena-hill-my-pervy-family-194758.html
+bsgal https://babesource.com/galleries/chloe-temple-my-pervy-family-189920.html
+bsgal https://babesource.com/galleries/harlow-west-my-pervy-family-187540.html
+bsgal https://babesource.com/galleries/harlow-west-don-t-break-me-96262.html
+bsgal https://babesource.com/galleries/justine-jakobs-my-pervy-family-187130.html
+bsgal https://babesource.com/galleries/juniper-ren-my-pervy-family-181084.html
+bsgal https://babesource.com/galleries/justine-jakobs-bbc-paradise-200199.html
+bsgal https://babesource.com/galleries/justine-jakobs-ftv-milfs-2-166848.html
+bsgal https://babesource.com/galleries/sera-ryder-justine-jakobs-reality-kings-163549.html
+bsgal https://babesource.com/galleries/krissy-knight-justine-jakobs-ask-your-mother-163921.html
+bsgal https://babesource.com/galleries/juniper-ren-atk-galleria-209143.html
+bsgal https://babesource.com/galleries/juniper-ren-vr-bangers-204261.html
+bsgal https://babesource.com/galleries/juniper-ren-tnv-girls-203744.html
+bsgal https://babesource.com/galleries/juniper-ren-atk-galleria-204289.html
+bsgal https://babesource.com/galleries/juniper-ren-reality-kings-204080.html
+bsgal https://babesource.com/galleries/juniper-ren-anal-only-203982.html
+bsgal https://babesource.com/galleries/juniper-ren-atk-galleria-191143.html
+bsgal https://babesource.com/galleries/juniper-ren-passion-hd-192008.html
+bsgal https://babesource.com/galleries/juniper-ren-wet-vr-182984.html
+bsgal https://babesource.com/galleries/serena-hill-fuck-pass-vr-211240.html
+bsgal https://babesource.com/galleries/serena-hill-blacks-on-blondes-204670.html
+bsgal https://babesource.com/galleries/serena-hill-modern-day-sins-190104.html
+bsgal https://babesource.com/galleries/serena-hill-atk-galleria-189250.html
+refgrab https://www.pornhub.com/view_video.php?viewkey=6446afcb0ba8e 'https://ei.phncdn.com/videos/202304/24/430181291/original/(m=qGVYTKYbeaAaGwObaaaa)(mh=W7zYjLqe1DXTNzyN)0.jpg'
+bsgal https://babesource.com/galleries/ellie-eilish-hardx-88073.html
+bsgal https://babesource.com/galleries/ellie-eilish-family-strokes-79113.html
+bsgal https://babesource.com/galleries/ellie-eilish-ftv-girls-3-69216.html
+bsgal https://babesource.com/galleries/ellie-eilish-shoplyfter-69987.html
+bsgal https://babesource.com/galleries/ellie-eilish-only-teen-blowjobs-70691.html
+refgrab https://www.pornhub.com/view_video.php?viewkey=68f8dfb64c0b8 'https://pix-cdn77.phncdn.com/c6251/videos/202510/22/27102095/original/019a0c55-9167-7935-bc00-fed8e51007bb.jpg/plain/rs:fit:640:360?hash=SrlTy1RfKb9Qf9NAoG4npPs7lv8=&validto=1783331480'
+bsgal https://babesource.com/galleries/meloni-moon-daddy-s-favorite-3-109905.html
+bsgal https://babesource.com/galleries/meloni-moon-atk-galleria-104194.html
+bsgal https://babesource.com/galleries/meloni-moon-atk-galleria-104944.html
+bsgal https://babesource.com/freegalleries/meloni-moon-daddy-s-favorite-3-109905/
+grep 6a2fae46642ba inp1
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a2fae46642ba 'https://pix-fl.phncdn.com/c6371/videos/202606/15/52280725/original_52280725.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:945?hdnea=st=1783245188~exp=1783331588~hdl=-1~hmac=3a81438f69866f406827b3b20ade8cdfdd1ed749'
+bsgal https://babesource.com/galleries/milena-ray-white-boxxx-141759.html?pl=paysite
+grep 662fc30c3ee74 inp1
+grep 65422ae7896b9 inp1
+refgrab https://www.pornhub.com/view_video.php?viewkey=65422ae7896b9 'https://ei.phncdn.com/videos/202311/01/442223121/original/(m=q0SQL0YbeaAaGwObaaaa)(mh=_OlsMHsickdiiotc)0.jpg'
+grep 691b49dda4fa5 inp1
+refgrab https://www.pornhub.com/view_video.php?viewkey=691b49dda4fa5 'https://pix-fl.phncdn.com/c6251/videos/202511/17/29953605/original/019a9fd9-0390-7cc1-9ef8-0eccfdb28d56.jpg/plain/rs:fit:640:360?hdnea=st=1783245319~exp=1783331719~hdl=-1~hmac=e3e6da3335c97418886c10c933a7495463fb9c6b'
+bsgal https://babesource.com/freegalleries/alaina-fox-ariana-marie-babescom-8960.html
+bsgal https://babesource.com/galleries/ariana-marie-badoink-vr-55779.html
+bsgal https://babesource.com/galleries/ariana-marie-povd-43436.html
+vi inped 
+refgrab https://www.pornhub.com/view_video.php?viewkey=67da4f02a4fff 'https://ei.phncdn.com/videos/202503/19/465987255/original/(m=eaAaGwObaaaa)(mh=n6lsgpHdd4HyhqV6)1.jpg'
+bsgal https://babesource.com/galleries/lucy-foxx-bratty-sis-202133.html
+tail inp1
+bsgal https://babesource.com/galleries/lucy-foxx-atk-galleria-192167.html
+bsgal https://babesource.com/galleries/lucy-foxx-atk-galleria-183202.html
+bsgal https://babesource.com/galleries/lucy-foxx-mofos-183540.html
+bsgal https://babesource.com/galleries/lucy-foxx-money-birdette-brazzers-180982.html
+bsgal https://babesource.com/galleries/ariana-marie-dirty-masseur-35595.html
+bsgal https://babesource.com/galleries/molly-devon-sexart-146667.html
+bsgal https://babesource.com/galleries/molly-devon-metart-135714.html
+bsgal https://babesource.com/galleries/molly-devon-dane-jones-156498.html
+refgrab https://www.pornhub.com/view_video.php?viewkey=65b91bca5d6ca 'https://ei.phncdn.com/videos/202401/30/447382641/original/(m=qOG2Y7YbeaAaGwObaaaa)(mh=5CQz8d9qpyOMtKtX)0.jpg'
+bsgal https://babesource.com/freegalleries/chloe-scott-sis-loves-me-26956/
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a1d39dd14815 'https://pix-fl.phncdn.com/c6251/videos/202606/01/50854325/original/019e879c-ae08-7ddc-a86a-8e9e4952fd04.jpg/plain/rs:fit:640:360?hdnea=st=1783245700~exp=1783332100~hdl=-1~hmac=f65475da9297848f3829ee20871fd53b674bef59'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a1469dcb6394 'https://pix-fl.phncdn.com/c6371/videos/202605/25/50047535/original_50047535.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:71?hdnea=st=1783245740~exp=1783332140~hdl=-1~hmac=698cd248230ce8956b77828f3657b1f138621519'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a26b36653746 'https://pix-fl.phncdn.com/c6251/videos/202606/08/51575845/original/019ea741-5bbf-79a4-ada9-905491b1f8e8.png/plain/rs:fit:640:360?hdnea=st=1783245780~exp=1783332180~hdl=-1~hmac=b2a3b71daee27c694c568739a8963e50f8ec9b9c'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a3428bda6cc1 'https://pix-fl.phncdn.com/c6371/videos/202606/18/52643725/original_52643725.mov/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:620?hdnea=st=1783245828~exp=1783332228~hdl=-1~hmac=486e2f3aa64ec7739f65eae247bfe6eb03812488'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228bbccaac 'https://pix-fl.phncdn.com/c6371/videos/202606/29/53812745/original_53812745.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:644?hdnea=st=1783245864~exp=1783332264~hdl=-1~hmac=083c82520ecc7ea0da2152946fff06ca32c42050'
+bsgal https://babesource.com/galleries/cherry-kiss-mom-wants-creampie-175236.html
+bsgal https://babesource.com/galleries/cherry-kiss-sharing-my-wife-2-162082.html
+bsgal https://babesource.com/galleries/malia-lenoir-czech-vr-206370.html
+vi inp1
+vi inp1
+dotn https://www.thenude.com/cover/atkarchives/1327117/rita-in-
+dotn https://www.thenude.com/cover/stunning18/847697/zafira-g-in-zafira---stunning-girl-by-antonio-clemens
+dotn https://www.thenude.com/cover/atkarchives/1080251/rita-in-
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a3e80c43ca26 'https://pix-cdn77.phncdn.com/c6251/videos/202606/26/53477485/original/019f0464-844d-7d29-8fd2-1a851511f0dd.jpg/plain/rs:fit:640:360?hash=DGmvpQrva4h4Cfq-5LQaMfxVb20=&validto=1783332586'
+bsgal https://babesource.com/galleries/alina-voss-povd-210009.html
+vi inp1
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a3ca1a96fa4c 'https://pix-cdn77.phncdn.com/c6251/videos/202606/25/53318135/original/019efce0-df4c-7f86-a0e5-54722a6139fd.jpg/plain/rs:fit:640:360?hash=goU7vhvg0DeCoOmJg_qmtzmRqT0=&validto=1783332668'
+refgrab https://www.pornhub.com/view_video.php?viewkey=ph5c9bb7bccf0a6 'https://ei.phncdn.com/videos/201903/27/215278892/original/(m=qXXW3PUbeaAaGwObaaaa)(mh=0EyKwGo2EB1QQc7x)0.jpg'
+refgrab https://www.pornhub.com/view_video.php?viewkey=666afa67bd3b3 'https://ei.phncdn.com/videos/202406/13/453755101/original/(m=q6Q7GNZbeaAaGwObaaaa)(mh=ulu1vlnRHGeimCU2)0.jpg'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a25429f9a0b5 'https://pix-cdn77.phncdn.com/c6371/videos/202606/07/51450185/original_51450185.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:414?hash=UdeJDQ3mwmrOD3zH86b04LWMIPA=&validto=1783332818'
+vi inp1
+refgrab https://www.pornhub.com/view_video.php?viewkey=ph5dfa7e3cc589c 'https://ei.phncdn.com/videos/201912/18/269624851/original/(m=q7VGN_ZbeaAaGwObaaaa)(mh=MYZzBHfCvLIcuVg9)0.jpg'
+bsgal https://babesource.com/freegalleries/natalie-knight-bratty-sis-82629/
+bsgal https://babesource.com/galleries/natalie-knight-brat-tamer-162665.html
+bsgal https://babesource.com/galleries/natalie-knight-my-girls-first-black-guy-96887.html
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a38d91be568e 'https://pix-fl.phncdn.com/c6371/videos/202606/22/53002895/original_53002895.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:383?hdnea=st=1783246589~exp=1783332989~hdl=-1~hmac=c6558c6841d8ce0bd785ce523c9b9712199fb734'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a422510a161f 'https://pix-cdn77.phncdn.com/c6251/videos/202606/29/53811555/original/019f1f33-91ef-7369-a10b-09f0ce03e0c6.jpg/plain/rs:fit:640:360?hash=b7QZRgvo56cntBIo3vKSV7yT2lg=&validto=1783333075'
+vi inp1
+bsgal https://babesource.com/galleries/natalie-knight-ftv-girls-2-78287.html
+bsgal https://babesource.com/galleries/dee-williams-natalie-knight-mommy-s-girl-62403.html
+bsgal https://babesource.com/galleries/natalie-knight-bang-fake-news-61952.html
+bsgal https://babesource.com/galleries/natalie-knight-nubiles-2-59945.html
+bsgal https://babesource.com/galleries/natalie-knight-nubiles-1-59794.html
+bsgal https://babesource.com/galleries/natalie-knight-sis-loves-me-58647.html
+bsgal https://babesource.com/galleries/natalie-knight-private-casting-x-60174.html
+bsgal https://babesource.com/galleries/natalie-knight-jay-s-pov-60741.html
+bsgal https://babesource.com/galleries/emma-starletto-natalie-knight-bratty-sis-73887.html
+bsgal https://babesource.com/galleries/megan-marx-bratty-sis-211232.html
+bsgal https://babesource.com/galleries/cherry-crush-maya-sinn-bratty-sis-207310.html
+bsgal https://babesource.com/galleries/ali-jones-bratty-sis-209914.html
+bsgal https://babesource.com/galleries/daisy-fox-bratty-sis-191670.html
+bsgal https://babesource.com/galleries/melody-marks-bratty-sis-187908.html
+bsgal https://babesource.com/galleries/eva-nyx-bratty-sis-187501.html
+bsgal https://babesource.com/galleries/aria-valencia-bratty-sis-189176.html
+bsgal https://babesource.com/galleries/nicole-aniston-zz-series-65349.html
+bsgal https://babesource.com/galleries/nicole-aniston-playboy-plus-120378.html
+bsgal https://babesource.com/galleries/nicole-aniston-momentary-hospitality-penthouse-12157.html
+bsgal https://babesource.com/galleries/renee-rose-bratty-sis-156460.html?pl=paysite
+bsgal https://babesource.com/galleries/megan-marx-renee-rose-bratty-sis-173057.html
+bsgal https://babesource.com/galleries/renee-rose-my-family-pies-169322.html
+bsgal https://babesource.com/galleries/renee-rose-bratty-sis-156460.html
+bsgal https://babesource.com/galleries/renee-rose-my-babysitters-club-156970.html
+bsgal https://babesource.com/galleries/penelope-kay-renee-rose-step-siblings-caught-157703.html
+bsgal https://babesource.com/galleries/renee-rose-bratty-sis-155503.html
+bsgal https://babesource.com/galleries/renee-rose-atk-galleria-155144.html
+bsgal https://babesource.com/galleries/renee-rose-atk-galleria-150796.html
+lynx -dump https://babesource.com/pornstars/renee-rose-13741/
+lynx -dump https://babesource.com/pornstars/renee-rose-13741/|grep bratt
+lynx -dump https://babesource.com/pornstars/renee-rose-13741/|grep bratt|awk '{print $NF}'|while read i;do grep $i inp1; done
+bsgal https://babesource.com/galleries/renee-rose-bratty-sis-165256.html
+wget --warc-file=p4.5 -x -c -i inp1 
 ls
-less ~/Playing/work-2026/flickr_upload.py 
-pip install flickrapi Pillow
-less ~/Playing/work-2026/flickr_upload.py 
-export FLICKR_API_KEY=14bd1eb342cfe521dd4cb39b36b35cd4
-export FLICKR_API_SECRET=5593bc4c4df7bb0f
-python /Users/joregan/Playing/work-2026/flickr_upload.py
-python /Users/joregan/Playing/work-2026/flickr_upload.py .
-cd ../Instagram\ 2/
-python /Users/joregan/Playing/work-2026/flickr_upload.py .
-rm VID_20250808_021818_854.mp4 VID_20250808_111303_633.mp4 VID_20250808_111448_523.mp4 VID_20250808_113450_978.mp4 VID_20250809_080948_687.mp4 VID_20250811_042708_890.mp4 VID_20250811_043049_947.mp4 VID_20250811_043555_447.mp4 VID_20250811_044319_302.mp4 VID_20250811_045446_147.mp4 VID_20250811_045846_925.mp4 VID_20250811_045909_464.mp4 VID_20250811_045919_587.mp4 
-rm VID_20250811_050412_008.mp4 VID_20250811_053959_477.mp4 VID_20250811_064530_528.mp4 VID_20250811_065443_007.mp4 VID_20250811_065855_303.mp4 VID_20250811_071601_937.mp4 VID_20250811_084534_117.mp4 VID_20250811_105928_315.mp4 VID_20250812_011616_509.mp4 VID_20250812_023327_730.mp4 VID_20250812_035758_175.mp4 
-cd ../Instagram
-vi /tmp/listing
-grep grep /tmp/listing
-grep grep /tmp/listing|grep VID
-rm VID_78690829_053736_919.mp4 
-grep grep /tmp/listing|grep mp4
-grep grep /tmp/listing|grep mp4|awk '{print $5}'
-grep grep /tmp/listing|grep mp4|awk '{print $5}'|uniq
-grep grep /tmp/listing|grep mp4|awk '{print $5}'|uniq|while read i;do rm $i;done
-ls |wc
-rm VID_369500119_062829_771.mp4 VID_369491125_022001_848.mp4 VID_36530622_212809_558.mp4 VID_360600127_055941_824.mp4
-ls |wc
-rm VID_279170612_100533_608.mp4 VID_279160205_140514_470.mp4 
-ls|wc
-rm VID_278811021_184341_625.mp4 VID_278451124_123034_939.mp4 VID_278180106_074747_142.mp4 
-
-rm VID_278001230_054257_806.mp4 VID_277790315_103002_577.mp4 VID_277540702_183022_271.mp4 VID_277540421_212710_246.mp4 VID_275881120_201534_542.mp4 
-ls|wc
-rm VID_274640513_043421_621.mp4 VID_235200915_083120_301.mp4 VID_232560731_024923_783.mp4 VID_232540428_065511_684.mp4 VID_230440608_092449_165.mp4 
-ls|wc
-rm VID_230430715_191157_326.mp4 VID_163840715_082613_910.mp4 VID_163840622_114524_546.mp4 
-ls|wc
-rm VID_163080913_063739_930.mp4 VID_136290204_015517_825.mp4 VID_104960516_193641_778.mp4 VID_104581217_083510_096.mp4 
+rm -rf static.thenude.com/ www.* x.com/
 ls
-rm VID_77070925_123027_042.mp4 
-cd ..
-rmdir Instagram
-cd Instagram\ 2/
-python /Users/joregan/Playing/work-2026/flickr_upload.py .
-cd ..
-rm -rf Instagram\ 2/
-rm Instagram.zip 
-cd ~/Playing/work-2026/
-git add writing/
-git commit -m more
-git diff
-git add site/index.qmd 
-git commit -m more
-git diff
-git add writing/
-git commit -m more
-git add writing/
-git commit -m more
-cd writing/
-cat Éamonn\ Ua\ Ciórrthais.md 
-cat Éamonn\ Ua\ Ciórrthais.md |sed -e 's/\. /\.\n/'
-cat Éamonn\ Ua\ Ciórrthais.md |sed -e 's/\. /\.\n/g'
-cat Éamonn\ Ua\ Ciórrthais.md |sed -e 's/\. /\.\n/g' > tmp
-mv tmp Éamonn\ Ua\ Ciórrthais.md 
-git diff
-git add .
-git commit -m more
-vi  Éamonn\ Ua\ Ciórrthais.md 
-grep -v '\.$'  Éamonn\ Ua\ Ciórrthais.md 
-git add .
-git commit -m more
-less Éamuinn\ Ui\ Ciórrthais\ phones.md 
-git add .
-git commit -m more
-cat Éamuinn\ Ui\ Ciórrthais\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g'
-cat Éamuinn\ Ui\ Ciórrthais\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-mv tmp Éamuinn\ Ui\ Ciórrthais\ phones.md 
-git diff
-git add .
-git commit -m more
-git diff
-git add .
-git commit -m more
-vi  Éamonn\ Ua\ Ciórrthais.md 
-git diff
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md 
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
-vi Éamonn\ Ua\ Ciórrthais.md 
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
-vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
-git add .
-git commit -m more
-vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
-vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
-vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
-vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
-vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
-cat Éamuinn\ Ui\ Ciórrthais\ phones.md 
-cat Éamuinn\ Ui\ Ciórrthais\ phones.md |awk '{print "# text_phonetic = " $0}'
-git add .
-git commit -m more
-paste Éamuinn\ Ui\ Ciórrthais\ phones.md Éamonn\ Ua\ Ciórrthais.md |less
-vi Éamuinn\ Ui\ Ciórrthais\ phones.md 
-cat Eoin\ phonetic.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-mv tmp Eoin\ phonetic.md 
-vi Eoin\ phonetic.md 
-git add .
-git commit -m more
-vi sceal\ phones.md 
-cat sceal\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-mv tmp sceal\ phones.md 
-cat sceal\ text.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-mv tmp sceal\ text.md 
-git add .
-git commit -m more
-paste sceal\ phones.md sceal\ text.md |less
-vi sceal\ phones.md 
-paste sceal\ phones.md sceal\ text.md |less
-vi sceal\ phones.md 
-paste sceal\ phones.md sceal\ text.md |less
-vi sceal\ phones.md 
-paste sceal\ phones.md sceal\ text.md |less
-paste sceal\ phones.md sceal\ text.md |less
-paste sceal\ phones.md sceal\ text.md |less
-git add .
-git commit -m more
-vi leadairt\ phones.md 
-cat leadairt\ text.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-rm tmp 
-git add .
-git commit -m more
-cat leadairt\ text.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-mv tmp leadairt\ text.md 
-cat leadairt\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-mv tmp leadairt\ phones.md 
-paste leadairt\ phones.md leadairt\ text.md |less
-vi leadairt\ phones.md 
-paste leadairt\ phones.md leadairt\ text.md |less
-vi leadairt\ phones.md 
-git diff
-git add .
-git commit -m more
-paste leadairt\ phones.md leadairt\ text.md |less
-vi chevalier\ phones.md 
-git add .
-git commit -m more
-vi chevalier\ phones.md 
-git add .
-git commit -m more
-cat chevalier\ text.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-mv tmp chevalier\ text.md 
-cat chevalier\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g' > tmp
-mv tmp chevalier\ phones.md 
-git add .
-git commit -m more
-cat chevalier\ phones.md |tr '\n' ' '|sed -e 's/\. /\.\n/g'|sed -e 's/|| /||\n/g' > tmp
-mv tmp chevalier\ phones.md 
-git diff
-git add .
-git commit -m more
-paste chevalier\ text.md chevalier\ phones.md |less
-git add .
-git commit -m more
+rm -rf link.me/ media.babesource.com/
 ls
-git diff
-git add .
-git commit -m more
-pip install gallery-dl
-ps aux|grep Java
-kill -9 29033
-git status
-git diff
-git add ../gemma4_ocr.py 
-git commit -m update
-git diff
-git diff
-tail ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs 
-vi /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/id_mapping 
-less ~/Playing/rdctm/2442205210012862421_480p.ctm 
+rm -rf babesource.com/ ei.phncdn.com/ familyxxx.com/
 ls
-ls unix/
-less unix/Makefile.in 
-less unix/Makefile.fc3 
+rm -rf gccdn.metartnetwork.com/
 ls
-git log
-git push
-git push origin agent/fc3-rpm-build 
-less unix/Makefile.fc3 
-git log
-git diff
-git log
-git format-patch -1 421393ad446db274c7b228e30b1b2fe7da3e1c5a
-cat 0001-Find-plugin-data-in-Mozilla-directory.patch 
-vi unix/npunixplatf.c 
-git add unix/npunixplatf.c 
-git commit -m 'add the specific path for FC3'
-git log
-git push origin agent/fc3-rpm-build 
-rm 0001-Find-plugin-data-in-Mozilla-directory.patch 
+rm inp
+rm inp1 
+rm inped 
+ls
+find pix* -type f
+a=1;find pix* -type f;while read i;do cp $i /tmp/$a.jpg;a=$(($a + 1));done
+a=1;find pix* -type f|while read i;do cp $i /tmp/$a.jpg;a=$(($a + 1));done
+rm /tmp/*jpg
+rm -rf pix-*
 ls
 pwd
-cd /tmp
-git clone https://gits-15.sys.kth.se/tmh/gpu-admin
-ssh deepflow 
+lynx -dump https://archive.org/download/p4.5.warc
+lynx -dump https://archive.org/download/p4.5.warc|grep '\(warc.gz\|zip\)'
+lynx -dump https://archive.org/download/p4.5.warc|grep '\(warc.gz\|zip\)$'|
+lynx -dump https://archive.org/download/p4.5.warc|grep '\(warc.gz\|zip\)$'|grep http
+lynx -dump https://archive.org/download/p4.5.warc|grep '\(warc.gz\|zip\)$'|grep http|awk '{print $NF}'|awk -F'/' '{print $NF}'
+lynx -dump https://archive.org/download/p4.5.warc|grep '\(warc.gz\|zip\)$'|grep http|awk '{print $NF}'|awk -F'/' '{print $NF}'|while read i;do rm ./$i;done
 ls
-claude
-claude
-claude
-rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
-rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
-rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
-rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
-rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
-rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
-rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
-cd ~/Playing/notes/_drafts/
-grep 2204.02697 tabs_*
-vi tabs_7 
-git add tabs_7 
-git commit -m more
-cd ~/Playing/sync_asr/
-git status
-#git add sync_asr/riksdag/time_aligner.py sync_asr/elements.py sync_asr/riksdag/extract_pronunciation_pairs.py
-git diff sync_asr/riksdag/time_aligner.py 
-git add sync_asr/riksdag/time_aligner.py sync_asr/elements.py sync_asr/riksdag/extract_pronunciation_pairs.py
-ls tests/
-git status
-git status|grep tes
-git add tests/test_pronunciation_dict.py 
-git add tests/test_time_aligner.py 
-git commit -m claude
-df -h
-caffeinate 
-scp sbtaldeep22:dockerfiles/fc3-qemu/rpmbuild/tclplugin'*.rpm' .
-mv tclplugin-* /tmp
-vi tabs_4
-git add tabs_4
-git commit -m more
-c d/t
-cd /tmp
-wget https://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz
-tar ztvf snack2.2.10.tar.gz 
-tar zxvf snack2.2.10.tar.gz 
-cd snack2.2.10/
-pwd
-ls
-scp snack.spec sbtaldeep22:dockerfiles/redhat72/
-pwd
-ls
-find . -type f |xargs grep spectrogram
-less ./demos/tcl/Spectrogram.tcl
-less ./generic/jkCanvSpeg.c
-find . -type f |xargs grep yAxis
-find . -type f |xargs grep snack_
-find . -type f |xargs grep snack_y
-less ./unix/snack.tcl 
-find . -type f |xargs grep snack_y_axis
-less mac/snack.res 
 cd ..
-scp -r sbtaldeep22:dockerfiles/fc3-qemu/lab/ .
-cd lab/
-less setgain.tcl 
-rm /Users/joregan/Downloads/PXL_20260727_135015093.LS.mp4 
-scp *.tcl sbtaldeep22:dockerfiles/fc3-qemu/lab/ 
-reset
-claude 
-caffeinate 
-ls ~/Playing/
-find /Users/joregan/Playing/ -name '*.bib'
-grep mlx_whisper ~/.bash_history 
-grep mlx_whisper ~/.bash_sessions/*
-ls ~/.bash_sessions/*
-less /Users/joregan/.bash_sessions/F92475D1-BD2B-4189-A5F2-50FD7111C372.history
-less /Users/joregan/.bash_sessions/F92475D1-BD2B-4189-A5F2-50FD7111C372.session 
-less /Users/joregan/.bash_sessions/F92475D1-BD2B-4189-A5F2-50FD7111C372.historynew 
-ls -al /Users/joregan/.bash_sessions/*.historynew 
-less /Users/joregan/.bash_sessions/F9005403-56CD-47AA-A6C6-9AE58414E453.historynew
 ls
-ls
-ls src/
-less src/corpus_build/model/identity.py 
-unzip /Users/joregan/Downloads/filesx.zip 
-rm /Users/joregan/Downloads/filesx.zip 
-git diff
-git status
-git diff
-cd ~/Playing/work-2026/
-git add writing/
-git commit -m more
-git add writing/
-git commit -m more
-git add writing/
-git commit -m chatgpt
-cd ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/
-grep nicolinesolberg id_mapping 
-vi id_mapping 
-git add id_mapping 
-git commit -m more
-cat id_mapping /tmp/idnew |sort|uniq > aaaa
-mv aaaa id_mapping 
-git diff
-git diff id_mapping
-vi id_mapping 
-git diff id_mapping
-git add id_mapping 
-git commit -m 'new; sort|uniq'
-cat id_mapping /tmp/idnew |sort|uniq > aaaa
-mv aaaa id_mapping 
-vi id_mapping 
-git diff id_mapping
-git add id_mapping 
-git commit -m 'new; sort|uniq'
-cat id_mapping /tmp/idnew |sort|uniq > aaaa
-mv aaaa id_mapping 
-git diff id_mapping
-git add id_mapping 
-git commit -m 'new; sort|uniq'
-cat id_mapping /tmp/idnew |sort|uniq > aaaa
-mv aaaa id_mapping 
-git diff id_mapping
-grep kowalew id_mapping 
-less ~/Playing/rd_phonetic/2442206150016301021_480p.json 
-cat ~/Playing/rd_phonetic/2442206150016301021_480p.json |jq .|less
-cd ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/
-ls prn
-ls
-cd prn
-ls
-less inp.log 
-grep web.archive.org/web/20241124160113/https:/media.babesource.com/galleries/611631d5d9474/124086_019.jpg  ~/Playing/8c08e58ba0638cacfea6a84a97fae1f4/
 cd ..
-pwd
-mkdir prn
+ls
+rm -rf prn2/
+rm -rf prn4/
+vi sourceme.sh 
+vi sourceme.sh 
+vi sourceme.sh 
 cd prn/
+. ../sourceme.sh 
+bsgal https://babesource.com/galleries/autumn-falls-property-sex-55923.html
+less inp 
+bsgal https://babesource.com/galleries/autumn-falls-big-tits-at-work-64502.html
+bsgal https://babesource.com/galleries/autumn-falls-nf-busty-59663.html
+bsgal https://babesource.com/galleries/autumn-falls-oil-slick-02-58084.html
+bsgal https://babesource.com/galleries/autumn-falls-a-stepfather-s-desires-3-57598.html
+bsgal https://babesource.com/galleries/autumn-falls-sneaky-sex-54646.html
+bsgal https://babesource.com/galleries/autumn-falls-passion-hd-54020.html
+bsgal https://babesource.com/galleries/autumn-falls-darcie-dolce-hot-and-mean-51894.html
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a2ffa6bd1b3a 'https://pix-cdn77.phncdn.com/c6371/videos/202606/15/52301205/original_52301205.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:306?hash=rt-uuBgSoAS_lFd5JAJ5Em33mh0=&validto=1783545591'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a3b45e6084a5 'https://pix-fl.phncdn.com/c6371/videos/202606/24/53213605/original_53213605.mov/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:150?hdnea=st=1783459241~exp=1783545641~hdl=-1~hmac=6a2316aa830a8cb2dc745a730ed6ab2e18a8fa75'
 ls
-pwd
+vi ../sourceme.sh 
+. ../sourceme.sh 
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a3b45e6084a5 'https://pix-fl.phncdn.com/c6371/videos/202606/24/53213605/original_53213605.mov/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:150?hdnea=st=1783459241~exp=1783545641~hdl=-1~hmac=6a2316aa830a8cb2dc745a730ed6ab2e18a8fa75'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a2ffa6bd1b3a 'https://pix-cdn77.phncdn.com/c6371/videos/202606/15/52301205/original_52301205.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:306?hash=rt-uuBgSoAS_lFd5JAJ5Em33mh0=&validto=1783545591'
+ls
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228e33eaf2 "https://pix-fl.phncdn.com/c6371/videos/202606/29/53812895/original_53812895.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:370?hdnea=st=1783459405~exp=1783545805~hdl=-1~hmac=04477fcc1a5f4117d7acc98a366d0a521fdbdde8"
+refgrab https://www.pornhub.com/view_video.php?viewkey=ph59d55c9c2b4b3 'https://ei.phncdn.com/videos/201710/04/135552072/original/(m=qU723TYbeaAaGwObaaaa)(mh=faMBwiMAazwq_-CQ)0.jpg'
+bsgal https://babesource.com/galleries/sydney-cole-in-she-s-got-something-for-you-twistys-24503.html
+bsgal https://babesource.com/galleries/sydney-cole-vixen-21886.html
+bsgal https://babesource.com/galleries/sydney-cole-teens-love-huge-cocks-16407.html
+bsgal https://babesource.com/galleries/sydney-cole-tight-sweet-teen-pussy-11-15269.html
+bsgal https://babesource.com/galleries/sydney-cole-tiny4k-7336.html
+bsgal https://babesource.com/galleries/sydney-cole-the-innocence-of-youth-8-3311.html
+grep https://babesource.com/galleries/sydney-cole-teens-love-huge-cocks-16407.html inp 
+grep https://babesource.com/galleries/sydney-cole-tiny4k-7336.html inp 
+refgrab https://www.pornhub.com/view_video.php?viewkey=1177390937 'https://ei.phncdn.com/videos/201511/10/61328841/original/(m=eaAaGwObaaaa)(mh=6JwTigDaquu4YYhA)9.jpg'
+ckbsgal(){ grep $1 inp || bsgal $1 ; }
+ckbsgal https://babesource.com/galleries/athena-faris-getaways-155215.html
+tail inp
+less inp 
+ckbsgal https://babesource.com/galleries/athena-faris-pure-taboo-85115.html
+ckbsgal https://babesource.com/galleries/athena-faris-lubed-72547.html
+ckbsgal https://babesource.com/galleries/athena-faris-innocent-high-62944.html
+ckbsgal https://babesource.com/galleries/athena-faris-i-m-my-stepdad-s-favorite-2-51097.html
+ckbsgal https://babesource.com/galleries/ember-stone-athena-faris-bratty-sis-47888.html
+ckbsgal https://babesource.com/galleries/sydney-cole-lubed-32351.html
+ckbsgal https://babesource.com/galleries/sydney-cole-wankz-vr-66028.html
+ckbsgal https://babesource.com/galleries/lauren-phillips-autumn-falls-babes-network-59197.html
+ckbsgal https://babesource.com/galleries/sumire-mizukawa-dark-room-vr-139660.html
+ckbsgal https://babesource.com/galleries/sumire-mizukawa-love-her-feet-139824.html
+ckbsgal https://babesource.com/galleries/sumire-mizukawa-virtual-real-porn-146801.html
+ckbsgal https://babesource.com/galleries/sumire-mizukawa-virtual-real-porn-150969.html
+ckbsgal https://babesource.com/galleries/emiri-momota-freeze-xxx-170805.html
+ckbsgal https://babesource.com/galleries/rahyndee-james-atk-galleria-113551.html
+ckbsgal https://babesource.com/galleries/rahyndee-james-troubled-friend-5964.html
+
+refgrab 
+ckbsgal https://babesource.com/galleries/veronica-leal-freeze-xxx-167124.html
+ckbsgal https://babesource.com/galleries/emiri-momota-freeze-xxx-178897.html
+ckbsgal https://babesource.com/galleries/emiri-momota-freeze-xxx-159408.html
+ckbsgal https://babesource.com/galleries/emiri-momota-freeze-xxx-154591.html
+refgrab https://www.pornhub.com/view_video.php?viewkey=6a44721f6a4ec 'https://pix-cdn77.phncdn.com/c6371/videos/202607/01/54025935/original_54025935.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:930?hash=1X9khd0zcRvP5HyIQLnF2pxl3YM=&validto=1783546426'
+refgrab https://www.pornhub.com/view_video.php?viewkey=ph5d812dbcbd5ca 'https://ei.phncdn.com/videos/201909/17/249068991/original/(m=q3-7K4UbeaAaGwObaaaa)(mh=k3M9VKUG5HWOQPmt)0.jpg'
+refgrab https://www.pornhub.com/view_video.php?viewkey=6679a6bbe3acb 'https://ei.phncdn.com/videos/202406/24/454278771/original/(m=qW041NZbeaAaGwObaaaa)(mh=S7JspnQwB81DBCle)0.jpg'
+ckbsgal https://babesource.com/galleries/erin-everheart-cuckold-sessions-208677.html
+ckbsgal https://babesource.com/galleries/erin-everheart-mylf-singles-204425.html
+ckbsgal https://babesource.com/galleries/erin-everheart-penthouse-180479.html
+ckbsgal https://babesource.com/galleries/erin-everheart-her-limit-175541.html
+ckbsgal https://babesource.com/galleries/erin-everheart-cuckold-sessions-208677.html
+ckbsgal https://babesource.com/galleries/erin-everheart-gotmylf-111549.html
+ckbsgal https://babesource.com/galleries/erin-everheart-go-stuck-yourself-128680.html?pl=paysite
+rm /Users/joregan/Desktop/httpswwwpornhubcomvi.txt 
+ls
+find www.pornhub.com -type f
+rm -rf www.pornhub.com/
+ls
+wget --warc-file=bs7jul -x -c -i inp 
+ls
+find babesource.com -name '*.html'
+find babesource.com -name '*.html' -delete
+ls
+find pix-* ei.phncdn.com babesource.com -type f
+find pix-* ei.phncdn.com babesource.com -type f|zip ph7jul.zip -@
+rm -rf  pix-* ei.phncdn.com babesource.com 
+ls
+cat bs7jul.warc.gz og4-*gz > ph7jul.warc.gz
+zless ph7jul.warc.gz 
+rm bs7jul.warc.gz og4-*gz 
+ls
+rm inp 
+ls -al
