@@ -182,3 +182,7 @@ git diff
 git status
 git branch
 git push origin g4ocr 
+scp sbtaldeep23:dockerfiles/gemma4-ocr/output2.zip .
+ls
+unzip -l output2.zip 
+unzip output2.zip 
