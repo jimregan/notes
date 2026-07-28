@@ -1,65 +1,3 @@
-bsgal https://babesource.com/galleries/jojo-austin-lubed-159591.html
-bsgal https://babesource.com/galleries/jojo-austin-girl-cum-157015.html
-bsgal https://babesource.com/galleries/jojo-austin-princess-cum-159289.html
-bsgal https://babesource.com/galleries/jojo-austin-nubiles-2-159634.html
-bsgal https://babesource.com/galleries/xxlayna-marie-tag-team-pov-211140.html
-bsgal https://babesource.com/galleries/xxlayna-marie-mr-lucky-raw-211141.html
-bsgal https://babesource.com/galleries/xxlayna-marie-brazzers-205276.html
-bsgal https://babesource.com/galleries/xxlayna-marie-vr-bangers-167049.html
-bsgal https://babesource.com/galleries/xxlayna-marie-britt-blair-slayed-163291.html
-bsgal https://babesource.com/galleries/xxlayna-marie-my-pervy-family-159800.html
-bsgal https://babesource.com/galleries/kate-dalia-my-pervy-family-195192.html
-bsgal https://babesource.com/galleries/serena-hill-my-pervy-family-194758.html
-bsgal https://babesource.com/galleries/chloe-temple-my-pervy-family-189920.html
-bsgal https://babesource.com/galleries/harlow-west-my-pervy-family-187540.html
-bsgal https://babesource.com/galleries/harlow-west-don-t-break-me-96262.html
-bsgal https://babesource.com/galleries/justine-jakobs-my-pervy-family-187130.html
-bsgal https://babesource.com/galleries/juniper-ren-my-pervy-family-181084.html
-bsgal https://babesource.com/galleries/justine-jakobs-bbc-paradise-200199.html
-bsgal https://babesource.com/galleries/justine-jakobs-ftv-milfs-2-166848.html
-bsgal https://babesource.com/galleries/sera-ryder-justine-jakobs-reality-kings-163549.html
-bsgal https://babesource.com/galleries/krissy-knight-justine-jakobs-ask-your-mother-163921.html
-bsgal https://babesource.com/galleries/juniper-ren-atk-galleria-209143.html
-bsgal https://babesource.com/galleries/juniper-ren-vr-bangers-204261.html
-bsgal https://babesource.com/galleries/juniper-ren-tnv-girls-203744.html
-bsgal https://babesource.com/galleries/juniper-ren-atk-galleria-204289.html
-bsgal https://babesource.com/galleries/juniper-ren-reality-kings-204080.html
-bsgal https://babesource.com/galleries/juniper-ren-anal-only-203982.html
-bsgal https://babesource.com/galleries/juniper-ren-atk-galleria-191143.html
-bsgal https://babesource.com/galleries/juniper-ren-passion-hd-192008.html
-bsgal https://babesource.com/galleries/juniper-ren-wet-vr-182984.html
-bsgal https://babesource.com/galleries/serena-hill-fuck-pass-vr-211240.html
-bsgal https://babesource.com/galleries/serena-hill-blacks-on-blondes-204670.html
-bsgal https://babesource.com/galleries/serena-hill-modern-day-sins-190104.html
-bsgal https://babesource.com/galleries/serena-hill-atk-galleria-189250.html
-refgrab https://www.pornhub.com/view_video.php?viewkey=6446afcb0ba8e 'https://ei.phncdn.com/videos/202304/24/430181291/original/(m=qGVYTKYbeaAaGwObaaaa)(mh=W7zYjLqe1DXTNzyN)0.jpg'
-bsgal https://babesource.com/galleries/ellie-eilish-hardx-88073.html
-bsgal https://babesource.com/galleries/ellie-eilish-family-strokes-79113.html
-bsgal https://babesource.com/galleries/ellie-eilish-ftv-girls-3-69216.html
-bsgal https://babesource.com/galleries/ellie-eilish-shoplyfter-69987.html
-bsgal https://babesource.com/galleries/ellie-eilish-only-teen-blowjobs-70691.html
-refgrab https://www.pornhub.com/view_video.php?viewkey=68f8dfb64c0b8 'https://pix-cdn77.phncdn.com/c6251/videos/202510/22/27102095/original/019a0c55-9167-7935-bc00-fed8e51007bb.jpg/plain/rs:fit:640:360?hash=SrlTy1RfKb9Qf9NAoG4npPs7lv8=&validto=1783331480'
-bsgal https://babesource.com/galleries/meloni-moon-daddy-s-favorite-3-109905.html
-bsgal https://babesource.com/galleries/meloni-moon-atk-galleria-104194.html
-bsgal https://babesource.com/galleries/meloni-moon-atk-galleria-104944.html
-bsgal https://babesource.com/freegalleries/meloni-moon-daddy-s-favorite-3-109905/
-grep 6a2fae46642ba inp1
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a2fae46642ba 'https://pix-fl.phncdn.com/c6371/videos/202606/15/52280725/original_52280725.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:945?hdnea=st=1783245188~exp=1783331588~hdl=-1~hmac=3a81438f69866f406827b3b20ade8cdfdd1ed749'
-bsgal https://babesource.com/galleries/milena-ray-white-boxxx-141759.html?pl=paysite
-grep 662fc30c3ee74 inp1
-grep 65422ae7896b9 inp1
-refgrab https://www.pornhub.com/view_video.php?viewkey=65422ae7896b9 'https://ei.phncdn.com/videos/202311/01/442223121/original/(m=q0SQL0YbeaAaGwObaaaa)(mh=_OlsMHsickdiiotc)0.jpg'
-grep 691b49dda4fa5 inp1
-refgrab https://www.pornhub.com/view_video.php?viewkey=691b49dda4fa5 'https://pix-fl.phncdn.com/c6251/videos/202511/17/29953605/original/019a9fd9-0390-7cc1-9ef8-0eccfdb28d56.jpg/plain/rs:fit:640:360?hdnea=st=1783245319~exp=1783331719~hdl=-1~hmac=e3e6da3335c97418886c10c933a7495463fb9c6b'
-bsgal https://babesource.com/freegalleries/alaina-fox-ariana-marie-babescom-8960.html
-bsgal https://babesource.com/galleries/ariana-marie-badoink-vr-55779.html
-bsgal https://babesource.com/galleries/ariana-marie-povd-43436.html
-vi inped 
-refgrab https://www.pornhub.com/view_video.php?viewkey=67da4f02a4fff 'https://ei.phncdn.com/videos/202503/19/465987255/original/(m=eaAaGwObaaaa)(mh=n6lsgpHdd4HyhqV6)1.jpg'
-bsgal https://babesource.com/galleries/lucy-foxx-bratty-sis-202133.html
-tail inp1
-bsgal https://babesource.com/galleries/lucy-foxx-atk-galleria-192167.html
-bsgal https://babesource.com/galleries/lucy-foxx-atk-galleria-183202.html
 bsgal https://babesource.com/galleries/lucy-foxx-mofos-183540.html
 bsgal https://babesource.com/galleries/lucy-foxx-money-birdette-brazzers-180982.html
 bsgal https://babesource.com/galleries/ariana-marie-dirty-masseur-35595.html
@@ -498,3 +436,65 @@ less links-rdf.nt
 ls
 rm inp1.log inp3.log 
 ls
+cd ~/Playing/work-2026/
+cp -r ~/Playing/corpus-build/ .
+ls
+cp -r ~/Playing/corpus-build .
+ls corpus-build/
+ls corpus-build/tests/
+git add corpus-build/
+git commit -m add
+ls src/
+rm -rf src/
+rm pyproject.toml 
+git status
+ls riksdag-watcher/
+ls riksdag-watcher/src/
+git add riksdag-watcher/
+git commit -m add
+ls corpus-build/
+ls tests/
+rm -rf tests/
+ls docs/
+ls corpus-build/docs/
+rm -rf docs/
+git log AGENTS.md
+rm AGENTS.md 
+git status
+ls matcha-tts-docker/
+git add matcha-tts-docker/
+git commit -m add
+ls teanglann/
+cd corpus-build/
+unzip /tmp/files.zip
+unzip /Users/joregan/Downloads/filesx.zip 
+git add AGENTS.md 0*
+git commit -m add
+cp -r ~/Playing/corpus-build/ .
+git status
+ls
+git diff
+git add src/corpus_build/
+git status
+git diff
+ls
+git commit -m updatess
+git status
+git status
+git add tests/ .gitignore 
+git add docs/
+ls docs/
+ls docs/decisions/0002-metadata-primary-storage.md 
+vi /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/id_mapping 
+python
+less ~/Playing/rd_phonetic/2442207150019881721_480p.json 
+cat ~/Playing/rd_phonetic/2442207150019881721_480p.json |jq .|less
+cat ~/Playing/rd_phonetic/2442207150019881721_480p.json |jq .|less
+grep 2442207150019881721 ~/Playing/rdapi_subset_norm/H*
+grep 2442207150019881721 ~/Playing/rdapi_subset_norm/H*|less
+cat ~/Playing/rd_phonetic/2442207150019881721_480p.json |jq .|less
+unzip -l /Users/joregan/Downloads/Sc-20260726T190133Z-1-001.zip 
+unzip -l /Users/joregan/Downloads/Ss-20260726T192422Z-1-001.zip 
+rm -rf /Users/joregan/Downloads/drive-download-20260726T192456Z-1-001 
+rm /Users/joregan/Downloads/drive-download-20260726T192456Z-1-001.zip 
+less ~/.ssh/config
