@@ -154,3 +154,14 @@ cd corpus-build/
 vi AGENTS.md
 claude 
 ls
+ls
+pwd
+cd ~/Playing/dockerfiles/
+cd gemma4-ocr/
+git diff
+cp ~/Playing/work-2026/gemma4_ocr.py  .
+git diff
+git add gemma4_ocr.py 
+git commit -m 'fix fallback prompt'
+git branch
+git push origin g4ocr 
