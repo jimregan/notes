@@ -1195,6 +1195,7 @@ possible    emergency     case-3SG.POSS-SUP
 
 [Reel](https://www.instagram.com/reels/DanrX0oq4eW/)
 
+Top 5 AI eszköz 2026-ban.
 [00:00.000 --> 00:03.740]  Top 5 AI eszköz, amit sokkal többet kellene használnod 2026-ban.
 [00:03.980 --> 00:05.980]  ChatGPT 5. Mire használd?
 [00:06.020 --> 00:07.980]  Napi kérdések, brainstorming, ötletelés.
@@ -1203,12 +1204,12 @@ possible    emergency     case-3SG.POSS-SUP
 [00:14.060 --> 00:16.740]  Ez a Google-nek a helyettesítője, hogyha gyors fact-check kell,
 [00:17.060 --> 00:19.900]  nem kell 20 oldalt megnyitnot, gyors és jó alkalmazás.
 [00:20.160 --> 00:22.220]  Notion 3. Mire használd?
-[00:22.520 --> 00:25.500]  Rendszerezésre, cseklisztek, kontentnaptárak, projektek, ötletek.
+[00:22.520 --> 00:25.500]  Rendszerezésre, cheklistek, content naptárak, projektek, ötletek.
 [00:25.840 --> 00:27.360]  Nem kreatív, hanem rendet rak.
 [00:27.360 --> 00:28.600]  Gamma 2. Hely.
 [00:28.600 --> 00:30.400]  A PowerPoint-nak a helyettesítője.
 [00:30.640 --> 00:33.980]  Nem kell a prezentációkkal szenvedned, kettő perc alatt profi anyagot kapsz.
 [00:34.200 --> 00:39.640]  Az első helyen pedig Proactory, amivel vizuálokat, reklámokat, videókat és képeket is kaphatsz.
-[00:39.900 --> 00:42.400]  Gyors, skálázható és hirdetéskompatibilis is.
-[00:42.600 --> 00:46.660]  Az fontos megígézni, hogy néhány alkalmazásnál a magyar nyelv csak korlátozottan érhető el.
-[00:47.000 --> 00:50.720]  Kommentáld, hogy AI, és elküldjük a rövid leírását, hogy hogyan működnek ezek az appok.
+[00:39.900 --> 00:42.400]  Gyors, skálázható és hirdetés kompatibilis is.
+[00:42.600 --> 00:46.660]  Azt fontos megjegyezni, hogy néhány alkalmazásnál a magyar nyelv csak korlátozottan érhető el.
+[00:47.000 --> 00:50.720]  Kommenteld, hogy AI, és elküldjük a rövid leírását, hogy hogyan működnek ezek az appok!
