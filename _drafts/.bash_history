@@ -1,26 +1,3 @@
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a1d39dd14815 'https://pix-fl.phncdn.com/c6251/videos/202606/01/50854325/original/019e879c-ae08-7ddc-a86a-8e9e4952fd04.jpg/plain/rs:fit:640:360?hdnea=st=1783245700~exp=1783332100~hdl=-1~hmac=f65475da9297848f3829ee20871fd53b674bef59'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a1469dcb6394 'https://pix-fl.phncdn.com/c6371/videos/202605/25/50047535/original_50047535.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:71?hdnea=st=1783245740~exp=1783332140~hdl=-1~hmac=698cd248230ce8956b77828f3657b1f138621519'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a26b36653746 'https://pix-fl.phncdn.com/c6251/videos/202606/08/51575845/original/019ea741-5bbf-79a4-ada9-905491b1f8e8.png/plain/rs:fit:640:360?hdnea=st=1783245780~exp=1783332180~hdl=-1~hmac=b2a3b71daee27c694c568739a8963e50f8ec9b9c'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a3428bda6cc1 'https://pix-fl.phncdn.com/c6371/videos/202606/18/52643725/original_52643725.mov/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:620?hdnea=st=1783245828~exp=1783332228~hdl=-1~hmac=486e2f3aa64ec7739f65eae247bfe6eb03812488'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a4228bbccaac 'https://pix-fl.phncdn.com/c6371/videos/202606/29/53812745/original_53812745.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:644?hdnea=st=1783245864~exp=1783332264~hdl=-1~hmac=083c82520ecc7ea0da2152946fff06ca32c42050'
-bsgal https://babesource.com/galleries/cherry-kiss-mom-wants-creampie-175236.html
-bsgal https://babesource.com/galleries/cherry-kiss-sharing-my-wife-2-162082.html
-bsgal https://babesource.com/galleries/malia-lenoir-czech-vr-206370.html
-vi inp1
-vi inp1
-dotn https://www.thenude.com/cover/atkarchives/1327117/rita-in-
-dotn https://www.thenude.com/cover/stunning18/847697/zafira-g-in-zafira---stunning-girl-by-antonio-clemens
-dotn https://www.thenude.com/cover/atkarchives/1080251/rita-in-
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a3e80c43ca26 'https://pix-cdn77.phncdn.com/c6251/videos/202606/26/53477485/original/019f0464-844d-7d29-8fd2-1a851511f0dd.jpg/plain/rs:fit:640:360?hash=DGmvpQrva4h4Cfq-5LQaMfxVb20=&validto=1783332586'
-bsgal https://babesource.com/galleries/alina-voss-povd-210009.html
-vi inp1
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a3ca1a96fa4c 'https://pix-cdn77.phncdn.com/c6251/videos/202606/25/53318135/original/019efce0-df4c-7f86-a0e5-54722a6139fd.jpg/plain/rs:fit:640:360?hash=goU7vhvg0DeCoOmJg_qmtzmRqT0=&validto=1783332668'
-refgrab https://www.pornhub.com/view_video.php?viewkey=ph5c9bb7bccf0a6 'https://ei.phncdn.com/videos/201903/27/215278892/original/(m=qXXW3PUbeaAaGwObaaaa)(mh=0EyKwGo2EB1QQc7x)0.jpg'
-refgrab https://www.pornhub.com/view_video.php?viewkey=666afa67bd3b3 'https://ei.phncdn.com/videos/202406/13/453755101/original/(m=q6Q7GNZbeaAaGwObaaaa)(mh=ulu1vlnRHGeimCU2)0.jpg'
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a25429f9a0b5 'https://pix-cdn77.phncdn.com/c6371/videos/202606/07/51450185/original_51450185.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:414?hash=UdeJDQ3mwmrOD3zH86b04LWMIPA=&validto=1783332818'
-vi inp1
-refgrab https://www.pornhub.com/view_video.php?viewkey=ph5dfa7e3cc589c 'https://ei.phncdn.com/videos/201912/18/269624851/original/(m=q7VGN_ZbeaAaGwObaaaa)(mh=MYZzBHfCvLIcuVg9)0.jpg'
-bsgal https://babesource.com/freegalleries/natalie-knight-bratty-sis-82629/
 bsgal https://babesource.com/galleries/natalie-knight-brat-tamer-162665.html
 bsgal https://babesource.com/galleries/natalie-knight-my-girls-first-black-guy-96887.html
 refgrab https://www.pornhub.com/view_video.php?viewkey=6a38d91be568e 'https://pix-fl.phncdn.com/c6371/videos/202606/22/53002895/original_53002895.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:383?hdnea=st=1783246589~exp=1783332989~hdl=-1~hmac=c6558c6841d8ce0bd785ce523c9b9712199fb734'
@@ -498,3 +475,26 @@ ls -al
 cd ..
 ls 
 ls graphone-learn/
+cd ~/Playing/work-2026/
+cp -r ~/Playing/irish-parse .
+ls irish-parse/
+git add irish-parse/
+git commit -m claude
+less irish-parse/.devcontainer/Dockerfile 
+rm -rf irish-parse/
+cp -r ~/Playing/irish-parse .
+git diff
+git add irish-parse/
+git commit -m claude
+git branch
+git push origin unsorted
+git push origin unsorted-sorting 
+rm -rf irish-parse/
+cp -r ~/Playing/irish-parse .
+git diff
+git add irish-parse/
+git commit -m claude
+rm -rf irish-parse/
+cp -r ~/Playing/irish-parse .
+git add irish-parse/
+git commit -m claude
