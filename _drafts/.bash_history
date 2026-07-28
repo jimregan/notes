@@ -1,9 +1,3 @@
-vi inp1
-bsgal https://babesource.com/galleries/natalie-knight-ftv-girls-2-78287.html
-bsgal https://babesource.com/galleries/dee-williams-natalie-knight-mommy-s-girl-62403.html
-bsgal https://babesource.com/galleries/natalie-knight-bang-fake-news-61952.html
-bsgal https://babesource.com/galleries/natalie-knight-nubiles-2-59945.html
-bsgal https://babesource.com/galleries/natalie-knight-nubiles-1-59794.html
 bsgal https://babesource.com/galleries/natalie-knight-sis-loves-me-58647.html
 bsgal https://babesource.com/galleries/natalie-knight-private-casting-x-60174.html
 bsgal https://babesource.com/galleries/natalie-knight-jay-s-pov-60741.html
@@ -498,3 +492,9 @@ pwd
 ls
  ls
 ls
+cat ~/Playing/rd_phonetic/2442206150016301021_480p.json |jq .|less
+cat ~/Playing/rd_phonetic/2442206150016301021_480p.json |jq .|less
+#tak frʉː tɑːlman
+ls
+pwd
+ls ..
