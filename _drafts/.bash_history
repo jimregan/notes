@@ -1,16 +1,3 @@
-bsgal https://babesource.com/galleries/gia-ohmy-cherry-pimps-134122.html
-bsgal https://babesource.com/galleries/gia-ohmy-i-know-that-girl-125238.html
-bsgal https://babesource.com/galleries/gia-oh-my-my-pervy-family-115201.html
-bsgal https://babesource.com/galleries/gia-ohmy-family-strokes-108967.html
-bsgal https://babesource.com/galleries/maria-kazi-porn-mega-load-200076.html
-bsgal https://babesource.com/galleries/maria-kazi-wankz-vr-165574.html
-bsgal https://babesource.com/galleries/maria-kazi-bratty-sis-165716.html
-bsgal https://babesource.com/galleries/maria-kazi-princess-cum-160951.html
-bsgal https://babesource.com/galleries/maria-kazi-cheating-sis-150800.html
-bsgal https://babesource.com/galleries/katie-kush-maria-kazi-my-family-pies-141920.html
-bsgal https://babesource.com/galleries/maria-kazi-atk-galleria-137511.html
-bsgal https://babesource.com/galleries/hyley-winters-maria-kazi-family-strokes-137357.html
-bsgal https://babesource.com/galleries/maria-kazi-atk-galleria-137182.html
 bsgal https://babesource.com/galleries/anais-amore-my-dirty-maid-140810.html
 bsgal https://babesource.com/galleries/anais-amore-my-pervy-family-135043.html
 bsgal https://babesource.com/galleries/anais-amore-rk-prime-140012.html
@@ -498,3 +485,16 @@ cd ../prn4
 ls
 cd w
 ls
+mkdir src
+cp ../fash-rdf-links links-rdf.nt
+python -m http.server
+ls
+cd src/
+ls
+mv ../links-rdf.nt 
+mv ../links-rdf.nt .
+python -m http.server
+ls
+pwd
+cd ../..
+ls prn
