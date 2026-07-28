@@ -269,3 +269,136 @@ ls *clar*
 ls -al *clar*
 ls -al *fors*
 ls
+cd ~/Playing/gpu-admin/
+git pull
+git log
+git push 
+vi users.json
+vi users.json
+python admin.py sync-users
+vi users.json
+vi users.json
+cat users.json|jq .
+vi users.json
+cat users.json|jq .
+git diff
+vi users.json
+python admin.py sync-users
+reset
+vi users.json
+git diff
+python admin.py sync-users
+reset
+ssh deepflow 
+ssh redsofa3
+ssh redsofa2
+ssh deepwave 
+df -h
+find /Users/joregan/Playing/ -name .git
+cd /Users/joregan/Playing//IPTV/
+ls
+git status
+less .git/config 
+cd ..
+rm -rf IPTV/
+ls
+ls litgpt/
+ls litgpt/.git/config 
+less litgpt/.git/config 
+cd litgpt/
+git status
+git diff
+cd ..
+rm -rf litgpt/
+find /Users/joregan/Playing/ -name .git
+cd /Users/joregan/Playing//ai-engineering-from-scratch/
+ls
+git status
+less .git/config 
+cd ..
+rm -rf ai-engineering-from-scratch/
+ls
+tar ztvf ga_ie.tar.gz 
+du -sh .
+du -sh ./*
+cd whisper-large-sme/
+ls
+git status
+ls
+less .git/config 
+cd ..
+rm -rf whisper-large-sme/
+rm /private/tmp/ss/2022-09-06-10-14-46-074.jpg /private/tmp/ss/2022-09-06-10-13-42-494.jpg /private/tmp/ss/2022-09-06-10-14-45-640.jpg /private/tmp/ss/2022-09-06-10-14-45-985.jpg 
+rm /private/tmp/ss/2022-09-06-10-14-46-530.jpg /private/tmp/ss/2022-09-06-10-14-46-282.jpg /private/tmp/ss/2022-09-06-10-14-46-085.jpg /private/tmp/ss/2022-09-06-10-14-46-679.jpg /private/tmp/ss/2022-09-06-10-14-46-614.jpg /private/tmp/ss/2022-09-06-10-14-46-612.jpg /private/tmp/ss/2022-09-06-10-14-53-789.jpg /private/tmp/ss/2022-09-06-10-14-48-692.jpg /private/tmp/ss/2022-09-06-10-14-48-458.jpg /private/tmp/ss/2022-09-06-10-14-47-093.jpg /private/tmp/ss/2022-09-06-10-14-46-910.jpg /private/tmp/ss/2022-09-06-10-14-46-728.jpg /private/tmp/ss/2022-09-06-10-14-58-856.jpg /private/tmp/ss/2022-09-06-10-14-58-628.jpg /private/tmp/ss/2022-09-06-10-14-58-608.jpg /private/tmp/ss/2022-09-06-10-14-55-938.jpg /private/tmp/ss/2022-09-06-10-14-54-141.jpg /private/tmp/ss/2022-09-06-10-14-54-136.jpg 
+rm /private/tmp/ss/2022-09-06-10-15-34-253.jpg /private/tmp/ss/2022-09-06-10-15-34-262.jpg /private/tmp/ss/2022-09-06-10-15-44-455.jpg /private/tmp/ss/2022-09-06-10-15-44-487.jpg /private/tmp/ss/2022-09-06-10-15-50-491.jpg /private/tmp/ss/2022-09-06-10-15-45-410.jpg /private/tmp/ss/2022-09-06-10-15-45-404.jpg /private/tmp/ss/2022-09-06-10-15-45-078.jpg /private/tmp/ss/2022-09-06-10-15-44-803.jpg /private/tmp/ss/2022-09-06-10-15-44-764.jpg /private/tmp/ss/2022-09-06-10-15-50-507.jpg /private/tmp/ss/2022-09-06-10-15-50-688.jpg /private/tmp/ss/2022-09-06-10-15-51-237.jpg /private/tmp/ss/2022-09-06-10-15-51-324.jpg /private/tmp/ss/2022-09-06-10-15-51-329.jpg 
+rm /private/tmp/ss/2022-09-06-12-46-41-702.jpg /private/tmp/ss/2022-09-06-12-48-21-077.jpg /private/tmp/ss/2022-09-06-12-48-20-883.jpg /private/tmp/ss/2022-09-06-12-48-13-744.jpg /private/tmp/ss/2022-09-06-12-48-13-725.jpg /private/tmp/ss/2022-09-06-12-47-36-475.jpg /private/tmp/ss/2022-09-06-12-47-36-444.jpg /private/tmp/ss/2022-09-06-12-48-21-085.jpg /private/tmp/ss/2022-09-06-12-48-32-090.jpg /private/tmp/ss/2022-09-06-12-48-32-242.jpg /private/tmp/ss/2022-09-06-12-48-32-260.jpg /private/tmp/ss/2022-09-06-12-48-35-946.jpg /private/tmp/ss/2022-09-06-12-48-36-131.jpg /private/tmp/ss/2022-09-06-12-48-39-639.jpg /private/tmp/ss/2022-09-06-12-48-39-018.jpg /private/tmp/ss/2022-09-06-12-48-38-790.jpg /private/tmp/ss/2022-09-06-12-48-38-238.jpg /private/tmp/ss/2022-09-06-12-48-38-205.jpg /private/tmp/ss/2022-09-06-12-48-37-308.jpg /private/tmp/ss/2022-09-06-12-48-39-662.jpg /private/tmp/ss/2022-09-06-12-48-39-839.jpg 
+rm /private/tmp/ss/2022-09-06-12-44-28-166.jpg /private/tmp/ss/2022-09-06-12-44-27-967.jpg /private/tmp/ss/2022-09-06-12-44-25-969.jpg /private/tmp/ss/2022-09-06-12-44-25-896.jpg /private/tmp/ss/2022-09-06-12-44-25-788.jpg /private/tmp/ss/2022-09-06-12-44-25-732.jpg /private/tmp/ss/2022-09-06-12-44-23-152.jpg /private/tmp/ss/2022-09-06-12-44-23-104.jpg /private/tmp/ss/2022-09-06-12-44-22-618.jpg /private/tmp/ss/2022-09-06-12-44-22-572.jpg /private/tmp/ss/2022-09-06-12-44-22-358.jpg 
+rm /private/tmp/ss/2022-09-06-12-30-35-551.jpg /private/tmp/ss/2022-09-06-12-30-35-173.jpg /private/tmp/ss/2022-09-06-12-30-35-015.jpg /private/tmp/ss/2022-09-06-12-30-34-985.jpg 
+rm /private/tmp/ss/2022-09-06-12-10-39-764.jpg 
+rm /private/tmp/ss/2022-09-06-10-19-01-002.jpg 
+rm /private/tmp/ss/2022-09-06-10-17-26-476.jpg 
+rm /private/tmp/ss/2022-09-06-07-50-05-845.jpg /private/tmp/ss/2022-09-06-07-50-06-306.jpg /private/tmp/ss/2022-09-06-07-50-06-850.jpg /private/tmp/ss/2022-09-06-07-50-08-011.jpg 
+rm /private/tmp/ss/2022-09-06-07-35-41-561.jpg /private/tmp/ss/2022-09-06-07-35-31-145.jpg /private/tmp/ss/2022-09-06-07-35-30-943.jpg /private/tmp/ss/2022-09-06-07-35-19-132.jpg /private/tmp/ss/2022-09-06-07-35-16-500.jpg 
+rm /private/tmp/ss/2022-09-06-07-35-43-806.jpg /private/tmp/ss/2022-09-06-07-35-42-336.jpg 
+rm /private/tmp/ss/2022-09-05-10-14-19-037.jpg /private/tmp/ss/2022-09-05-10-14-31-749.jpg 
+rm /private/tmp/ss/2022-09-05-10-14-31-751.jpg /private/tmp/ss/2022-09-05-10-14-31-157.jpg /private/tmp/ss/2022-09-05-10-14-31-079.jpg /private/tmp/ss/2022-09-05-10-14-30-854.jpg 
+rm /private/tmp/ss/2022-09-05-07-45-19-226.jpg 
+rm /private/tmp/ss/2022-09-03-20-41-40-701.jpg /private/tmp/ss/2022-09-03-20-41-40-683.jpg /private/tmp/ss/2022-09-03-20-41-40-458.jpg /private/tmp/ss/2022-09-03-20-41-40-131.jpg /private/tmp/ss/2022-09-03-19-38-54-244.jpg /private/tmp/ss/2022-09-03-19-37-36-351.jpg /private/tmp/ss/2022-09-03-19-36-32-766.jpg /private/tmp/ss/2022-09-03-19-36-47-013.jpg /private/tmp/ss/2022-09-03-19-36-55-304.jpg /private/tmp/ss/2022-09-03-19-36-56-771.jpg /private/tmp/ss/2022-09-03-19-36-56-792.jpg /private/tmp/ss/2022-09-03-19-36-57-289.jpg /private/tmp/ss/2022-09-03-19-36-32-737.jpg /private/tmp/ss/2022-09-03-19-36-20-757.jpg /private/tmp/ss/2022-09-03-19-36-19-260.jpg 
+rm /private/tmp/ss/2022-09-03-14-40-48-287.jpg /private/tmp/ss/2022-09-03-14-40-50-776.jpg 
+rm /private/tmp/ss/2022-09-03-09-12-42-317.jpg /private/tmp/ss/2022-09-03-09-12-44-453.jpg /private/tmp/ss/2022-09-03-08-27-56-339.jpg /private/tmp/ss/2022-09-03-08-27-57-782.jpg /private/tmp/ss/2022-09-03-08-27-56-339.jpg /private/tmp/ss/2022-09-03-08-27-57-782.jpg /private/tmp/ss/2022-09-03-07-42-30-050.jpg /private/tmp/ss/2022-09-03-07-42-30-996.jpg 
+rm /private/tmp/ss/2022-09-03-07-42-29-819.jpg  /private/tmp/ss/2022-09-03-07-42-29-803.jpg /private/tmp/ss/2022-09-03-07-42-29-392.jpg /private/tmp/ss/2022-09-03-00-55-00-417.jpg /private/tmp/ss/2022-09-03-00-54-59-651.jpg /private/tmp/ss/2022-09-03-00-54-58-956.jpg /private/tmp/ss/2022-09-03-00-54-58-408.jpg 
+rm /private/tmp/ss/2022-08-31-17-16-43-870.jpg /private/tmp/ss/2022-08-31-16-39-33-381.jpg 
+vi users.json
+cd gpu-admin/
+vi users.json
+git add users.json
+git commit -m 'extend'
+python admin.py sync-users
+reset
+git diff
+git push 
+git log
+ls -al  ~/rd.tar.gz 
+less ~/.huggingface/token 
+ssh deepflow 
+git pull
+git log
+git pull
+git format-patch -1 7dd8bf3214b278a9767dd2329f1fc1fb458bb133
+less 0001-Update-users.json.patch 
+rm 0001-Update-users.json.patch 
+git pull
+git log
+python admin.py sync-users
+reset
+mlx_whisper --help
+mlx_whisper --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3907817874855695490.mp4
+mlx_whisper --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3898405907152855176.mp4
+mlx_whisper --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3912775871210122362.mp4
+mlx_whisper --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3912775871210122362.mp4
+mlx_whisper --help
+mlx_whisper --model mlx-community/whisper-small --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3912775871210122362.mp4
+mlx_whisper --model mlx-community/whisper-large --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3912775871210122362.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3912775871210122362.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/adelmarki/3940503899306644627.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3898494853333610768.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/randivonal.hu/3922362236436658333.mp4
+unzip -l /Users/joregan/Downloads/WhatsApp\ Chat\ with\ Joe\ O\'Regan\,\ Jr..zip 
+unzip -l /Users/joregan/Downloads/Ss-20260714T234800Z-1-001.zip 
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/varvolgyianna/3935287669796619816.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nesii.nicole/3893132066957767785.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3911942930745626402.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/adriiicaa/3909293875094822312.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/nukutabu_nr1/3907735704883596279.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/randivonal.hu/3937552029503981155.mp4
+ffplay /Users/joregan/Playing/instascr/gallery-dl/instagram/randivonal.hu/3937552029503981155.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/eda.sakti/3925950866840945142.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/siposorsoly/3940390919076442314.mp4
+ffplay /Users/joregan/Playing/instascr/gallery-dl/instagram/siposorsoly/3940390919076442314.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/czeglady/3900677394088354779.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3920123392516168586.mp4
+ffplay /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3920123392516168586.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3904306563726229727.mp4
+ffplay /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3904306563726229727.mp4
+mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/rtlmagyarorszag/3918527210307405157.mp4
+ffplay /Users/joregan/Playing/instascr/gallery-dl/instagram/rtlmagyarorszag/3918527210307405157.mp4
