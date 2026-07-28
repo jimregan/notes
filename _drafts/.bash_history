@@ -1,6 +1,3 @@
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/xenia/ https://www.instagram.com/stories/kimdammer/ https://www.instagram.com/stories/beautyandbrainswithatwist/ https://www.instagram.com/stories/vitasidorkina/ https://www.instagram.com/stories/valerialipovetsky/3938421776509953978/ https://www.instagram.com/stories/dashapogadaevaa/ https://www.instagram.com/stories/nikolnekrasovan/ https://www.instagram.com/stories/mynessielife/ https://www.instagram.com/stories/patriciakoncz/ https://www.instagram.com/stories/lizakovalenkoo/ https://www.instagram.com/stories/yelikova/ https://www.instagram.com/stories/elizabethfortmeyer/ 
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0"}'
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0"}')
 tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0"}'
 tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}'
 gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
@@ -498,3 +495,6 @@ df -h
 caffeinate 
 scp sbtaldeep22:dockerfiles/fc3-qemu/rpmbuild/tclplugin'*.rpm' .
 mv tclplugin-* /tmp
+vi tabs_4
+git add tabs_4
+git commit -m more
