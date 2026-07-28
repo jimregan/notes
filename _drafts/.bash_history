@@ -1,11 +1,3 @@
-bsgal https://babesource.com/galleries/lucy-foxx-mofos-183540.html
-bsgal https://babesource.com/galleries/lucy-foxx-money-birdette-brazzers-180982.html
-bsgal https://babesource.com/galleries/ariana-marie-dirty-masseur-35595.html
-bsgal https://babesource.com/galleries/molly-devon-sexart-146667.html
-bsgal https://babesource.com/galleries/molly-devon-metart-135714.html
-bsgal https://babesource.com/galleries/molly-devon-dane-jones-156498.html
-refgrab https://www.pornhub.com/view_video.php?viewkey=65b91bca5d6ca 'https://ei.phncdn.com/videos/202401/30/447382641/original/(m=qOG2Y7YbeaAaGwObaaaa)(mh=5CQz8d9qpyOMtKtX)0.jpg'
-bsgal https://babesource.com/freegalleries/chloe-scott-sis-loves-me-26956/
 refgrab https://www.pornhub.com/view_video.php?viewkey=6a1d39dd14815 'https://pix-fl.phncdn.com/c6251/videos/202606/01/50854325/original/019e879c-ae08-7ddc-a86a-8e9e4952fd04.jpg/plain/rs:fit:640:360?hdnea=st=1783245700~exp=1783332100~hdl=-1~hmac=f65475da9297848f3829ee20871fd53b674bef59'
 refgrab https://www.pornhub.com/view_video.php?viewkey=6a1469dcb6394 'https://pix-fl.phncdn.com/c6371/videos/202605/25/50047535/original_50047535.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:71?hdnea=st=1783245740~exp=1783332140~hdl=-1~hmac=698cd248230ce8956b77828f3657b1f138621519'
 refgrab https://www.pornhub.com/view_video.php?viewkey=6a26b36653746 'https://pix-fl.phncdn.com/c6251/videos/202606/08/51575845/original/019ea741-5bbf-79a4-ada9-905491b1f8e8.png/plain/rs:fit:640:360?hdnea=st=1783245780~exp=1783332180~hdl=-1~hmac=b2a3b71daee27c694c568739a8963e50f8ec9b9c'
@@ -498,3 +490,11 @@ unzip -l /Users/joregan/Downloads/Ss-20260726T192422Z-1-001.zip
 rm -rf /Users/joregan/Downloads/drive-download-20260726T192456Z-1-001 
 rm /Users/joregan/Downloads/drive-download-20260726T192456Z-1-001.zip 
 less ~/.ssh/config
+conda search npm
+tail -f ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/recheck.log 
+tail -f ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/recheck.log 
+ls
+ls -al
+cd ..
+ls 
+ls graphone-learn/
