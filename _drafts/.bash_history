@@ -169,3 +169,9 @@ pwd
 ls
 code
 claude 
+ls
+les sbt24 
+less sbt24 
+git log sbt24 
+rm sbt24 
+ls
