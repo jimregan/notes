@@ -1,6 +1,3 @@
-bsgal https://babesource.com/galleries/natalie-knight-brat-tamer-162665.html
-bsgal https://babesource.com/galleries/natalie-knight-my-girls-first-black-guy-96887.html
-refgrab https://www.pornhub.com/view_video.php?viewkey=6a38d91be568e 'https://pix-fl.phncdn.com/c6371/videos/202606/22/53002895/original_53002895.mp4/plain/ex:1:no/bg:0:0:0/rs:fit:640:360/vts:383?hdnea=st=1783246589~exp=1783332989~hdl=-1~hmac=c6558c6841d8ce0bd785ce523c9b9712199fb734'
 refgrab https://www.pornhub.com/view_video.php?viewkey=6a422510a161f 'https://pix-cdn77.phncdn.com/c6251/videos/202606/29/53811555/original/019f1f33-91ef-7369-a10b-09f0ce03e0c6.jpg/plain/rs:fit:640:360?hash=b7QZRgvo56cntBIo3vKSV7yT2lg=&validto=1783333075'
 vi inp1
 bsgal https://babesource.com/galleries/natalie-knight-ftv-girls-2-78287.html
@@ -498,3 +495,6 @@ rm -rf irish-parse/
 cp -r ~/Playing/irish-parse .
 git add irish-parse/
 git commit -m claude
+pwd
+ls
+ ls
