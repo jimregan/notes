@@ -1,37 +1,3 @@
-bsgal https://babesource.com/galleries/anais-amore-my-dirty-maid-140810.html
-bsgal https://babesource.com/galleries/anais-amore-my-pervy-family-135043.html
-bsgal https://babesource.com/galleries/anais-amore-rk-prime-140012.html
-bsgal https://babesource.com/galleries/anais-amore-reality-kings-196384.html
-bsgal https://babesource.com/galleries/stella-chiyoki-milfty-146853.html
-bsgal https://babesource.com/galleries/stella-chiyoki-bangbus-141157.html
-bsgal https://babesource.com/galleries/stella-chiyoki-my-pervy-family-140897.html
-bsgal https://babesource.com/galleries/kallie-taylor-my-pervy-family-159331.html
-bsgal https://babesource.com/galleries/xxlayna-marie-my-pervy-family-159800.html
-bsgal https://babesource.com/galleries/haley-spades-my-pervy-family-158695.html
-bsgal https://babesource.com/galleries/justine-jakobs-my-pervy-family-153977.html
-bsgal https://babesource.com/galleries/jc-wilds-my-pervy-family-153497.html
-bsgal https://babesource.com/galleries/violet-gems-my-pervy-family-152599.html
-bsgal https://babesource.com/galleries/jojo-austin-my-pervy-family-151663.html
-bsgal https://babesource.com/galleries/haley-reed-my-pervy-family-149339.html
-bsgal https://babesource.com/galleries/natalia-queen-my-pervy-family-150758.html
-bsgal https://babesource.com/galleries/violet-starr-my-pervy-family-148575.html
-bsgal https://babesource.com/galleries/sherrie-moon-angelina-moon-my-pervy-famiy-145472.html
-bsgal https://babesource.com/galleries/stella-luxx-my-pervy-family-179174.html
-bsgal https://babesource.com/galleries/sasha-tatcha-my-pervy-family-175439.html
-bsgal https://babesource.com/galleries/aria-banks-my-pervy-family-173843.html
-bsgal https://babesource.com/galleries/ashlyn-angel-my-pervy-family-166180.html
-bsgal https://babesource.com/galleries/ashley-alexander-my-pervy-family-163840.html
-bsgal https://babesource.com/galleries/violet-starr-true-anal-210260.html
-bsgal https://babesource.com/galleries/violet-starr-the-pov-god-170703.html
-bsgal https://babesource.com/galleries/violet-starr-touch-my-wife-146698.html
-bsgal https://babesource.com/galleries/sophia-grace-jane-wilde-violet-starr-haley-reed-london-river-frisky-anal-nymphos-02-116563.html
-bsgal https://babesource.com/galleries/jojo-austin-mofos-209362.html
-bsgal https://babesource.com/galleries/jojo-austin-als-scan-209114.html
-bsgal https://babesource.com/galleries/jojo-austin-tiny-4k-206867.html
-bsgal https://babesource.com/galleries/jojo-austin-filthy-taboo-207787.html
-bsgal https://babesource.com/galleries/jojo-austin-passion-hd-204210.html
-bsgal https://babesource.com/galleries/jojo-austin-cum4k-164668.html
-bsgal https://babesource.com/galleries/jojo-austin-nubiles-4-159908.html
 bsgal https://babesource.com/galleries/jojo-austin-lubed-159591.html
 bsgal https://babesource.com/galleries/jojo-austin-girl-cum-157015.html
 bsgal https://babesource.com/galleries/jojo-austin-princess-cum-159289.html
@@ -498,3 +464,37 @@ ls
 pwd
 cd ../..
 ls prn
+less links-rdf.nt 
+rm links-rdf.nt 
+less ../fash-rdf-links 
+cp ../fash-rdf-links  links-rdf.nt
+less links-rdf.nt 
+ls -al links-rdf.nt 
+ls -al ../fash-rdf-links 
+ls
+less ../fash-rdf-links 
+diff -u ../fash-rdf-links links-rdf.nt 
+touch -r ../fash-rdf-links links-rdf.nt 
+ls -al links-rdf.nt 
+ls
+rm links-rdf.nt 
+£cp ../../prn4/fash-rdf-links 
+cp ../../prn4/fash-rdf-links links-rdf.nt
+touch -r ../../prn4/fash-rdf-links links-rdf.nt
+ls -al links-rdf.nt 
+ls
+rm links-rdf.nt 
+cp ../../prn/inp.log inp1.log
+touch -r ../../prn/inp.log inp1.log
+cp ../../prn3/inp.log inp3.log
+touch -r ../../prn3/inp.log inp3.log
+cp ../../prn4/inp.log inp4.log
+ls
+ls -al 
+pdw
+pwd
+ls -al links-rdf.nt 
+less links-rdf.nt 
+ls
+rm inp1.log inp3.log 
+ls
