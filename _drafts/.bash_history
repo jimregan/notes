@@ -1,4 +1,3 @@
-ll=k
 cat xa$ll | zip ig$ll.zip -@
 cat xa$ll |while read i;do rm "$i";done
 ll=l
@@ -498,3 +497,4 @@ git diff
 git diff
 tail ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs 
 vi /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/id_mapping 
+less ~/Playing/rdctm/2442205210012862421_480p.ctm 
