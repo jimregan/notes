@@ -1,6 +1,3 @@
-vi /tmp/histt 
-grep vikyvarga temp-file-list 
-vi /tmp/histt 
 grep lydiavioletofficial temp-file-list 
 vi /tmp/histt 
 grep sofikiss22 temp-file-list 
@@ -498,3 +495,6 @@ git push origin agent/fc3-rpm-build
 rm 0001-Find-plugin-data-in-Mozilla-directory.patch 
 ls
 pwd
+cd /tmp
+git clone https://gits-15.sys.kth.se/tmh/gpu-admin
+ssh deepflow 
