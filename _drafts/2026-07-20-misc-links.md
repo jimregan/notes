@@ -118,7 +118,26 @@ categories: [links]
 
 <!-- mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu -->
 
-```
+<!--
 2442205210012862421_480p 1 58.92 59.4 ÄR eː_sam
 2442205210012862421_480p 1 59.2 59.84 SAMVERKAN vææːkan
+-->
+
+[MFA 2.2.15 Swedish Waxholm models](https://github.com/jimregan/waxholm/releases/tag/v0.1.5)
+
+[Inverse-Hessian Regularization for Continual Learning in ASR](https://ieeexplore.ieee.org/document/11461503),
+[arXiv](https://arxiv.org/abs/2601.14751)
+<!-- [code](https://github.com/StevenVdEeckt/inverse-hessian-regularization) -->
+
+```bibtex
+@INPROCEEDINGS{11461503,
+  author={Vander Eeckt, Steven and Van Hamme, Hugo},
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Inverse-Hessian Regularization for Continual Learning in ASR}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={18192-18196},
+  doi={10.1109/ICASSP55912.2026.11461503}
+}
 ```
