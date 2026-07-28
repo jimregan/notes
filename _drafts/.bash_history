@@ -1,14 +1,3 @@
-grep lydiavioletofficial temp-file-list 
-vi /tmp/histt 
-grep sofikiss22 temp-file-list 
-grep heyitspaulina_xx temp-file-list 
-grep emily.grace.xoxo temp-file-list 
-grep slatter temp-file-list 
-grep thatksenia temp-file-list 
-vi tmpnew
-rm tmpnew 
-grep adeletravelss temp-file-list 
-grep amyrosefinley temp-file-list 
 grep charity.grace temp-file-list 
 grep sarell temp-file-list 
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
@@ -498,3 +487,14 @@ pwd
 cd /tmp
 git clone https://gits-15.sys.kth.se/tmh/gpu-admin
 ssh deepflow 
+ls
+claude
+claude
+claude
+rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
+rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
+rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
+rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
+rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
+rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
+rsync -avh . sbtaldeep22:dockerfiles/fc3-qemu/
