@@ -470,3 +470,10 @@ exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3
 exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/47583898_369397696938549_2080435241058341322_njpg_nc_htscontent-cdg2-1cdninstagramcom_39756523563_o.jpg 
 exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/50103982_1689845317783996_966089972436638643_njpg_nc_htscontent-cdg2-1cdninstagramcom_31780085107_o.jpg 
 mv /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd.zip   ig18jun26/
+cd /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd 
+for i in *;do exiftool $i|grep Name; done
+for i in *;do exiftool $i|grep 'Region Name'; done > regios
+less regios 
+rm regios 
+cd ..
+rm -rf 2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/
