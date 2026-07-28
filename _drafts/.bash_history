@@ -1,5 +1,3 @@
-tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}'
-gallery-dl --cookies-from-browser chrome --write-metadata  https://www.instagram.com/stories/kriss_drummer/ $(tail -n 150 /Users/joregan/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/regs|awk '{print "https://www.instagram.com/stories/" $0}') https://www.instagram.com/stories/pianist_zhanna/ https://www.instagram.com/stories/oliwiakaszowska/ https://www.instagram.com/stories/misslilan/ https://www.instagram.com/stories/_yangi_/ https://www.instagram.com/stories/l_kondra/ 
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
 gallery-dl --cookies-from-browser chrome --post-range 1-12  --write-metadata  $(cat todo-new2 )
 gallery-dl --cookies-from-browser chrome --write-metadata https://www.instagram.com/stories/simas222_/  https://www.instagram.com/reel/DY99J8Ej6CD/ https://www.instagram.com/reel/DVUFsb5CQ_D/ https://www.instagram.com/aliz.ronay/reel/DSVVuEJiB8k/ https://www.instagram.com/reel/DShPrecCNes/ https://www.instagram.com/reel/DSczI0FCBtw/ https://www.instagram.com/stories/elliehodgesx_/3939211684547941280/ https://www.instagram.com/stories/elliehodgesx_/3939068390698425167/ https://www.instagram.com/sofia.xsyv https://www.instagram.com/reel/DU5-tPnCj91/ https://www.instagram.com/p/DVfiiaND137/ https://www.instagram.com/reel/DV_r9bEjL1o/ https://www.instagram.com/p/DNJH-98sruF/ https://www.instagram.com/p/DKASLZsonfO/ https://www.instagram.com/reel/DYah6jTO9EJ/ https://www.instagram.com/reel/DYZO6mSOIS2/ https://www.instagram.com/reel/DYW9efvotaE/ https://www.instagram.com/juliezackcomedy https://www.instagram.com/stories/lauramccuskerx/ https://www.instagram.com/lauramccuskerx/reel/DZiUkiio5_X/ 
@@ -498,3 +496,5 @@ cd lab/
 less setgain.tcl 
 rm /Users/joregan/Downloads/PXL_20260727_135015093.LS.mp4 
 scp *.tcl sbtaldeep22:dockerfiles/fc3-qemu/lab/ 
+reset
+claude 
