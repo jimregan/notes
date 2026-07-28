@@ -402,3 +402,71 @@ mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/jore
 ffplay /Users/joregan/Playing/instascr/gallery-dl/instagram/emazon.official/3904306563726229727.mp4
 mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu /Users/joregan/Playing/instascr/gallery-dl/instagram/rtlmagyarorszag/3918527210307405157.mp4
 ffplay /Users/joregan/Playing/instascr/gallery-dl/instagram/rtlmagyarorszag/3918527210307405157.mp4
+cd ~/backup/
+ls
+ls m12feb26/
+ls ig18jun26/
+ls m12feb26/
+cd m8jul26/
+ls ../mine/
+ls
+mkdir tmp
+cd tmp/
+mkdir crop
+cd ..
+ls *.zip > tmp/list
+cd tmp/
+less list 
+cat list |while read i;do unzip ../$i; mv *~* crop/; rm $i;done
+ls
+rm *jpg
+man unzip
+cat list |while read i;do unzip ../$i; mv *~* crop/; rm $i; rm *.jpg;done
+ls
+ls crop/
+ls ..
+ls
+ls crop/
+pwd
+mv crop/ ..
+pwd
+mv ../crop/ ../../
+rm /Users/joregan/backup/crop/PXL_20260620_063055617\~2.jpg 
+cd ..
+rmdir tmp/
+rm tmp/list 
+rmdir tmp/
+cd ..
+ls
+ls m1jun26/
+caffeinate 
+rm -rf /Users/joregan/Downloads/20260708f4613566b0d23744abd4442a5a7e93ad808b7f26573c121c436615f4b99ed392 
+ls
+mv /Users/joregan/Downloads/20260708f4613566b0d23744abd4442a5a7e93ad808b7f26573c121c436615f4b99ed392.zip  ig18jun26/
+rm -rf /Users/joregan/Downloads/202607083c7400c47e903916c8956e6205021e196bb87e320e626e78bf97b21d3d9d1740 
+mv /Users/joregan/Downloads/202607083c7400c47e903916c8956e6205021e196bb87e320e626e78bf97b21d3d9d1740.zip  m12feb26/
+unzip -l /Users/joregan/Downloads/20260708434515322ac6268a51652c4e9629f47a98af1b2faf4bdbdbed9ae54708a5a4a3.zip 
+mv /Users/joregan/Downloads/20260708434515322ac6268a51652c4e9629f47a98af1b2faf4bdbdbed9ae54708a5a4a3.zip m12feb26/
+unzip -l /Users/joregan/Downloads/20260708108f7746cfe555f3ca606c65ddce01656757986d440167e1edb9c284d8fb81bb.zip 
+rm -rf /Users/joregan/Downloads/20260708108f7746cfe555f3ca606c65ddce01656757986d440167e1edb9c284d8fb81bb 
+mv /Users/joregan/Downloads/20260708108f7746cfe555f3ca606c65ddce01656757986d440167e1edb9c284d8fb81bb.zip  m12feb26/
+unzip -l /Users/joregan/Downloads/2026070836e5c65703c84ff7240bde9e888e5110039a9b827cd3ced0dee28db4bf19d57d.zip 
+rm -rf /Users/joregan/Downloads/2026070836e5c65703c84ff7240bde9e888e5110039a9b827cd3ced0dee28db4bf19d57d 
+mv /Users/joregan/Downloads/2026070836e5c65703c84ff7240bde9e888e5110039a9b827cd3ced0dee28db4bf19d57d.zip   m12feb26/
+rm /Users/joregan/Downloads/Codex.dmg 
+unzip -l /Users/joregan/Downloads/202607087a7c33ac1ff2a0d329adfdea5b6dea0d7e37de7e772d57c93c02260beb79a140.zip 
+rm -rf /Users/joregan/Downloads/202607087a7c33ac1ff2a0d329adfdea5b6dea0d7e37de7e772d57c93c02260beb79a140 
+ls
+mv /Users/joregan/Downloads/202607087a7c33ac1ff2a0d329adfdea5b6dea0d7e37de7e772d57c93c02260beb79a140.zip   m12feb26/
+unzip -l /Users/joregan/Downloads/20260708d31c254359b6377d6f140085f9bd912f1e7ba093cd792c9d9d32af9392985c0e.zip 
+ls ig18jun26/
+mv /Users/joregan/Downloads/20260708d31c254359b6377d6f140085f9bd912f1e7ba093cd792c9d9d32af9392985c0e.zip ig18jun26/
+unzip -l ig18jun26/20260708f4613566b0d23744abd4442a5a7e93ad808b7f26573c121c436615f4b99ed392.zip 
+mv /Users/joregan/Downloads/20260708575ae17e4fe1251589c5042b258bf1d628726312631ba8e780662f6bf85da706.zip  ig18jun26/
+exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/640x640_6c8f22cf-8e86-4471-95e8-0938b8ba69f6_45996643364_o.jpg 
+exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/640x640_939c7cc1-8d4b-4625-913c-36f98f8af2f7_39756367893_o.jpg 
+exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/39361439_273788503346999_8079039058090655744_njpg_nc_htscontent-frx5-1cdninstagramcom_46668739212_o.jpg 
+exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/foto09png_45805774175_o.jpg 
+exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/47583898_369397696938549_2080435241058341322_njpg_nc_htscontent-cdg2-1cdninstagramcom_39756523563_o.jpg 
+exiftool /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd/50103982_1689845317783996_966089972436638643_njpg_nc_htscontent-cdg2-1cdninstagramcom_31780085107_o.jpg 
+mv /Users/joregan/Downloads/2026070834580cd8c82571383dc281557166dbdc53f8e3bfb68580f2b926f699211194cd.zip   ig18jun26/
