@@ -262,3 +262,10 @@ git status
 ls
 less batch_ocr.py 
 caffeinate 
+ls -al *roly*
+ls -al *rag*
+ls -al *mimi*
+ls *clar*
+ls -al *clar*
+ls -al *fors*
+ls
