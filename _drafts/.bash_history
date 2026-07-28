@@ -1,11 +1,3 @@
-bsgal https://babesource.com/galleries/chloe-temple-khloe-kapri-my-pervy-family-138202.html
-bsgal https://babesource.com/galleries/anais-amore-my-pervy-family-135043.html
-bsgal https://babesource.com/galleries/gia-oh-my-my-pervy-family-134130.html
-bsgal https://babesource.com/galleries/katrina-colt-my-pervy-family-130230.html
-bsgal https://babesource.com/galleries/eva-nyx-my-pervy-family-131289.html
-bsgal https://babesource.com/galleries/maria-kazi-my-pervy-family-126973.html
-bsgal https://babesource.com/galleries/gia-ohmy-breed-me-209735.html
-bsgal https://babesource.com/galleries/gia-ohmy-wankz-vr-208959.html
 bsgal https://babesource.com/galleries/gia-ohmy-cherry-pimps-134122.html
 bsgal https://babesource.com/galleries/gia-ohmy-i-know-that-girl-125238.html
 bsgal https://babesource.com/galleries/gia-oh-my-my-pervy-family-115201.html
@@ -498,3 +490,11 @@ pwd
 cd ../..
 info history
 help history
+ls
+find www.* -type f -exec file {} \;
+less www.freeones.com/photos/02-jpg-aa401291-a84a-4e94-9523-5beb49aec1b3
+ls
+cd ../prn4
+ls
+cd w
+ls
