@@ -116,3 +116,9 @@ categories: [links]
 
 [ZIM file format](https://wiki.openzim.org/wiki/ZIM_file_format)
 
+<!-- mlx_whisper --model mlx-community/whisper-large-v3-mlx --language hu -->
+
+```
+2442205210012862421_480p 1 58.92 59.4 ÄR eː_sam
+2442205210012862421_480p 1 59.2 59.84 SAMVERKAN vææːkan
+```
