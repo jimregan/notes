@@ -1886,10 +1886,117 @@ be-PTCP   link-SBL  and  talk-IMP-1PL
 
 [Reel](https://www.instagram.com/reels/Da4bTjcIb_s/)
 
-[00:00.000 --> 00:02.400]  Van-e kedvenc színed? És melyik, hogy ha van?
-[00:02.540 --> 00:04.840]  Igen, a rózsaszín, kiskorom óta.
-[00:05.700 --> 00:07.740]  Meg tudnád indokolni, hogy mi miatt szereted?
-[00:08.460 --> 00:13.120]  Azért szeretem, mert boldogságot ad, ha ránézek,
-[00:13.680 --> 00:17.000]  kicsit a belső gyermeki énemet táplálja,
-[00:17.340 --> 00:22.720]  és... öhm... örömet ad, ha ránézek egy rózsaszín dologra.
-[00:23.300 --> 00:26.840]  Imádom amúgy a videóitokat. Jaj, köszi. Szoktam nézni.
+**Van-e kedvenc színed? És melyik, hogyha van?**
+
+Do you have a favourite colour? And which one, if you do?
+
+```text
+Van-e      kedvenc    szín-ed?
+be.3SG-Q   favourite  colour-2SG.POSS
+
+És  melyik,  hogyha  van?
+and which   if      be.3SG
+```
+
+**Igen, a rózsaszín, kiskorom óta.**
+
+Yes, pink, ever since I was a child.
+
+```text
+Igen,  a    rózsa-szín,  kis-kor-om       óta.
+yes    the  rose-colour  little-age-1SG.POSS since
+```
+
+**Meg tudnád indokolni, hogy mi miatt szereted?**
+
+Could you explain why you like it?
+
+```text
+Meg  tud-ná-d           indokol-ni,  hogy  mi
+PV   can-COND-2SG.DEF   justify-INF  that  what
+
+miatt       szeret-ed?
+because.of  like-2SG.DEF
+```
+
+**Azért szeretem, mert boldogságot ad, ha ránézek.**
+
+I like it because it gives me happiness when I look at it.
+
+```text
+Azért      szeret-em,     mert     boldog-ság-ot
+for.that   like-1SG.DEF   because  happy-NMLZ-ACC
+
+ad,       ha  rá-néz-ek.
+give.3SG  if  PV-look-1SG.INDF
+```
+
+**Kicsit a belső gyermeki énemet táplálja.**
+
+It nourishes my inner child a little.
+
+```text
+Kicsi-t     a    belső  gyermek-i  én-em-et
+little-ACC  the  inner  child-ADJ  self-1SG.POSS-ACC
+
+táplál-ja.
+nourish-3SG.DEF
+```
+
+**És… öhm… örömet ad, ha ránézek egy rózsaszín dologra.**
+
+And… um… it gives me joy when I look at something pink.
+
+```text
+És  öhm  öröm-et  ad,       ha  rá-néz-ek
+and um   joy-ACC  give.3SG  if  PV-look-1SG.INDF
+
+egy  rózsa-szín  dolog-ra.
+a    rose-colour thing-SBL
+```
+
+**Imádom amúgy a videóitokat.**
+
+I love your videos, by the way.
+
+```text
+Imád-om       amúgy       a
+adore-1SG.DEF by.the.way  the
+
+videó-i-tok-at.
+video-PL-2PL.POSS-ACC
+```
+
+**Jaj, köszi.**
+
+Aw, thanks.
+
+```text
+Jaj,  köszi.
+INTJ  thanks
+```
+
+**Szoktam nézni.**
+
+I usually watch them.
+
+```text
+Szok-t-am        néz-ni.
+HAB-PST-1SG      watch-INF
+```
+
+## A2 vocabulary
+
+* **kedvenc szín** — favourite colour
+* **kiskorom óta** — ever since I was a child
+* **megindokol** — explain; justify
+* **mi miatt?** — why?; because of what?
+* **boldogságot ad** — give happiness
+* **ránéz valamire** — look at something
+* **belső gyermek** — inner child
+* **gyermeki én** — childlike self
+* **táplál** — nourish; nurture
+* **örömet ad** — give joy
+* **amúgy** — by the way; actually
+* **imád valamit** — adore something
+* **szokott valamit csinálni** — usually do something
