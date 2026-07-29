@@ -1463,45 +1463,421 @@ this-PL   the  app-PL
 
 [Reel](https://www.instagram.com/reels/DbVfam9DFJx/)
 
-[00:00.000 --> 00:02.940]  Nem kell ágyba bújnod senkivel ahhoz, hogy megcsald a párodat.
-[00:03.460 --> 00:06.240]  Úgynevezett mikromegcsalások is léteznek,
-[00:06.400 --> 00:10.660]  amiken észrevétlenül, lassan kivégzed a köztetek lévő bizalmat.
-[00:11.340 --> 00:15.080]  A fizikai megcsalás mindig egy hosszú folyamat végállomása.
-[00:15.660 --> 00:17.900]  A rombolás sokkal korábban elkezdődik.
-[00:18.000 --> 00:21.040]  Az eltitkolt üzenetváltások, a chatelések,
-[00:21.460 --> 00:24.320]  az exek képeinek folyamatos lájkolásával,
-[00:24.380 --> 00:26.620]  vagy azzal, ha egy harmadik félnek
-[00:26.620 --> 00:29.820]  hamarabb panaszkodsz a kapcsolatodról, mint a saját párodnak.
-[00:30.360 --> 00:32.620]  Ezeket nevezzük az úgynevezett mikromegcsalásoknak,
-[00:33.480 --> 00:38.000]  amik azért veszélyesek, mert az egód azzal nyugtatja magát,
-[00:38.160 --> 00:40.260]  hiszen nem történt semmi fizikai,
-[00:40.940 --> 00:43.620]  ezért nem tettem semmi rosszat, de a lélek szintjén az intimitás,
-[00:44.720 --> 00:47.080]  az energiát már átvitted máshova.
-[00:47.460 --> 00:51.520]  Minden egyes eltitkolt beszélgetés egy apró lépés, egy kép,
-[00:52.260 --> 00:56.640]  bármi a másik félnek, az valójában a te kapcsolatodból elvett
-[00:56.640 --> 00:57.960]  energia és figyelem.
-[00:57.960 --> 01:01.280]  A tiszta kapcsolatás megköveteli a szent határokat.
-[01:01.840 --> 01:06.020]  Ha olyan dolgokat teszel, amik a háta mögött zajlanak
-[01:06.120 --> 01:08.700]  a párodnak, legyen az az online térben,
-[01:09.180 --> 01:13.900]  akkor megszedtet a ket-kettőtök között lévő szent kapcsolatot.
-[01:14.960 --> 01:19.280]  És nagyon sokan elfelejtik azt, hogy amikor ilyeneket csinálnak,
-[01:19.720 --> 01:22.720]  akkor valójában egy hiányt próbálnak betölteni.
-[01:22.720 --> 01:26.440]  Valami olyan dolog miatt kezdenek el chatelni,
-[01:26.880 --> 01:27.720]  mások felé nyitni
-[01:27.960 --> 01:30.960]  vagy másoktól megkapni ezt a feltöltést,
-[01:30.960 --> 01:34.960]  mert valamit nem kapnak meg a kapcsolatukban.
-[01:35.960 --> 01:38.960]  Énnekem az a tapasztalatom, hogy sokkal korrektebb
-[01:38.960 --> 01:43.960]  és sokkal nyitottabb és sokkal inkább a kapcsolat érdekében történik az,
-[01:43.960 --> 01:47.960]  hogyha nyíltan odamész a párodhoz és lekommunikálod az irányába,
-[01:47.960 --> 01:51.960]  hogy ne haragud, több törődésre lenne szükségem.
-[01:51.960 --> 01:55.960]  Vagy figyelj, sokkal több intimitást szeretnék tőled.
-[01:55.960 --> 01:57.960]  Mi a gond, hogyha esetleg férfi vagy?
-[01:57.960 --> 02:00.960]  Vagy meg lehet mondani bármilyen igényünket,
-[02:00.960 --> 02:05.960]  de ezt úgy lekommunikálva, hogy tiszteljük a másik véleményét
-[02:05.960 --> 02:09.960]  és nyitottak vagyunk az ő gondolatmenetére.
-[02:09.960 --> 02:13.960]  Nagyon sokszor akkor ezek a mikromegcsalások elkerülhetők,
-[02:13.960 --> 02:20.960]  és még segíti is ez a kommunikáció fejlődést, a kapcsolatunk épülését.
-[02:20.960 --> 02:26.960]  Mindig van megoldás, és sokkal könnyebb egy kapcsolatban is már az első lépéseknél
-[02:27.960 --> 02:35.960]  inkább a megoldásra törekedni és nem kívül keresni a kapcsolaton azt a megoldást vagy azt a hiányt, ami keletkezett.
-[02:35.960 --> 02:40.960]  Írd meg kommentben, mi a véleményed, mi-mitől számít már megcsalásnak,
-[02:40.960 --> 02:45.960]  és ha beszélgetnél velem a témában, akkor kattints a linkre a bióba és beszélgessünk.
+**Nem kell ágyba bújnod senkivel ahhoz, hogy megcsald a párodat.**
+
+You do not need to get into bed with anyone in order to cheat on your partner.
+
+```text
+Nem  kell       ágy-ba  búj-n-od       senki-vel
+NEG  be.needed  bed-ILL  crawl-INF-2SG  nobody-INST
+
+ah-hoz,    hogy  meg-csal-d          a    pár-od-at.
+that-ALL   that  PV-cheat-SBJV.2SG   the  partner-2SG.POSS-ACC
+```
+
+**Úgynevezett mikromegcsalások is léteznek, amikkel észrevétlenül, lassan kivégzed a köztetek lévő bizalmat.**
+
+So-called micro-cheating also exists, through which you imperceptibly and gradually destroy the trust between you.
+
+```text
+Úgy-nevez-ett  mikro-megcsalás-ok  is
+thus-call-PTCP micro-cheating-PL   also
+
+létez-nek,   ami-k-kel  észrevétlen-ül  lassan
+exist-3PL    REL-PL-INST imperceptible-ADV slowly
+
+ki-vég-z-ed         a    közt-etek     lév-ő
+PV-finish-VBZ-2SG.DEF the  between-2PL  be-PTCP
+
+bizalm-at.
+trust-ACC
+```
+
+**A fizikai megcsalás mindig egy hosszú folyamat végállomása.**
+
+Physical cheating is always the final destination of a long process.
+
+```text
+A    fizika-i  megcsalás  mindig  egy  hosszú
+the  physical-ADJ cheating always  a    long
+
+folyamat  vég-állomás-a.
+process   end-station-3SG.POSS
+```
+
+**A rombolás sokkal korábban elkezdődik.**
+
+The destruction begins much earlier.
+
+```text
+A    rombol-ás    sok-kal   korá-bb-an
+the  destroy-NMLZ much-INST early-CMPR-ADV
+
+el-kezdőd-ik.
+PV-begin-3SG
+```
+
+**Az eltitkolt üzenetváltásokkal, a chatelésekkel, az exek képeinek folyamatos lájkolásával, vagy azzal, ha egy harmadik félnek hamarabb panaszkodsz a kapcsolatodról, mint a saját párodnak.**
+
+Through concealed message exchanges, chats, constantly liking your exes’ pictures, or complaining about your relationship to a third party before speaking to your own partner.
+
+```text
+Az   el-titkol-t       üzenet-váltás-ok-kal,
+the  PV-conceal-PTCP   message-exchange-PL-INST
+
+a    chatel-és-ek-kel,  az   ex-ek  kép-e-i-nek
+the  chat-NMLZ-PL-INST the  ex-PL   picture-3SG.POSS-PL-DAT
+
+folyamatos  lájkol-ás-á-val,       vagy  az-zal,
+continuous like-NMLZ-3SG.POSS-INST or    that-INST
+
+ha  egy  harmad-ik  fél-nek  hamar-abb
+if  a    third-ONE  party-DAT early-CMPR
+
+panaszkod-sz      a    kapcsolat-od-ról,
+complain-2SG.INDF the  relationship-2SG.POSS-DEL
+
+mint  a    saját  pár-od-nak.
+than  the  own    partner-2SG.POSS-DAT
+```
+
+**Ezeket nevezzük az úgynevezett mikromegcsalásoknak.**
+
+These are what we call so-called micro-cheating.
+
+```text
+Ez-ek-et     nevez-zük       az   úgy-nevez-ett
+this-PL-ACC  call-1PL.DEF    the  thus-call-PTCP
+
+mikro-megcsalás-ok-nak.
+micro-cheating-PL-DAT
+```
+
+**Amik azért veszélyesek, mert az egód azzal nyugtatja magát: „Hiszen nem történt semmi fizikai, ezért nem tettem semmi rosszat.”**
+
+They are dangerous because your ego reassures itself by saying: “After all, nothing physical happened, so I did nothing wrong.”
+
+```text
+Ami-k  azért     veszély-es-ek,  mert
+REL-PL for.that  danger-ADJ-PL   because
+
+az   egó-d          az-zal     nyugtat-ja
+the  ego-2SG.POSS   that-INST  reassure-3SG.DEF
+
+mag-á-t:             Hiszen    nem  történ-t
+self-3SG.POSS-ACC    after.all  NEG  happen-PST.3SG
+
+semmi    fizika-i,  ezért  nem  tet-t-em
+nothing  physical-ADJ so    NEG  do-PST-1SG.DEF
+
+semmi    rossz-at.
+nothing  bad-ACC
+```
+
+**De a lélek szintjén az intimitást, az energiát már átvitted máshova.**
+
+But on the level of the soul, you have already transferred the intimacy and energy elsewhere.
+
+```text
+De   a    lélek  szint-jé-n         az
+but  the  soul   level-3SG.POSS-SUP the
+
+intimitás-t,  az   energiá-t  már
+intimacy-ACC  the  energy-ACC already
+
+át-vitt-ed          más-hova.
+across-take-PST-2SG.DEF other-DIR
+```
+
+**Minden egyes eltitkolt beszélgetés, egy apró lájk egy képre, bármi a másik fél felé, az valójában a te kapcsolatodból elvett energia és figyelem.**
+
+Every concealed conversation, a small like on a picture—anything directed towards the other person—is really energy and attention taken from your relationship.
+
+```text
+Minden  egyes  el-titkol-t       beszélgetés,
+every   single PV-conceal-PTCP   conversation
+
+egy  apró   lájk  egy  kép-re,      bár-mi
+a    small  like  a    picture-SBL  any-thing
+
+a    másik  fél  felé,     az    való-já-ban
+the  other  party towards  that  real-3SG.POSS-INE
+
+a    te   kapcsolat-od-ból
+the  2SG  relationship-2SG.POSS-ELA
+
+el-vett      energia  és   figyelem.
+PV-take.PTCP energy   and  attention
+```
+
+**A tiszta kapcsolat is megköveteli a szent határokat.**
+
+A pure relationship also requires sacred boundaries.
+
+```text
+A    tiszta  kapcsolat  is    meg-követel-i
+the  pure    relationship also  PV-require-3SG.DEF
+
+a    szent   határ-ok-at.
+the  sacred  boundary-PL-ACC
+```
+
+**Ha olyan dolgokat teszel, amik a párod háta mögött zajlanak, legyen az az online térben, akkor megsérted a kettőtök között lévő szent kapcsolatot.**
+
+If you do things that take place behind your partner’s back, even in the online space, then you violate the sacred bond between the two of you.
+
+```text
+Ha  olyan  dolog-ok-at  tesz-el,       ami-k
+if  such   thing-PL-ACC do-2SG.INDF    REL-PL
+
+a    pár-od           hát-a          mögött
+the  partner-2SG.POSS back-3SG.POSS  behind
+
+zajl-anak,     legy-en       az   az   online
+take.place-3PL be-SBJV.3SG   that the  online
+
+tér-ben,   akkor  meg-sért-ed          a
+space-INE  then   PV-violate-2SG.DEF   the
+
+kettő-tök  között  lév-ő     szent   kapcsolat-ot.
+two-2PL    between be-PTCP   sacred  relationship-ACC
+```
+
+**És nagyon sokan elfelejtik azt, hogy amikor ilyeneket csinálnak, akkor valójában egy hiányt próbálnak betölteni.**
+
+And many people forget that when they do such things, they are actually trying to fill a void.
+
+```text
+És  nagyon  sok-an  el-felejt-ik      az-t,
+and very    many-ADV PV-forget-3PL.DEF that-ACC
+
+hogy  amikor  ilyen-ek-et  csinál-nak,
+that  when    such-PL-ACC  do-3PL.INDF
+
+akkor  való-já-ban       egy  hiány-t
+then   real-3SG.POSS-INE a    lack-ACC
+
+próbál-nak     be-tölt-eni.
+try-3PL.INDF   PV-fill-INF
+```
+
+**Valami olyan dolog miatt kezdenek el chatelni, mások felé nyitni, vagy másoktól megkapni ezt a feltöltést, mert valamit nem kapnak meg a kapcsolatukban.**
+
+They begin chatting, opening up to other people or seeking this emotional boost from others because there is something they are not getting in their relationship.
+
+```text
+Valami  olyan  dolog  miatt       kezd-nek
+some    such   thing  because.of  begin-3PL
+
+el  chatel-ni,  más-ok  felé     nyit-ni,
+PV  chat-INF    other-PL towards open-INF
+
+vagy  más-ok-tól   meg-kap-ni  ez-t      a
+or    other-PL-DEL PV-get-INF  this-ACC  the
+
+fel-töltés-t,  mert     vala-mi-t
+PV-fill-NMLZ-ACC because  some-thing-ACC
+
+nem  kap-nak      meg  a    kapcsolat-uk-ban.
+NEG  get-3PL.INDF PV   the  relationship-3PL.POSS-INE
+```
+
+**Énnekem az a tapasztalatom, hogy sokkal korrektebb és sokkal nyitottabb, és sokkal inkább a kapcsolat érdekében történik az, hogyha nyíltan odamész a párodhoz, és lekommunikálod az irányába, hogy: „Ne haragudj, több törődésre lenne szükségem.”**
+
+My experience is that it is much fairer, much more open and much more in the interest of the relationship if you go to your partner openly and communicate to them: “Please don’t be angry, but I need more care and attention.”
+
+```text
+Én-nekem  az   a    tapasztalat-om,  hogy
+1SG-DAT   that the  experience-1SG.POSS that
+
+sok-kal   korrekt-ebb  és   sok-kal
+much-INST fair-CMPR    and  much-INST
+
+nyitott-abb,  és   sok-kal   inkább
+open-CMPR     and  much-INST rather
+
+a    kapcsolat  érdek-é-ben
+the  relationship interest-3SG.POSS-INE
+
+történ-ik       az,   hogyha  nyílt-an
+happen-3SG      that  if      open-ADV
+
+oda-mész       a    pár-od-hoz,          és
+there-go.2SG   the  partner-2SG.POSS-ALL and
+
+le-kommunikál-od       az   irány-á-ba,
+PV-communicate-2SG.DEF the  direction-3SG.POSS-ILL
+
+hogy  Ne   haragud-j,        több  törődés-re
+that  NEG  be.angry-IMP.2SG  more  care-SBL
+
+len-ne       szükség-em.
+be-COND.3SG  need-1SG.POSS
+```
+
+**Vagy: „Figyelj, sokkal több intimitást szeretnék tőled.”**
+
+Or: “Listen, I would like much more intimacy from you.”
+
+```text
+Vagy  Figyel-j,       sok-kal   több
+or    listen-IMP.2SG much-INST more
+
+intimitás-t  szeret-né-k      től-ed.
+intimacy-ACC want-COND-1SG    from-2SG
+```
+
+**Mi a gond, hogyha esetleg férfi vagy?**
+
+What is wrong with doing that, even if you happen to be a man?
+
+```text
+Mi    a    gond,     hogyha  esetleg  férfi  vagy?
+what  the  problem   if      perhaps   man    be.2SG
+```
+
+**Meg lehet mondani bármilyen igényünket, de ezt úgy lekommunikálva, hogy tiszteljük a másik véleményét, és nyitottak vagyunk az ő gondolatmenetére.**
+
+We can express any need we have, but we should communicate it in a way that respects the other person’s opinion and remains open to their line of thought.
+
+```text
+Meg  lehet       mond-ani  bár-milyen
+PV   be.possible say-INF   any-kind
+
+igény-ünk-et,       de   ez-t      úgy
+need-1PL.POSS-ACC   but  this-ACC  thus
+
+le-kommunikál-va,  hogy  tisztel-jük
+PV-communicate-CVB that  respect-1PL.DEF
+
+a    másik  vélemény-é-t,         és
+the  other  opinion-3SG.POSS-ACC  and
+
+nyitott-ak  vagy-unk  az   ő
+open-PL     be-1PL   the  3SG
+
+gondolat-menet-é-re.
+thought-course-3SG.POSS-SBL
+```
+
+**Nagyon sokszor akkor ezek a mikromegcsalások elkerülhetők.**
+
+Very often, these instances of micro-cheating can then be avoided.
+
+```text
+Nagyon  sok-szor   akkor  ez-ek     a
+very    many-times then   this-PL   the
+
+mikro-megcsalás-ok  el-kerül-hető-k.
+micro-cheating-PL   PV-avoid-POT.PTCP-PL
+```
+
+**És még segíti is ez a kommunikáció a fejlődést, a kapcsolatunk épülését.**
+
+And this communication also helps our development and the growth of our relationship.
+
+```text
+És  még    segít-i       is    ez    a
+and still  help-3SG.DEF  also  this  the
+
+kommunikáció  a    fejlődés-t,  a
+communication the  development-ACC the
+
+kapcsolat-unk        épülés-é-t.
+relationship-1PL.POSS build-NMLZ-3SG.POSS-ACC
+```
+
+**Mindig van megoldás, és sokkal könnyebb egy kapcsolatban is már az első lépéseknél inkább a megoldásra törekedni, és nem a kapcsolaton kívül keresni a megoldást arra a hiányra, ami keletkezett.**
+
+There is always a solution, and even within a relationship it is much easier to seek a solution from the very first steps, rather than looking outside the relationship for a solution to the void that has arisen.
+
+```text
+Mindig  van     megoldás,  és   sok-kal
+always  be.3SG  solution   and  much-INST
+
+könny-ebb  egy  kapcsolat-ban  is    már
+easy-CMPR  a    relationship-INE also  already
+
+az   első  lépés-ek-nél  inkább  a
+the  first step-PL-ADE   rather  the
+
+megoldás-ra  töreked-ni,  és   nem  a
+solution-SBL strive-INF  and  NEG  the
+
+kapcsolat-on  kívül  keres-ni  a
+relationship-SUP outside seek-INF the
+
+megoldás-t  ar-ra      a    hiány-ra,
+solution-ACC that-SBL  the  lack-SBL
+
+ami  keletkez-ett.
+REL  arise-PST.3SG
+```
+
+**Írd meg kommentben, mi a véleményed, mi mitől számít már megcsalásnak.**
+
+Write in the comments what you think and what, in your view, already counts as cheating.
+
+```text
+Ír-d        meg  komment-ben,  mi    a
+write-IMP.2SG.DEF PV comment-INE what  the
+
+vélemény-ed,         mi    mi-től    számít
+opinion-2SG.POSS     what  what-DEL  count.3SG
+
+már      megcsalás-nak.
+already  cheating-DAT
+```
+
+**És ha beszélgetnél velem a témában, akkor kattints a bióban lévő linkre, és beszélgessünk.**
+
+And if you would like to talk to me about the subject, click the link in the bio and let’s talk.
+
+```text
+És  ha  beszélget-né-l   vel-em    a
+and  if  talk-COND-2SG   with-1SG  the
+
+témá-ban,  akkor  kattint-s       a    bió-ban
+topic-INE  then   click-IMP.2SG   the  bio-INE
+
+lév-ő     link-re,  és   beszélget-j-ünk.
+be-PTCP   link-SBL  and  talk-IMP-1PL
+```
+
+## A2 vocabulary
+
+* **ágyba bújik valakivel** — get into bed with someone
+* **megcsalja a párját** — cheat on one’s partner
+* **úgynevezett** — so-called
+* **észrevétlenül** — imperceptibly; without being noticed
+* **bizalom** — trust
+* **végállomás** — final destination; endpoint
+* **rombolás** — destruction; damage
+* **eltitkol** — conceal; keep secret
+* **üzenetváltás** — exchange of messages
+* **harmadik fél** — third party
+* **panaszkodik valamiről** — complain about something
+* **megnyugtatja magát** — reassure oneself
+* **a lélek szintjén** — on an emotional or spiritual level
+* **átvisz valamit máshová** — transfer something elsewhere
+* **figyelem** — attention
+* **határ** — boundary
+* **valakinek a háta mögött** — behind someone’s back
+* **megsért** — violate; infringe
+* **hiányt betölt** — fill a void
+* **mások felé nyit** — open up to other people
+* **feltöltés** — boost; replenishment
+* **tapasztalat** — experience
+* **valaminek az érdekében** — in the interest of something
+* **nyíltan** — openly
+* **törődés** — care; attention
+* **szüksége van valamire** — need something
+* **igény** — need; requirement
+* **tiszteletben tart** — respect
+* **gondolatmenet** — line of thought
+* **elkerülhető** — avoidable
+* **épülés** — growth; development
+* **megoldásra törekszik** — strive for a solution
+* **kapcsolaton kívül** — outside the relationship
+* **keletkezik** — arise; come into existence
+* **megcsalásnak számít** — count as cheating
