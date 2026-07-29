@@ -41,3 +41,19 @@ November-December 2019
 Volume 107, Number 6
 Page 350
 DOI: 10.1511/2019.107.6.350
+https://www.americanscientist.org/article/the-grammar-of-the-elements
+
+@article{8fbff1dc-d9ed-3459-826d-62e2934c864e,
+ ISSN = {00030996, 15452786},
+ URL = {https://www.jstor.org/stable/26816266},
+ author = {Abhik Ghosh and Paul Kiparsky},
+ journal = {American Scientist},
+ number = {6},
+ pages = {350--355},
+ publisher = {Sigma Xi, The Scientific Research Honor Society},
+ title = {Perspective: The Grammar of the Elements},
+ urldate = {2026-07-29},
+ doi = {10.1511/2019.107.6.350},
+ volume = {107},
+ year = {2019}
+}
