@@ -1464,26 +1464,26 @@ this-PL   the  app-PL
 [Reel](https://www.instagram.com/reels/DbVfam9DFJx/)
 
 [00:00.000 --> 00:02.940]  Nem kell ágyba bújnod senkivel ahhoz, hogy megcsald a párodat.
-[00:03.460 --> 00:06.240]  Úgynevezett mikro megcsalások is léteznek,
-[00:06.400 --> 00:10.660]  amikkel észrevétlenül lassan kivégzed a köztetek lévő bizalmat.
+[00:03.460 --> 00:06.240]  Úgynevezett mikromegcsalások is léteznek,
+[00:06.400 --> 00:10.660]  amiken észrevétlenül, lassan kivégzed a köztetek lévő bizalmat.
 [00:11.340 --> 00:15.080]  A fizikai megcsalás mindig egy hosszú folyamat végállomása.
 [00:15.660 --> 00:17.900]  A rombolás sokkal korábban elkezdődik.
-[00:18.000 --> 00:21.040]  Az eltitkolt üzenetváltások, a csetelések,
-[00:21.460 --> 00:24.320]  az externek képeinek folyamatos lájkolásával,
-[00:24.380 --> 00:26.620]  vagy azzal, ha egy harmadik félnek,
+[00:18.000 --> 00:21.040]  Az eltitkolt üzenetváltások, a chatelések,
+[00:21.460 --> 00:24.320]  az exek képeinek folyamatos lájkolásával,
+[00:24.380 --> 00:26.620]  vagy azzal, ha egy harmadik félnek
 [00:26.620 --> 00:29.820]  hamarabb panaszkodsz a kapcsolatodról, mint a saját párodnak.
-[00:30.360 --> 00:32.620]  Ezeket nevezzük az úgynevezett mikro megcsalásoknak,
+[00:30.360 --> 00:32.620]  Ezeket nevezzük az úgynevezett mikromegcsalásoknak,
 [00:33.480 --> 00:38.000]  amik azért veszélyesek, mert az egód azzal nyugtatja magát,
-[00:38.160 --> 00:40.260]  hiszen nem történt semmi fizikai.
-[00:40.940 --> 00:43.620]  Ezért nem tettem semmi rosszat, de a lélek szintjén az intimitás,
+[00:38.160 --> 00:40.260]  hiszen nem történt semmi fizikai,
+[00:40.940 --> 00:43.620]  ezért nem tettem semmi rosszat, de a lélek szintjén az intimitás,
 [00:44.720 --> 00:47.080]  az energiát már átvitted máshova.
-[00:47.460 --> 00:51.520]  Minden egyes eltitkolt beszélgetés, egy apró lépés, egy kép,
-[00:52.260 --> 00:56.640]  bármi a másik félnek, az valójában a te kapcsolatodból elvett.
-[00:56.640 --> 00:57.960]  Energia és figyelem.
+[00:47.460 --> 00:51.520]  Minden egyes eltitkolt beszélgetés egy apró lépés, egy kép,
+[00:52.260 --> 00:56.640]  bármi a másik félnek, az valójában a te kapcsolatodból elvett
+[00:56.640 --> 00:57.960]  energia és figyelem.
 [00:57.960 --> 01:01.280]  A tiszta kapcsolatás megköveteli a szent határokat.
-[01:01.840 --> 01:06.020]  Ha olyan dolgokat teszel, amik a hátamögött zajlanak,
+[01:01.840 --> 01:06.020]  Ha olyan dolgokat teszel, amik a háta mögött zajlanak
 [01:06.120 --> 01:08.700]  a párodnak, legyen az az online térben,
-[01:09.180 --> 01:13.900]  akkor megszettet a kettőtök között lévő szent kapcsolatot.
+[01:09.180 --> 01:13.900]  akkor megszedtet a ket-kettőtök között lévő szent kapcsolatot.
 [01:14.960 --> 01:19.280]  És nagyon sokan elfelejtik azt, hogy amikor ilyeneket csinálnak,
 [01:19.720 --> 01:22.720]  akkor valójában egy hiányt próbálnak betölteni.
 [01:22.720 --> 01:26.440]  Valami olyan dolog miatt kezdenek el csetelni,
