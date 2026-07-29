@@ -2005,29 +2005,293 @@ HAB-PST-1SG      watch-INF
 
 [Reel](https://www.instagram.com/reels/DZdHL6ANlpr/)
 
-[00:00.000 --> 00:01.200]  Nem mossa el a shakerét.
-[00:01.200 --> 00:03.200]  Fú, ez red flag.
-[00:03.200 --> 00:05.200]  Az nagyon büdös.
-[00:05.200 --> 00:07.700]  Több pénzt költ proteinre, mint randira.
-[00:07.700 --> 00:09.200]  Amúgy engem nem zavarna.
-[00:09.200 --> 00:11.200]  Én is szeretem az ilyen proteines, csokiket és ha kaphatok belőle, akkor green.
-[00:13.200 --> 00:14.500]  Jó, akkor megaduk greennek.
-[00:14.500 --> 00:17.000]  Szerinte minőségi idő az, hogy együtt mentek el edzeni.
-[00:17.000 --> 00:19.000]  Úristen, nagyon jó.
-[00:19.000 --> 00:21.000]  Ez ultimate green. Ez ilyen
-[00:21.000 --> 00:23.000]  gold green flag. Red flag.
-[00:23.000 --> 00:25.000]  Milyen más minőségi időteltést tudsz elképzelni?
-[00:25.000 --> 00:27.000]  Hugy elmegyünk kirándulni inkább.
-[00:27.000 --> 00:28.500]  Ha minden közös képen befeszít.
-[00:28.500 --> 00:29.500]  Red flag.
-[00:29.500 --> 00:30.500]  Hát... Ha jó karja van.
-[00:30.500 --> 00:32.500]  Amúgy red.
-[00:32.500 --> 00:34.500]  Ne az összesen.
-[00:34.500 --> 00:35.500]  Legyenek ilyen cuki képek is.
-[00:35.500 --> 00:37.500]  Nagyon szépen köszönjük a segítségedet.
-[00:37.500 --> 00:39.500]  A Nutriversum-tól egy fehérjét a következő edzésedhez
-[00:39.500 --> 00:40.500]  sok szeretettel.
-[00:40.500 --> 00:42.500]  Mi köszönjük szépen, és további szép napot neked.
-[00:42.500 --> 00:44.500]  Köszi, szia.
-[00:44.500 --> 00:46.500]  Most őszintén te randiznál egy gym bro-val?
-[00:46.500 --> 00:48.500]  Írd meg nekünk kommentben.
+**Nem mossa el a shakerét.**
+
+He does not wash out his shaker.
+
+```text
+Nem  mos-sa        el  a    shaker-é-t.
+NEG  wash-3SG.DEF  PV  the  shaker-3SG.POSS-ACC
+```
+
+**Fú, ez red flag.**
+
+Ugh, that is a red flag.
+
+```text
+Fú,   ez    red_flag.
+INTJ  this  red_flag
+```
+
+**Az nagyon büdös.**
+
+That smells really bad.
+
+```text
+Az    nagyon  büdös.
+that  very    smelly
+```
+
+**Több pénzt költ proteinre, mint randira.**
+
+He spends more money on protein than on dates.
+
+```text
+Több  pénz-t     költ          protein-re,
+more  money-ACC  spend.3SG     protein-SBL
+
+mint  randi-ra.
+than  date-SBL
+```
+
+**Amúgy engem nem zavarna.**
+
+Actually, it would not bother me.
+
+```text
+Amúgy       eng-em  nem  zavar-na.
+actually    1SG-ACC NEG  bother-COND.3SG
+```
+
+**Én is szeretem az ilyen proteines csokikat, és ha kaphatok belőle, akkor green.**
+
+I also like protein chocolates like that, and if I can have some, then it is a green flag.
+
+```text
+Én   is    szeret-em      az   ilyen  protein-es
+1SG  also  like-1SG.DEF   the  such   protein-ADJ
+
+csoki-k-at,      és   ha  kap-hat-ok
+chocolate-PL-ACC and  if  get-POT-1SG
+
+belőle,    akkor  green.
+from.3SG   then   green
+```
+
+**Jó, akkor megadjuk greennek.**
+
+All right, then we will count that as green.
+
+```text
+Jó,   akkor  meg-ad-juk       green-nek.
+good  then   PV-give-1PL.DEF  green-DAT
+```
+
+**Szerinte minőségi idő az, hogy együtt mentek el edzeni.**
+
+In his opinion, going to work out together counts as quality time.
+
+```text
+Szerint-e        minőség-i  idő  az,
+according.to-3SG quality-ADJ time that
+
+hogy  együtt    men-tek    el  edz-eni.
+that  together  go-2PL     PV  train-INF
+```
+
+**Úristen, nagyon jó.**
+
+Oh my God, that is really good.
+
+```text
+Úr-isten,  nagyon  jó.
+lord-god   very    good
+```
+
+**Ez ultimate green.**
+
+This is the ultimate green flag.
+
+```text
+Ez    ultimate  green.
+this  ultimate  green
+```
+
+**Ez ilyen gold green flag.**
+
+This is like a gold-level green flag.
+
+```text
+Ez    ilyen  gold  green_flag.
+this  such   gold  green_flag
+```
+
+**Red flag.**
+
+Red flag.
+
+```text
+Red_flag.
+red_flag
+```
+
+**Milyen más minőségi időtöltést tudsz elképzelni?**
+
+What other form of quality time can you imagine?
+
+```text
+Milyen  más    minőség-i  idő-töltés-t
+what.kind other quality-ADJ time-spending-ACC
+
+tud-sz        el-képzel-ni?
+can-2SG.INDF  PV-imagine-INF
+```
+
+**Hogy elmegyünk inkább kirándulni.**
+
+That we go hiking instead.
+
+```text
+Hogy  el-megy-ünk    inkább  kirándul-ni.
+that  PV-go-1PL      rather  go.hiking-INF
+```
+
+**Ha minden közös képen befeszít.**
+
+If he flexes in every photo of you together.
+
+```text
+Ha  minden  közös   kép-en       be-feszít.
+if  every   shared  picture-SUP  PV-tense.3SG
+```
+
+**Red flag.**
+
+Red flag.
+
+```text
+Red_flag.
+red_flag
+```
+
+**Hát… ha jó karja van.**
+
+Well… if he has good arms.
+
+```text
+Hát…  ha  jó    kar-ja         van.
+DM     if  good  arm-3SG.POSS   be.3SG
+```
+
+**Amúgy red.**
+
+But generally, red.
+
+```text
+Amúgy       red.
+actually    red
+```
+
+**Ne az összesen.**
+
+Not in every single one.
+
+```text
+Ne       az   összes-en.
+NEG.IMP  the  all-SUP
+```
+
+**Legyenek ilyen cuki képek is.**
+
+There should also be cute pictures like that.
+
+```text
+Legy-en-ek      ilyen  cuki  kép-ek  is.
+be-SBJV-3PL     such   cute  picture-PL also
+```
+
+**Nagyon szépen köszönjük a segítségedet.**
+
+Thank you very much for your help.
+
+```text
+Nagyon  szép-en       köszön-jük
+very    beautiful-ADV thank-1PL.DEF
+
+a    segítség-ed-et.
+the  help-2SG.POSS-ACC
+```
+
+**A Nutriversumtól egy fehérjét a következő edzésedhez, sok szeretettel.**
+
+With love, some protein from Nutriversum for your next workout.
+
+```text
+A    Nutriversum-tól  egy  fehérjé-t
+the  Nutriversum-DEL  a    protein-ACC
+
+a    következ-ő  edzés-ed-hez,
+the  follow-PTCP workout-2SG.POSS-ALL
+
+sok   szeretet-tel.
+much  love-INST
+```
+
+**Mi köszönjük szépen, és további szép napot neked.**
+
+Thank you, and have a lovely rest of your day.
+
+```text
+Mi   köszön-jük       szép-en,       és
+1PL  thank-1PL.DEF    beautiful-ADV  and
+
+további  szép  nap-ot  nek-ed.
+further  nice  day-ACC DAT-2SG
+```
+
+**Köszi, szia.**
+
+Thanks, bye.
+
+```text
+Köszi,   szia.
+thanks   bye
+```
+
+**Most őszintén, te randiznál egy gym bro-val?**
+
+Honestly now, would you date a gym bro?
+
+```text
+Most  őszinté-n,  te   randi-z-ná-l
+now   honest-ADV   2SG  date-VBZ-COND-2SG
+
+egy  gym_bro-val?
+a    gym_bro-INST
+```
+
+**Írd meg nekünk kommentben.**
+
+Tell us in the comments.
+
+```text
+Ír-d             meg  nek-ünk  komment-ben.
+write-IMP.2SG.DEF PV   DAT-1PL  comment-INE
+```
+
+## A2 vocabulary
+
+* **elmos valamit** — wash or rinse something out
+* **shaker** — protein shaker
+* **büdös** — smelly
+* **pénzt költ valamire** — spend money on something
+* **randi** — date
+* **zavar valakit** — bother someone
+* **proteines** — containing protein
+* **kaphatok belőle** — I can have some of it
+* **megad valamit valaminek** — count or classify something as something
+* **minőségi idő** — quality time
+* **együtt edz** — work out together
+* **időtöltés** — way of spending time
+* **elképzel** — imagine
+* **kirándulni megy** — go hiking; go on an excursion
+* **közös kép** — photo together
+* **befeszít** — flex one’s muscles
+* **karja van** — have arms of a particular kind
+* **az összesen** — in all of them
+* **segítség** — help
+* **következő edzés** — next workout
+* **sok szeretettel** — with love
+* **további szép napot** — have a lovely rest of your day
+* **őszintén** — honestly
+* **randizik valakivel** — date someone
