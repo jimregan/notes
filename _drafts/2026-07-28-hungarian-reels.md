@@ -1886,10 +1886,10 @@ be-PTCP   link-SBL  and  talk-IMP-1PL
 
 [Reel](https://www.instagram.com/reels/Da4bTjcIb_s/)
 
-[00:00.000 --> 00:02.400]  Van-e kedvenc színed, és melyik, hogyha van?
+[00:00.000 --> 00:02.400]  Van-e kedvenc színed? És melyik, hogy ha van?
 [00:02.540 --> 00:04.840]  Igen, a rózsaszín, kiskorom óta.
-[00:05.700 --> 00:07.740]  Meg tudnád indokolni, hogy miért szereted?
+[00:05.700 --> 00:07.740]  Meg tudnád indokolni, hogy mi miatt szereted?
 [00:08.460 --> 00:13.120]  Azért szeretem, mert boldogságot ad, ha ránézek,
 [00:13.680 --> 00:17.000]  kicsit a belső gyermeki énemet táplálja,
-[00:17.340 --> 00:22.720]  és örömet ad, ha ránézek egy rózsaszín dologra.
-[00:23.300 --> 00:26.840]  Imádom amúgy a videóitokat, szoktam nézni.
+[00:17.340 --> 00:22.720]  és... öhm... örömet ad, ha ránézek egy rózsaszín dologra.
+[00:23.300 --> 00:26.840]  Imádom amúgy a videóitokat. Jaj, köszi. Szoktam nézni.
