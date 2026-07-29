@@ -2000,3 +2000,35 @@ HAB-PST-1SG      watch-INF
 * **amúgy** — by the way; actually
 * **imád valamit** — adore something
 * **szokott valamit csinálni** — usually do something
+
+---
+
+[Reel](https://www.instagram.com/reels/DZdHL6ANlpr/)
+
+[00:00.000 --> 00:01.200]  Nem moss el a sékerét.
+[00:01.200 --> 00:03.200]  Fú, oly ez red flag.
+[00:03.200 --> 00:05.200]  Az nagyon vides.
+[00:05.200 --> 00:07.700]  Több pénzt költ proteinre, mint randira.
+[00:07.700 --> 00:09.200]  Amúgy engem nem zavarnak.
+[00:09.200 --> 00:11.200]  Én is szeretem az ilyen proteines, akiket is akarok.
+[00:11.200 --> 00:13.200]  Ha több belőle, akkor green.
+[00:13.200 --> 00:14.500]  Jó, akkor meglegyünk greennek.
+[00:14.500 --> 00:17.000]  Szerintem minőségi idő az, hogy együtt mentek el edzeni.
+[00:17.000 --> 00:19.000]  Úristen, ez nagyon jó.
+[00:19.000 --> 00:21.000]  Ez az ultimate green.
+[00:21.000 --> 00:23.000]  Gold green flag. Red flag.
+[00:23.000 --> 00:25.000]  Milyen más minőségi időteltést tudsz elképzelni?
+[00:25.000 --> 00:27.000]  Elmegyünk kirándulni inkább.
+[00:27.000 --> 00:28.500]  Ha minden közös képen befeszít.
+[00:28.500 --> 00:29.500]  Red flag.
+[00:29.500 --> 00:30.500]  Ha jó, akkor jó.
+[00:30.500 --> 00:32.500]  Amúgy red.
+[00:32.500 --> 00:34.500]  Ne az lesz a sen.
+[00:34.500 --> 00:35.500]  Legyenek ilyen cibi képek is.
+[00:35.500 --> 00:37.500]  Nagyon szépen köszönjük a segítségedet.
+[00:37.500 --> 00:39.500]  A NutriVerzum-tól egy fehérjét a következő edzésedhez.
+[00:39.500 --> 00:40.500]  Sok szeretettel.
+[00:40.500 --> 00:42.500]  Mi köszönjük szépen, és további szép napot neked.
+[00:42.500 --> 00:44.500]  Köszi, szia.
+[00:44.500 --> 00:46.500]  Most őszintén te randiznál egy gymruval?
+[00:46.500 --> 00:48.500]  Írd meg nekünk kommentben.
