@@ -1459,3 +1459,49 @@ this-PL   the  app-PL
 * **rövid leírás** — brief description
 * **hogyan működik?** — how does it work?
 
+---
+
+[Reel](https://www.instagram.com/reels/DbVfam9DFJx/)
+
+[00:00.000 --> 00:02.940]  Nem kell ágyba bújnod senkivel ahhoz, hogy megcsald a párodat.
+[00:03.460 --> 00:06.240]  Úgynevezett mikro megcsalások is léteznek,
+[00:06.400 --> 00:10.660]  amikkel észrevétlenül lassan kivégzed a köztetek lévő bizalmat.
+[00:11.340 --> 00:15.080]  A fizikai megcsalás mindig egy hosszú folyamat végállomása.
+[00:15.660 --> 00:17.900]  A rombolás sokkal korábban elkezdődik.
+[00:18.000 --> 00:21.040]  Az eltitkolt üzenetváltások, a csetelések,
+[00:21.460 --> 00:24.320]  az externek képeinek folyamatos lájkolásával,
+[00:24.380 --> 00:26.620]  vagy azzal, ha egy harmadik félnek,
+[00:26.620 --> 00:29.820]  hamarabb panaszkodsz a kapcsolatodról, mint a saját párodnak.
+[00:30.360 --> 00:32.620]  Ezeket nevezzük az úgynevezett mikro megcsalásoknak,
+[00:33.480 --> 00:38.000]  amik azért veszélyesek, mert az egód azzal nyugtatja magát,
+[00:38.160 --> 00:40.260]  hiszen nem történt semmi fizikai.
+[00:40.940 --> 00:43.620]  Ezért nem tettem semmi rosszat, de a lélek szintjén az intimitás,
+[00:44.720 --> 00:47.080]  az energiát már átvitted máshova.
+[00:47.460 --> 00:51.520]  Minden egyes eltitkolt beszélgetés, egy apró lépés, egy kép,
+[00:52.260 --> 00:56.640]  bármi a másik félnek, az valójában a te kapcsolatodból elvett.
+[00:56.640 --> 00:57.960]  Energia és figyelem.
+[00:57.960 --> 01:01.280]  A tiszta kapcsolatás megköveteli a szent határokat.
+[01:01.840 --> 01:06.020]  Ha olyan dolgokat teszel, amik a hátamögött zajlanak,
+[01:06.120 --> 01:08.700]  a párodnak, legyen az az online térben,
+[01:09.180 --> 01:13.900]  akkor megszettet a kettőtök között lévő szent kapcsolatot.
+[01:14.960 --> 01:19.280]  És nagyon sokan elfelejtik azt, hogy amikor ilyeneket csinálnak,
+[01:19.720 --> 01:22.720]  akkor valójában egy hiányt próbálnak betölteni.
+[01:22.720 --> 01:26.440]  Valami olyan dolog miatt kezdenek el csetelni,
+[01:26.880 --> 01:27.720]  mások felé nyitni.
+[01:27.960 --> 01:30.960]  Vagy másoktól megkapni ezt a feltöltést,
+[01:30.960 --> 01:34.960]  mert valamit nem kapnak meg a kapcsolatukban.
+[01:35.960 --> 01:38.960]  Én nekem az a tapasztalatom, hogy sokkal korrektebb,
+[01:38.960 --> 01:43.960]  és sokkal nyitottabb, és sokkal inkább a kapcsolat érdekében történik az,
+[01:43.960 --> 01:47.960]  hogyha nyíltan odamész a párodhoz, és lekommunikálod az irányába,
+[01:47.960 --> 01:51.960]  hogy ne haragudj, több törődésre lenne szükségem.
+[01:51.960 --> 01:55.960]  Vagy figyelj, sokkal több intimitást szeretnék tőled.
+[01:55.960 --> 01:57.960]  Mi a gond, hogyha esetleg férfi bevonul?
+[01:57.960 --> 02:00.960]  Vagy meg lehet mondani bármilyen igényünket,
+[02:00.960 --> 02:05.960]  de ezt úgy lekommunikálva, hogy tiszteljük a másik véleményét,
+[02:05.960 --> 02:09.960]  és nyitottak vagyunk az ő gondolatmenetére.
+[02:09.960 --> 02:13.960]  Nagyon sokszor akkor ezek a mikromák csalások elkerülhetők,
+[02:13.960 --> 02:20.960]  és még segít is ez a kommunikáció fejlődés a kapcsolatunk épülését.
+[02:20.960 --> 02:26.960]  Mindig van megoldás, és sokkal könnyebb egy kapcsolatban is már az első lépések,
+[02:27.960 --> 02:35.960]  inkább a megoldásra törekedni, és nem kívülkeresni a kapcsolaton azt a megoldást, vagy azt a hiányt, ami keletkezett.
+[02:35.960 --> 02:40.960]  Írd meg kommentben, mi a véleményed, mitől számít már meg csalásnak.
+[02:40.960 --> 02:45.960]  És ha beszélgetnél velem a témában, akkor kattints a linkre a bióba és beszélgessünk.
