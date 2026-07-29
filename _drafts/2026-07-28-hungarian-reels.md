@@ -1486,22 +1486,22 @@ this-PL   the  app-PL
 [01:09.180 --> 01:13.900]  akkor megszedtet a ket-kettőtök között lévő szent kapcsolatot.
 [01:14.960 --> 01:19.280]  És nagyon sokan elfelejtik azt, hogy amikor ilyeneket csinálnak,
 [01:19.720 --> 01:22.720]  akkor valójában egy hiányt próbálnak betölteni.
-[01:22.720 --> 01:26.440]  Valami olyan dolog miatt kezdenek el csetelni,
-[01:26.880 --> 01:27.720]  mások felé nyitni.
-[01:27.960 --> 01:30.960]  Vagy másoktól megkapni ezt a feltöltést,
+[01:22.720 --> 01:26.440]  Valami olyan dolog miatt kezdenek el chatelni,
+[01:26.880 --> 01:27.720]  mások felé nyitni
+[01:27.960 --> 01:30.960]  vagy másoktól megkapni ezt a feltöltést,
 [01:30.960 --> 01:34.960]  mert valamit nem kapnak meg a kapcsolatukban.
-[01:35.960 --> 01:38.960]  Én nekem az a tapasztalatom, hogy sokkal korrektebb,
-[01:38.960 --> 01:43.960]  és sokkal nyitottabb, és sokkal inkább a kapcsolat érdekében történik az,
-[01:43.960 --> 01:47.960]  hogyha nyíltan odamész a párodhoz, és lekommunikálod az irányába,
-[01:47.960 --> 01:51.960]  hogy ne haragudj, több törődésre lenne szükségem.
+[01:35.960 --> 01:38.960]  Énnekem az a tapasztalatom, hogy sokkal korrektebb
+[01:38.960 --> 01:43.960]  és sokkal nyitottabb és sokkal inkább a kapcsolat érdekében történik az,
+[01:43.960 --> 01:47.960]  hogyha nyíltan odamész a párodhoz és lekommunikálod az irányába,
+[01:47.960 --> 01:51.960]  hogy ne haragud, több törődésre lenne szükségem.
 [01:51.960 --> 01:55.960]  Vagy figyelj, sokkal több intimitást szeretnék tőled.
-[01:55.960 --> 01:57.960]  Mi a gond, hogyha esetleg férfi bevonul?
+[01:55.960 --> 01:57.960]  Mi a gond, hogyha esetleg férfi vagy?
 [01:57.960 --> 02:00.960]  Vagy meg lehet mondani bármilyen igényünket,
-[02:00.960 --> 02:05.960]  de ezt úgy lekommunikálva, hogy tiszteljük a másik véleményét,
+[02:00.960 --> 02:05.960]  de ezt úgy lekommunikálva, hogy tiszteljük a másik véleményét
 [02:05.960 --> 02:09.960]  és nyitottak vagyunk az ő gondolatmenetére.
-[02:09.960 --> 02:13.960]  Nagyon sokszor akkor ezek a mikromák csalások elkerülhetők,
-[02:13.960 --> 02:20.960]  és még segít is ez a kommunikáció fejlődés a kapcsolatunk épülését.
-[02:20.960 --> 02:26.960]  Mindig van megoldás, és sokkal könnyebb egy kapcsolatban is már az első lépések,
-[02:27.960 --> 02:35.960]  inkább a megoldásra törekedni, és nem kívülkeresni a kapcsolaton azt a megoldást, vagy azt a hiányt, ami keletkezett.
-[02:35.960 --> 02:40.960]  Írd meg kommentben, mi a véleményed, mitől számít már meg csalásnak.
-[02:40.960 --> 02:45.960]  És ha beszélgetnél velem a témában, akkor kattints a linkre a bióba és beszélgessünk.
+[02:09.960 --> 02:13.960]  Nagyon sokszor akkor ezek a mikromegcsalások elkerülhetők,
+[02:13.960 --> 02:20.960]  és még segíti is ez a kommunikáció fejlődést, a kapcsolatunk épülését.
+[02:20.960 --> 02:26.960]  Mindig van megoldás, és sokkal könnyebb egy kapcsolatban is már az első lépéseknél
+[02:27.960 --> 02:35.960]  inkább a megoldásra törekedni és nem kívül keresni a kapcsolaton azt a megoldást vagy azt a hiányt, ami keletkezett.
+[02:35.960 --> 02:40.960]  Írd meg kommentben, mi a véleményed, mi-mitől számít már megcsalásnak,
+[02:40.960 --> 02:45.960]  és ha beszélgetnél velem a témában, akkor kattints a linkre a bióba és beszélgessünk.
