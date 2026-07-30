@@ -33,16 +33,7 @@ categories: [links]
 
 > "For example, according to legendary Massachusetts Institute of Technology linguist Noam Chomsky, the Aṣṭādhyāyī provided the first “generative grammar” in the modern sense of the word"
 
-
-American Scientist
-The Grammar of the Elements
-By Abhik Ghosh, Paul Kiparsky
-November-December 2019
-Volume 107, Number 6
-Page 350
-DOI: 10.1511/2019.107.6.350
-https://www.americanscientist.org/article/the-grammar-of-the-elements
-
+```bibtex
 @article{8fbff1dc-d9ed-3459-826d-62e2934c864e,
  ISSN = {00030996, 15452786},
  URL = {https://www.jstor.org/stable/26816266},
@@ -57,3 +48,5 @@ https://www.americanscientist.org/article/the-grammar-of-the-elements
  volume = {107},
  year = {2019}
 }
+```
+
