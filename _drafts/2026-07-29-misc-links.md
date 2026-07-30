@@ -34,7 +34,7 @@ categories: [links]
 > "For example, according to legendary Massachusetts Institute of Technology linguist Noam Chomsky, the Aṣṭādhyāyī provided the first “generative grammar” in the modern sense of the word"
 
 ```bibtex
-@article{8fbff1dc-d9ed-3459-826d-62e2934c864e,
+@article{ghosh2019elements,
  ISSN = {00030996, 15452786},
  URL = {https://www.jstor.org/stable/26816266},
  author = {Abhik Ghosh and Paul Kiparsky},
@@ -50,3 +50,6 @@ categories: [links]
 }
 ```
 
+[Panini’s Structure of Grammar: A Blueprint for Algorithmic Thinking](https://medium.com/@caitanyadesai/paninis-structure-of-grammar-a-blueprint-for-algorithmic-thinking-80c0f0025277)
+
+> "In many ways, Panini can be regarded as the world’s earliest computational linguist"
