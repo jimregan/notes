@@ -1,3 +1,11 @@
+---
+title: m2m-aligner codebase overview
+layout: post
+toc: true
+description: Claude-generated codebase overview
+categories: [m2m-aligner, claude]
+---
+
 # Codebase Overview: m2m-aligner
 
 ## What it is
