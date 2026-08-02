@@ -138,3 +138,10 @@ categories: [links]
 [Qwen/Qwen3-ASR-1.7B](https://huggingface.co/Qwen/Qwen3-ASR-1.7B)
 
 [LESS: Large Language Model Enhanced Semi-Supervised Learning for Speech Foundational Models Using in-the-wild Data](https://arxiv.org/abs/2506.04586)
+
+[Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces](https://arxiv.org/abs/2603.12642)
+
+[\[b\]=\[d\]-\[t\]+\[p\]: Self-supervised Speech Models Discover Phonological Vector Arithmetic](https://aclanthology.org/2026.findings-acl.537/),
+[arXiv](https://arxiv.org/abs/2602.18899),
+[code](https://github.com/juice500ml/phonetic-arithmetic)
+
