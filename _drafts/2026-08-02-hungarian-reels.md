@@ -241,52 +241,328 @@ reality-ADJ and  a    real    feeling
 
 [Reel](https://www.instagram.com/reels/DbgOitZsxmr/)
 
-erre a túrára inkább ne hozd el
-a tériszonyos barátodat
-és a csúszós cipődet is hagyd otthon
-a Szlovák paradicsomban
-túráztunk
-ahol először a Hernád-áttörest vettük célba
-korán érkeztünk
-a paroló még szinte üres volt
-ennek a díja egyébként
-6 euro egy napra
-még egyszer
-megnéztük a térképen
-hogy pontosan
-melyik útvonalakat szeretnénk érinteni
-és el is indultunk
-a kék jelzést követve
-ezen az úton közvetlenül
-a Hernád-folyó felett sétálsz
-a víz morajlását hallgatva
-sima terepre
-ne nagyon számíts
-egymást követik a fa lépcsők
-és a sziklafalba rögzített
-fémtálcák
-ennél a hosszabb függőhídnál
-áttérünk a zöld jelzésre
-na és itt kezdődött
-a szintemelkedés
-ez már a Kolostor-szakadék
-amit ezek a kb. 15 méter
-magas létrák tesznek izgalmassá
-ide már a vízálló bakancs is jól jön
-a túrabot viszont csak útban lenne
-nekem legalábbis a két kezemre
-nagyobb szükségem volt
-a zöld jelzést elhagyva
-megérkeztünk
-egy turista házhoz
-itt van büfé lehet enni inni
-amíg egy rövid pihenőt tartottunk
-elkezdett szakadni az eső
-úgyhogy a lefelé út
-egy kicsi kicsit csúszós volt
-a túra díja 3 euró
-amit automatákból
-jegypénztárban és online is meg tudsz venni
-a következő videóban megmutatom
-hogy milyen volt a a Szlovák Paradicsom
-legnépszerubb túraútvonala
+I’ve supplied casing and punctuation and corrected the obvious forms **parkoló**, **Hernád-áttörést**, **turistaházhoz**, and **legnépszerűbb**.
+
+**Erre a túrára inkább ne hozd el a tériszonyos barátodat, és a csúszós cipődet is hagyd otthon.**
+
+You’d better not bring your friend who is afraid of heights on this hike, and leave your slippery shoes at home too.
+
+```text
+Er-re      a    túrá-ra   inkább  ne
+this-SBL   the  hike-SBL  rather  NEG.IMP
+
+hoz-d       el  a    tér-iszony-os
+bring-IMP.2SG.DEF PV  the  space-horror-ADJ
+
+barát-od-at,        és   a    csúszó-s
+friend-2SG.POSS-ACC and  the  slippery-ADJ
+
+cipő-d-et          is    hagy-d       otthon.
+shoe-2SG.POSS-ACC  also  leave-IMP.2SG.DEF at.home
+```
+
+**A Szlovák Paradicsomban túráztunk, ahol először a Hernád-áttörést vettük célba.**
+
+We went hiking in the Slovak Paradise, where we first headed for the Hernád Gorge.
+
+```text
+A    Szlovák_Paradicsom-ban  túráz-t-unk,
+the  Slovak_Paradise-INE     hike-PST-1PL
+
+ahol   először  a    Hernád-áttörés-t
+where  first    the  Hernád-gorge-ACC
+
+vet-t-ük         cél-ba.
+take-PST-1PL.DEF target-ILL
+```
+
+**Korán érkeztünk, a parkoló még szinte üres volt.**
+
+We arrived early; the car park was still almost empty.
+
+```text
+Korán  érkez-t-ünk,    a    parkoló
+early  arrive-PST-1PL  the  car.park
+
+még    szinte  üres   volt.
+still  almost  empty  be.PST.3SG
+```
+
+**Ennek a díja egyébként 6 euró egy napra.**
+
+The fee for this, incidentally, is six euros for one day.
+
+```text
+En-nek     a    díj-a           egyébként
+this-DAT   the  fee-3SG.POSS    incidentally
+
+6  euró  egy  nap-ra.
+6  euro  one  day-SBL
+```
+
+**Még egyszer megnéztük a térképen, hogy pontosan melyik útvonalakat szeretnénk érinteni, és el is indultunk a kék jelzést követve.**
+
+We checked the map once more to see exactly which routes we wanted to cover, and then set off following the blue trail marking.
+
+```text
+Még    egyszer  meg-néz-t-ük       a
+again  once     PV-look-PST-1PL.DEF the
+
+térkép-en,  hogy  pontos-an  melyik
+map-SUP      that  exact-ADV  which
+
+útvonal-ak-at  szeret-né-nk
+route-PL-ACC   want-COND-1PL
+
+érint-eni,  és   el  is    indul-t-unk
+touch-INF   and  PV  also  set.off-PST-1PL
+
+a    kék   jelzés-t   követ-ve.
+the  blue  marking-ACC follow-CVB
+```
+
+**Ezen az úton közvetlenül a Hernád folyó felett sétálsz, a víz morajlását hallgatva.**
+
+On this trail you walk directly above the Hernád River, listening to the roar of the water.
+
+```text
+Ez-en      az   út-on   közvetlen-ül
+this-SUP   the  path-SUP directly-ADV
+
+a    Hernád  folyó  felett  sétál-sz,
+the  Hernád  river  above   walk-2SG
+
+a    víz  morajlás-á-t
+the  water roar-3SG.POSS-ACC
+
+hallgat-va.
+listen-CVB
+```
+
+**Sima terepre ne nagyon számíts.**
+
+Don’t really expect easy, level terrain.
+
+```text
+Sima    terep-re    ne       nagyon
+smooth  terrain-SBL NEG.IMP  very
+
+számít-s.
+expect-IMP.2SG
+```
+
+**Egymást követik a falépcsők és a sziklafalba rögzített fémtálcák.**
+
+The wooden steps and metal platforms fixed into the rock face follow one after another.
+
+```text
+Egymás-t   követ-ik       a    fa-lépcső-k
+each.other-ACC follow-3PL.DEF the wood-step-PL
+
+és   a    szikla-fal-ba  rögzít-ett
+and  the  rock-wall-ILL  fasten-PTCP.PST
+
+fém-tálcá-k.
+metal-platform-PL
+```
+
+**Ennél a hosszabb függőhídnál áttérünk a zöld jelzésre.**
+
+At this longer suspension bridge, we switch to the green trail.
+
+```text
+En-nél    a    hossz-abb  függő-híd-nál
+this-ADE  the  long-CMPR  hanging-bridge-ADE
+
+át-tér-ünk    a    zöld   jelzés-re.
+PV-switch-1PL the  green  marking-SBL
+```
+
+**Na, és itt kezdődött a szintemelkedés.**
+
+And this is where the climb began.
+
+```text
+Na,  és   itt   kezdőd-ött      a
+DM   and  here  begin-PST.3SG   the
+
+szint-emelkedés.
+level-rise
+```
+
+**Ez már a Kolostor-szakadék, amit ezek a kb. 15 méter magas létrák tesznek izgalmassá.**
+
+This is already the Monastery Gorge, which is made exciting by these roughly fifteen-metre-high ladders.
+
+```text
+Ez    már      a    Kolostor-szakadék,
+this  already  the  Monastery-gorge
+
+ami-t    ez-ek     a    kb.  15  méter
+REL-ACC  this-PL   the  approx. 15 metre
+
+magas  létrá-k  tesz-nek      izgalmas-sá.
+high   ladder-PL make-3PL.DEF exciting-TRANS
+```
+
+**Ide már a vízálló bakancs is jól jön.**
+
+Waterproof hiking boots come in handy here.
+
+```text
+Ide   már      a    víz-álló  bakancs
+here  already  the  water-resistant hiking.boot
+
+is    jól  jön.
+also  well come.3SG
+```
+
+**A túrabot viszont csak útban lenne.**
+
+A hiking pole, however, would only get in the way.
+
+```text
+A    túra-bot  viszont  csak  út-ban
+the  hiking-pole however only  way-INE
+
+len-ne.
+be-COND.3SG
+```
+
+**Nekem legalábbis a két kezemre nagyobb szükségem volt.**
+
+At least I needed my two hands more.
+
+```text
+Nek-em     legalábbis  a    két  kez-em-re
+DAT-1SG    at.least     the  two  hand-1SG.POSS-SBL
+
+nagy-obb  szükség-em      volt.
+big-CMPR  need-1SG.POSS   be.PST.3SG
+```
+
+**A zöld jelzést elhagyva megérkeztünk egy turistaházhoz.**
+
+Leaving the green trail, we arrived at a mountain hut.
+
+```text
+A    zöld   jelzés-t   el-hagy-va
+the  green  marking-ACC PV-leave-CVB
+
+meg-érkez-t-ünk     egy  turista-ház-hoz.
+PV-arrive-PST-1PL   a    tourist-house-ALL
+```
+
+**Itt van büfé, lehet enni-inni.**
+
+There is a snack bar here; you can get something to eat and drink.
+
+```text
+Itt   van     büfé,      lehet
+here  be.3SG  snack.bar  be.possible.3SG
+
+en-ni  in-ni.
+eat-INF drink-INF
+```
+
+**Amíg egy rövid pihenőt tartottunk, elkezdett szakadni az eső.**
+
+While we were taking a short break, it started pouring with rain.
+
+```text
+Amíg  egy  rövid  pihenő-t  tart-ott-unk,
+while  a    short  rest-ACC  hold-PST-1PL
+
+el-kezd-ett      szakad-ni  az   eső.
+PV-begin-PST.3SG pour-INF   the  rain
+```
+
+**Úgyhogy a lefelé út egy kicsikét csúszós volt.**
+
+So the way down was a little slippery.
+
+```text
+Úgyhogy  a    le-felé  út   egy
+so       the  down-DIR path  a
+
+kicsi-ké-t       csúszó-s  volt.
+little-DIM-ACC   slippery-ADJ be.PST.3SG
+```
+
+**A túra díja 3 euró, amit automatákból, jegypénztárban és online is meg tudsz venni.**
+
+The hike costs three euros, and you can buy the ticket from machines, at the ticket office, or online.
+
+```text
+A    túra  díj-a          3  euró,
+the  hike  fee-3SG.POSS   3  euro
+
+ami-t    automatá-k-ból,  jegy-pénztár-ban
+REL-ACC  machine-PL-ELA   ticket-office-INE
+
+és   online  is    meg  tud-sz
+and  online  also  PV   can-2SG
+
+ven-ni.
+buy-INF
+```
+
+**A következő videóban megmutatom, hogy milyen volt a Szlovák Paradicsom legnépszerűbb túraútvonala.**
+
+In the next video, I’ll show you what the Slovak Paradise’s most popular hiking route was like.
+
+```text
+A    következ-ő  videó-ban  meg-mutat-om,
+the  follow-PTCP video-INE   PV-show-1SG.DEF
+
+hogy  milyen  volt         a
+that  what.like be.PST.3SG  the
+
+Szlovák_Paradicsom  leg-népszerű-bb
+Slovak_Paradise     SUPL-popular-CMPR
+
+túra-útvonal-a.
+hiking-route-3SG.POSS
+```
+
+## A2 vocabulary
+
+* **tériszonyos** — afraid of heights
+* **csúszós** — slippery
+* **túrázik** — go hiking
+* **áttörés** — gorge; breakthrough
+* **célba vesz valamit** — head for; make something one’s destination
+* **parkoló** — car park
+* **díj** — fee
+* **útvonal** — route
+* **érint egy útvonalat / helyet** — pass through; include on a route
+* **elindul** — set off
+* **jelzés** — trail marking
+* **követi a jelzést** — follow the trail marking
+* **közvetlenül** — directly
+* **morajlás** — roaring; rumbling sound
+* **terep** — terrain
+* **számít valamire** — expect something
+* **egymást követik** — follow one another
+* **sziklafal** — rock face
+* **rögzített** — fixed; attached
+* **függőhíd** — suspension bridge
+* **áttér valamire** — switch to something
+* **szintemelkedés** — elevation gain; ascent
+* **szakadék** — gorge; ravine
+* **létra** — ladder
+* **vízálló** — waterproof
+* **bakancs** — hiking boot
+* **jól jön** — come in handy
+* **túrabot** — hiking pole
+* **útban van** — be in the way
+* **szüksége van valamire** — need something
+* **elhagy** — leave; move away from
+* **turistaház** — mountain hut
+* **büfé** — snack bar; refreshment stand
+* **pihenőt tart** — take a break
+* **szakad az eső** — it is pouring with rain
+* **lefelé** — downhill; downwards
+* **automata** — vending/ticket machine
+* **jegypénztár** — ticket office
+* **legnépszerűbb** — most popular
