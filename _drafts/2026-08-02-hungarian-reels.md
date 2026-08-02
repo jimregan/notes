@@ -9,8 +9,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/p/DbfyikVgQH5/)
 
-I’ve corrected **tamu** to the obvious **tabu**.
-
 **Lehet két embert szeretni?**
 
 Can you love two people?
@@ -238,3 +236,57 @@ reality-ADJ and  a    real    feeling
 * **tisztának kell lennie** — has to be clear
 * **mit kezdesz vele?** — what do you do with it?
 * **reális** — real; realistic
+
+---
+
+[Reel](https://www.instagram.com/reels/DbgOitZsxmr/)
+
+erre a túrára inkább ne hozd el
+a tériszonyos barátodat
+és a csúszós cipődet is hagyd otthon
+a Szlovák paradicsomban
+túráztunk
+ahol először a Hernád-áttörest vettük célba
+korán érkeztünk
+a paroló még szinte üres volt
+ennek a díja egyébként
+6 euro egy napra
+még egyszer
+megnéztük a térképen
+hogy pontosan
+melyik útvonalakat szeretnénk érinteni
+és el is indultunk
+a kék jelzést követve
+ezen az úton közvetlenül
+a Hernád-folyó felett sétálsz
+a víz morajlását hallgatva
+sima terepre
+ne nagyon számíts
+egymást követik a fa lépcsők
+és a sziklafalba rögzített
+fémtálcák
+ennél a hosszabb függőhídnál
+áttérünk a zöld jelzésre
+na és itt kezdődött
+a szintemelkedés
+ez már a Kolostor-szakadék
+amit ezek a kb. 15 méter
+magas létrák tesznek izgalmassá
+ide már a vízálló bakancs is jól jön
+a túrabot viszont csak útban lenne
+nekem legalábbis a két kezemre
+nagyobb szükségem volt
+a zöld jelzést elhagyva
+megérkeztünk
+egy turista házhoz
+itt van büfé lehet enni inni
+amíg egy rövid pihenőt tartottunk
+elkezdett szakadni az eső
+úgyhogy a lefelé út
+egy kicsi kicsit csúszós volt
+a túra díja 3 euró
+amit automatákból
+jegypénztárban és online is meg tudsz venni
+a következő videóban megmutatom
+hogy milyen volt a a Szlovák Paradicsom
+legnépszerubb túraútvonala
