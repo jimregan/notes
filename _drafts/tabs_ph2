@@ -28,7 +28,7 @@ https://github.com/ggml-org/llama.cpp/discussions/15396
 Natural Molecule Wipes Out 90% of Cavity-Causing Plaque
 https://scitechdaily.com/natural-molecule-wipes-out-90-of-cavity-causing-plaque/
 
-GitHub - rustfs/rustfs: 🚀 High-performance distributed object storage for MinIO alternative.
+rustfs/rustfs: 🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
 https://github.com/rustfs/rustfs
 
 notebooks/nb/Orpheus_(3B)-TTS.ipynb at update-orp-value · kadirnar/notebooks · GitHub
@@ -112,9 +112,6 @@ https://huggingface.co/microsoft/VibeVoice-ASR
 Paul McKenna: I Can Change Your Life, Sky One - The Custard TV
 https://www.thecustardtv.com/paul-mckenna-i-can-change-your-life-sky/
 
-Draft code submitted to KDE Plasma turns it into a full VR desktop | GamingOnLinux
-https://www.gamingonlinux.com/2026/01/draft-code-submitted-to-kde-plasma-turns-it-into-a-full-vr-desktop/
-
 NikolaiKyhne/RWSAMamba-UNet: Official repository for the paper "Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement" (Accepted to IEEE ICASSP 2026)
 https://github.com/NikolaiKyhne/RWSAMamba-UNet
 
@@ -133,11 +130,8 @@ https://github.com/StevenVdEeckt/inverse-hessian-regularization/blob/main/models
 StevenVdEeckt/efficient-rehearsal-for-cl-in-asr: Supplementary material to the paper.
 https://github.com/StevenVdEeckt/efficient-rehearsal-for-cl-in-asr
 
-zenc-lang/zenc: Write like a high-level language, run like C.
-https://github.com/zenc-lang/zenc
-
-Free-TV/IPTV: M3U Playlist for free TV channels
-https://github.com/Free-TV/IPTV
+awesome-zenc/examples/rosetta/Caesar_cipher.zc at main · zenc-lang/awesome-zenc
+https://github.com/zenc-lang/awesome-zenc/blob/main/examples/rosetta/Caesar_cipher.zc
 
 Qwen Researchers Release Qwen3-TTS: an Open Multilingual TTS Suite with Real-Time Latency and Fine-Grained Voice Control - MarkTechPost
 https://www.marktechpost.com/2026/01/22/qwen-researchers-release-qwen3-tts-an-open-multilingual-tts-suite-with-real-time-latency-and-fine-grained-voice-control/
@@ -159,15 +153,6 @@ https://github.com/ysharma3501/LuxTTS
 
 k2-fsa/ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching
 https://github.com/k2-fsa/ZipVoice
-
-[2507.09318] ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching
-https://arxiv.org/abs/2507.09318
-
-Next-gen Kaldi - Next-gen Kaldi
-https://k2-fsa.org/
-
-icefall/egs at master · k2-fsa/icefall
-https://github.com/k2-fsa/icefall/tree/master/egs
 
 icefall/egs/vctk/TTS at master · k2-fsa/icefall
 https://github.com/k2-fsa/icefall/tree/master/egs/vctk/TTS
@@ -192,9 +177,6 @@ https://github.com/k2-fsa/libriheavy
 
 icefall/egs/librispeech/ASR/conformer_ctc/jit_pretrained_decode_with_H.py at master · k2-fsa/icefall
 https://github.com/k2-fsa/icefall/blob/master/egs/librispeech/ASR/conformer_ctc/jit_pretrained_decode_with_H.py
-
-Radio 1 - Listen Live - BBC Sounds
-https://www.bbc.co.uk/sounds/play/live/bbc_radio_one?partner=uk.co.bbc&origin=share-mobile&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGnEHMtI9i7fe57gEYOuTtHksJhF5V7p8yOT-ldSDoQayDVuMU_va0qe_zABoc_aem_hXR5tnFdqbIkXx6aqWGnVQ
 
 Qwen/Qwen3-ASR-1.7B · Hugging Face
 https://huggingface.co/Qwen/Qwen3-ASR-1.7B
@@ -250,14 +232,14 @@ https://thenewstack.io/open-source-usearch-library-jumpstarts-scylladb-vector-se
 (PDF) HuPER: A Human-Inspired Framework for Phonetic Perception
 https://www.researchgate.net/publication/400370030_HuPER_A_Human-Inspired_Framework_for_Phonetic_Perception
 
-Whisper transcribes my voice notes faster than I can type, and it runs entirely offline
-https://www.xda-developers.com/whisper-transcribes-voice-notes-faster-runs-entirely-offline/
-
 Top 5 Embedding Models for Your RAG Pipeline - KDnuggets
 https://www.kdnuggets.com/top-5-embedding-models-for-your-rag-pipeline
 
 Custom Kernels for All from Codex and Claude
 https://huggingface.co/blog/custom-cuda-kernels-agent-skills
+
+We Got Claude to Build CUDA Kernels and teach open models!
+https://huggingface.co/blog/upskill
 
 cysqlite - a new sqlite driver
 https://simonwillison.net/2026/Feb/11/cysqlite/
@@ -1411,7 +1393,7 @@ https://github.com/raiyan1102006/IBM-model-1/blob/master/ibm1.py
 Aaac - Google Drive
 https://drive.google.com/drive/u/0/folders/1TYJ_A-vCDbolj5LD3OIewRj8KLKFqcIh
 
-Instagram
+(1) Instagram
 https://www.instagram.com/debrecenibulik
 
 inverse-hessian-regularization/README.md at main · StevenVdEeckt/inverse-hessian-regularization
@@ -1419,5 +1401,8 @@ https://github.com/StevenVdEeckt/inverse-hessian-regularization/blob/main/README
 
 Continual Learning Overview
 https://chatgpt.com/c/6a4bb203-e308-83eb-8390-a6cb43ee3a6c?mweb_fallback=1
+
+scss.tcd.ie/elaine.ui.dhonnchadha/gaeilgenfuni.cgi?mode=Dependency&text=Seachtain+roimh+Shamhain+chuaigh+an+Seónstanach+siar+agus+seacht+ngearráin+agus+péire+cliabh+ar+gach+gearrán+faoi+choinne+a+chuid+ime.&submit=Go
+https://www.scss.tcd.ie/elaine.ui.dhonnchadha/gaeilgenfuni.cgi?mode=Dependency&text=Seachtain+roimh+Shamhain+chuaigh+an+Se%C3%B3nstanach+siar+agus+seacht+ngearr%C3%A1in+agus+p%C3%A9ire+cliabh+ar+gach+gearr%C3%A1n+faoi+choinne+a+chuid+ime.&submit=Go
 
 
