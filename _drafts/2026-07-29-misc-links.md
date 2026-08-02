@@ -127,6 +127,8 @@ eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2520385123}
 
 [Analyzing Vocal Features for Pathology](https://speechbrain.readthedocs.io/en/latest/tutorials/preprocessing/voice-analysis.html)
 
+[Chunkwise Aligners for Streaming Speech Recognition](https://arxiv.org/abs/2605.11422)
+
 ---
 
 [chdh/noise-syn](https://github.com/chdh/noise-syn) --- A browser-based web application for generating noise sound.
@@ -154,3 +156,20 @@ eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2520385123}
 - [Phonetica](https://www.degruyterbrill.com/journal/key/phon/html)
 
 [How to apply for and get compute grants (for students)](https://nightingal3.github.io/blog/2026/04/16/compute-grants/)
+
+---
+
+[SSVD-O: Parameter-Efficient Fine-Tuning with Structured SVD for Speech Recognition](https://ieeexplore.ieee.org/document/11462142)
+
+```bibtex
+@INPROCEEDINGS{11462142,
+  author={Wang, Pu and Watanabe, Shinji and Van Hamme, Hugo},
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={SSVD-O: Parameter-Efficient Fine-Tuning with Structured SVD for Speech Recognition}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={16632-16636},
+  doi={10.1109/ICASSP55912.2026.11462142}
+}
+```

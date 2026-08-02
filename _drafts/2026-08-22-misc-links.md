@@ -223,4 +223,27 @@ categories: [links]
 
 [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
 
+[X-Voice: Enabling Everyone to Speak 30 Languages via Zero-Shot Cross-Lingual Voice Cloning](https://arxiv.org/abs/2605.05611)
+
+[k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice) --- High-Quality Voice Cloning TTS for 600+ Languages
+
+[OmniVoice space](https://huggingface.co/spaces/k2-fsa/OmniVoice)
+
+[Ancient Mesopotamian cuneiform texts reach new audiences through major digital archive](https://archaeologymag.com/2026/05/ancient-mesopotamian-cuneiform-digital-archive/)
+
+[MekongPhon: A Large-Scale Parallel IPA Corpus for Lao and Khmer](https://lrec.elra.info/lrec2026-main-129)
+
+[A Comprehensive Full-Form Lexicon for Arabic NLP and Speech Technology](https://lrec.elra.info/lrec2026-main-108)
+
+[Saudi ASWAT: A Large-Scale Corpus of Spontaneous Saudi Arabic Speech](https://lrec.elra.info/lrec2026-main-124)
+
+[Probing Discrete Speech Tokens of Spoken Language Models](https://lrec.elra.info/lrec2026-main-184)
+
+[An Enhanced Pipeline for the Manzini-Savoia Dialect Corpus](https://lrec.elra.info/lrec2026-main-268)
+
+[Evaluating Phonetically Weighted and Unweighted Distance Measures in Dialectometry](https://lrec.elra.info/lrec2026-main-327)
+
+[Chunkwise Aligners for Streaming Speech Recognition](https://arxiv.org/abs/2605.11422)
+
+[physics-intern: an autonomous agentic framework for physics research](https://huggingface.co/spaces/huggingface/physics-intern)
 
