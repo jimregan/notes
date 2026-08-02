@@ -146,3 +146,11 @@ eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2520385123}
 [chdh/klatt-syn-app](https://github.com/chdh/klatt-syn-app) --- GUI applikation for the Klatt formant synthesizer package.
 [Web demo](https://www.source-code.biz/klattSyn/)
 
+---
+
+[Top 10 Phonetic Journals](https://medium.com/@PhoneticsWeekly/top-10-phonetic-journals-7b869594ce59)
+- [Phonetica](https://www.degruyterbrill.com/journal/key/phon/html)
+- 
+
+[How to apply for and get compute grants (for students)](https://nightingal3.github.io/blog/2026/04/16/compute-grants/)
+

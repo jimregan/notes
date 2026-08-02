@@ -160,4 +160,13 @@ categories: [links]
 
 [patrick-kidger/equinox](https://github.com/patrick-kidger/equinox) --- Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/
 
-[Top 10 Phonetic Journals](https://medium.com/@PhoneticsWeekly/top-10-phonetic-journals-7b869594ce59)
+[We got Claude to teach open models how to write CUDA kernels!](https://huggingface.co/blog/upskill)
+
+[Voxtral Realtime](https://arxiv.org/abs/2602.11298)
+
+[Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio)
+
+[huggingface/ml-intern](https://github.com/huggingface/ml-intern) --- an open-source ML engineer that reads papers, trains models, and ships ML models
+
+[TIGER-AI-Lab/OpenResearcher](https://github.com/TIGER-AI-Lab/OpenResearcher) --- A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis
+
