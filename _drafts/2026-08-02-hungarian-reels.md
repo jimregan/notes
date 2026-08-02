@@ -241,8 +241,6 @@ reality-ADJ and  a    real    feeling
 
 [Reel](https://www.instagram.com/reels/DbgOitZsxmr/)
 
-I’ve supplied casing and punctuation and corrected the obvious forms **parkoló**, **Hernád-áttörést**, **turistaházhoz**, and **legnépszerűbb**.
-
 **Erre a túrára inkább ne hozd el a tériszonyos barátodat, és a csúszós cipődet is hagyd otthon.**
 
 You’d better not bring your friend who is afraid of heights on this hike, and leave your slippery shoes at home too.
