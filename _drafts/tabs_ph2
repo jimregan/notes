@@ -16,22 +16,7 @@ https://huggingface.co/papers/2508.15769
 Paper page - MV-RAG: Retrieval Augmented Multiview Diffusion
 https://huggingface.co/papers/2508.16577
 
-GitHub - geneb/ScarletDME: ScarletDME is a fork of the open source multi-value database OpenQM.
-https://github.com/geneb/ScarletDME
-
-A comprehensive overview of everything I know about fine-tuning. : r/LocalLLaMA
-https://www.reddit.com/r/LocalLLaMA/comments/1ilkamr/a_comprehensive_overview_of_everything_i_know/
-
-guide : running gpt-oss with llama.cpp · ggml-org/llama.cpp · Discussion #15396 · GitHub
-https://github.com/ggml-org/llama.cpp/discussions/15396
-
-Natural Molecule Wipes Out 90% of Cavity-Causing Plaque
-https://scitechdaily.com/natural-molecule-wipes-out-90-of-cavity-causing-plaque/
-
-rustfs/rustfs: 🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
-https://github.com/rustfs/rustfs
-
-notebooks/nb/Orpheus_(3B)-TTS.ipynb at update-orp-value · kadirnar/notebooks · GitHub
+notebooks/nb/Orpheus_(3B)-TTS.ipynb at update-orp-value · kadirnar/notebooks
 https://github.com/kadirnar/notebooks/blob/update-orp-value/nb/Orpheus_(3B)-TTS.ipynb
 
 [2508.15316] CUPE: Contextless Universal Phoneme Encoder for Language-Agnostic Speech Processing
@@ -43,17 +28,14 @@ https://www.marktechpost.com/2025/10/14/alibabas-qwen-ai-releases-compact-dense-
 Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide | Towards Data Science
 https://towardsdatascience.com/implementing-the-fourier-transform-numerically-in-python-a-step-by-step-guide/
 
-DeepSeek Just Released a 3B OCR Model: A 3B VLM Designed for High-Performance OCR and Structured Document Conversion - MarkTechPost
-https://www.marktechpost.com/2025/10/20/deepseek-just-released-a-3b-ocr-model-a-3b-vlm-designed-for-high-performance-ocr-and-structured-document-conversion/
-
-GitHub - EvolvingLMMs-Lab/NEO: NEO Series: Native Vision-Language Models from First Principles
-https://github.com/EvolvingLMMs-Lab/NEO
-
-cldr/common/transforms/ru_Latn-ru-BGN.xml at main · unicode-org/cldr · GitHub
+cldr/common/transforms/ru_Latn-ru-BGN.xml at main · unicode-org/cldr
 https://github.com/unicode-org/cldr/blob/main/common/transforms/ru_Latn-ru-BGN.xml
 
-GitHub - deta/surf: Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open model choice (incl. local).
+deta/surf: Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open model choice (incl. local).
 https://github.com/deta/surf
+
+surf/docs/INSTALL.md at main · deta/surf
+https://github.com/deta/surf/blob/main/docs/INSTALL.md
 
 GitHub - CaviraOSS/OpenMemory: Add long-term memory to any AI in minutes. Self-hosted, open, and framework-free.
 https://github.com/CaviraOSS/OpenMemory
@@ -61,23 +43,8 @@ https://github.com/CaviraOSS/OpenMemory
 Deepseek_OCR_(3B).ipynb - Colab
 https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Deepseek_OCR_(3B).ipynb
 
-5 open-source remote desktop tools prove that nobody should use TeamViewer anymore
-https://www.xda-developers.com/open-source-remote-desktop-tools-nobody-should-use-teamviewer/
-
-IncusOS Announced As Immutable Linux OS With ZFS For Running Containers - Phoronix
-https://www.phoronix.com/news/Incus-IncusOS-Announced
-
-GitHub - JinjieNi/MegaDLMs: GPU-optimized framework for training diffusion language models at any scale. The backend of Quokka, Super Data Learners, and OpenMoE 2 training.
+JinjieNi/MegaDLMs: GPU-optimized framework for training diffusion language models at any scale. The backend of Quokka, Super Data Learners, and OpenMoE 2 training.
 https://github.com/JinjieNi/MegaDLMs
-
-8 Cheesy '80s Sci-Fi TV Shows That Outshine Modern Series
-https://screenrant.com/cheesy-sci-fi-better-than-modern-tv-shows/
-
-Baidu just dropped an open-source multimodal AI that it claims beats GPT-5 and Gemini | VentureBeat
-https://venturebeat.com/ai/baidu-just-dropped-an-open-source-multimodal-ai-that-it-claims-beats-gpt-5
-
-sam-3d-body/sam_3d_body/models/backbones/vit.py at main · facebookresearch/sam-3d-body
-https://github.com/facebookresearch/sam-3d-body/blob/main/sam_3d_body/models/backbones/vit.py
 
 The Roadmap of Mathematics for Machine Learning
 https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning
@@ -208,23 +175,11 @@ https://librivox.org/api/info
 [2602.01032] HierCon: Hierarchical Contrastive Attention for Audio Deepfake Detection
 https://arxiv.org/abs/2602.01032
 
-[2602.00681] Audio-to-Image Bird Species Retrieval without Audio-Image Pairs via Text Distillation
-https://arxiv.org/abs/2602.00681
-
-[2412.13462] SAVGBench: Benchmarking Spatially Aligned Audio-Video Generation
-https://arxiv.org/abs/2412.13462
-
 Multi-task learning for grapheme-to-phoneme conversion - Claude
 https://claude.ai/chat/3a50bb00-c39c-4b46-8960-72b098d27464
 
 Pronounce - Browse all names for Afghanistan.
 https://pronounce.voanews.com/browse-oneregion.php?region=Afghanistan
-
-unsloth/Qwen3-Coder-Next-FP8-Dynamic · Hugging Face
-https://huggingface.co/unsloth/Qwen3-Coder-Next-FP8-Dynamic
-
-PazaBench - a Hugging Face Space by microsoft
-https://huggingface.co/spaces/microsoft/paza-bench
 
 Open source USearch library jumpstarts ScyllaDB vector search - The New Stack
 https://thenewstack.io/open-source-usearch-library-jumpstarts-scylladb-vector-search/
@@ -256,9 +211,6 @@ https://qwen.ai/blog?id=qwen3.5
 Zaneham/BarraCUDA: Open-source CUDA, Triton and HIP compiler targeting multiple GPU and CPU architectures.
 https://github.com/Zaneham/BarraCUDA
 
-tenstorrent/tt-metal: :metal: TT-NN operator library, and TT-Metalium low level kernel programming model.
-https://github.com/tenstorrent/tt-metal
-
 Paper page - Voxtral Realtime
 https://huggingface.co/papers/2602.11298
 
@@ -271,26 +223,8 @@ https://www.phoronix.com/news/Intel-OpenPGL-New-Home
 Java to Kotlin Conversion Comes to Visual Studio Code - The JetBrains Blog
 https://blog.jetbrains.com/kotlin/2026/02/java-to-kotlin-conversion-comes-to-visual-studio-code/
 
-A neural network for modeling human concept formation, understanding and communication | Nature Computational Science
-https://www.nature.com/articles/s43588-026-00956-4
-
-Ghostty 1.3 wil bring Adds Scrollbar Support
-https://www.omgubuntu.co.uk/2026/02/ghostty-linux-scrollbars-coming
-
 40,000-year-old signs show humans were recording information long before writing | ScienceDaily
 https://www.sciencedaily.com/releases/2026/02/260225001301.htm
-
-Human brain cells on a chip learned to play Doom in a week | New Scientist
-https://www.newscientist.com/article/2517389-human-brain-cells-on-a-chip-learned-to-play-doom-in-a-week/
-
-Google AI Introduces STATIC: A Sparse Matrix Framework Delivering 948x Faster Constrained Decoding for LLM Based Generative Retrieval - MarkTechPost
-https://www.marktechpost.com/2026/03/01/google-ai-introduces-static-a-sparse-matrix-framework-delivering-948x-faster-constrained-decoding-for-llm-based-generative-retrieval/
-
-Alibaba's small, open source Qwen3.5-9B beats OpenAI's gpt-oss-120B and can run on standard laptops | VentureBeat
-https://venturebeat.com/technology/alibabas-small-open-source-qwen3-5-9b-beats-openais-gpt-oss-120b-and-can-run
-
-[2602.02734] WAXAL: A Large-Scale Multilingual African Language Speech Corpus
-https://arxiv.org/abs/2602.02734
 
 zpforlove/AG-REPA: Official code for AG-REPA: Causal Layer Selection for Representation Alignment in Audio Flow Matching (ICML 2026). Unified TTS+TTA Flow Matching with BiT-C / LASP / FoG-A diagnostics.
 https://github.com/zpforlove/AG-REPA
@@ -304,18 +238,6 @@ https://github.com/ssss-sen/Whisper_MLA/blob/main/data/test.json
 Principles and Practice of Deep Representation Learning
 https://ma-lab-berkeley.github.io/deep-representation-learning-book/
 
-TW-Sound580K: A Regional Audio-Text Dataset with Verification-Guided Curation for Localized Audio-Language Modeling
-https://arxiv.org/pdf/2603.05094
-
-[2603.04862] Focus Then Listen: An Empirical Study of Plug-and-Play Audio Enhancer for Noise-Robust Large Audio Language Models
-https://arxiv.org/abs/2603.04862
-
-[2512.04551] Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention
-https://arxiv.org/abs/2512.04551
-
-OCR Bench Viewer - a Hugging Face Space by davanstrien
-https://huggingface.co/spaces/davanstrien/ocr-bench-britannica-results-qwen35-viewer
-
 PRiSM: Benchmarking Phone Realization in Speech Models
 https://arxiv.org/pdf/2601.14046
 
@@ -325,14 +247,8 @@ https://github.com/changelinglab/prism
 changelinglab/phone-inventory-metric
 https://github.com/changelinglab/phone-inventory-metric
 
-changelinglab/PhoneticXeus
+changelinglab/PhoneticXeus: A universal phone recognizer that can transcribe speech in 70+ languages into IPA
 https://github.com/changelinglab/PhoneticXeus
-
-Discrete Audio Tokens: More Than a Survey!
-https://arxiv.org/pdf/2506.10274
-
-Discrete Audio Tokens Empirical Study
-https://poonehmousavi.github.io/dates-website/taxonomy
 
 [2603.09627] Speech-Omni-Lite: Portable Speech Interfaces for Vision-Language Models
 https://arxiv.org/abs/2603.09627
