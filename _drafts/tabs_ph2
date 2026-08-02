@@ -1,29 +1,11 @@
 app.py · ResembleAI/Chatterbox at main
 https://huggingface.co/spaces/ResembleAI/Chatterbox/blob/main/app.py
 
-Prefix-RFT: A Unified Machine Learning Framework to blend Supervised Fine-Tuning (SFT) and Reinforcement Fine-Tuning (RFT) - MarkTechPost
-https://www.marktechpost.com/2025/08/23/prefix-rft-a-unified-machine-learning-framework-to-blend-supervised-fine-tuning-sft-and-reinforcement-fine-tuning-rft/
-
-Qwen Team Open Sources State-of-the-Art Image Model Qwen-Image - InfoQ
-https://www.infoq.com/news/2025/08/qwen-image-model/
-
-GitHub - NVlabs/Jet-Nemotron
-https://github.com/NVlabs/Jet-Nemotron
-
-Paper page - SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass
-https://huggingface.co/papers/2508.15769
-
-Paper page - MV-RAG: Retrieval Augmented Multiview Diffusion
-https://huggingface.co/papers/2508.16577
-
 notebooks/nb/Orpheus_(3B)-TTS.ipynb at update-orp-value · kadirnar/notebooks
 https://github.com/kadirnar/notebooks/blob/update-orp-value/nb/Orpheus_(3B)-TTS.ipynb
 
 [2508.15316] CUPE: Contextless Universal Phoneme Encoder for Language-Agnostic Speech Processing
 https://arxiv.org/abs/2508.15316
-
-Alibaba’s Qwen AI Releases Compact Dense Qwen3-VL 4B/8B (Instruct & Thinking) With FP8 Checkpoints - MarkTechPost
-https://www.marktechpost.com/2025/10/14/alibabas-qwen-ai-releases-compact-dense-qwen3-vl-4b-8b-instruct-thinking-with-fp8-checkpoints/
 
 Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide | Towards Data Science
 https://towardsdatascience.com/implementing-the-fourier-transform-numerically-in-python-a-step-by-step-guide/
@@ -33,15 +15,6 @@ https://github.com/unicode-org/cldr/blob/main/common/transforms/ru_Latn-ru-BGN.x
 
 deta/surf: Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open model choice (incl. local).
 https://github.com/deta/surf
-
-surf/docs/INSTALL.md at main · deta/surf
-https://github.com/deta/surf/blob/main/docs/INSTALL.md
-
-GitHub - CaviraOSS/OpenMemory: Add long-term memory to any AI in minutes. Self-hosted, open, and framework-free.
-https://github.com/CaviraOSS/OpenMemory
-
-Deepseek_OCR_(3B).ipynb - Colab
-https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Deepseek_OCR_(3B).ipynb
 
 JinjieNi/MegaDLMs: GPU-optimized framework for training diffusion language models at any scale. The backend of Quokka, Super Data Learners, and OpenMoE 2 training.
 https://github.com/JinjieNi/MegaDLMs
@@ -153,15 +126,6 @@ https://www.kaggle.com/models/qwen-lm/qwen-3
 
 Bobo23324/Qwen-3-1.7B-Medical-Reasoning-TRAINING01 · Hugging Face
 https://huggingface.co/Bobo23324/Qwen-3-1.7B-Medical-Reasoning-TRAINING01
-
-Aktuell Kampanj | McDonald's
-https://www.mcdonalds.com/se/sv-se/just-nu/aktuellkampanj.html
-
-GitHub - volcengine/OpenViking: OpenViking is an open-source context database designed specifically for AI Agents. OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-iteration.
-https://github.com/volcengine/OpenViking
-
-dreamtheater123/Awesome-SpeechLM-Survey: Github repository for ACL 2025 paper: Recent Advances in Speech Language Models: A Survey.
-https://github.com/dreamtheater123/Awesome-SpeechLM-Survey
 
 librivox.org/api/info
 https://librivox.org/api/info
@@ -286,14 +250,8 @@ https://getlibation.com/
 Mbucari/AAXClean: Decrypt Audible aax and aaxc files.
 https://github.com/Mbucari/AAXClean
 
-Open SWE: An Open-Source Framework for Internal Coding Agents
-https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents
-
 run-llama/liteparse: A fast, helpful, and open-source document parser
 https://github.com/run-llama/liteparse
-
-Paper page - WiT: Waypoint Diffusion Transformers via Trajectory Conflict Navigation
-https://huggingface.co/papers/2603.15132
 
 sylber/sylber/model/flowmatching.py at main · Berkeley-Speech-Group/sylber
 https://github.com/Berkeley-Speech-Group/sylber/blob/main/sylber/model/flowmatching.py
@@ -301,26 +259,8 @@ https://github.com/Berkeley-Speech-Group/sylber/blob/main/sylber/model/flowmatch
 ASK: Adaptive Self-improving Knowledge Framework for Audio Text Retrieval
 https://arxiv.org/pdf/2512.19703
 
-Paper page - ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model
-https://huggingface.co/papers/2603.22281
-
-CohereLabs (Cohere Labs)
-https://huggingface.co/CohereLabs
-
-[2602.23765] DashengTokenizer: One layer is enough for unified audio understanding and generation
-https://arxiv.org/abs/2602.23765
-
 Multilingual-TTS/tts-evaluation/benchmark_results.png at main · Scicom-AI-Enterprise-Organization/Multilingual-TTS
 https://github.com/Scicom-AI-Enterprise-Organization/Multilingual-TTS/blob/main/tts-evaluation/benchmark_results.png
-
-Voxtral TTS Demo - a Hugging Face Space by mistralai
-https://huggingface.co/spaces/mistralai/voxtral-tts-demo
-
-microsoft/harrier-oss-v1-27b · Hugging Face
-https://huggingface.co/microsoft/harrier-oss-v1-27b
-
-[2604.01760] T5Gemma-TTS Technical Report
-https://arxiv.org/abs/2604.01760
 
 llm-wiki
 https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
@@ -334,21 +274,6 @@ https://www.marktechpost.com/2026/04/05/meet-autoagent-the-open-source-library-t
 Use Claude’s chat search and memory to build on previous context | Claude Help Center
 https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context
 
-RushOnline/midi2hydrogen: Convert midi file to hydrogen h2song!
-https://github.com/RushOnline/midi2hydrogen
-
-1. Python Script by Dainaccio [Linux-Sound]
-https://wiki.linuxaudio.org/wiki/script_midi2hydrogen
-
-[2604.04160] AffectSpeech: A Large-Scale Emotional Speech Dataset with Fine-Grained Textual Descriptions for Speech Emotion Captioning and Synthesis
-https://arxiv.org/abs/2604.04160
-
-Deep Agents v0.5
-https://blog.langchain.com/deep-agents-v0-5/
-
-“I’m not going to be here long. Just give me stuff to sing.” Brian May on Freddie Mercury’s last days | GuitarPlayer
-https://www.guitarplayer.com/guitarists/im-not-going-to-be-here-long-just-give-me-stuff-to-sing-brian-may-on-freddie-mercurys-last-days
-
 nielsr/arxiv-chandra-ocr-full-markdown-20260406 - Storage Bucket
 https://huggingface.co/buckets/nielsr/arxiv-chandra-ocr-full-markdown-20260406
 
@@ -358,128 +283,32 @@ https://huggingface.co/spaces/davanstrien/open-library-atlas
 ACE-Step v1.5 - a Hugging Face Space by ACE-Step
 https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5
 
-Deep Agents Deploy: an open alternative to Claude Managed Agents
-https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/
-
-What are skills? - Agent Skills
-https://agentskills.io/what-are-skills
-
-a2a-protocol.org/latest/?ref=blog.langchain.com
-https://a2a-protocol.org/latest/?ref=blog.langchain.com
-
-Introduction - A2A Protocol
-https://a2a-protocol.org/latest/tutorials/python/1-introduction/
-
-A2A Protocol
-https://a2a-protocol.org/latest/?ref=blog.langchain.com
-
-GitHub - langchain-ai/agent-protocol at blog.langchain.com · GitHub
-https://github.com/langchain-ai/agent-protocol?ref=blog.langchain.com
-
-Build an MCP server - Model Context Protocol
-https://modelcontextprotocol.io/docs/develop/build-server
-
-Death Notice of Jim Norris (Thurles, Tipperary) | rip.ie
-https://rip.ie/death-notice/jim-norris-tipperary-thurles-627412
-
-newhvn
-https://link.playliveartist.com/newhvn-stockholm
-
-AuraSleep™ - Nyckeln till sömn – ScandicLiving
-https://www.scandicliving.se/products/aurasleep%E2%84%A2-nyckeln-till-somn?utm_source=ig&utm_medium=Instagram_Reels&utm_campaign=120239962287750006&utm_term=120240656705750006&utm_content=120240656705760006&juice=120240656705760006&utm_id=120239962287750006&fbclid=PAYW9leARIP75leHRuA2FlbQEwAGFkaWQBqy49mIyJxnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp6NAVxO7zxCrePbbZ_0-FzdfW2f02sLIfxHHi_hTHa9qketRY8RgouNd-3R8_aem_cixpBWlAHM3wDMiaVLwLDQ&campaign_id=120239962287750006&ad_id=120240656705760006
-
-GitHub - galilai-group/lejepa · GitHub
+galilai-group/lejepa
 https://github.com/galilai-group/lejepa
 
-GitHub - krafton-ai/Raon-Speech: Open-source speech AI models from KRAFTON, including Raon-Speech and Raon-SpeechChat for speech understanding, generation, and real-time full-duplex conversation. · GitHub
+krafton-ai/Raon-Speech: Open-source speech AI models from KRAFTON, including Raon-Speech and Raon-SpeechChat for speech understanding, generation, and real-time full-duplex conversation.
 https://github.com/krafton-ai/Raon-Speech
-
-GitHub - powertab/powertabeditor: View and edit guitar tablature. · GitHub
-https://github.com/powertab/powertabeditor/
-
-Can't set up powertab to play correctly drums · Issue #500 · powertab/powertabeditor
-https://github.com/powertab/powertabeditor/issues/500
-
-Login
-https://sssb.aptustotal.se/AptusPortal/Account/Login?ReturnUrl=%2fAptusPortal%2f
-
-Temu | Explore the Latest Clothing, Beauty, Home, Jewelry & More
-https://www.temu.com/ul/kuiper/un1.html?subj=feed-un&_bg_fs=1&_p_mat1_type=1&_p_jump_id=725&_x_vst_scene=adg&goods_id=601099628174565&adg_ctx=a-415d2ed1~t-ikgy&_x_ns_adx_req_id=4e61e336-85c3-4e3e-8399-42d941871d34&conn_type=CELL_4G&_x_ads_creative_id=4217538876006792&_x_ads_sub_channel=adx_bidease&_x_ns_goods_id=601099628174565&_p_rfs=1&rank_req_id=4e61e336-85c3-4e3e-8399-42d941871d34&_x_ads_csite=video_image&_x_ads_account=1217481708000001&_x_ads_set=2217538876000004&_x_ns_adx_auction_id=2652704e0e06dfc7dda70563da7af9f3&ads_w=320&_x_ads_id=3217538876000004&plcmt_c1=Games_Board_and_Card&_x_ns_gid=601099628174565&locale_override=96~en~EUR&_x_ads_channel=adx_union&_x_ns_adx_p_type=1&placement=com.vitastudio.mahjong&_x_cid=mat_8217479944036449&_x_ns_plat=app&ads_h=480
-
-GitHub - sfzinstruments/DrumGizmo.MuldjordKit: DrumGizmo MuldjordKit v1.0 sfz instrument port · GitHub
-https://github.com/sfzinstruments/DrumGizmo.MuldjordKit/
-
-documentation:file_formats – DrumGizmo Wiki
-https://www.drumgizmo.org/wiki/doku.php?id=documentation:file_formats
-
-start – DrumGizmo Wiki
-https://www.drumgizmo.org/wiki/doku.php?id=start
-
-GitHub - anomalyco/opencode: The open source coding agent. · GitHub
-https://github.com/anomalyco/opencode
-
-Search results: Results for 'Spinosad' – Gryningen
-https://www.gryningen.eu/search?options%5Bprefix%5D=last&q=Spinosad
-
-A PHP Dev Just Solved a 20+ Year-Old KDE Plasma Problem No One Else Would
-https://itsfoss.com/news/kde-plasma-per-screen-virtual-desktops/
-
-AlienSkyQwen — MLX inference for Apple Silicon | AlienSky Research Labs
-https://aliensky.ai/research/AlienSkyQwen/
-
-Qwen
-https://qwen.ai/blog?id=qwen3.6-35b-a3b
-
-YTan2000/Qwen3.6-35B-A3B-TQ3_4S · Hugging Face
-https://huggingface.co/YTan2000/Qwen3.6-35B-A3B-TQ3_4S
 
 How to apply for and get compute grants (for students) · Idle Words
 https://nightingal3.github.io/blog/2026/04/16/compute-grants/
 
-The Heilmeier Catechism
-https://www.darpa.mil/about/heilmeier-catechism
-
-GitHub - burtenshaw/multiautoresearch: autonomous open source ai lab · GitHub
+burtenshaw/multiautoresearch: autonomous open source ai lab
 https://github.com/burtenshaw/multiautoresearch
 
-GitHub - karpathy/autoresearch: AI agents running research on single-GPU nanochat training automatically · GitHub
+karpathy/autoresearch: AI agents running research on single-GPU nanochat training automatically
 https://github.com/karpathy/autoresearch
-
-hoeem on X: "How to deploy autoresearch:" / X
-https://x.com/hooeem/status/2030720614752039185
 
 Claude Code's creator keeps sharing tips, and they all made my experience better
 https://www.xda-developers.com/claude-codes-creator-keeps-sharing-tips-and-they-all-made-my-experience-better/
 
-Snack Home Page
-https://www.speech.kth.se/snack/index.html
-
-speech.kth.se/snack/links.html
-https://www.speech.kth.se/snack/links.html
-
-speech.kth.se/wavesurfer/wsurf_icslp00.pdf
-http://www.speech.kth.se/wavesurfer/wsurf_icslp00.pdf
-
-speech.kth.se/snack/modex.html
-https://www.speech.kth.se/snack/modex.html
-
-speech.kth.se/~jocke/publications/icslp98_web.html
-https://www.speech.kth.se/~jocke/publications/icslp98_web.html
-
-etca.fr/CTA/gip/Projets/Transcriber/
+www.etca.fr
 http://www.etca.fr/CTA/gip/Projets/Transcriber/
 
-speech.kth.se/snack/modex2.html
-https://www.speech.kth.se/snack/modex2.html
-
-GitHub - chdh/klatt-syn: Klatt formant synthesizer · GitHub
-https://github.com/chdh/klatt-syn
-
-GitHub - chdh/harm-syn: An analysis and synthesis algorithm for quasi-periodic signals, e.g. vowels. · GitHub
+chdh/harm-syn: An analysis and synthesis algorithm for quasi-periodic signals, e.g. vowels.
 https://github.com/chdh/harm-syn
 
-NoiseSyn - Spectral Noise Synthesizer
-https://www.source-code.biz/noiseSyn/
+chdh/noise-syn: A browser-based web application for generating noise sound.
+https://github.com/chdh/noise-syn
 
 SinSyn - Sinusoidal Synthesizer
 https://www.source-code.biz/sinSyn/
