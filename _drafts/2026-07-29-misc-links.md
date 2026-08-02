@@ -124,3 +124,25 @@ eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2520385123}
 [rhasspy/sv_kaldi-rhasspy](https://github.com/rhasspy/sv_kaldi-rhasspy)
 
 [Vosk Language Model Adaptation](https://alphacephei.com/vosk/lm)
+
+---
+
+[chdh/noise-syn](https://github.com/chdh/noise-syn) --- A browser-based web application for generating noise sound.
+[Web demo](https://www.source-code.biz/noiseSyn/)
+
+[chdh/sin-syn](https://github.com/chdh/sin-syn) --- Sinusoidal Synthesizer.
+[Web demo](https://www.source-code.biz/sinSyn/)
+
+[chdh/spec-filt](https://github.com/chdh/spec-filt) --- Spectral filter tool.
+[Web demo](https://www.source-code.biz/specFilt/)
+
+[chdh/spec-syn](https://github.com/chdh/spec-syn) --- A browser-based web application for generating short harmonic sound samples.
+[Web demo](https://www.source-code.biz/specSyn/)
+
+[chdh/harm-syn](https://github.com/chdh/harm-syn) --- An analysis and synthesis algorithm for quasi-periodic signals, e.g. vowels.
+[Web demo](https://www.source-code.biz/harmSyn/)
+
+[chdh/klatt-syn](https://github.com/chdh/klatt-syn) --- Klatt formant synthesizer.
+[chdh/klatt-syn-app](https://github.com/chdh/klatt-syn-app) --- GUI applikation for the Klatt formant synthesizer package.
+[Web demo](https://www.source-code.biz/klattSyn/)
+

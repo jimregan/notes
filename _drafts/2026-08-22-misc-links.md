@@ -158,11 +158,3 @@ categories: [links]
 
 [Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide](https://towardsdatascience.com/implementing-the-fourier-transform-numerically-in-python-a-step-by-step-guide/)
 
-[chdh/noise-syn](https://github.com/chdh/noise-syn) --- A browser-based web application for generating noise sound.
-[Web demo](https://www.source-code.biz/noiseSyn/)
-
-[chdh/sin-syn](https://github.com/chdh/sin-syn) --- Sinusoidal Synthesizer.
-[Web demo](https://www.source-code.biz/sinSyn/)
-
-[chdh/spec-filt](https://github.com/chdh/spec-filt) --- Spectral filter tool.
-[Web demo](https://www.source-code.biz/specFilt/)
