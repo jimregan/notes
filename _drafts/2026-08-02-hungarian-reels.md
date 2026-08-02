@@ -28,5 +28,5 @@ Lehet két embert szeretni?
 [00:43.780 --> 00:47.060]  A monogám kultúrákban az érzés hiába valóságos,
 [00:47.180 --> 00:49.220]  a döntésednek tisztának kell lennie.
 [00:49.720 --> 00:54.020]  Nem az a kérdés, hogy mit érzel, hanem az, hogy mit kezdesz vele.
-[00:54.760 --> 00:56.500]  Mind a két szerelem.
-[00:56.700 --> 00:59.760]  Lehet valóságos és egy reális érzés.
+[00:54.760 --> 00:56.500]  Mind a két szerelem
+[00:56.700 --> 00:59.760]  lehet valóságos és egy reális érzés,
