@@ -107,3 +107,34 @@ categories: [links]
 [A Speech Recognition Extension to Snack](https://www.speech.kth.se/snack/modex2.html)
 
 [chdh/klatt-syn](https://github.com/chdh/klatt-syn)
+
+[40,000-year-old signs show humans were recording information long before writing](https://www.sciencedaily.com/releases/2026/02/260225001301.htm)
+
+[Java to Kotlin Conversion Comes to Visual Studio Code](https://blog.jetbrains.com/kotlin/2026/02/java-to-kotlin-conversion-comes-to-visual-studio-code/)
+
+[zpforlove/AG-REPA](https://github.com/zpforlove/AG-REPA) --- Official code for AG-REPA: Causal Layer Selection for Representation Alignment in Audio Flow Matching (ICML 2026). Unified TTS+TTA Flow Matching with BiT-C / LASP / FoG-A diagnostics.
+
+[AustinZhang/AG-REPA](https://huggingface.co/AustinZhang/AG-REPA) --- AG-REPA model.
+
+[Principles and Practice of Deep Representation Learning](https://ma-lab-berkeley.github.io/deep-representation-learning-book/)
+
+[Qwen3.5: Towards Native Multimodal Agents](https://qwen.ai/blog?id=qwen3.5)
+
+[Zaneham/Booth](https://github.com/Zaneham/Booth) --- Open-source CUDA, Triton and HIP compiler targeting multiple GPU and CPU architectures.
+
+[QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)
+
+[SSVD-O: Parameter-Efficient Fine-Tuning with Structured SVD for Speech Recognition](https://arxiv.org/abs/2601.12600)
+
+[Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding under Limited Speech Data](https://arxiv.org/abs/2509.15389)
+
+[Inverse-Hessian Regularization for Continual Learning in ASR](https://arxiv.org/abs/2601.14751)
+<!-- https://github.com/StevenVdEeckt/inverse-hessian-regularization -->
+
+[Libation](https://getlibation.com/) --- A free, open-source application for downloading and managing your Audible audiobooks
+
+[Mbucari/AAXClean](https://github.com/Mbucari/AAXClean) --- Decrypt Audible aax and aaxc files.
+
+[Qwen/Qwen3-ASR-1.7B](https://huggingface.co/Qwen/Qwen3-ASR-1.7B)
+
+[LESS: Large Language Model Enhanced Semi-Supervised Learning for Speech Foundational Models Using in-the-wild Data](https://arxiv.org/abs/2506.04586)
