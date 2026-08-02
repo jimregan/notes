@@ -72,5 +72,3 @@ categories: [links]
 [Danish](https://www.youtube.com/watch?v=ykj3Kpm3O0g)
 
 [Cóipcheart agus admháil](https://www.canuint.ie/ga/eolas/riarachan/ceadunas-agus-admhail/) --- text CC BY-SA 4.0
-
-[Speech-Omni-Lite: Portable Speech Interfaces for Vision-Language Models](https://arxiv.org/abs/2603.09627)

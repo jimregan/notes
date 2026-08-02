@@ -65,3 +65,6 @@ categories: [links]
 
 [MFA - Phone groups](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phone_groups.html)
 
+[Speech-Omni-Lite: Portable Speech Interfaces for Vision-Language Models](https://arxiv.org/abs/2603.09627)
+
+[SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass](https://arxiv.org/abs/2508.15769)
