@@ -158,3 +158,6 @@ categories: [links]
 
 [Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide](https://towardsdatascience.com/implementing-the-fourier-transform-numerically-in-python-a-step-by-step-guide/)
 
+[patrick-kidger/equinox](https://github.com/patrick-kidger/equinox) --- Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/
+
+[Top 10 Phonetic Journals](https://medium.com/@PhoneticsWeekly/top-10-phonetic-journals-7b869594ce59)
