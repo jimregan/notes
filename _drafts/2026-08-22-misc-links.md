@@ -166,7 +166,33 @@ categories: [links]
 
 [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio)
 
+[ML Intern Takes Our Post-Training Internship Test](https://huggingface.co/blog/cmpatino/ml-intern-takehome)
+
 [huggingface/ml-intern](https://github.com/huggingface/ml-intern) --- an open-source ML engineer that reads papers, trains models, and ships ML models
 
 [TIGER-AI-Lab/OpenResearcher](https://github.com/TIGER-AI-Lab/OpenResearcher) --- A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis
+
+[OpenMOSS-Team/MOSS-Audio-8B-Thinking](https://huggingface.co/OpenMOSS-Team/MOSS-Audio-8B-Thinking)
+
+[Origin Stories Kneecap](https://music.apple.com/gb/station/kneecap/ra.1750309683)
+
+[No as a Service](https://noasaservice.lol/)
+
+[huggingface/nfsserve](https://github.com/huggingface/nfsserve)
+
+[systemd/casync](https://github.com/systemd/casync) --- Content Addressable Data Synchronizer
+
+[xolox/dedupfs](https://github.com/xolox/dedupfs) --- A Python FUSE file system that features transparent deduplication and compression which make it ideal for archiving backups.
+
+[containers/fuse-overlayfs](https://github.com/containers/fuse-overlayfs)
+
+[tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
+
+[CohereLabs/cohere-transcribe-03-2026](https://huggingface.co/CohereLabs/cohere-transcribe-03-2026)
+
+[QwenLM/FlashQLA](https://github.com/QwenLM/FlashQLA) --- high-performance linear attention kernel library built on TileLang
+
+[tile-ai/tilelang](https://github.com/tile-ai/tilelang) --- Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels
+
+[French Archaeologist Says He Cracked a Mysterious 4,000-Year-Old Bronze Age Script From Ancient Iran](https://www.zmescience.com/science/news-science/linear-elamite-decoded/)
 

@@ -125,6 +125,8 @@ eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2520385123}
 
 [Vosk Language Model Adaptation](https://alphacephei.com/vosk/lm)
 
+[Analyzing Vocal Features for Pathology](https://speechbrain.readthedocs.io/en/latest/tutorials/preprocessing/voice-analysis.html)
+
 ---
 
 [chdh/noise-syn](https://github.com/chdh/noise-syn) --- A browser-based web application for generating noise sound.
@@ -150,7 +152,5 @@ eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2520385123}
 
 [Top 10 Phonetic Journals](https://medium.com/@PhoneticsWeekly/top-10-phonetic-journals-7b869594ce59)
 - [Phonetica](https://www.degruyterbrill.com/journal/key/phon/html)
-- 
 
 [How to apply for and get compute grants (for students)](https://nightingal3.github.io/blog/2026/04/16/compute-grants/)
-
