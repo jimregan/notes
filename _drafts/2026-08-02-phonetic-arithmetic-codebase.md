@@ -1,6 +1,16 @@
+---
+title: m2m-aligner codebase overview
+layout: post
+toc: true
+description: Phonological vectors
+categories: [phonetic-arithmetic, codex]
+---
+
 # Codebase Summary
 
 This repository implements the experiments from the ACL 2026 paper *[b]=[d]-[t]+[p]: Self-supervised Speech Models Discover Phonological Vector Arithmetic*. It is organized as a collection of executable research scripts rather than an installable Python package.
+
+Paper summary is [here]({% post_url 2026-08-02-self-supervised-speech-models-discover-phonological-vector-arithmetic %})
 
 ## Workflow
 
