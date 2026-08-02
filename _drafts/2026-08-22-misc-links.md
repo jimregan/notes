@@ -145,3 +145,24 @@ categories: [links]
 [arXiv](https://arxiv.org/abs/2602.18899),
 [code](https://github.com/juice500ml/phonetic-arithmetic)
 
+[RadEar: A Self-Supervised RF Backscatter System for Voice Eavesdropping and Separation](https://arxiv.org/abs/2603.12446)
+
+[rasbt/llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery),
+[site](https://sebastianraschka.com/llm-architecture-gallery/)
+
+[ASK: Adaptive Self-improving Knowledge Framework for Audio Text Retrieval](https://arxiv.org/abs/2512.19703)
+
+[Claude Code's creator keeps sharing tips, and they all made my experience better](https://www.xda-developers.com/claude-codes-creator-keeps-sharing-tips-and-they-all-made-my-experience-better/)
+
+[NikolaiKyhne/RWSAMamba-UNet](https://github.com/NikolaiKyhne/RWSAMamba-UNet)
+
+[Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide](https://towardsdatascience.com/implementing-the-fourier-transform-numerically-in-python-a-step-by-step-guide/)
+
+[chdh/noise-syn](https://github.com/chdh/noise-syn) --- A browser-based web application for generating noise sound.
+[Web demo](https://www.source-code.biz/noiseSyn/)
+
+[chdh/sin-syn](https://github.com/chdh/sin-syn) --- Sinusoidal Synthesizer.
+[Web demo](https://www.source-code.biz/sinSyn/)
+
+[chdh/spec-filt](https://github.com/chdh/spec-filt) --- Spectral filter tool.
+[Web demo](https://www.source-code.biz/specFilt/)
