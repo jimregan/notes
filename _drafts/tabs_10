@@ -1,24 +1,6 @@
 ChatGPT - Hungarian
 https://chatgpt.com/g/g-p-6838a197746c81919828f3393515b7fb-hungarian/c/6a64acba-c2e4-83eb-a7c5-cb4729326b9a
 
-(5) ゆっきー@音声合成 on X: "SHIROは「強制」アライメントツールなのだけど、色々改造して遊んでたら、「強制」(アライメントする音素列を事前に教える)せずに自由に音素を認識させても割と正解してることが分かった。個人的にこれ大発見なのだが…！？　モデルサイズは2MBです。 https://t.co/URuCu5eTcD" / X
-https://x.com/4wavetech/status/2079258991528726586
-
-Sleepwalking/SHIRO: Phoneme-to-speech alignment toolkit based on liblrhsmm
-https://github.com/Sleepwalking/SHIRO
-
-danielcopper/wezterm-session-manager
-https://github.com/danielcopper/wezterm-session-manager
-
-next notes by jimregan · Pull Request #350 · jimregan/notes
-https://github.com/jimregan/notes/pull/350/changes#diff-4558cb6af3e395d7defe2118915da701ab92ddd50ae6a5abbcbb1832a5127789
-
-mfa-models/scripts/training_models/train_acoustic_models.py at main · MontrealCorpusTools/mfa-models
-https://github.com/MontrealCorpusTools/mfa-models/blob/main/scripts/training_models/train_acoustic_models.py
-
-Phone groups — Montreal Forced Aligner 3.X documentation
-https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phone_groups.html
-
 mfa-models/config/acoustic/phone_groups at main · MontrealCorpusTools/mfa-models
 https://github.com/MontrealCorpusTools/mfa-models/tree/main/config/acoustic/phone_groups
 
@@ -45,9 +27,6 @@ https://en.wiktionary.org/wiki/Appendix:Swedish_pronunciation
 
 jimregan/dockerfiles
 https://github.com/jimregan/dockerfiles
-
-Instagram
-https://www.instagram.com/
 
 Instagram
 https://www.instagram.com/
@@ -96,5 +75,11 @@ https://en.wikipedia.org/wiki/Greek_orthography
 
 Untitled spreadsheet - Google Sheets
 https://docs.google.com/spreadsheets/d/1bKQzNnBxGNKcqX8SJuzLuzp2B4mtIBPfwnojvwMRo_I/edit?gid=0#gid=0
+
+Instagram
+https://www.instagram.com/p/DbfyikVgQH5/
+
+novnc-audio-plugin/novnc-icecast-audio.js at main · nagamuslim/novnc-audio-plugin
+https://github.com/nagamuslim/novnc-audio-plugin/blob/main/novnc-icecast-audio.js
 
 
