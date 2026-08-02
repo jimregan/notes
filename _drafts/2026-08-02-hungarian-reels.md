@@ -303,7 +303,7 @@ this-DAT   the  fee-3SG.POSS    incidentally
 We checked the map once more to see exactly which routes we wanted to cover, and then set off following the blue trail marking.
 
 ```text
-Még    egyszer  meg-néz-t-ük       a
+Még    egyszer  meg-néz-t-ük        a
 again  once     PV-look-PST-1PL.DEF the
 
 térkép-en,  hogy  pontos-an  melyik
