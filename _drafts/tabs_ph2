@@ -121,20 +121,8 @@ https://www.kdnuggets.com/top-5-embedding-models-for-your-rag-pipeline
 Custom Kernels for All from Codex and Claude
 https://huggingface.co/blog/custom-cuda-kernels-agent-skills
 
-We Got Claude to Build CUDA Kernels and teach open models!
-https://huggingface.co/blog/upskill
-
-cysqlite - a new sqlite driver
-https://simonwillison.net/2026/Feb/11/cysqlite/
-
 Meet 'Kani-TTS-2': A 400M Param Open Source Text-to-Speech Model that Runs in 3GB VRAM with Voice Cloning Support - MarkTechPost
 https://www.marktechpost.com/2026/02/15/meet-kani-tts-2-a-400m-param-open-source-text-to-speech-model-that-runs-in-3gb-vram-with-voice-cloning-support/
-
-Paper page - Voxtral Realtime
-https://huggingface.co/papers/2602.11298
-
-Blaizzy/mlx-audio: A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.
-https://github.com/Blaizzy/mlx-audio
 
 Whisper_MLA/data/test.json at main · ssss-sen/Whisper_MLA
 https://github.com/ssss-sen/Whisper_MLA/blob/main/data/test.json
@@ -172,8 +160,23 @@ https://arxiv.org/pdf/2603.12642
 juice500ml/phonetic-arithmetic
 https://github.com/juice500ml/phonetic-arithmetic
 
-[2602.18899] [b]=[d]-[t]+[p]: Self-supervised Speech Models Discover Phonological Vector Arithmetic
-https://arxiv.org/abs/2602.18899
+PRiSM: Benchmarking Phone Realization in Speech Models - Google Search
+https://www.google.com/search?q=PRiSM%3A+Benchmarking+Phone+Realization+in+Speech+Models&rlz=1C5GCCM_en&oq=PRiSM%3A+Benchmarking+Phone+Realization+in+Speech+Models&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg6MgYIAhBFGD3SAQczOThqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
+
+changelinglab/prism: A toolkit and benchmark for evaluating phonetic capabilities of speech models.
+https://github.com/changelinglab/prism
+
+PRiSM - a changelinglab Collection
+https://huggingface.co/collections/changelinglab/prism
+
+changelinglab/fleurs24-lid · Datasets at Hugging Face
+https://huggingface.co/datasets/changelinglab/fleurs24-lid
+
+changelinglab/speechaccentarchive-pr · Datasets at Hugging Face
+https://huggingface.co/datasets/changelinglab/speechaccentarchive-pr
+
+PRiSM - a changelinglab Collection
+https://huggingface.co/collections/changelinglab/prism
 
 [2506.04586] LESS: Large Language Model Enhanced Semi-Supervised Learning for Speech Foundational Models Using in-the-wild Data
 https://arxiv.org/abs/2506.04586
@@ -226,9 +229,6 @@ https://github.com/galilai-group/lejepa
 krafton-ai/Raon-Speech: Open-source speech AI models from KRAFTON, including Raon-Speech and Raon-SpeechChat for speech understanding, generation, and real-time full-duplex conversation.
 https://github.com/krafton-ai/Raon-Speech
 
-How to apply for and get compute grants (for students) · Idle Words
-https://nightingal3.github.io/blog/2026/04/16/compute-grants/
-
 burtenshaw/multiautoresearch: autonomous open source ai lab
 https://github.com/burtenshaw/multiautoresearch
 
@@ -237,9 +237,6 @@ https://github.com/karpathy/autoresearch
 
 www.etca.fr
 http://www.etca.fr/CTA/gip/Projets/Transcriber/
-
-chdh/harm-syn: An analysis and synthesis algorithm for quasi-periodic signals, e.g. vowels.
-https://github.com/chdh/harm-syn
 
 nicedreamzapp/claude-code-local: Run Claude Code 100% on-device with local AI on Apple Silicon. MLX-native Anthropic-API server, 65 tok/s Qwen 3.5 122B, Llama 3.3 70B, Gemma 4 31B. Private, offline, airgap-ready. Built for NDA / legal / healthcare workflows.
 https://github.com/nicedreamzapp/claude-code-local
@@ -253,164 +250,44 @@ https://github.com/Myth727/VECTOR?tab=License-1-ov-file
 Claude Code Security Analysis (on https://github.com/ritualPlay-Net/RitualPlay/)
 https://gist.github.com/adibhanna/6c66552b94577951bc4cce877fcf7729
 
-huggingface/ml-intern: 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models
-https://github.com/huggingface/ml-intern/tree/main
-
-unsloth/Qwen3.6-27B-GGUF · Hugging Face
-https://huggingface.co/unsloth/Qwen3.6-27B-GGUF
-
-TIGER-AI-Lab/OpenResearcher: OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis
-https://github.com/TIGER-AI-Lab/OpenResearcher
-
-Mayank022/blog-fine-tuning-sam-medical-segmentation · Hugging Face
-https://huggingface.co/Mayank022/blog-fine-tuning-sam-medical-segmentation
-
-Top 10 Phonetic Journals | by Phonetics Weekly | Medium
-https://medium.com/@PhoneticsWeekly/top-10-phonetic-journals-7b869594ce59
-
-Phonetica | Karger Publishers
-https://karger.com/PHO
-
-Phonetica Volume 83, Issue 1
-https://www.degruyterbrill.com/journal/key/phon/83/1/html
-
-ML Intern Takes Our Post-Training Internship Test
-https://huggingface.co/blog/cmpatino/ml-intern-takehome
-
 eyaltoledano/claude-task-master: An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
 https://github.com/eyaltoledano/claude-task-master
 
 cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 https://github.com/cline/cline
 
-Production-Grade LLM Inference at Scale with KServe, llm-d, and vLLM | llm-d
-https://llm-d.ai/blog/production-grade-llm-inference-at-scale-kserve-llm-d-vllm
-
-OpenMOSS-Team/MOSS-Audio-8B-Thinking · Hugging Face
-https://huggingface.co/OpenMOSS-Team/MOSS-Audio-8B-Thinking
-
-Stop receding gums GLOBAL 2.0 – Cureend
-https://news.cureend.com/pages/stop-receding-gums-global?utm_medium=paid&utm_id=120239792868870434&utm_content=120240135325250434&utm_term=120239792868840434&utm_campaign=120239792868870434&fbclid=PAZXh0bgNhZW0BMABhZGlkAast9epdJRJzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadatuZjfnJhB93xczzH0gUgZUCW3ho9NiVv8XhWufjmzNy6Cj1uWVBlPQSTyw_aem_TWgqjgq1D0KbqRhztBFHhA&utm_source=facebook&campaign_id=120239792868870434&ad_id=120240135325250434
-
-Teeth Repair Gel – Cureend
-https://cureend.com/products/cureend%E2%84%A2-teeth-repair-gel?utm_source=facebook&utm_medium=paid&utm_campaign=120239792868870434&utm_term=120239792868840434&utm_content=120240135325250434&utm_id=120239792868870434&fbclid=PAZXh0bgNhZW0BMABhZGlkAast9epdJRJzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadRoBv4Ii6zBRtnR_qHkkhk5Fp6E3RHjOVCiuRvUfMZIDOFMf2LnRCNS_W1GQ_aem_hCQknQaWDn8TkddtiyjtxQ
-
-Japanska Föreningen i Stockholm
-https://japanskaforeningenisthlm.se/sv/
-
-Japanska Föreningen i Stockholm
-https://japanskaforeningenisthlm.se/sv/
-
-Körsbärsblommans dag 2026 scenprogram – Japanska Föreningen i Stockholm
-https://japanskaforeningenisthlm.se/sv/2026/04/09/korsbarsblommansdag2026-scenprogram/
-
-Hosteria Tre Santi Stockholm À la Carte
-https://hosteriatresanti.gastrogate.com/a-la-carte/
-
-Hosteria Tre Santi Stockholm English
-https://hosteriatresanti.gastrogate.com/english/
-
-Lisa Elmqvist | Fisk, Skaldjur & Delikatesser i Stockholm
-https://www.lisaelmqvist.com/restaurant
-
-schmaltz - Google Search
-https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TMuqMCooMjUyYLRSNagwMTNNs0xJtDRPtDRLMk1LsjKoMDI2SDY1TDNMNU4zSDYyMPDiKE7OyE3MKakCAERwEo4&q=schmaltz&oq=schma&gs_lcrp=EgZjaHJvbWUqGAgAEC4YQxivARjHARi6AhiABBiKBRiOBTIYCAAQLhhDGK8BGMcBGLoCGIAEGIoFGI4FMg8IARAAGEMY4wIYgAQYigUyBggCEEUYOTIHCAMQLhiABDIHCAQQLhiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABDIHCAoQLhiABDIHCAsQLhiABDIHCAwQABiABDIHCA0QABiABDIHCA4QABiABNIBCDQyNjNqMGo3qAIPsAIB8QXTxK2A-TYRAw&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
-
-Restaurang Leijontornet
-https://www.leijontornet.se/english
-
-Leijontornet Bar
-https://bar.leijontornet.se/?welcome=true
-
-My invoices | SSSB
-https://minasidor.sssb.se/en/my-pages/my-invoices/
-
-Level Up Your Agents: Announcing Google's Official Skills Repository | Google Cloud Blog
-https://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository
-
-GitHub - unclebob/swarm-forge: A simple tool for coordinating several AI agents. · GitHub
+unclebob/swarm-forge: A simple tool for coordinating several AI agents.
 https://github.com/unclebob/swarm-forge
 
 A Coding Tutorial on OpenMythos on Recurrent-Depth Transformers with Depth Extrapolation, Adaptive Computation, and Mixture-of-Experts Routing - MarkTechPost
 https://www.marktechpost.com/2026/04/23/a-coding-tutorial-on-openmythos-on-recurrent-depth-transformers-with-depth-extrapolation-adaptive-computation-and-mixture-of-experts-routing/
 
-Melodeath legends At The Gates snatch one last victory: review | Louder
-https://www.loudersound.com/music/albums/at-the-gates-ghost-of-a-future-dead-album-review
-
-LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory · GitHub
+LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory
 https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2
 
 I Wasted 68 Minutes a Day Re-Explaining My Code. Then I Built auto-memory. | All things Azure
 https://devblogs.microsoft.com/all-things-azure/i-wasted-68-minutes-a-day-re-explaining-my-code-then-i-built-auto-memory/
 
-GitHub - aiming-lab/SimpleMem: SimpleMem: Efficient Lifelong Memory for LLM Agents — Text & Multimodal · GitHub
+aiming-lab/SimpleMem: SimpleMem: Efficient Lifelong Memory for LLM Agents — Text & Multimodal
 https://github.com/aiming-lab/SimpleMem
 
-GitHub - QwenLM/Qwen3.6: Qwen3.6 is the large language model series developed by Qwen team, Alibaba Group. · GitHub
-https://github.com/QwenLM/Qwen3.6
-
-GitHub - QwenLM/qwen-code: An open-source AI agent that lives in your terminal. · GitHub
+QwenLM/qwen-code: An open-source AI coding agent that lives in your terminal.
 https://github.com/QwenLM/qwen-code
 
-GitHub - Piebald-AI/gemini-cli-desktop: Web/desktop UI for Gemini CLI/Qwen Code. Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely. · GitHub
+Piebald-AI/gemini-cli-desktop: Web/desktop UI for Gemini CLI/Qwen Code. Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely.
 https://github.com/Piebald-AI/gemini-cli-desktop
-
-Conference Management Toolkit - View review
-https://cmt3.research.microsoft.com/ODYSSEY2026/Submission/Reviews/111
 
 The Ultimate Guide to LLM Memory: From Context Windows to Advanced Agent Memory Systems | by Tanishk Soni | Medium
 https://medium.com/@sonitanishk2003/the-ultimate-guide-to-llm-memory-from-context-windows-to-advanced-agent-memory-systems-3ec106d2a345
 
-GitHub - bitphonix/Advance_Intelligent_Chat_Memory · GitHub
+bitphonix/Advance_Intelligent_Chat_Memory
 https://github.com/bitphonix/Advance_Intelligent_Chat_Memory
 
-‎Kneecap - Radio Station - Apple Music
-https://music.apple.com/gb/station/kneecap/ra.1750309683
-
-Rituals Tävling
-https://mycosmetic.art/2jYwmK1p?campaign_id=ss_SE_CPE&click_id=mtg69ef6d87dddd04491cf5587w&gaid_raw=598b8824-6168-4633-bbe0-fe45efaebab7&ifa_raw=&routing_short_id=SE_CPE_254.MP4&sub_id=mtg1128166491&tracking_template_id=ss_SE_CPE
-
-No As A Service Website
-https://noasaservice.lol/
-
-AptusPortal Styra 8.8.5+g5507addc
-https://sssb.aptustotal.se/AptusPortal/CustomerBooking/BookingCalendar?bookingGroupId=165&passDate=2026-04-29&overViewOffsetMonth=0
-
-Fonetik 2026
-https://konferens.ht.lu.se/fonetik2026/
-
-ISCA - 8th International Workshop on the History of Speech Communication Research (HSCR)
-https://isca-speech.org/event-6575861#:~:text=download%20ICS%20file)-,8th%20International%20Workshop%20on%20the%20History%20of%20Speech%20Communication%20Research,of%20research%20on%20speech%20communication.
-
-SkyShowtime Sverige | Titta på filmer och serier online
-https://www.skyshowtime.com/se?lid=wycodr8y54th&mobj=aw&platform=amzn&campaign_name=amazonpvc&channel=dis&campaign_id=na&placement_id=na&creative_id=na&lob=sst&market=se&dclid=CIuQucPBkJQDFbHxOwIdMRgVxQ&gad_source=7&gad_campaignid=23774609469
-
-GitHub - huggingface/nfsserve: A Rust NFS Server implementation · GitHub
-https://github.com/huggingface/nfsserve
-
-GitHub - systemd/casync: Content-Addressable Data Synchronization Tool · GitHub
+systemd/casync: Content-Addressable Data Synchronization Tool
 https://github.com/systemd/casync?tab=readme-ov-file
 
-GitHub - xolox/dedupfs: A Python FUSE file system that features transparent deduplication and compression which make it ideal for archiving backups. · GitHub
+xolox/dedupfs: A Python FUSE file system that features transparent deduplication and compression which make it ideal for archiving backups.
 https://github.com/xolox/dedupfs
-
-overlay fs github - Google Search
-https://www.google.com/search?q=overlay+fs+github&oq=overlay+fs+github+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgNGB4yCggCEAAYBRgNGB4yCggDEAAYBRgNGB4yCggEEAAYBRgNGB4yCggFEAAYBRgNGB4yCggGEAAYCBgNGB4yCggHEAAYCBgNGB4yDQgIEAAYCBgNGB4YxwPSAQkxMzE1OGowajeoAg-wAgHxBcTpHvY2FjSf8QXE6R72NhY0nw&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
-
-google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/containers/fuse-overlayfs&ved=2ahUKEwiLt_a14JKUAxWUGxAIHZrKMd4QFnoECCMQAQ&usg=AOvVaw3djT5SS9wZ55b1bhifVFFJ
-https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/containers/fuse-overlayfs&ved=2ahUKEwiLt_a14JKUAxWUGxAIHZrKMd4QFnoECCMQAQ&usg=AOvVaw3djT5SS9wZ55b1bhifVFFJ
-
-google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/agreenbhm/magic_overlayfs&ved=2ahUKEwiLt_a14JKUAxWUGxAIHZrKMd4QFnoECCIQAQ&usg=AOvVaw3abp0k-CJSC34nMm0oMpvk
-https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/agreenbhm/magic_overlayfs&ved=2ahUKEwiLt_a14JKUAxWUGxAIHZrKMd4QFnoECCIQAQ&usg=AOvVaw3abp0k-CJSC34nMm0oMpvk
-
-Warp: Warp is now open-source
-https://www.warp.dev/blog/warp-is-now-open-source
-
-GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal. · GitHub
-https://github.com/warpdotdev/warp
-
-GitHub - lhotse-speech/lhotse: Tools for handling multimodal data in machine learning projects. · GitHub
-https://github.com/lhotse-speech/lhotse
 
 04-lhotse-shar.ipynb - Colab
 https://colab.research.google.com/github/lhotse-speech/lhotse/blob/master/examples/04-lhotse-shar.ipynb
@@ -418,92 +295,14 @@ https://colab.research.google.com/github/lhotse-speech/lhotse/blob/master/exampl
 05-image-and-video-loading.ipynb - Colab
 https://colab.research.google.com/github/lhotse-speech/lhotse/blob/master/examples/05-image-and-video-loading.ipynb
 
-PraatScripts/Measure Pitch, HNR, Jitter, Shimmer, and Formants.ipynb at master · drfeinberg/PraatScripts · GitHub
+PraatScripts/Measure Pitch, HNR, Jitter, Shimmer, and Formants.ipynb at master · drfeinberg/PraatScripts
 https://github.com/drfeinberg/PraatScripts/blob/master/Measure%20Pitch%2C%20HNR%2C%20Jitter%2C%20Shimmer%2C%20and%20Formants.ipynb
 
-jitter shimmer numpy - Google Search
-https://www.google.com/search?q=jitter+shimmer+numpy&oq=jitt&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5Mg0IAhAAGJECGIAEGIoFMgwIAxAAGEMYgAQYigUyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMgwIBhAAGEMYgAQYigUyBwgHEAAYgAQyBggIEEUYPDIHCAkQABiABDIHCAoQABiABDIHCAsQABiABDIHCAwQABiABDIHCA0QABiABDIHCA4QABiABNIBCDU3MjFqMGo3qAIPsAIB8QXKv5MNO5c2APEFyr-TDTuXNgA&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
-
-https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://speechbrain.readthedocs.io/en/latest/tutorials/preprocessing/voice-analysis.html&ved=2ahUKEwjr4c_y4ZKUAxWxHRAIHesqKjEQFnoECFEQAQ&usg=AOvVaw1aBUKdZuozA8KBIlZ6d517
-https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://speechbrain.readthedocs.io/en/latest/tutorials/preprocessing/voice-analysis.html&ved=2ahUKEwjr4c_y4ZKUAxWxHRAIHesqKjEQFnoECFEQAQ&usg=AOvVaw1aBUKdZuozA8KBIlZ6d517
-
-Hymer husbil från Lidl
-https://camper.mygiveawayhub.com/campervan?campaign_id=ss_campervan_android_se&click_id=mtg69f1ff674aba49491348f4fw&gaid_raw=598b8824-6168-4633-bbe0-fe45efaebab7&ifa_raw=&routing_short_id=camper-se3_m-se12&sub_id=mtg1128166491&tracking_template_id=ss_campervan_android_se
-
-Zed is 1.0 — Zed's Blog
-https://zed.dev/blog/zed-1-0
-
-Sequoia Backs Zed's Vision for Collaborative Coding — Zed's Blog
-https://zed.dev/blog/sequoia-backs-zed
-
-zed/crates at main · zed-industries/zed · GitHub
-https://github.com/zed-industries/zed/tree/main/crates
-
-GitHub - tree-sitter/tree-sitter: An incremental parsing system for programming tools · GitHub
-https://github.com/tree-sitter/tree-sitter
-
-zed-industries repositories · GitHub
-https://github.com/orgs/zed-industries/repositories?type=all
-
-GitHub - zed-industries/codex: Lightweight coding agent that runs in your terminal · GitHub
-https://github.com/zed-industries/codex
-
-Zed — Pricing
-https://zed.dev/pricing
-
-CohereLabs/cohere-transcribe-03-2026 · Hugging Face
-https://huggingface.co/CohereLabs/cohere-transcribe-03-2026
+Analyzing Vocal Features for Pathology — SpeechBrain 0.5.0 documentation
+https://speechbrain.readthedocs.io/en/latest/tutorials/preprocessing/voice-analysis.html
 
 [2604.26347] The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation
 https://arxiv.org/abs/2604.26347
-
-GitHub - QwenLM/FlashQLA: high-performance linear attention kernel library built on TileLang · GitHub
-https://github.com/QwenLM/FlashQLA
-
-GitHub - tile-ai/tilelang: Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels · GitHub
-https://github.com/tile-ai/tilelang
-
-BeeTakt oral reparationslösning
-https://florzona.com/products/beetakt-oral-reparationslosning?utm_medium=paid&utm_id=120245178922720255&utm_content=120245179044680255&utm_term=120245178922740255&utm_campaign=120245178922720255&fbclid=PAYW9leARgFlpleHRuA2FlbQEwAGFkaWQBqzJad3TSP3NydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp6Hx8QzLUanWp0m_CTUw2Smpva1egLQVwmy0Nj1b1t3zY4BQPYLlpPrPcERd_aem_bZxm_WmVI03_QBHB0_5log&utm_source=facebook&campaign_id=120245178922720255&ad_id=120245179044680255
-
-Thank you! We successfully received your payment. See below for details. Order details :: Valborg 2026 🔥 Season Opening
-https://tickets.blivande.com/fkf/valborg2026/order/ENDK9/fvpdp01rq0eojkpo/?thanks=yes
-
-Södra Hamnvägen 5, 115 28 Stockholm - Google Search
-https://www.google.com/search?q=S%C3%B6dra+Hamnv%C3%A4gen+5%2C+115+28+Stockholm&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
-
-Posters and Demonstrations / ASSETS 2026
-https://assets26.sigaccess.org/posters_and_demos.html
-
-container/docs/how-to.md at main · apple/container · GitHub
-https://github.com/apple/container/blob/main/docs/how-to.md
-
-Apple · GitHub
-https://github.com/apple
-
-GitHub - apple/coremltools: Core ML tools contain supporting tools for Core ML model conversion, editing, and validation. · GitHub
-https://github.com/apple/coremltools
-
-GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. · GitHub
-https://github.com/apple/container
-
-apple.github.io/coremltools/docs-guides/source/faqs.html
-https://apple.github.io/coremltools/docs-guides/source/faqs.html
-
-container/docs/how-to.md at main · apple/container · GitHub
-https://github.com/apple/container/blob/main/docs/how-to.md
-
-www.temu.com
-https://www.temu.com/kuiper_network_default.html?error_type=chunk_error&_x_vst_scene=adg&_x_ns_adx_req_id=5fed1fe6-48aa-4447-b29f-670f918acd2d&_x_ads_creative_id=4217544060000399&_x_ads_sub_channel=other&_x_ns_goods_id=601100243894617&_x_ads_csite=banner_image&_x_ads_account=1117249976000001&_x_ads_set=2217544060000040&_x_ns_adx_auction_id=E9359F6B-46E3-4334-83FE-203551F138A7B&_x_ads_id=3217544060000040&_x_ns_gid=601100243894617&_x_ads_channel=adx_pubmatic&_x_ns_adx_p_type=1&_x_cid=mat_-1&_x_ns_plat=app&tmpl=dn5&subj=downloadable-ads&goods_id=601100243894617&refer_page_name=kuiper&refer_page_id=13883_1777732453523_492z4btzdq&refer_page_sn=13883&_x_sessn_id=eafr38dmap
-
-Hydroxyapatite Remineralizing Toothpaste – Bryte Labs
-https://thebrytelabs.com/products/hydroxyapatite-remineralizing-toothpaste-bogo?tw_source=ig&tw_adid=120241282258630288&utm_medium=paid&utm_id=120240440763440288&utm_content=120241282258630288&utm_term=120240440763390288&utm_campaign=120240440763440288&fbclid=PAYW9leARhcflleHRuA2FlbQEwAGFkaWQBqy7PKAxC8HNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp7wJAdY80ZXELo_vD9yR-4e3qKe3fRPOUfzUPuSu7525gMgonRBRQIBhd_zi_aem_XSs3UJANEqeftzd0IlovDw&utm_source=facebook&campaign_id=120240440763440288&ad_id=120241282258630288
-
-Hydroxyapatite - Google Search
-https://www.google.com/search?q=Hydroxyapatite&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
-
-French Archaeologist Says He Cracked a Mysterious 4,000-Year-Old Bronze Age Script From Ancient Iran
-https://www.zmescience.com/science/news-science/linear-elamite-decoded/
 
 Representing Biomedical Literature as a Filesystem through Agent-Native Indexing — GXL Blog
 https://gxl.ai/blog/biomedical-literature-as-a-filesystem
@@ -988,7 +787,7 @@ https://github.com/raiyan1102006/IBM-model-1/blob/master/ibm1.py
 Aaac - Google Drive
 https://drive.google.com/drive/u/0/folders/1TYJ_A-vCDbolj5LD3OIewRj8KLKFqcIh
 
-(1) Instagram
+Instagram
 https://www.instagram.com/debrecenibulik
 
 inverse-hessian-regularization/README.md at main · StevenVdEeckt/inverse-hessian-regularization
