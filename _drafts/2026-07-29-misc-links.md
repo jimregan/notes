@@ -68,3 +68,9 @@ categories: [links]
 - [Scéal Ghiolla na gCochall Craicionn](https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Sc%C3%A9al_Ghiolla_na_gCochall_Craicionn)
 - [Leadairt na bhfear mór](https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Leadairt_na_bhfear_m%C3%B3r)
 - [Na trí daill agus an Chevalier i mBaile-átha-clíath](https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Na_tr%C3%AD_daill_agus_an_Chevalier_i_mBaile-%C3%A1tha-cl%C3%ADath)
+
+[Danish](https://www.youtube.com/watch?v=ykj3Kpm3O0g)
+
+[Cóipcheart agus admháil](https://www.canuint.ie/ga/eolas/riarachan/ceadunas-agus-admhail/) --- text CC BY-SA 4.0
+
+[Speech-Omni-Lite: Portable Speech Interfaces for Vision-Language Models](https://arxiv.org/abs/2603.09627)
