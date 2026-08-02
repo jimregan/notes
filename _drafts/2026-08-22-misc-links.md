@@ -196,3 +196,31 @@ categories: [links]
 
 [French Archaeologist Says He Cracked a Mysterious 4,000-Year-Old Bronze Age Script From Ancient Iran](https://www.zmescience.com/science/news-science/linear-elamite-decoded/)
 
+[Representing Biomedical Literature as a Filesystem through Agent-Native Indexing](https://gxl.ai/blog/biomedical-literature-as-a-filesystem)
+
+[vLLM: Using Docker](https://docs.vllm.ai/en/stable/deployment/docker/)
+
+[UAF: A Unified Audio Front-end LLM for Full-Duplex Speech Interaction](https://arxiv.org/abs/2604.19221)
+
+[45 years later, earliest DOS source code transcribed from a stack of old printouts found in a garage — code was open-sourced to mark 86-DOS 1.00’s anniversary](https://www.tomshardware.com/software/operating-systems/45-years-later-earliest-dos-source-code-transcribed-from-a-stack-of-old-printouts-found-in-a-garage-code-was-open-sourced-to-mark-86-dos-1-00s-anniversary)
+
+[86-DOS_1.00](https://github.com/DOS-History/Paterson-Listings/tree/main/3_source_code/86-DOS_1.00)
+
+[Original Apollo 11 code open-sourced by NASA — original Command Module and Lunar Module code repos are now public domain resources](https://www.tomshardware.com/software/original-apollo-11-code-open-sourced-by-nasa-original-command-module-and-lunar-module-code-repos-are-now-public-domain-resources)
+
+[chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11)
+
+[‘Clean-room reimplementation’ of DR-DOS hits early beta, modernizing the operating system 38 years after its debut — runs Doom, Warcraft, SimCity, and other period-appropriate titles](https://www.tomshardware.com/software/operating-systems/clean-room-reimplementation-of-dr-dos-hits-early-beta-modernizing-the-operating-system-38-years-after-its-debut-runs-doom-warcraft-simcity-and-other-period-appropriate-titles)
+
+[meichthys/foss_photo_libraries](https://github.com/meichthys/foss_photo_libraries)
+- [xemle/home-gallery](https://github.com/xemle/home-gallery)
+- [LibrePhotos/librephotos](https://github.com/LibrePhotos/librephotos)
+- [LycheeOrg/Lychee](https://github.com/LycheeOrg/Lychee)
+- [SmilyOrg/photofield](https://github.com/SmilyOrg/photofield)
+- [bpatrik/pigallery2](https://github.com/bpatrik/pigallery2)
+
+[fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) --- Desktop Companion for Hermes Agent
+
+[nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
+
+
