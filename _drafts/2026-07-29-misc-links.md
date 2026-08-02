@@ -53,3 +53,18 @@ categories: [links]
 [Panini’s Structure of Grammar: A Blueprint for Algorithmic Thinking](https://medium.com/@caitanyadesai/paninis-structure-of-grammar-a-blueprint-for-algorithmic-thinking-80c0f0025277)
 
 > "In many ways, Panini can be regarded as the world’s earliest computational linguist"
+
+[Computer Vision Self-supervised Learning Methods on Time Series](https://arxiv.org/abs/2109.00783)
+
+[OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning](https://arxiv.org/abs/2506.00338),
+[model](https://huggingface.co/espnet/owsm_ctc_v4_1B)
+
+[Attention to Mamba: A Recipe for Cross-Architecture Distillation](https://arxiv.org/abs/2604.14191)
+
+[The Hedgehog & the Porcupine: Expressive Linear Attentions with Softmax Mimicry](https://arxiv.org/abs/2402.04347)
+
+- [Áindrías an Ime](https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/%C3%81indr%C3%ADas_an_Ime)
+- [Eóin Ua Míodhchán agus an Sionnach](https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/E%C3%B3in_Ua_M%C3%ADodhch%C3%A1n_agus_an_Sionnach)
+- [Scéal Ghiolla na gCochall Craicionn](https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Sc%C3%A9al_Ghiolla_na_gCochall_Craicionn)
+- [Leadairt na bhfear mór](https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Leadairt_na_bhfear_m%C3%B3r)
+- [Na trí daill agus an Chevalier i mBaile-átha-clíath](https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Na_tr%C3%AD_daill_agus_an_Chevalier_i_mBaile-%C3%A1tha-cl%C3%ADath)
