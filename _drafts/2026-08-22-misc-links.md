@@ -58,3 +58,10 @@ categories: [links]
 
 [Discrete Audio Tokens More Than a Survey!](https://arxiv.org/abs/2506.10274),
 [taxonomy](https://poonehmousavi.github.io/dates-website/taxonomy)
+
+[Sleepwalking/SHIRO](https://github.com/Sleepwalking/SHIRO) --- Phoneme-to-speech alignment toolkit based on liblrhsmm
+
+[danielcopper/wezterm-session-manager](https://github.com/danielcopper/wezterm-session-manager) --- Lua script enhancement for WezTerm that provides functionality to save, load, and restore terminal sessions
+
+[MFA - Phone groups](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phone_groups.html)
+
