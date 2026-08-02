@@ -245,4 +245,52 @@ The main conceptual caveat is also useful for reading the code: **Experiment 1 a
 
 Finally, the authors themselves limit the conclusion: they test only a few S3Ms, only PanPhon’s feature system, and only one vocoder family. They explicitly say the experiments cannot distinguish “the model has discovered a phonological natural-class feature” from “the model has captured a sufficiently consistent acoustic/phonetic difference.” The resynthesis results are also jointly properties of WavLM **and** the trained inverse model. 
 
-That should give us a fairly concrete specification against which to read the repository: not just what the paper claims, but what data flow and numerical operations the implementation ought to contain.
+---
+
+[Comparison]({% post_url 2026-08-02-phonetic-arithmetic-codebase %}) with the [codebase](https://github.com/juice500ml/phonetic-arithmetic):
+
+This is a good implementation-oriented summary, and it lines up closely enough with the paper that it should be useful as the second side of the comparison. A few details are worth correcting or sharpening before treating it as authoritative.
+
+The clearest terminology issue is `pcs.py`: **PCS is “pairing consistency score,” not “Phonological Consistency Score.”** The paper takes this from Fournier et al. and defines it as separability between offsets from the same relation and mismatched offsets, evaluated by ROC AUC; random performance is 0.5.  The union-find detail is implementation-specific and perfectly useful in a code summary, but it is not part of the method description in the paper.
+
+The `analyze_synth.py` description is also slightly broader than the published experiment. The paper’s eight principal acoustic tests use only **F1, F2, F1 bandwidth, HNR, and spectral centre of gravity**: height→F1, back/round→F2, nasal→F1BW, sonorant→HNR, voice/strident→COG.  If the script also computes zero-crossing rate and RMS, those are extra implementation facilities rather than measurements supporting the main claim. I would phrase that distinction explicitly. MFCC synthesis, however, genuinely is part of the paper: Appendix B.13 repeats the intervention experiment with feature- and audio-sliced MFCCs and finds that their vectors are mostly ineffective. 
+
+The workflow diagram slightly obscures an important representation distinction. `extract_features.py` may produce “phone-level representations,” but the synthesis experiment requires the **unpooled frame sequence** (R), because the intervention is applied only to frames within the phone interval before decoding. By contrast, the analogy experiment consumes pooled phone vectors (r). So conceptually I would represent that fork as something like:
+
+```text
+extract_features.py
+   |
+   +--> pooled phone vectors --------> estimate_similarity.py / pcs.py
+   |
+   `--> framewise representations ---> analyze_synth.py
+```
+
+That distinction matters when checking whether the implementation really corresponds to equations (10) versus (16) in the paper.
+
+There is also a potentially important point hidden by “uses PanPhon feature vectors to discover valid analogies.” The main analogy code ought to reproduce the paper’s rather specific construction: PanPhon’s 21 ternary features are expanded to **42 binary dimensions**, and quadruplets are accepted when
+
+[
+h_a-h_b=h_c-h_d.
+]
+
+That exact encoding is what makes `0` distinct from both `+` and `−`.  If the code instead compares ordinary 21-dimensional (-1,0,+1) difference vectors, that would not be strictly equivalent, so this is one of the first things I would inspect in `estimate_similarity.py`.
+
+Likewise, “repeated Monte Carlo sampling and 99% confidence intervals” is correct but underspecified relative to the paper. The published procedure draws **1000 phone representations with replacement per estimate**, uses **10 replicates**, and tests the analogy by CI ordering:
+
+[
+\cos^- < \cos_{\text{analogy}} < \cos^+.
+]
+
+That is a sufficiently peculiar procedure that the implementation should be checked line-for-line against it rather than merely described as bootstrapping.
+
+A few other codebase points correspond especially closely to appendix experiments rather than the main body. Both feature-vs-audio slicing and MFCC synthesis are explicit appendix studies; feature slicing is the primary S3M setup, whereas audio slicing removes neighbouring context and is mainly a control. The paper actually finds audio slicing *helps* MFCC substantially while hurting S3Ms.  Similarly, `pcs.py` corresponds to Appendix B.1 rather than the principal success-rate metric.
+
+One thing your summary already makes much clearer than the paper is **where implementation assumptions live**. The paper says VoxAngeles has 95 languages and that a random subset of languages is used for synthesis-vector estimation versus evaluation, but it does not expose the exact language-selection machinery.  If the repository literally assumes exactly 95 languages, or reconstructs the split by integer indices/random seed, that is an implementation fact we will want to distinguish from the scientific method.
+
+So I would retain this summary, with three edits:
+
+* rename **Phonological Consistency Score → pairing consistency score**;
+* distinguish the paper's five reported acoustic measurement types from extra diagnostics such as ZCR/RMS;
+* distinguish **pooled phone embeddings** used by the analogy tests from **framewise representations** needed for steering/resynthesis.
+
+The interesting next comparison is now quite concrete. I would read `estimate_similarity.py` first, because that is where there is the greatest scope for the prose description “implements the paper” to conceal consequential details: PanPhon encoding, quadruplet generation/deduplication, sampling, random-phone baseline, CI calculation, and success criterion. After that, `analyze_synth.py` is the other high-value file, particularly for the train/test language split, definition of (\Delta), and the suspicious nasality/F1BW sign issue from the paper.
