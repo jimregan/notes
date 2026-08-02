@@ -38,3 +38,23 @@ categories: [links]
 - [DWService](https://www.dwservice.net)
 
 [Human brain cells on a chip learned to play Doom in a week](https://www.newscientist.com/article/2517389-human-brain-cells-on-a-chip-learned-to-play-doom-in-a-week/)
+
+[WAXAL - A Large-Scale Multilingual African Language Speech Corpus](https://arxiv.org/abs/2602.02734),
+[dataset](https://huggingface.co/datasets/google/WaxalNLP)
+
+[rustfs/rustfs](https://github.com/rustfs/rustfs) --- RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
+
+[A neural network for modeling human concept formation, understanding and communication](https://www.nature.com/articles/s43588-026-00956-4)
+
+[40,000-year-old signs show humans were recording information long before writing](https://www.sciencedaily.com/releases/2026/02/260225001301.htm)
+
+[TW-Sound580K: A Regional Audio-Text Dataset with Verification-Guided Curation for Localized Audio-Language Modeling](https://arxiv.org/abs/2603.05094)
+
+[Focus Then Listen: An Empirical Study of Plug-and-Play Audio Enhancer for Noise-Robust Large Audio Language Models](https://arxiv.org/abs/2603.04862)
+
+[Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention](https://arxiv.org/abs/2512.04551)
+
+[davanstrien/ocr-bench-britannica-results-qwen35-viewer](https://huggingface.co/spaces/davanstrien/ocr-bench-britannica-results-qwen35-viewer)
+
+[Discrete Audio Tokens More Than a Survey!](https://arxiv.org/abs/2506.10274),
+[taxonomy](https://poonehmousavi.github.io/dates-website/taxonomy)
