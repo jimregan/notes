@@ -68,3 +68,42 @@ categories: [links]
 [Speech-Omni-Lite: Portable Speech Interfaces for Vision-Language Models](https://arxiv.org/abs/2603.09627)
 
 [SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass](https://arxiv.org/abs/2508.15769)
+
+[MV-RAG: Retrieval Augmented Multiview Diffusion](https://arxiv.org/abs/2508.16577)
+
+[CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) --- Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.
+
+[DeepSeek OCR](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Deepseek_OCR_%283B%29.ipynb)
+
+[dreamtheater123/Awesome-SpeechLM-Survey](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey)
+
+[WiT: Waypoint Diffusion Transformers via Trajectory Conflict Navigation](https://arxiv.org/abs/2603.15132)
+
+[ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model](https://arxiv.org/abs/2603.22281)
+
+[CohereLabs](https://huggingface.co/CohereLabs)
+
+[DashengTokenizer: One layer is enough for unified audio understanding and generation](https://arxiv.org/abs/2602.23765),
+[models](https://huggingface.co/mispeech/dashengtokenizer)
+
+[Voxtral TTS Demo](https://huggingface.co/spaces/mistralai/voxtral-tts-demo)
+
+[microsoft/harrier-oss-v1-27b](https://huggingface.co/microsoft/harrier-oss-v1-27b)
+
+[T5Gemma-TTS Technical Report](https://arxiv.org/abs/2604.01760)
+
+[RushOnline/midi2hydrogen](https://github.com/RushOnline/midi2hydrogen)
+
+[AffectSpeech: A Large-Scale Emotional Speech Dataset with Fine-Grained Textual Descriptions for Speech Emotion Captioning and Synthesis](https://arxiv.org/abs/2604.04160)
+
+[powertab/powertabeditor](https://github.com/powertab/powertabeditor)
+
+[What is the Heilmeier Catechism?](https://www.darpa.mil/about/heilmeier-catechism)
+
+{% twitter https://x.com/hooeem/status/2030720614752039185 %}
+
+[The Snack Sound Toolkit](https://www.speech.kth.se/snack/index.html)
+
+[A Speech Recognition Extension to Snack](https://www.speech.kth.se/snack/modex2.html)
+
+[chdh/klatt-syn](https://github.com/chdh/klatt-syn)
