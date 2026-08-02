@@ -54,6 +54,54 @@ categories: [links]
 
 > "In many ways, Panini can be regarded as the world’s earliest computational linguist"
 
+[Humans 40,000 y ago developed a system of conventional signs](https://www.pnas.org/doi/10.1073/pnas.2520385123)
+
+```bibtex
+@article{
+doi:10.1073/pnas.2520385123,
+author = {Christian Bentz  and Ewa Dutkiewicz },
+title = {Humans 40,000 y ago developed a system of conventional signs},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {123},
+number = {9},
+pages = {e2520385123},
+year = {2026},
+doi = {10.1073/pnas.2520385123},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2520385123},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2520385123}
+}
+```
+
+[\[b\]=\[d\]-\[t\]+\[p\]: Self-supervised Speech Models Discover Phonological Vector Arithmetic](https://aclanthology.org/2026.findings-acl.537/),
+[arXiv](https://arxiv.org/abs/2602.18899),
+[code](https://github.com/juice500ml/phonetic-arithmetic)
+
+```bibtex
+@inproceedings{choi-etal-2026-b,
+    title = "[b] = [d] - [t] + [p]: Self-supervised Speech Models Discover Phonological Vector Arithmetic",
+    author = "Choi, Kwanghee  and
+      Yeo, Eunjung  and
+      Cho, Cheol Jun  and
+      Harwath, David  and
+      Mortensen, David R.",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.537/",
+    doi = "10.18653/v1/2026.findings-acl.537",
+    pages = "11048--11069",
+    ISBN = "979-8-89176-395-1",
+}
+```
+
+---
+
 [Computer Vision Self-supervised Learning Methods on Time Series](https://arxiv.org/abs/2109.00783)
 
 [OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning](https://arxiv.org/abs/2506.00338),
@@ -72,3 +120,7 @@ categories: [links]
 [Danish](https://www.youtube.com/watch?v=ykj3Kpm3O0g)
 
 [Cóipcheart agus admháil](https://www.canuint.ie/ga/eolas/riarachan/ceadunas-agus-admhail/) --- text CC BY-SA 4.0
+
+[rhasspy/sv_kaldi-rhasspy](https://github.com/rhasspy/sv_kaldi-rhasspy)
+
+[Vosk Language Model Adaptation](https://alphacephei.com/vosk/lm)
