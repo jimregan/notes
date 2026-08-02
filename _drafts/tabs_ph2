@@ -7,9 +7,6 @@ https://github.com/kadirnar/notebooks/blob/update-orp-value/nb/Orpheus_(3B)-TTS.
 [2508.15316] CUPE: Contextless Universal Phoneme Encoder for Language-Agnostic Speech Processing
 https://arxiv.org/abs/2508.15316
 
-Implementing the Fourier Transform Numerically in Python: A Step-by-Step Guide | Towards Data Science
-https://towardsdatascience.com/implementing-the-fourier-transform-numerically-in-python-a-step-by-step-guide/
-
 cldr/common/transforms/ru_Latn-ru-BGN.xml at main · unicode-org/cldr
 https://github.com/unicode-org/cldr/blob/main/common/transforms/ru_Latn-ru-BGN.xml
 
@@ -46,38 +43,11 @@ https://huggingface.co/microsoft/FrogMini-14B-2510
 Kaldi HCLG graph phonotactics composition - Claude
 https://claude.ai/chat/f71f7156-d11c-44c1-ac3d-c1434ecfe412
 
-microsoft/VibeVoice-ASR · Hugging Face
-https://huggingface.co/microsoft/VibeVoice-ASR
-
-Paul McKenna: I Can Change Your Life, Sky One - The Custard TV
-https://www.thecustardtv.com/paul-mckenna-i-can-change-your-life-sky/
-
-NikolaiKyhne/RWSAMamba-UNet: Official repository for the paper "Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement" (Accepted to IEEE ICASSP 2026)
-https://github.com/NikolaiKyhne/RWSAMamba-UNet
-
-[2601.12600] SSVD-O: Parameter-Efficient Fine-Tuning with Structured SVD for Speech Recognition
-https://arxiv.org/abs/2601.12600
-
-Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding under Limited Speech Data
-https://arxiv.org/pdf/2509.15389
-
-Inverse-Hessian Regularization for Continual Learning in ASR
-https://arxiv.org/pdf/2601.14751
-
-inverse-hessian-regularization/models/training/initial_task/train_asr_conformer.yaml at main · StevenVdEeckt/inverse-hessian-regularization
-https://github.com/StevenVdEeckt/inverse-hessian-regularization/blob/main/models/training/initial_task/train_asr_conformer.yaml
-
 StevenVdEeckt/efficient-rehearsal-for-cl-in-asr: Supplementary material to the paper.
 https://github.com/StevenVdEeckt/efficient-rehearsal-for-cl-in-asr
 
-QwenLM/Qwen3-TTS: Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.
-https://github.com/QwenLM/Qwen3-TTS
-
 www.cherriemoraga.com
 https://www.cherriemoraga.com/25-163972-psychologist-is-adamant-start-thinking-this-way-infos/
-
-google/WaxalNLP · Datasets at Hugging Face
-https://huggingface.co/datasets/google/WaxalNLP
 
 blog/auto_research/tropical_sparse_attention/agreport2.html at main · zartbot/blog
 https://github.com/zartbot/blog/blob/main/auto_research/tropical_sparse_attention/agreport2.html
@@ -157,17 +127,8 @@ https://huggingface.co/blog/upskill
 cysqlite - a new sqlite driver
 https://simonwillison.net/2026/Feb/11/cysqlite/
 
-QwenLM/Qwen3.6: Qwen3.6 is the large language model series developed by Qwen team, Alibaba Group.
-https://github.com/QwenLM/Qwen3.6
-
 Meet 'Kani-TTS-2': A 400M Param Open Source Text-to-Speech Model that Runs in 3GB VRAM with Voice Cloning Support - MarkTechPost
 https://www.marktechpost.com/2026/02/15/meet-kani-tts-2-a-400m-param-open-source-text-to-speech-model-that-runs-in-3gb-vram-with-voice-cloning-support/
-
-Qwen
-https://qwen.ai/blog?id=qwen3.5
-
-Zaneham/BarraCUDA: Open-source CUDA, Triton and HIP compiler targeting multiple GPU and CPU architectures.
-https://github.com/Zaneham/BarraCUDA
 
 Paper page - Voxtral Realtime
 https://huggingface.co/papers/2602.11298
@@ -175,26 +136,11 @@ https://huggingface.co/papers/2602.11298
 Blaizzy/mlx-audio: A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.
 https://github.com/Blaizzy/mlx-audio
 
-Intel's Discontinued Open-Source OpenPGL Project Finds A New Home - Phoronix
-https://www.phoronix.com/news/Intel-OpenPGL-New-Home
-
-Java to Kotlin Conversion Comes to Visual Studio Code - The JetBrains Blog
-https://blog.jetbrains.com/kotlin/2026/02/java-to-kotlin-conversion-comes-to-visual-studio-code/
-
-40,000-year-old signs show humans were recording information long before writing | ScienceDaily
-https://www.sciencedaily.com/releases/2026/02/260225001301.htm
-
-zpforlove/AG-REPA: Official code for AG-REPA: Causal Layer Selection for Representation Alignment in Audio Flow Matching (ICML 2026). Unified TTS+TTA Flow Matching with BiT-C / LASP / FoG-A diagnostics.
-https://github.com/zpforlove/AG-REPA
-
-AustinZhang/AG-REPA · Hugging Face
-https://huggingface.co/AustinZhang/AG-REPA
-
 Whisper_MLA/data/test.json at main · ssss-sen/Whisper_MLA
 https://github.com/ssss-sen/Whisper_MLA/blob/main/data/test.json
 
-Principles and Practice of Deep Representation Learning
-https://ma-lab-berkeley.github.io/deep-representation-learning-book/
+1 An Informal Introduction to Intelligence
+https://ma-lab-berkeley.github.io/deep-representation-learning-book/Ch1.html
 
 PRiSM: Benchmarking Phone Realization in Speech Models
 https://arxiv.org/pdf/2601.14046
@@ -232,23 +178,14 @@ https://arxiv.org/abs/2602.18899
 [2506.04586] LESS: Large Language Model Enhanced Semi-Supervised Learning for Speech Foundational Models Using in-the-wild Data
 https://arxiv.org/abs/2506.04586
 
-Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces
-https://arxiv.org/pdf/2603.12642
+Phonological Directions in S3M
+https://chatgpt.com/c/6a6f9132-3150-83ed-a3c4-b011d07e819e
 
-[2603.12446] RadEar: A Self-Supervised RF Backscatter System for Voice Eavesdropping and Separation
-https://arxiv.org/abs/2603.12446
+prism/src/recipe/common/classification_module.py at main · juice500ml/prism
+https://github.com/juice500ml/prism/blob/main/src/recipe/common/classification_module.py
 
 Capturing live stream files for research - Claude
 https://claude.ai/chat/72846c3b-f821-4c10-8ac1-d37c199b8fe6
-
-rasbt/llm-architecture-gallery: LLM Architecture Gallery source data
-https://github.com/rasbt/llm-architecture-gallery?tab=readme-ov-file
-
-Libation
-https://getlibation.com/
-
-Mbucari/AAXClean: Decrypt Audible aax and aaxc files.
-https://github.com/Mbucari/AAXClean
 
 run-llama/liteparse: A fast, helpful, and open-source document parser
 https://github.com/run-llama/liteparse
@@ -256,8 +193,8 @@ https://github.com/run-llama/liteparse
 sylber/sylber/model/flowmatching.py at main · Berkeley-Speech-Group/sylber
 https://github.com/Berkeley-Speech-Group/sylber/blob/main/sylber/model/flowmatching.py
 
-ASK: Adaptive Self-improving Knowledge Framework for Audio Text Retrieval
-https://arxiv.org/pdf/2512.19703
+[2512.19703] ASK: Adaptive Self-improving Knowledge Framework for Audio Text Retrieval
+https://arxiv.org/abs/2512.19703
 
 Multilingual-TTS/tts-evaluation/benchmark_results.png at main · Scicom-AI-Enterprise-Organization/Multilingual-TTS
 https://github.com/Scicom-AI-Enterprise-Organization/Multilingual-TTS/blob/main/tts-evaluation/benchmark_results.png
@@ -298,29 +235,11 @@ https://github.com/burtenshaw/multiautoresearch
 karpathy/autoresearch: AI agents running research on single-GPU nanochat training automatically
 https://github.com/karpathy/autoresearch
 
-Claude Code's creator keeps sharing tips, and they all made my experience better
-https://www.xda-developers.com/claude-codes-creator-keeps-sharing-tips-and-they-all-made-my-experience-better/
-
 www.etca.fr
 http://www.etca.fr/CTA/gip/Projets/Transcriber/
 
 chdh/harm-syn: An analysis and synthesis algorithm for quasi-periodic signals, e.g. vowels.
 https://github.com/chdh/harm-syn
-
-chdh/noise-syn: A browser-based web application for generating noise sound.
-https://github.com/chdh/noise-syn
-
-SinSyn - Sinusoidal Synthesizer
-https://www.source-code.biz/sinSyn/
-
-SpecFilt - Spectral Filter Tool
-https://www.source-code.biz/specFilt/
-
-SpecSyn - Spectral Harmonic Synthesizer
-https://www.source-code.biz/specSyn/
-
-KlattSyn - Klatt Formant Synthesizer
-https://www.source-code.biz/klattSyn/
 
 nicedreamzapp/claude-code-local: Run Claude Code 100% on-device with local AI on Apple Silicon. MLX-native Anthropic-API server, 65 tok/s Qwen 3.5 122B, Llama 3.3 70B, Gemma 4 31B. Private, offline, airgap-ready. Built for NDA / legal / healthcare workflows.
 https://github.com/nicedreamzapp/claude-code-local
@@ -330,9 +249,6 @@ https://github.com/nicedreamzapp
 
 Myth727/VECTOR: Real-time volatility sensitive detection and correction for any sequential generative process. AutoTune, feedback learning, reflexive analysis, Monte Carlo SDE bands, Kalman filtering, GARCH variance modeling, signal detection, and domain anchoring.
 https://github.com/Myth727/VECTOR?tab=License-1-ov-file
-
-patrick-kidger/equinox: Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/
-https://github.com/patrick-kidger/equinox
 
 Claude Code Security Analysis (on https://github.com/ritualPlay-Net/RitualPlay/)
 https://gist.github.com/adibhanna/6c66552b94577951bc4cce877fcf7729
@@ -1086,14 +1002,5 @@ https://www.scss.tcd.ie/elaine.ui.dhonnchadha/gaeilgenfuni.cgi?mode=Dependency&t
 
 Irish Morphology Analysis
 https://chatgpt.com/c/6a6f5160-9e78-83eb-8620-cb935f7972e0
-
-SSL Model Collapse Solutions
-https://chatgpt.com/c/6a209a84-59e8-8388-b620-4a315f842569
-
-rhasspy/sv_kaldi-rhasspy: Swedish Kaldi profile for Rhasspy built from open speech data
-https://github.com/rhasspy/sv_kaldi-rhasspy
-
-VOSK language model adaptation
-https://alphacephei.com/vosk/lm
 
 
