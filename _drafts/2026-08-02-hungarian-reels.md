@@ -571,13 +571,13 @@ hiking-route-3SG.POSS
 
 [00:00.000 --> 00:02.000]  Figyi, ez most egy kicsit kínos lesz.
 [00:02.000 --> 00:02.500]  Na mi?
-[00:02.500 --> 00:07.300]  Tudom, hogy nem szoktunk ilyenekről beszélni, de a Reni most nincs egy hétig, és nagyon jól emelsz megbeszélni.
+[00:02.500 --> 00:07.300]  Tudom, hogy nem szoktunk ilyenekről beszélni, de a Reni most nincs egy hétig, és nagyon jó lenne ezt megbeszélni.
 [00:07.300 --> 00:08.300]  Oké...
-[00:08.300 --> 00:13.000]  Szóval figyelj, elkezdtem dumálni egy srácssal, bekövetett Instagramom, miután belájkoltam egy sztoriát,
-[00:13.000 --> 00:16.080]  és megnéztem az oldalát, és nem volt nincs semmilyen közös képe egy lányja,
-[00:16.080 --> 00:18.500]  ahogy se szóval gondoltam, miért ne visszaírtam neki.
-[00:18.500 --> 00:23.000]  De aztán megnézte az én sztorimat egy lány, aki nem követ engem, szóval én is megnéztem az ő profiát,
+[00:08.300 --> 00:13.000]  Szóval figyelj! Elkezdtem dumálni egy sráccal, bekövetett Instagramom, miután belájkoltam egy sztoriját,
+[00:13.000 --> 00:16.080]  és megnéztem az oldalát, és nem volt kint semmilyen közös képe egy lánnyjal se,
+[00:16.080 --> 00:18.500]  szóval gondoltam miért ne? Visszaírtam neki,
+[00:18.500 --> 00:23.000]  de aztán megnézte az én sztorimat egy lány, aki nem követ engem. Szóval én is megnéztem az ő profilját,
 [00:23.000 --> 00:26.000]  és csak erről a fiúról posztol, de ez a fiú őt nem követi.
-[00:26.000 --> 00:30.500]  És most jogosan kérdezhetnéd, hogy de Luca, nem vagy már te túl öreg az ilyen fura játszmákhoz?
-[00:30.500 --> 00:33.000]  És mondanám, hogy de Máté...
+[00:26.000 --> 00:30.500]  És most jogosan kérdezhetnéd, hogy: "De Luca, nem vagy már te túl öreg az ilyen fura játszmákhoz?"
+[00:30.500 --> 00:33.000]  És mondanám, hogy... De Máté!
 [00:35.000 --> 00:37.000]  De még meg sem mutattam a screenshotokat!
