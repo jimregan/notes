@@ -247,3 +247,5 @@ categories: [links]
 
 [physics-intern: an autonomous agentic framework for physics research](https://huggingface.co/spaces/huggingface/physics-intern)
 
+[nagamuslim/novnc-audio-plugin](https://github.com/nagamuslim/novnc-audio-plugin)
+
