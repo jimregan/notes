@@ -569,15 +569,194 @@ hiking-route-3SG.POSS
 
 [Reel](https://www.instagram.com/p/DbdpWdWiT0F/)
 
-[00:00.000 --> 00:02.000]  Figyi, ez most egy kicsit kínos lesz.
-[00:02.000 --> 00:02.500]  Na mi?
-[00:02.500 --> 00:07.300]  Tudom, hogy nem szoktunk ilyenekről beszélni, de a Reni most nincs egy hétig, és nagyon jó lenne ezt megbeszélni.
-[00:07.300 --> 00:08.300]  Oké...
-[00:08.300 --> 00:13.000]  Szóval figyelj! Elkezdtem dumálni egy sráccal, bekövetett Instagramom, miután belájkoltam egy sztoriját,
-[00:13.000 --> 00:16.080]  és megnéztem az oldalát, és nem volt kint semmilyen közös képe egy lánnyjal se,
-[00:16.080 --> 00:18.500]  szóval gondoltam miért ne? Visszaírtam neki,
-[00:18.500 --> 00:23.000]  de aztán megnézte az én sztorimat egy lány, aki nem követ engem. Szóval én is megnéztem az ő profilját,
-[00:23.000 --> 00:26.000]  és csak erről a fiúról posztol, de ez a fiú őt nem követi.
-[00:26.000 --> 00:30.500]  És most jogosan kérdezhetnéd, hogy: "De Luca, nem vagy már te túl öreg az ilyen fura játszmákhoz?"
-[00:30.500 --> 00:33.000]  És mondanám, hogy... De Máté!
-[00:35.000 --> 00:37.000]  De még meg sem mutattam a screenshotokat!
+I’ve corrected the obvious **Instagramom → Instagramon** and **lánnyjal → lánnyal**.
+
+**Figyi, ez most egy kicsit kínos lesz.**
+
+Listen, this is going to be a little awkward.
+
+```text
+Figyi,  ez    most  egy  kicsi-t     kínos
+listen  this  now   a    little-ACC   awkward
+
+lesz.
+be.FUT.3SG
+```
+
+**Na, mi?**
+
+Well, what?
+
+```text
+Na,  mi?
+DM   what
+```
+
+**Tudom, hogy nem szoktunk ilyenekről beszélni, de a Reni most nincs egy hétig, és nagyon jó lenne ezt megbeszélni.**
+
+I know we don’t usually talk about things like this, but Reni is away for a week, and it would be really good to talk this through.
+
+```text
+Tud-om,       hogy  nem  szok-t-unk
+know-1SG.DEF  that  NEG  HAB-PST-1PL
+
+ilyen-ek-ről  beszél-ni,  de   a    Reni
+such-PL-DEL   speak-INF   but  the  Reni
+
+most  nincs       egy  hét-ig,   és   nagyon
+now   NEG.be.3SG  one  week-TERM and  very
+
+jó    len-ne        ez-t      meg-beszél-ni.
+good  be-COND.3SG   this-ACC  PV-discuss-INF
+```
+
+**Oké...**
+
+Okay...
+
+```text
+Oké...
+okay
+```
+
+**Szóval figyelj! Elkezdtem dumálni egy sráccal, bekövetett Instagramon, miután belájkoltam egy sztoriját.**
+
+So listen! I started chatting with a guy; he followed me on Instagram after I liked one of his stories.
+
+```text
+Szóval  figyel-j!      El-kezd-t-em
+so      listen-IMP.2SG PV-begin-PST-1SG.DEF
+
+dumál-ni  egy  srác-cal,  be-követ-ett
+chat-INF  a    guy-INST   PV-follow-PST.3SG
+
+Instagram-on,  miután  be-lájkol-t-am
+Instagram-SUP  after    PV-like-PST-1SG
+
+egy  sztori-já-t.
+a    story-3SG.POSS-ACC
+```
+
+**És megnéztem az oldalát, és nem volt kint semmilyen közös képe egy lánnyal se.**
+
+And I looked at his page, and there wasn’t any picture of him together with a girl posted there.
+
+```text
+És  meg-néz-t-em        az   oldal-á-t,
+and  PV-look-PST-1SG.DEF the  page-3SG.POSS-ACC
+
+és   nem  volt         kint  semmilyen
+and  NEG  be.PST.3SG   out   any
+
+közös  kép-e            egy  lány-nyal  se.
+joint  picture-3SG.POSS a    girl-INST  NEG
+```
+
+**Szóval gondoltam, miért ne? Visszaírtam neki.**
+
+So I thought, why not? I replied to him.
+
+```text
+Szóval  gondol-t-am,  miért  ne?
+so      think-PST-1SG why    NEG.IMP
+
+Vissza-ír-t-am       nek-i.
+back-write-PST-1SG   DAT-3SG
+```
+
+**De aztán megnézte az én sztorimat egy lány, aki nem követ engem.**
+
+But then a girl who doesn’t follow me viewed my story.
+
+```text
+De   aztán  meg-néz-t-e          az   én
+but  then   PV-look-PST-3SG.DEF  the  1SG
+
+sztori-m-at        egy  lány,  aki  nem
+story-1SG.POSS-ACC a    girl   REL  NEG
+
+követ        engem.
+follow.3SG   1SG.ACC
+```
+
+**Szóval én is megnéztem az ő profilját, és csak erről a fiúról posztol, de ez a fiú őt nem követi.**
+
+So I looked at her profile too, and she posts only about this guy, but this guy doesn’t follow her.
+
+```text
+Szóval  én   is    meg-néz-t-em        az   ő
+so      1SG  also  PV-look-PST-1SG.DEF the  3SG
+
+profil-já-t,         és   csak  er-ről
+profile-3SG.POSS-ACC and  only  this-DEL
+
+a    fiú-ról  posztol,      de   ez    a
+the  boy-DEL  post.3SG      but  this  the
+
+fiú  ő-t      nem  követ-i.
+boy  3SG-ACC  NEG  follow-3SG.DEF
+```
+
+**És most jogosan kérdezhetnéd, hogy: „De Luca, nem vagy már te túl öreg az ilyen fura játszmákhoz?”**
+
+And now you could quite reasonably ask: “But Luca, aren’t you a bit too old for these weird games?”
+
+```text
+És  most  jogos-an       kérdez-het-né-d,
+and  now   justified-ADV ask-POT-COND-2SG.DEF
+
+hogy  De   Luca,  nem  vagy    már      te
+that  but  Luca   NEG  be.2SG  already  2SG
+
+túl  öreg  az   ilyen  fura   játszmá-k-hoz?
+too  old   the  such   weird  game-PL-ALL
+```
+
+**És mondanám, hogy... „De, Máté!”**
+
+And I would say... “Yes, Máté!”
+
+```text
+És  mond-aná-m,      hogy  De,   Máté!
+and  say-COND-1SG    that  yes   Máté
+```
+
+**De még meg sem mutattam a screenshotokat!**
+
+But I haven’t even shown you the screenshots yet!
+
+```text
+De   még    meg  sem  mutat-t-am
+but  still  PV   NEG  show-PST-1SG.DEF
+
+a    screenshot-ok-at!
+the  screenshot-PL-ACC
+```
+
+## A2 vocabulary
+
+* **figyi** — listen; hey, listen
+* **kínos** — awkward; embarrassing
+* **szokott valamit csinálni** — usually do something
+* **ilyenről beszél** — talk about something like this
+* **megbeszél** — discuss; talk something through
+* **dumál valakivel** — chat with someone
+* **srác** — guy
+* **bekövet valakit** — follow someone on social media
+* **belájkol valamit** — like something online
+* **sztori** — story, especially a social-media story
+* **kint van** — be posted/displayed publicly
+* **közös kép** — photo together
+* **miért ne?** — why not?
+* **visszaír valakinek** — reply to someone
+* **aztán** — then; afterwards
+* **profil** — profile
+* **posztol** — post online
+* **jogosan** — justifiably; reasonably
+* **kérdezhetnéd** — you could ask
+* **túl öreg valamihez** — too old for something
+* **fura** — weird; odd
+* **játszma** — game; mind game
+* **még meg sem…** — haven’t even … yet
+* **megmutat** — show
+* **screenshot** — screenshot
