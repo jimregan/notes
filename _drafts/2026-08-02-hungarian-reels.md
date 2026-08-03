@@ -569,8 +569,6 @@ hiking-route-3SG.POSS
 
 [Reel](https://www.instagram.com/p/DbdpWdWiT0F/)
 
-I’ve corrected the obvious **Instagramom → Instagramon** and **lánnyjal → lánnyal**.
-
 **Figyi, ez most egy kicsit kínos lesz.**
 
 Listen, this is going to be a little awkward.
@@ -759,4 +757,3 @@ the  screenshot-PL-ACC
 * **játszma** — game; mind game
 * **még meg sem…** — haven’t even … yet
 * **megmutat** — show
-* **screenshot** — screenshot
