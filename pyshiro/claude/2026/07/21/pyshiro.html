@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>pyshiro codebase overview | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="pyshiro codebase overview" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Claude-generated codebase reference" />
+<meta property="og:description" content="Claude-generated codebase reference" />
+<link rel="canonical" href="https://jimregan.github.io/notes/pyshiro/claude/2026/07/21/pyshiro.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/pyshiro/claude/2026/07/21/pyshiro.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-07-21T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/pyshiro/claude/2026/07/21/pyshiro.html","@type":"BlogPosting","headline":"pyshiro codebase overview","dateModified":"2026-07-21T00:00:00-05:00","datePublished":"2026-07-21T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/pyshiro/claude/2026/07/21/pyshiro.html"},"description":"Claude-generated codebase reference","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">pyshiro codebase overview</h1><p class="page-description">Claude-generated codebase reference</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-07-21T00:00:00-05:00" itemprop="datePublished">
+        Jul 21, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#pyshiro">pyshiro</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#claude">claude</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#pyshiro--codebase-overview">pyshiro — codebase overview</a></li>
+<li class="toc-entry toc-h2"><a href="#the-workflow-directory">The workflow/ directory</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#the-two-pipelines">The two pipelines</a></li>
+<li class="toc-entry toc-h3"><a href="#the-numbered-scripts">The numbered scripts</a></li>
+<li class="toc-entry toc-h3"><a href="#the-notebooks">The notebooks</a></li>
+</ul>
+</li>
+</ul><p><a href="https://github.com/wavtechyukky/pyshiro">wavtechyukky/pyshiro</a></p>
+
+<p>The README gives good background. Now let me read the workflow scripts themselves (they have Japanese docstrings).</p>
+
+<p>Now let me look at the notebooks and get a quick sense of the core package modules.</p>
+
+<p>I have a complete picture now. Here’s the overview.</p>
+
+<h2 id="pyshiro--codebase-overview">
+<a class="anchor" href="#pyshiro--codebase-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>pyshiro — codebase overview</h2>
+
+<p><strong>pyshiro</strong> is a Python reimplementation of <a href="https://github.com/Sleepwalking/SHIRO">SHIRO</a>, a phoneme-to-speech <strong>forced alignment</strong> toolkit built on Hidden Semi-Markov Models (HSMM), specialized for <strong>Japanese singing voice</strong>. Given an audio file and its lyrics, it estimates where each phoneme begins and ends. It can also train <code class="language-plaintext highlighter-rouge">.hsmm</code> models from a labeled corpus and convert labels between formats.</p>
+
+<p>The core library lives in <a href="pyshiro/">pyshiro/</a> (~3k lines):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Module</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="pyshiro/model.py">model.py</a></td>
+      <td>Load/save the <code class="language-plaintext highlighter-rouge">.hsmm</code> model format</td>
+    </tr>
+    <tr>
+      <td><a href="pyshiro/features.py">features.py</a></td>
+      <td>MFCC extraction (SHIRO/ciglet-compatible), 16kHz mono, 5ms frames</td>
+    </tr>
+    <tr>
+      <td><a href="pyshiro/align.py">align.py</a></td>
+      <td>Viterbi forced alignment (2-pass HMM→HSMM), plus <code class="language-plaintext highlighter-rouge">realign_external_labels</code>
+</td>
+    </tr>
+    <tr>
+      <td><a href="pyshiro/labels.py">labels.py</a></td>
+      <td>Read/write <code class="language-plaintext highlighter-rouge">.lab</code> (HTK 100ns &amp; seconds), Praat TextGrid, Audacity</td>
+    </tr>
+    <tr>
+      <td><a href="pyshiro/phonemes.py">phonemes.py</a></td>
+      <td>Kana→phoneme conversion (hiragana lyrics → phoneme sequence)</td>
+    </tr>
+    <tr>
+      <td><a href="pyshiro/train.py">train.py</a></td>
+      <td>Corpus training (<code class="language-plaintext highlighter-rouge">pyshiro-train</code>), with HMM pretraining, DAEM, GMM splitting</td>
+    </tr>
+    <tr>
+      <td><a href="pyshiro/untie.py">untie.py</a></td>
+      <td>Monophone → context-dependent triphone expansion</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The pre-trained models sit in <a href="checkpoint/">checkpoint/</a> and <code class="language-plaintext highlighter-rouge">models/</code> (a git submodule).</p>
+
+<hr>
+
+<h2 id="the-workflow-directory">
+<a class="anchor" href="#the-workflow-directory" aria-hidden="true"><span class="octicon octicon-link"></span></a>The <code class="language-plaintext highlighter-rouge">workflow/</code> directory</h2>
+
+<p>This directory is <strong>not library code</strong> — it’s the practical, user-facing annotation pipeline. It contains five numbered CLI scripts that form a linear stage-by-stage pipeline, plus two Jupyter notebooks that narrate and drive that pipeline. All documentation here is in Japanese.</p>
+
+<h3 id="the-two-pipelines">
+<a class="anchor" href="#the-two-pipelines" aria-hidden="true"><span class="octicon octicon-link"></span></a>The two pipelines</h3>
+
+<p>There are actually <strong>two distinct workflows</strong> bundled together:</p>
+
+<p><strong>A. Annotate-from-scratch</strong> (scripts <code class="language-plaintext highlighter-rouge">00</code>→<code class="language-plaintext highlighter-rouge">03</code>, guided by <code class="language-plaintext highlighter-rouge">annotation_guide.ipynb</code>) — take raw audio + lyrics and produce phoneme labels.</p>
+
+<p><strong>B. Convert external labels</strong> (scripts <code class="language-plaintext highlighter-rouge">04</code>, <code class="language-plaintext highlighter-rouge">05</code>, guided by <code class="language-plaintext highlighter-rouge">convert_labels.ipynb</code>) — take labels made by <em>another</em> tool and re-align them to this model’s labeling conventions, then quality-check them.</p>
+
+<h3 id="the-numbered-scripts">
+<a class="anchor" href="#the-numbered-scripts" aria-hidden="true"><span class="octicon octicon-link"></span></a>The numbered scripts</h3>
+
+<p><strong><a href="workflow/00_resample.py">00_resample.py</a></strong> — Converts WAV files to <strong>16kHz mono</strong> (using <code class="language-plaintext highlighter-rouge">scipy.signal.resample_poly</code> with gcd-reduced up/down factors). pyshiro’s feature extraction assumes 16kHz mono, so this is the mandatory first step. Skippable if audio is already 16kHz mono.</p>
+
+<p><strong><a href="workflow/01_cut.py">01_cut.py</a></strong> — Splits each 16kHz song into <strong>phrase-sized segments</strong>. It detects silence via energy (RMS in dB per 10ms frame), then greedily builds segments that don’t cross long pauses and stay under a max duration (~15s). This matters because the README warns that long silent stretches make the HSMM search fail — you must feed it short phrases, not whole songs. It outputs:</p>
+<ul>
+  <li>segment <code class="language-plaintext highlighter-rouge">.wav</code> files</li>
+  <li>a <code class="language-plaintext highlighter-rouge">{stem}_cuts.json</code> recording each segment’s sample offset (used later by <code class="language-plaintext highlighter-rouge">03_merge</code>)</li>
+  <li>optionally, empty <code class="language-plaintext highlighter-rouge">.txt</code> lyric templates named to match each segment</li>
+</ul>
+
+<p><strong><a href="workflow/02_align.py">02_align.py</a></strong> — The core step. For each segment it converts the hand-written hiragana lyrics to phonemes, extracts MFCCs, builds a state sequence, and runs <code class="language-plaintext highlighter-rouge">forced_align_2pass</code> to get phoneme boundaries. Writes <code class="language-plaintext highlighter-rouge">.lab</code>/<code class="language-plaintext highlighter-rouge">.TextGrid</code>/<code class="language-plaintext highlighter-rouge">.audacity</code>. Runs segments in parallel via <code class="language-plaintext highlighter-rouge">ProcessPoolExecutor</code>. Between stages 02 and 03 the human manually corrects boundaries in Praat/Audacity/vLabeler.</p>
+
+<p><strong><a href="workflow/03_merge.py">03_merge.py</a></strong> — Merges the (hand-corrected) per-segment labels back into <strong>one full-song <code class="language-plaintext highlighter-rouge">.lab</code></strong>, using the sample offsets in <code class="language-plaintext highlighter-rouge">cuts.json</code>. Offsets are applied as <strong>integer arithmetic in HTK 100ns units</strong> (<code class="language-plaintext highlighter-rouge">10_000_000 // sample_rate</code> per sample) so there’s no floating-point drift. It fills inter-segment gaps with <code class="language-plaintext highlighter-rouge">pau</code> and pads the tail out to the original song length.</p>
+
+<p><strong><a href="workflow/04_convert_labels.py">04_convert_labels.py</a></strong> — The entry point for pipeline B (<code class="language-plaintext highlighter-rouge">realign_external_labels</code>). It re-labels external labels (e.g. from the Tohoku Kiritan DB) to match this model’s conventions — for instance, this model <em>includes</em> the closure/silence interval inside plosive/affricate consonant labels, while other DBs don’t. It finds reliable “anchors” (long vowels, long pauses), re-aligns the spans between anchors with the HSMM, and optionally energy-refines pau/consonant boundaries. <code class="language-plaintext highlighter-rouge">--fix_transitions</code> lets you fix only certain boundary types (e.g. vowel→consonant) while keeping the rest of the original labels. <em>(Note: this file’s docstring header still says <code class="language-plaintext highlighter-rouge">05_convert_labels.py</code> — a stale rename artifact.)</em></p>
+
+<p><strong><a href="workflow/05_check_consonant_outliers.py">05_check_consonant_outliers.py</a></strong> — A QC tool. Within each consonant type it flags <strong>duration outliers</strong> (via IQR, with a larger multiplier for plosives/affricates since their closures make durations bimodal) and renders the flagged spots as a grid of waveform+label plots. Built on the heuristic that <strong>a too-short consonant is probably a mislabel</strong>; in practice you look at the short side (<code class="language-plaintext highlighter-rouge">--side short</code>).</p>
+
+<h3 id="the-notebooks">
+<a class="anchor" href="#the-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>The notebooks</h3>
+
+<ul>
+  <li>
+<strong><a href="workflow/annotation_guide.ipynb">annotation_guide.ipynb</a></strong> — Walks a user through pipeline A end to end (resample → cut → <em>write lyrics by hand</em> → align → <em>correct by hand</em> → merge), with a single config cell to edit and visualization cells. (Its steps are labeled 0,1,2,3,5 — the manual-correction step sits between 3 and 5.)</li>
+  <li>
+<strong><a href="workflow/convert_labels.ipynb">convert_labels.ipynb</a></strong> — Explains the labeling conventions of the bundled model (vowel ends set slightly before the waveform dies; plosive closures included in the consonant), the anchor-based re-alignment concept (with a diagram), and the recommended <code class="language-plaintext highlighter-rouge">--fix_transitions vowel-consonant,silence-consonant,vowel-silence</code> setting, ending with the outlier check.</li>
+</ul>
+
+<p>The key data-flow contract to understand: <strong><code class="language-plaintext highlighter-rouge">01_cut.py</code> writes <code class="language-plaintext highlighter-rouge">cuts.json</code>, and <code class="language-plaintext highlighter-rouge">03_merge.py</code> consumes it</strong> — that JSON is what lets per-segment alignment be stitched back to absolute song time without floating-point error.</p>
+
+
+  </div><a class="u-url" href="/notes/pyshiro/claude/2026/07/21/pyshiro.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

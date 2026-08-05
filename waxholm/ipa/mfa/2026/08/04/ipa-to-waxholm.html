@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Convert IPA to Waxholm | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Convert IPA to Waxholm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="For generating a lexicon for MFA" />
+<meta property="og:description" content="For generating a lexicon for MFA" />
+<link rel="canonical" href="https://jimregan.github.io/notes/waxholm/ipa/mfa/2026/08/04/ipa-to-waxholm.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/waxholm/ipa/mfa/2026/08/04/ipa-to-waxholm.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-08-04T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/waxholm/ipa/mfa/2026/08/04/ipa-to-waxholm.html","@type":"BlogPosting","headline":"Convert IPA to Waxholm","dateModified":"2026-08-04T00:00:00-05:00","datePublished":"2026-08-04T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/waxholm/ipa/mfa/2026/08/04/ipa-to-waxholm.html"},"description":"For generating a lexicon for MFA","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Convert IPA to Waxholm</h1><p class="page-description">For generating a lexicon for MFA</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-08-04T00:00:00-05:00" itemprop="datePublished">
+        Aug 4, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      12 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#waxholm">waxholm</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#ipa">ipa</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#mfa">mfa</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2026-08-04-ipa-to-waxholm.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2026-08-04-ipa-to-waxholm.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2026-08-04-ipa-to-waxholm.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2026-08-04-ipa-to-waxholm.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">VOWELS</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;A&quot;</span><span class="p">,</span> <span class="s2">&quot;A:&quot;</span><span class="p">,</span> <span class="s2">&quot;E&quot;</span><span class="p">,</span> <span class="s2">&quot;E0&quot;</span><span class="p">,</span> <span class="s2">&quot;E:&quot;</span><span class="p">,</span> <span class="s2">&quot;I&quot;</span><span class="p">,</span> <span class="s2">&quot;I:&quot;</span><span class="p">,</span> <span class="s2">&quot;O&quot;</span><span class="p">,</span> <span class="s2">&quot;O:&quot;</span><span class="p">,</span> <span class="s2">&quot;U&quot;</span><span class="p">,</span> <span class="s2">&quot;U:&quot;</span><span class="p">,</span> <span class="s2">&quot;Y&quot;</span><span class="p">,</span> <span class="s2">&quot;Y:&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;Ä&quot;</span><span class="p">,</span> <span class="s2">&quot;Ä3&quot;</span><span class="p">,</span> <span class="s2">&quot;Ä4&quot;</span><span class="p">,</span> <span class="s2">&quot;Ä:&quot;</span><span class="p">,</span> <span class="s2">&quot;Å&quot;</span><span class="p">,</span> <span class="s2">&quot;Å:&quot;</span><span class="p">,</span> <span class="s2">&quot;Ö&quot;</span><span class="p">,</span> <span class="s2">&quot;Ö3&quot;</span><span class="p">,</span> <span class="s2">&quot;Ö4&quot;</span><span class="p">,</span> <span class="s2">&quot;Ö:&quot;</span><span class="p">}</span>
+<span class="n">VOICELESS_STOPS</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;k&quot;</span><span class="p">,</span> <span class="s2">&quot;t&quot;</span><span class="p">,</span> <span class="s2">&quot;p&quot;</span><span class="p">,</span> <span class="s2">&quot;2t&quot;</span><span class="p">}</span>
+
+
+<span class="n">IPA2WAX</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;&lt;hes&gt;&#39;</span><span class="p">:</span> <span class="s1">&#39;öh&#39;</span><span class="p">,</span> <span class="s1">&#39;&lt;ha&gt;&#39;</span><span class="p">:</span> <span class="s1">&#39;ha&#39;</span><span class="p">,</span> <span class="s1">&#39;&lt;kl&gt;&#39;</span><span class="p">:</span> <span class="s1">&#39;kl&#39;</span><span class="p">,</span> <span class="s1">&#39;&lt;pa&gt;&#39;</span><span class="p">:</span> <span class="s1">&#39;pa&#39;</span><span class="p">,</span> <span class="s1">&#39;&lt;sm&gt;&#39;</span><span class="p">:</span> <span class="s1">&#39;sm&#39;</span><span class="p">,</span> <span class="s1">&#39;&lt;v&gt;&#39;</span><span class="p">:</span> <span class="s1">&#39;v&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;œ̞ː&#39;</span><span class="p">:</span> <span class="s1">&#39;Ö3&#39;</span><span class="p">,</span> <span class="s1">&#39;ɑː&#39;</span><span class="p">:</span> <span class="s1">&#39;A:&#39;</span><span class="p">,</span> <span class="s1">&#39;eː&#39;</span><span class="p">:</span> <span class="s1">&#39;E:&#39;</span><span class="p">,</span> <span class="s1">&#39;iː&#39;</span><span class="p">:</span> <span class="s1">&#39;I:&#39;</span><span class="p">,</span> <span class="s1">&#39;uː&#39;</span><span class="p">:</span> <span class="s1">&#39;O:&#39;</span><span class="p">,</span> <span class="s1">&#39;ʉː&#39;</span><span class="p">:</span> <span class="s1">&#39;U:&#39;</span><span class="p">,</span> <span class="s1">&#39;yː&#39;</span><span class="p">:</span> <span class="s1">&#39;Y:&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;æː&#39;</span><span class="p">:</span> <span class="s1">&#39;Ä3&#39;</span><span class="p">,</span> <span class="s1">&#39;ɛː&#39;</span><span class="p">:</span> <span class="s1">&#39;Ä:&#39;</span><span class="p">,</span> <span class="s1">&#39;œ̞&#39;</span><span class="p">:</span> <span class="s1">&#39;Ö4&#39;</span><span class="p">,</span> <span class="s1">&#39;øː&#39;</span><span class="p">:</span> <span class="s1">&#39;Ö:&#39;</span><span class="p">,</span> <span class="s1">&#39;oː&#39;</span><span class="p">:</span> <span class="s1">&#39;Å:&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ɖ&#39;</span><span class="p">:</span> <span class="s1">&#39;2D&#39;</span><span class="p">,</span> <span class="s1">&#39;ɭ&#39;</span><span class="p">:</span> <span class="s1">&#39;2L&#39;</span><span class="p">,</span> <span class="s1">&#39;ɳ&#39;</span><span class="p">:</span> <span class="s1">&#39;2N&#39;</span><span class="p">,</span> <span class="s1">&#39;ʂ&#39;</span><span class="p">:</span> <span class="s1">&#39;2S&#39;</span><span class="p">,</span> <span class="s1">&#39;ʈ&#39;</span><span class="p">:</span> <span class="s1">&#39;2T&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;a&#39;</span><span class="p">:</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">:</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;d&#39;</span><span class="p">:</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">:</span> <span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="s1">&#39;ə&#39;</span><span class="p">:</span> <span class="s1">&#39;E0&#39;</span><span class="p">,</span> <span class="s1">&#39;f&#39;</span><span class="p">:</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="s1">&#39;ɡ&#39;</span><span class="p">:</span> <span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="s1">&#39;h&#39;</span><span class="p">:</span> <span class="s1">&#39;H&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ɪ&#39;</span><span class="p">:</span> <span class="s1">&#39;I&#39;</span><span class="p">,</span> <span class="s1">&#39;j&#39;</span><span class="p">:</span> <span class="s1">&#39;J&#39;</span><span class="p">,</span> <span class="s1">&#39;k&#39;</span><span class="p">:</span> <span class="s1">&#39;K&#39;</span><span class="p">,</span> <span class="s1">&#39;l&#39;</span><span class="p">:</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span> <span class="s1">&#39;m&#39;</span><span class="p">:</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="s1">&#39;n&#39;</span><span class="p">:</span> <span class="s1">&#39;N&#39;</span><span class="p">,</span> <span class="s1">&#39;ŋ&#39;</span><span class="p">:</span> <span class="s1">&#39;NG&#39;</span><span class="p">,</span> <span class="s1">&#39;ʊ&#39;</span><span class="p">:</span> <span class="s1">&#39;O&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;p&#39;</span><span class="p">:</span> <span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">:</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;s&#39;</span><span class="p">:</span> <span class="s1">&#39;S&#39;</span><span class="p">,</span> <span class="s1">&#39;ɧ&#39;</span><span class="p">:</span> <span class="s1">&#39;SJ&#39;</span><span class="p">,</span> <span class="s1">&#39;t&#39;</span><span class="p">:</span> <span class="s1">&#39;T&#39;</span><span class="p">,</span> <span class="s1">&#39;ɕ&#39;</span><span class="p">:</span> <span class="s1">&#39;TJ&#39;</span><span class="p">,</span> <span class="s1">&#39;ɵ&#39;</span><span class="p">:</span> <span class="s1">&#39;U&#39;</span><span class="p">,</span> <span class="s1">&#39;v&#39;</span><span class="p">:</span> <span class="s1">&#39;V&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ʏ&#39;</span><span class="p">:</span> <span class="s1">&#39;Y&#39;</span><span class="p">,</span> <span class="s1">&#39;ɛ&#39;</span><span class="p">:</span> <span class="s1">&#39;Ä&#39;</span><span class="p">,</span> <span class="s1">&#39;æ&#39;</span><span class="p">:</span> <span class="s1">&#39;Ä4&#39;</span><span class="p">,</span> <span class="s1">&#39;œ&#39;</span><span class="p">:</span> <span class="s1">&#39;Ö&#39;</span><span class="p">,</span> <span class="s1">&#39;ɔ&#39;</span><span class="p">:</span> <span class="s1">&#39;Å&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">:</span> <span class="s1">&#39;SIL&#39;</span>
+<span class="p">}</span>
+<span class="n">SPECIAL</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;&lt;pad&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&lt;s&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&lt;/s&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&lt;unk&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">}</span>
+<span class="n">_VOCAB</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">IPA2WAX</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">len</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">ipa_to_phones</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">phones</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;|&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">SPECIAL</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">word</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">sym</span> <span class="ow">in</span> <span class="n">_VOCAB</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">sym</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
+                    <span class="n">phones</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">IPA2WAX</span><span class="p">[</span><span class="n">sym</span><span class="p">])</span>
+                    <span class="n">i</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sym</span><span class="p">)</span>
+                    <span class="k">break</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;unknown IPA </span><span class="si">{</span><span class="n">word</span><span class="p">[</span><span class="n">i</span><span class="p">:]</span><span class="si">!r}</span><span class="s2"> in </span><span class="si">{</span><span class="n">word</span><span class="si">!r}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">phones</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ipa_to_phones</span><span class="p">(</span><span class="s2">&quot;ɔtɪ&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;Å&#39;, &#39;T&#39;, &#39;I&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sample</span> <span class="o">=</span> <span class="s1">&#39;{&quot;word&quot;: &quot;på&quot;, &quot;word_start_ms&quot;: 52780, &quot;word_end_ms&quot;: 52840, &quot;tokens&quot;: [{&quot;text&quot;: &quot;poː&quot;, &quot;start_ms&quot;: 52780, &quot;end_ms&quot;: 52860, &quot;annotations&quot;: </span><span class="si">{}</span><span class="s1">}], &quot;has_epenthetic&quot;: false, &quot;annotations&quot;: {&quot;match_method&quot;: &quot;exact_timing&quot;}, &quot;metadata&quot;: {&quot;id&quot;: &quot;CA37298&quot;}, &quot;ipa&quot;: &quot;poː&quot;, &quot;dict_match_score&quot;: 1.0}&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">sample</span><span class="p">)</span>
+<span class="n">data</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>dict_keys([&#39;word&#39;, &#39;word_start_ms&#39;, &#39;word_end_ms&#39;, &#39;tokens&#39;, &#39;has_epenthetic&#39;, &#39;annotations&#39;, &#39;metadata&#39;, &#39;ipa&#39;, &#39;dict_match_score&#39;])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="n">lines</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/storspigg_word_pronunciations.jsonl&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">inf</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">inf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">sample</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">sample</span><span class="p">[</span><span class="s2">&quot;dict_match_score&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="mf">1.0</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">sample</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">ipa_to_phones</span><span class="p">(</span><span class="n">sample</span><span class="p">[</span><span class="s2">&quot;ipa&quot;</span><span class="p">]))</span><span class="si">}</span><span class="s1">&#39;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+            <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/storspigg_waxholm.dict&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">lines</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">outf</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numbers</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;sp_numlist&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="s1">&#39; &#39;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">key</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="n">numbers</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numbers</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;etthundraarton&#39;: &#39;ett hundra arton&#39;,
+ &#39;etthundraelva&#39;: &#39;ett hundra elva&#39;,
+ &#39;etthundraen&#39;: &#39;ett hundra en&#39;,
+ &#39;etthundrafem&#39;: &#39;ett hundra fem&#39;,
+ &#39;etthundrafemtio&#39;: &#39;ett hundra femtio&#39;,
+ &#39;etthundrafemtioen&#39;: &#39;ett hundra femtio en&#39;,
+ &#39;etthundrafemtiofem&#39;: &#39;ett hundra femtio fem&#39;,
+ &#39;etthundrafemtiofyra&#39;: &#39;ett hundra femtio fyra&#39;,
+ &#39;etthundrafemtionio&#39;: &#39;ett hundra femtio nio&#39;,
+ &#39;etthundrafemtiosex&#39;: &#39;ett hundra femtio sex&#39;,
+ &#39;etthundrafemtiosju&#39;: &#39;ett hundra femtio sju&#39;,
+ &#39;etthundrafemtiotre&#39;: &#39;ett hundra femtio tre&#39;,
+ &#39;etthundrafemtiotvå&#39;: &#39;ett hundra femtio två&#39;,
+ &#39;etthundrafemtioåtta&#39;: &#39;ett hundra femtio åtta&#39;,
+ &#39;etthundrafemton&#39;: &#39;ett hundra femton&#39;,
+ &#39;etthundrafyra&#39;: &#39;ett hundra fyra&#39;,
+ &#39;etthundrafyrtio&#39;: &#39;ett hundra fyrtio&#39;,
+ &#39;etthundrafyrtioen&#39;: &#39;ett hundra fyrtio en&#39;,
+ &#39;etthundrafyrtiofem&#39;: &#39;ett hundra fyrtio fem&#39;,
+ &#39;etthundrafyrtiofyra&#39;: &#39;ett hundra fyrtio fyra&#39;,
+ &#39;etthundrafyrtionio&#39;: &#39;ett hundra fyrtio nio&#39;,
+ &#39;etthundrafyrtiosex&#39;: &#39;ett hundra fyrtio sex&#39;,
+ &#39;etthundrafyrtiosju&#39;: &#39;ett hundra fyrtio sju&#39;,
+ &#39;etthundrafyrtiotre&#39;: &#39;ett hundra fyrtio tre&#39;,
+ &#39;etthundrafyrtiotvå&#39;: &#39;ett hundra fyrtio två&#39;,
+ &#39;etthundrafyrtioåtta&#39;: &#39;ett hundra fyrtio åtta&#39;,
+ &#39;etthundranio&#39;: &#39;ett hundra nio&#39;,
+ &#39;etthundranittio&#39;: &#39;ett hundra nittio&#39;,
+ &#39;etthundranittioen&#39;: &#39;ett hundra nittio en&#39;,
+ &#39;etthundranittiofem&#39;: &#39;ett hundra nittio fem&#39;,
+ &#39;etthundranittiofyra&#39;: &#39;ett hundra nittio fyra&#39;,
+ &#39;etthundranittionio&#39;: &#39;ett hundra nittio nio&#39;,
+ &#39;etthundranittiosex&#39;: &#39;ett hundra nittio sex&#39;,
+ &#39;etthundranittiosju&#39;: &#39;ett hundra nittio sju&#39;,
+ &#39;etthundranittiotre&#39;: &#39;ett hundra nittio tre&#39;,
+ &#39;etthundranittiotvå&#39;: &#39;ett hundra nittio två&#39;,
+ &#39;etthundranittioåtta&#39;: &#39;ett hundra nittio åtta&#39;,
+ &#39;etthundranitton&#39;: &#39;ett hundra nitton&#39;,
+ &#39;etthundrasex&#39;: &#39;ett hundra sex&#39;,
+ &#39;etthundrasextio&#39;: &#39;ett hundra sextio&#39;,
+ &#39;etthundrasextioen&#39;: &#39;ett hundra sextio en&#39;,
+ &#39;etthundrasextiofem&#39;: &#39;ett hundra sextio fem&#39;,
+ &#39;etthundrasextiofyra&#39;: &#39;ett hundra sextio fyra&#39;,
+ &#39;etthundrasextionio&#39;: &#39;ett hundra sextio nio&#39;,
+ &#39;etthundrasextiosex&#39;: &#39;ett hundra sextio sex&#39;,
+ &#39;etthundrasextiosju&#39;: &#39;ett hundra sextio sju&#39;,
+ &#39;etthundrasextiotre&#39;: &#39;ett hundra sextio tre&#39;,
+ &#39;etthundrasextiotvå&#39;: &#39;ett hundra sextio två&#39;,
+ &#39;etthundrasextioåtta&#39;: &#39;ett hundra sextio åtta&#39;,
+ &#39;etthundrasexton&#39;: &#39;ett hundra sexton&#39;,
+ &#39;etthundrasju&#39;: &#39;ett hundra sju&#39;,
+ &#39;etthundrasjuttio&#39;: &#39;ett hundra sjuttio&#39;,
+ &#39;etthundrasjuttioen&#39;: &#39;ett hundra sjuttio en&#39;,
+ &#39;etthundrasjuttiofem&#39;: &#39;ett hundra sjuttio fem&#39;,
+ &#39;etthundrasjuttiofyra&#39;: &#39;ett hundra sjuttio fyra&#39;,
+ &#39;etthundrasjuttiosex&#39;: &#39;ett hundra sjuttio sex&#39;,
+ &#39;etthundrasjuttiosju&#39;: &#39;ett hundra sjuttio sju&#39;,
+ &#39;etthundrasjuttiotre&#39;: &#39;ett hundra sjuttio tre&#39;,
+ &#39;etthundrasjuttiotvå&#39;: &#39;ett hundra sjuttio två&#39;,
+ &#39;etthundrasjuttioåtta&#39;: &#39;ett hundra sjuttio åtta&#39;,
+ &#39;etthundratio&#39;: &#39;ett hundra tio&#39;,
+ &#39;etthundratjugo&#39;: &#39;ett hundra tjugo&#39;,
+ &#39;etthundratjugoen&#39;: &#39;ett hundra tjugo en&#39;,
+ &#39;etthundratjugofem&#39;: &#39;ett hundra tjugo fem&#39;,
+ &#39;etthundratjugofyra&#39;: &#39;ett hundra tjugo fyra&#39;,
+ &#39;etthundratjugonio&#39;: &#39;ett hundra tjugo nio&#39;,
+ &#39;etthundratjugosex&#39;: &#39;ett hundra tjugo sex&#39;,
+ &#39;etthundratjugosju&#39;: &#39;ett hundra tjugo sju&#39;,
+ &#39;etthundratjugoåtta&#39;: &#39;ett hundra tjugo åtta&#39;,
+ &#39;etthundratolv&#39;: &#39;ett hundra tolv&#39;,
+ &#39;etthundratrettio&#39;: &#39;ett hundra trettio&#39;,
+ &#39;etthundratrettiofem&#39;: &#39;ett hundra trettio fem&#39;,
+ &#39;etthundratrettiofyra&#39;: &#39;ett hundra trettio fyra&#39;,
+ &#39;etthundratrettionio&#39;: &#39;ett hundra trettio nio&#39;,
+ &#39;etthundratrettiosex&#39;: &#39;ett hundra trettio sex&#39;,
+ &#39;etthundratrettiotre&#39;: &#39;ett hundra trettio tre&#39;,
+ &#39;etthundratrettiotvå&#39;: &#39;ett hundra trettio två&#39;,
+ &#39;etthundratrettioåtta&#39;: &#39;ett hundra trettio åtta&#39;,
+ &#39;etthundratretton&#39;: &#39;ett hundra tretton&#39;,
+ &#39;etthundraåtta&#39;: &#39;ett hundra åtta&#39;,
+ &#39;etthundraåttio&#39;: &#39;ett hundra åttio&#39;,
+ &#39;etthundraåttioen&#39;: &#39;ett hundra åttio en&#39;,
+ &#39;etthundraåttiofem&#39;: &#39;ett hundra åttio fem&#39;,
+ &#39;etthundraåttiofyra&#39;: &#39;ett hundra åttio fyra&#39;,
+ &#39;etthundraåttionio&#39;: &#39;ett hundra åttio nio&#39;,
+ &#39;etthundraåttiosex&#39;: &#39;ett hundra åttio sex&#39;,
+ &#39;etthundraåttiosju&#39;: &#39;ett hundra åttio sju&#39;,
+ &#39;etthundraåttiotre&#39;: &#39;ett hundra åttio tre&#39;,
+ &#39;etthundraåttiotvå&#39;: &#39;ett hundra åttio två&#39;,
+ &#39;etthundraåttioåtta&#39;: &#39;ett hundra åttio åtta&#39;,
+ &#39;femhundraelva&#39;: &#39;fem hundra elva&#39;,
+ &#39;femhundrafemtionio&#39;: &#39;fem hundra femtio nio&#39;,
+ &#39;femhundrafemtiosex&#39;: &#39;fem hundra femtio sex&#39;,
+ &#39;femhundrafemtiosju&#39;: &#39;fem hundra femtio sju&#39;,
+ &#39;femhundrafjorton&#39;: &#39;fem hundra fjorton&#39;,
+ &#39;femhundrafyra&#39;: &#39;fem hundra fyra&#39;,
+ &#39;femhundrafyrtioen&#39;: &#39;fem hundra fyrtio en&#39;,
+ &#39;femhundrafyrtiotre&#39;: &#39;fem hundra fyrtio tre&#39;,
+ &#39;femhundrafyrtiotvå&#39;: &#39;fem hundra fyrtio två&#39;,
+ &#39;femhundranittiosex&#39;: &#39;fem hundra nittio sex&#39;,
+ &#39;femhundranitton&#39;: &#39;fem hundra nitton&#39;,
+ &#39;femhundrasex&#39;: &#39;fem hundra sex&#39;,
+ &#39;femhundrasextio&#39;: &#39;fem hundra sextio&#39;,
+ &#39;femhundrasextiosju&#39;: &#39;fem hundra sextio sju&#39;,
+ &#39;femhundrasjuttio&#39;: &#39;fem hundra sjuttio&#39;,
+ &#39;femhundrasjuttiofem&#39;: &#39;fem hundra sjuttio fem&#39;,
+ &#39;femhundratjugo&#39;: &#39;fem hundra tjugo&#39;,
+ &#39;femhundratjugofem&#39;: &#39;fem hundra tjugo fem&#39;,
+ &#39;femhundratjugosex&#39;: &#39;fem hundra tjugo sex&#39;,
+ &#39;femhundratjugotre&#39;: &#39;fem hundra tjugo tre&#39;,
+ &#39;femhundratjugoåtta&#39;: &#39;fem hundra tjugo åtta&#39;,
+ &#39;femhundratolv&#39;: &#39;fem hundra tolv&#39;,
+ &#39;femhundratrettioen&#39;: &#39;fem hundra trettio en&#39;,
+ &#39;femhundratrettiofem&#39;: &#39;fem hundra trettio fem&#39;,
+ &#39;femhundratrettiosju&#39;: &#39;fem hundra trettio sju&#39;,
+ &#39;femhundratrettioåtta&#39;: &#39;fem hundra trettio åtta&#39;,
+ &#39;femhundraåtta&#39;: &#39;fem hundra åtta&#39;,
+ &#39;femhundraåttio&#39;: &#39;fem hundra åttio&#39;,
+ &#39;femhundraåttioen&#39;: &#39;fem hundra åttio en&#39;,
+ &#39;femhundraåttiosex&#39;: &#39;fem hundra åttio sex&#39;,
+ &#39;femhundraåttiosju&#39;: &#39;fem hundra åttio sju&#39;,
+ &#39;femtiosex&#39;: &#39;femtio sex&#39;,
+ &#39;femtiotre&#39;: &#39;femtio tre&#39;,
+ &#39;fyrahundra&#39;: &#39;fyra hundra&#39;,
+ &#39;fyrahundrafemtio&#39;: &#39;fyra hundra femtio&#39;,
+ &#39;fyrahundrafemtiofem&#39;: &#39;fyra hundra femtio fem&#39;,
+ &#39;fyrahundrafemton&#39;: &#39;fyra hundra femton&#39;,
+ &#39;fyrahundrafjorton&#39;: &#39;fyra hundra fjorton&#39;,
+ &#39;fyrahundrafyrtiofem&#39;: &#39;fyra hundra fyrtio fem&#39;,
+ &#39;fyrahundrafyrtiosex&#39;: &#39;fyra hundra fyrtio sex&#39;,
+ &#39;fyrahundrafyrtiotre&#39;: &#39;fyra hundra fyrtio tre&#39;,
+ &#39;fyrahundrafyrtiotvå&#39;: &#39;fyra hundra fyrtio två&#39;,
+ &#39;fyrahundrafyrtioåtta&#39;: &#39;fyra hundra fyrtio åtta&#39;,
+ &#39;fyrahundranittio&#39;: &#39;fyra hundra nittio&#39;,
+ &#39;fyrahundranittioen&#39;: &#39;fyra hundra nittio en&#39;,
+ &#39;fyrahundranittiosex&#39;: &#39;fyra hundra nittio sex&#39;,
+ &#39;fyrahundranittiotre&#39;: &#39;fyra hundra nittio tre&#39;,
+ &#39;fyrahundranittioåtta&#39;: &#39;fyra hundra nittio åtta&#39;,
+ &#39;fyrahundrasextioen&#39;: &#39;fyra hundra sextio en&#39;,
+ &#39;fyrahundrasextiofyra&#39;: &#39;fyra hundra sextio fyra&#39;,
+ &#39;fyrahundrasextionio&#39;: &#39;fyra hundra sextio nio&#39;,
+ &#39;fyrahundrasextiotre&#39;: &#39;fyra hundra sextio tre&#39;,
+ &#39;fyrahundrasextiotvå&#39;: &#39;fyra hundra sextio två&#39;,
+ &#39;fyrahundrasexton&#39;: &#39;fyra hundra sexton&#39;,
+ &#39;fyrahundrasjuttiofyra&#39;: &#39;fyra hundra sjuttio fyra&#39;,
+ &#39;fyrahundrasjuttiosju&#39;: &#39;fyra hundra sjuttio sju&#39;,
+ &#39;fyrahundrasjuttiotvå&#39;: &#39;fyra hundra sjuttio två&#39;,
+ &#39;fyrahundrasjuttioåtta&#39;: &#39;fyra hundra sjuttio åtta&#39;,
+ &#39;fyrahundrasjutton&#39;: &#39;fyra hundra sjutton&#39;,
+ &#39;fyrahundratio&#39;: &#39;fyra hundra tio&#39;,
+ &#39;fyrahundratjugoen&#39;: &#39;fyra hundra tjugo en&#39;,
+ &#39;fyrahundratjugofem&#39;: &#39;fyra hundra tjugo fem&#39;,
+ &#39;fyrahundratjugofyra&#39;: &#39;fyra hundra tjugo fyra&#39;,
+ &#39;fyrahundratjugonio&#39;: &#39;fyra hundra tjugo nio&#39;,
+ &#39;fyrahundratjugosex&#39;: &#39;fyra hundra tjugo sex&#39;,
+ &#39;fyrahundratjugotre&#39;: &#39;fyra hundra tjugo tre&#39;,
+ &#39;fyrahundratjugoåtta&#39;: &#39;fyra hundra tjugo åtta&#39;,
+ &#39;fyrahundratolv&#39;: &#39;fyra hundra tolv&#39;,
+ &#39;fyrahundratrettio&#39;: &#39;fyra hundra trettio&#39;,
+ &#39;fyrahundratrettioen&#39;: &#39;fyra hundra trettio en&#39;,
+ &#39;fyrahundratrettionio&#39;: &#39;fyra hundra trettio nio&#39;,
+ &#39;fyrahundratrettiotvå&#39;: &#39;fyra hundra trettio två&#39;,
+ &#39;fyrahundratretton&#39;: &#39;fyra hundra tretton&#39;,
+ &#39;fyrahundratvå&#39;: &#39;fyra hundra två&#39;,
+ &#39;fyrahundraåttiotvå&#39;: &#39;fyra hundra åttio två&#39;,
+ &#39;fyrtiofem&#39;: &#39;fyrtio fem&#39;,
+ &#39;fyrtiofyra&#39;: &#39;fyrtio fyra&#39;,
+ &#39;fyrtiosex&#39;: &#39;fyrtio sex&#39;,
+ &#39;fyrtiosju&#39;: &#39;fyrtio sju&#39;,
+ &#39;fyrtiotre&#39;: &#39;fyrtio tre&#39;,
+ &#39;fyrtioåtta&#39;: &#39;fyrtio åtta&#39;,
+ &#39;nittioen&#39;: &#39;nittio en&#39;,
+ &#39;nittiofem&#39;: &#39;nittio fem&#39;,
+ &#39;nittiofyra&#39;: &#39;nittio fyra&#39;,
+ &#39;nittionio&#39;: &#39;nittio nio&#39;,
+ &#39;nittiosex&#39;: &#39;nittio sex&#39;,
+ &#39;nittiosju&#39;: &#39;nittio sju&#39;,
+ &#39;nittiotre&#39;: &#39;nittio tre&#39;,
+ &#39;nittiotvå&#39;: &#39;nittio två&#39;,
+ &#39;nittioåtta&#39;: &#39;nittio åtta&#39;,
+ &#39;sexhundraelva&#39;: &#39;sex hundra elva&#39;,
+ &#39;sexhundrasextiosex&#39;: &#39;sex hundra sextio sex&#39;,
+ &#39;sexhundrasju&#39;: &#39;sex hundra sju&#39;,
+ &#39;sexhundratio&#39;: &#39;sex hundra tio&#39;,
+ &#39;sexhundratrettio&#39;: &#39;sex hundra trettio&#39;,
+ &#39;sexhundratrettioen&#39;: &#39;sex hundra trettio en&#39;,
+ &#39;sexhundratvå&#39;: &#39;sex hundra två&#39;,
+ &#39;sexhundraåttiosju&#39;: &#39;sex hundra åttio sju&#39;,
+ &#39;sexhundraåttioåtta&#39;: &#39;sex hundra åttio åtta&#39;,
+ &#39;sextioen&#39;: &#39;sextio en&#39;,
+ &#39;sextiofem&#39;: &#39;sextio fem&#39;,
+ &#39;sextiofyra&#39;: &#39;sextio fyra&#39;,
+ &#39;sextionio&#39;: &#39;sextio nio&#39;,
+ &#39;sextiosju&#39;: &#39;sextio sju&#39;,
+ &#39;sextiotre&#39;: &#39;sextio tre&#39;,
+ &#39;sextiotvå&#39;: &#39;sextio två&#39;,
+ &#39;sjuhundrafyrtiofem&#39;: &#39;sju hundra fyrtio fem&#39;,
+ &#39;sjuhundrafyrtiotvå&#39;: &#39;sju hundra fyrtio två&#39;,
+ &#39;sjuhundratjugosex&#39;: &#39;sju hundra tjugo sex&#39;,
+ &#39;sjuhundratre&#39;: &#39;sju hundra tre&#39;,
+ &#39;sjuhundratretton&#39;: &#39;sju hundra tretton&#39;,
+ &#39;sjuttiofem&#39;: &#39;sjuttio fem&#39;,
+ &#39;sjuttionio&#39;: &#39;sjuttio nio&#39;,
+ &#39;sjuttiosex&#39;: &#39;sjuttio sex&#39;,
+ &#39;sjuttiosju&#39;: &#39;sjuttio sju&#39;,
+ &#39;sjuttiotvå&#39;: &#39;sjuttio två&#39;,
+ &#39;tjugofyra&#39;: &#39;tjugo fyra&#39;,
+ &#39;tjugohundraarton&#39;: &#39;tjugo hundra arton&#39;,
+ &#39;tjugohundrafemton&#39;: &#39;tjugo hundra femton&#39;,
+ &#39;tjugohundrasexton&#39;: &#39;tjugo hundra sexton&#39;,
+ &#39;tjugohundrasjutton&#39;: &#39;tjugo hundra sjutton&#39;,
+ &#39;tjugonio&#39;: &#39;tjugo nio&#39;,
+ &#39;tjugotvå&#39;: &#39;tjugo två&#39;,
+ &#39;trehundra&#39;: &#39;tre hundra&#39;,
+ &#39;trehundraarton&#39;: &#39;tre hundra arton&#39;,
+ &#39;trehundraen&#39;: &#39;tre hundra en&#39;,
+ &#39;trehundrafem&#39;: &#39;tre hundra fem&#39;,
+ &#39;trehundrafemtio&#39;: &#39;tre hundra femtio&#39;,
+ &#39;trehundrafemtioen&#39;: &#39;tre hundra femtio en&#39;,
+ &#39;trehundrafemtiofem&#39;: &#39;tre hundra femtio fem&#39;,
+ &#39;trehundrafemtionio&#39;: &#39;tre hundra femtio nio&#39;,
+ &#39;trehundrafemtiosex&#39;: &#39;tre hundra femtio sex&#39;,
+ &#39;trehundrafemtiosju&#39;: &#39;tre hundra femtio sju&#39;,
+ &#39;trehundrafemtiotvå&#39;: &#39;tre hundra femtio två&#39;,
+ &#39;trehundrafemtioåtta&#39;: &#39;tre hundra femtio åtta&#39;,
+ &#39;trehundrafemton&#39;: &#39;tre hundra femton&#39;,
+ &#39;trehundrafjorton&#39;: &#39;tre hundra fjorton&#39;,
+ &#39;trehundrafyra&#39;: &#39;tre hundra fyra&#39;,
+ &#39;trehundrafyrtio&#39;: &#39;tre hundra fyrtio&#39;,
+ &#39;trehundrafyrtioen&#39;: &#39;tre hundra fyrtio en&#39;,
+ &#39;trehundrafyrtiofyra&#39;: &#39;tre hundra fyrtio fyra&#39;,
+ &#39;trehundrafyrtionio&#39;: &#39;tre hundra fyrtio nio&#39;,
+ &#39;trehundrafyrtiosex&#39;: &#39;tre hundra fyrtio sex&#39;,
+ &#39;trehundrafyrtiosju&#39;: &#39;tre hundra fyrtio sju&#39;,
+ &#39;trehundrafyrtiotre&#39;: &#39;tre hundra fyrtio tre&#39;,
+ &#39;trehundranio&#39;: &#39;tre hundra nio&#39;,
+ &#39;trehundranittio&#39;: &#39;tre hundra nittio&#39;,
+ &#39;trehundranittioen&#39;: &#39;tre hundra nittio en&#39;,
+ &#39;trehundranittiofyra&#39;: &#39;tre hundra nittio fyra&#39;,
+ &#39;trehundranittionio&#39;: &#39;tre hundra nittio nio&#39;,
+ &#39;trehundranittiosex&#39;: &#39;tre hundra nittio sex&#39;,
+ &#39;trehundranittiotre&#39;: &#39;tre hundra nittio tre&#39;,
+ &#39;trehundranittiotvå&#39;: &#39;tre hundra nittio två&#39;,
+ &#39;trehundranittioåtta&#39;: &#39;tre hundra nittio åtta&#39;,
+ &#39;trehundranitton&#39;: &#39;tre hundra nitton&#39;,
+ &#39;trehundrasextiofem&#39;: &#39;tre hundra sextio fem&#39;,
+ &#39;trehundrasextiosex&#39;: &#39;tre hundra sextio sex&#39;,
+ &#39;trehundrasextiosju&#39;: &#39;tre hundra sextio sju&#39;,
+ &#39;trehundrasextiotre&#39;: &#39;tre hundra sextio tre&#39;,
+ &#39;trehundrasextiotvå&#39;: &#39;tre hundra sextio två&#39;,
+ &#39;trehundrasextioåtta&#39;: &#39;tre hundra sextio åtta&#39;,
+ &#39;trehundrasexton&#39;: &#39;tre hundra sexton&#39;,
+ &#39;trehundrasjuttio&#39;: &#39;tre hundra sjuttio&#39;,
+ &#39;trehundrasjuttioen&#39;: &#39;tre hundra sjuttio en&#39;,
+ &#39;trehundrasjuttiofem&#39;: &#39;tre hundra sjuttio fem&#39;,
+ &#39;trehundrasjuttiofyra&#39;: &#39;tre hundra sjuttio fyra&#39;,
+ &#39;trehundrasjuttionio&#39;: &#39;tre hundra sjuttio nio&#39;,
+ &#39;trehundrasjuttiosex&#39;: &#39;tre hundra sjuttio sex&#39;,
+ &#39;trehundrasjuttiotvå&#39;: &#39;tre hundra sjuttio två&#39;,
+ &#39;trehundrasjuttioåtta&#39;: &#39;tre hundra sjuttio åtta&#39;,
+ &#39;trehundrasjutton&#39;: &#39;tre hundra sjutton&#39;,
+ &#39;trehundratio&#39;: &#39;tre hundra tio&#39;,
+ &#39;trehundratjugo&#39;: &#39;tre hundra tjugo&#39;,
+ &#39;trehundratjugoen&#39;: &#39;tre hundra tjugo en&#39;,
+ &#39;trehundratjugofem&#39;: &#39;tre hundra tjugo fem&#39;,
+ &#39;trehundratjugofyra&#39;: &#39;tre hundra tjugo fyra&#39;,
+ &#39;trehundratjugonio&#39;: &#39;tre hundra tjugo nio&#39;,
+ &#39;trehundratjugosex&#39;: &#39;tre hundra tjugo sex&#39;,
+ &#39;trehundratjugosju&#39;: &#39;tre hundra tjugo sju&#39;,
+ &#39;trehundratjugotre&#39;: &#39;tre hundra tjugo tre&#39;,
+ &#39;trehundratjugoåtta&#39;: &#39;tre hundra tjugo åtta&#39;,
+ &#39;trehundratolv&#39;: &#39;tre hundra tolv&#39;,
+ &#39;trehundratre&#39;: &#39;tre hundra tre&#39;,
+ &#39;trehundratrettioen&#39;: &#39;tre hundra trettio en&#39;,
+ &#39;trehundratrettiofem&#39;: &#39;tre hundra trettio fem&#39;,
+ &#39;trehundratrettiofyra&#39;: &#39;tre hundra trettio fyra&#39;,
+ &#39;trehundratrettionio&#39;: &#39;tre hundra trettio nio&#39;,
+ &#39;trehundratrettiosex&#39;: &#39;tre hundra trettio sex&#39;,
+ &#39;trehundratrettiotre&#39;: &#39;tre hundra trettio tre&#39;,
+ &#39;trehundratrettiotvå&#39;: &#39;tre hundra trettio två&#39;,
+ &#39;trehundratrettioåtta&#39;: &#39;tre hundra trettio åtta&#39;,
+ &#39;trehundratretton&#39;: &#39;tre hundra tretton&#39;,
+ &#39;trehundratvå&#39;: &#39;tre hundra två&#39;,
+ &#39;trehundraåtta&#39;: &#39;tre hundra åtta&#39;,
+ &#39;trehundraåttio&#39;: &#39;tre hundra åttio&#39;,
+ &#39;trehundraåttiofyra&#39;: &#39;tre hundra åttio fyra&#39;,
+ &#39;trehundraåttionio&#39;: &#39;tre hundra åttio nio&#39;,
+ &#39;trehundraåttiosju&#39;: &#39;tre hundra åttio sju&#39;,
+ &#39;trehundraåttiotre&#39;: &#39;tre hundra åttio tre&#39;,
+ &#39;trehundraåttioåtta&#39;: &#39;tre hundra åttio åtta&#39;,
+ &#39;trettiofem&#39;: &#39;trettio fem&#39;,
+ &#39;trettiofyra&#39;: &#39;trettio fyra&#39;,
+ &#39;trettionio&#39;: &#39;trettio nio&#39;,
+ &#39;trettiosex&#39;: &#39;trettio sex&#39;,
+ &#39;trettiosju&#39;: &#39;trettio sju&#39;,
+ &#39;trettiotre&#39;: &#39;trettio tre&#39;,
+ &#39;trettiotvå&#39;: &#39;trettio två&#39;,
+ &#39;tvåhundra&#39;: &#39;två hundra&#39;,
+ &#39;tvåhundraarton&#39;: &#39;två hundra arton&#39;,
+ &#39;tvåhundraelva&#39;: &#39;två hundra elva&#39;,
+ &#39;tvåhundraen&#39;: &#39;två hundra en&#39;,
+ &#39;tvåhundrafem&#39;: &#39;två hundra fem&#39;,
+ &#39;tvåhundrafemtio&#39;: &#39;två hundra femtio&#39;,
+ &#39;tvåhundrafemtioen&#39;: &#39;två hundra femtio en&#39;,
+ &#39;tvåhundrafemtiofem&#39;: &#39;två hundra femtio fem&#39;,
+ &#39;tvåhundrafemtiofyra&#39;: &#39;två hundra femtio fyra&#39;,
+ &#39;tvåhundrafemtionio&#39;: &#39;två hundra femtio nio&#39;,
+ &#39;tvåhundrafemtiosex&#39;: &#39;två hundra femtio sex&#39;,
+ &#39;tvåhundrafemtiosju&#39;: &#39;två hundra femtio sju&#39;,
+ &#39;tvåhundrafemtiotre&#39;: &#39;två hundra femtio tre&#39;,
+ &#39;tvåhundrafemtiotvå&#39;: &#39;två hundra femtio två&#39;,
+ &#39;tvåhundrafemton&#39;: &#39;två hundra femton&#39;,
+ &#39;tvåhundrafjorton&#39;: &#39;två hundra fjorton&#39;,
+ &#39;tvåhundrafyra&#39;: &#39;två hundra fyra&#39;,
+ &#39;tvåhundrafyrtio&#39;: &#39;två hundra fyrtio&#39;,
+ &#39;tvåhundrafyrtioen&#39;: &#39;två hundra fyrtio en&#39;,
+ &#39;tvåhundrafyrtiofem&#39;: &#39;två hundra fyrtio fem&#39;,
+ &#39;tvåhundrafyrtiofyra&#39;: &#39;två hundra fyrtio fyra&#39;,
+ &#39;tvåhundrafyrtionio&#39;: &#39;två hundra fyrtio nio&#39;,
+ &#39;tvåhundrafyrtiosex&#39;: &#39;två hundra fyrtio sex&#39;,
+ &#39;tvåhundrafyrtiotre&#39;: &#39;två hundra fyrtio tre&#39;,
+ &#39;tvåhundrafyrtiotvå&#39;: &#39;två hundra fyrtio två&#39;,
+ &#39;tvåhundrafyrtioåtta&#39;: &#39;två hundra fyrtio åtta&#39;,
+ &#39;tvåhundranio&#39;: &#39;två hundra nio&#39;,
+ &#39;tvåhundranittioen&#39;: &#39;två hundra nittio en&#39;,
+ &#39;tvåhundranittiofem&#39;: &#39;två hundra nittio fem&#39;,
+ &#39;tvåhundranittiofyra&#39;: &#39;två hundra nittio fyra&#39;,
+ &#39;tvåhundranittionio&#39;: &#39;två hundra nittio nio&#39;,
+ &#39;tvåhundranittiosex&#39;: &#39;två hundra nittio sex&#39;,
+ &#39;tvåhundranittiotre&#39;: &#39;två hundra nittio tre&#39;,
+ &#39;tvåhundranittiotvå&#39;: &#39;två hundra nittio två&#39;,
+ &#39;tvåhundranittioåtta&#39;: &#39;två hundra nittio åtta&#39;,
+ &#39;tvåhundranitton&#39;: &#39;två hundra nitton&#39;,
+ &#39;tvåhundrasex&#39;: &#39;två hundra sex&#39;,
+ &#39;tvåhundrasextio&#39;: &#39;två hundra sextio&#39;,
+ &#39;tvåhundrasextiofem&#39;: &#39;två hundra sextio fem&#39;,
+ &#39;tvåhundrasextiofyra&#39;: &#39;två hundra sextio fyra&#39;,
+ &#39;tvåhundrasextionio&#39;: &#39;två hundra sextio nio&#39;,
+ &#39;tvåhundrasextiosex&#39;: &#39;två hundra sextio sex&#39;,
+ &#39;tvåhundrasextiosju&#39;: &#39;två hundra sextio sju&#39;,
+ &#39;tvåhundrasextiotre&#39;: &#39;två hundra sextio tre&#39;,
+ &#39;tvåhundrasextiotvå&#39;: &#39;två hundra sextio två&#39;,
+ &#39;tvåhundrasextioåtta&#39;: &#39;två hundra sextio åtta&#39;,
+ &#39;tvåhundrasexton&#39;: &#39;två hundra sexton&#39;,
+ &#39;tvåhundrasju&#39;: &#39;två hundra sju&#39;,
+ &#39;tvåhundrasjuttio&#39;: &#39;två hundra sjuttio&#39;,
+ &#39;tvåhundrasjuttioen&#39;: &#39;två hundra sjuttio en&#39;,
+ &#39;tvåhundrasjuttiofyra&#39;: &#39;två hundra sjuttio fyra&#39;,
+ &#39;tvåhundrasjuttionio&#39;: &#39;två hundra sjuttio nio&#39;,
+ &#39;tvåhundrasjuttiotre&#39;: &#39;två hundra sjuttio tre&#39;,
+ &#39;tvåhundrasjuttiotvå&#39;: &#39;två hundra sjuttio två&#39;,
+ &#39;tvåhundrasjuttioåtta&#39;: &#39;två hundra sjuttio åtta&#39;,
+ &#39;tvåhundrasjutton&#39;: &#39;två hundra sjutton&#39;,
+ &#39;tvåhundratio&#39;: &#39;två hundra tio&#39;,
+ &#39;tvåhundratjugo&#39;: &#39;två hundra tjugo&#39;,
+ &#39;tvåhundratjugoen&#39;: &#39;två hundra tjugo en&#39;,
+ &#39;tvåhundratjugofem&#39;: &#39;två hundra tjugo fem&#39;,
+ &#39;tvåhundratjugofyra&#39;: &#39;två hundra tjugo fyra&#39;,
+ &#39;tvåhundratjugonio&#39;: &#39;två hundra tjugo nio&#39;,
+ &#39;tvåhundratjugosju&#39;: &#39;två hundra tjugo sju&#39;,
+ &#39;tvåhundratjugotre&#39;: &#39;två hundra tjugo tre&#39;,
+ &#39;tvåhundratjugotvå&#39;: &#39;två hundra tjugo två&#39;,
+ &#39;tvåhundratjugoåtta&#39;: &#39;två hundra tjugo åtta&#39;,
+ &#39;tvåhundratolv&#39;: &#39;två hundra tolv&#39;,
+ &#39;tvåhundratrettio&#39;: &#39;två hundra trettio&#39;,
+ &#39;tvåhundratrettioen&#39;: &#39;två hundra trettio en&#39;,
+ &#39;tvåhundratrettiofem&#39;: &#39;två hundra trettio fem&#39;,
+ &#39;tvåhundratrettiofyra&#39;: &#39;två hundra trettio fyra&#39;,
+ &#39;tvåhundratrettionio&#39;: &#39;två hundra trettio nio&#39;,
+ &#39;tvåhundratrettiosex&#39;: &#39;två hundra trettio sex&#39;,
+ &#39;tvåhundratrettiosju&#39;: &#39;två hundra trettio sju&#39;,
+ &#39;tvåhundratrettiotre&#39;: &#39;två hundra trettio tre&#39;,
+ &#39;tvåhundratrettiotvå&#39;: &#39;två hundra trettio två&#39;,
+ &#39;tvåhundratrettioåtta&#39;: &#39;två hundra trettio åtta&#39;,
+ &#39;tvåhundratretton&#39;: &#39;två hundra tretton&#39;,
+ &#39;tvåhundratvå&#39;: &#39;två hundra två&#39;,
+ &#39;tvåhundraåtta&#39;: &#39;två hundra åtta&#39;,
+ &#39;tvåhundraåttio&#39;: &#39;två hundra åttio&#39;,
+ &#39;tvåhundraåttioen&#39;: &#39;två hundra åttio en&#39;,
+ &#39;tvåhundraåttiofem&#39;: &#39;två hundra åttio fem&#39;,
+ &#39;tvåhundraåttiofyra&#39;: &#39;två hundra åttio fyra&#39;,
+ &#39;tvåhundraåttionio&#39;: &#39;två hundra åttio nio&#39;,
+ &#39;tvåhundraåttiosex&#39;: &#39;två hundra åttio sex&#39;,
+ &#39;tvåhundraåttiosju&#39;: &#39;två hundra åttio sju&#39;,
+ &#39;tvåhundraåttiotre&#39;: &#39;två hundra åttio tre&#39;,
+ &#39;tvåhundraåttiotvå&#39;: &#39;två hundra åttio två&#39;,
+ &#39;tvåhundraåttioåtta&#39;: &#39;två hundra åttio åtta&#39;,
+ &#39;åttahundrasextiofyra&#39;: &#39;åtta hundra sextio fyra&#39;,
+ &#39;åttioen&#39;: &#39;åttio en&#39;,
+ &#39;åttiofem&#39;: &#39;åttio fem&#39;,
+ &#39;åttiofyra&#39;: &#39;åttio fyra&#39;,
+ &#39;åttiosex&#39;: &#39;åttio sex&#39;,
+ &#39;åttiotre&#39;: &#39;åttio tre&#39;,
+ &#39;åttioåtta&#39;: &#39;åttio åtta&#39;,
+ &#39;tjugohundratretton&#39;: &#39;tjugo hundra tretton&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="k">for</span> <span class="n">text_file</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/tmp/storpigg/mfa-corpus&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;**/*.lab&quot;</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">text_file</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">text</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">outwords</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+            <span class="n">outwords</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">numbers</span><span class="p">[</span><span class="n">word</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">outwords</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+    <span class="n">outtext</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">outwords</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">outtext</span> <span class="o">!=</span> <span class="n">text</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">text_file</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">outtext</span><span class="p">)</span>
+            
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;tmpinlist&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;tmpoutlist&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">of</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">line</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">word</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">ipa</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">of</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">word</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">ipa_to_phones</span><span class="p">(</span><span class="n">ipa</span><span class="p">))</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ipa_to_phones</span><span class="p">(</span><span class="s2">&quot;deːmɪts heliːn&lt;v&gt;&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;D&#39;, &#39;E:&#39;, &#39;M&#39;, &#39;I&#39;, &#39;T&#39;, &#39;S&#39;, &#39;H&#39;, &#39;E&#39;, &#39;L&#39;, &#39;I:&#39;, &#39;N&#39;, &#39;v&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/waxholm/ipa/mfa/2026/08/04/ipa-to-waxholm.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

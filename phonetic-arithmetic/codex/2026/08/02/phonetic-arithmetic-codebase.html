@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>m2m-aligner codebase overview | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="m2m-aligner codebase overview" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Phonological vectors" />
+<meta property="og:description" content="Phonological vectors" />
+<link rel="canonical" href="https://jimregan.github.io/notes/phonetic-arithmetic/codex/2026/08/02/phonetic-arithmetic-codebase.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/phonetic-arithmetic/codex/2026/08/02/phonetic-arithmetic-codebase.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-08-02T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/phonetic-arithmetic/codex/2026/08/02/phonetic-arithmetic-codebase.html","@type":"BlogPosting","headline":"m2m-aligner codebase overview","dateModified":"2026-08-02T00:00:00-05:00","datePublished":"2026-08-02T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/phonetic-arithmetic/codex/2026/08/02/phonetic-arithmetic-codebase.html"},"description":"Phonological vectors","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">m2m-aligner codebase overview</h1><p class="page-description">Phonological vectors</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-08-02T00:00:00-05:00" itemprop="datePublished">
+        Aug 2, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#phonetic-arithmetic">phonetic-arithmetic</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#codex">codex</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#codebase-summary">Codebase Summary</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#workflow">Workflow</a></li>
+<li class="toc-entry toc-h2"><a href="#main-components">Main Components</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#prepare_datasetspy">prepare_datasets.py</a></li>
+<li class="toc-entry toc-h3"><a href="#extract_featurespy">extract_features.py</a></li>
+<li class="toc-entry toc-h3"><a href="#estimate_similaritypy">estimate_similarity.py</a></li>
+<li class="toc-entry toc-h3"><a href="#pcspy">pcs.py</a></li>
+<li class="toc-entry toc-h3"><a href="#analyze_synthpy">analyze_synth.py</a></li>
+<li class="toc-entry toc-h3"><a href="#plot_everythingpy">plot_everything.py</a></li>
+<li class="toc-entry toc-h3"><a href="#plot_synthpy">plot_synth.py</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#data-conventions">Data Conventions</a></li>
+<li class="toc-entry toc-h2"><a href="#dependencies-and-execution">Dependencies and Execution</a></li>
+<li class="toc-entry toc-h2"><a href="#engineering-notes">Engineering Notes</a></li>
+</ul>
+</li>
+</ul><h1 id="codebase-summary">
+<a class="anchor" href="#codebase-summary" aria-hidden="true"><span class="octicon octicon-link"></span></a>Codebase Summary</h1>
+
+<p>This repository implements the experiments from the ACL 2026 paper <em>[b]=[d]-[t]+[p]: Self-supervised Speech Models Discover Phonological Vector Arithmetic</em>. It is organized as a collection of executable research scripts rather than an installable Python package.</p>
+
+<p>Paper summary is <a href="/notes/summary/chatgpt/2026/08/02/self-supervised-speech-models-discover-phonological-vector-arithmetic.html">here</a></p>
+
+<h2 id="workflow">
+<a class="anchor" href="#workflow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow</h2>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TIMIT / VoxAngeles
+        |
+        v
+prepare_datasets.py
+        |
+        v
+phone-aligned CSV metadata
+        |
+        v
+extract_features.py
+        |
+        v
+layerwise SSL or spectral embeddings
+        |-- estimate_similarity.py --&gt; analogy similarity results
+        |-- pcs.py                 --&gt; PCS scores
+        `-- analyze_synth.py       --&gt; modified speech measurements
+                                              |
+                                              v
+                                plot_everything.py / plot_synth.py
+</code></pre></div></div>
+
+<h2 id="main-components">
+<a class="anchor" href="#main-components" aria-hidden="true"><span class="octicon octicon-link"></span></a>Main Components</h2>
+
+<h3 id="prepare_datasetspy">
+<a class="anchor" href="#prepare_datasetspy" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">prepare_datasets.py</code>
+</h3>
+
+<p>Converts TIMIT or VoxAngeles alignments into CSV rows containing audio paths, IPA phones, segment times, and dataset splits. TIMIT phones are explicitly mapped to IPA, while VoxAngeles annotations are read from Praat TextGrid files.</p>
+
+<h3 id="extract_featurespy">
+<a class="anchor" href="#extract_featurespy" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">extract_features.py</code>
+</h3>
+
+<p>Produces phone-level representations from:</p>
+
+<ul>
+  <li>Hugging Face speech models such as WavLM, HuBERT, and wav2vec 2.0</li>
+  <li>MFCC features</li>
+  <li>Mel spectrograms</li>
+</ul>
+
+<p>The script can either extract features from a complete utterance and slice the resulting representation, or slice the audio before feature extraction. It supports center, average, or no temporal pooling and stores the resulting DataFrame as a pickle file.</p>
+
+<h3 id="estimate_similaritypy">
+<a class="anchor" href="#estimate_similaritypy" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">estimate_similarity.py</code>
+</h3>
+
+<p>Runs the main phonological-vector-arithmetic experiment. It:</p>
+
+<ul>
+  <li>Filters rare phones and phones unknown to PanPhon</li>
+  <li>Uses PanPhon feature vectors to discover valid analogies such as <code class="language-plaintext highlighter-rouge">a = b + c - d</code>
+</li>
+  <li>Compares arithmetic similarity with same-phone and different-phone baselines</li>
+  <li>Uses repeated Monte Carlo sampling and 99% confidence intervals</li>
+  <li>Parallelizes processing across phone analogies</li>
+</ul>
+
+<h3 id="pcspy">
+<a class="anchor" href="#pcspy" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">pcs.py</code>
+</h3>
+
+<p>Calculates the Phonological Consistency Score. It groups equivalent phonological contrasts using a union-find structure and measures how well cosine similarity distinguishes corresponding contrast vectors from mismatched ones using ROC AUC.</p>
+
+<h3 id="analyze_synthpy">
+<a class="anchor" href="#analyze_synthpy" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">analyze_synth.py</code>
+</h3>
+
+<p>Performs the synthesis experiments. A phonological direction is defined as the difference between the mean embeddings of phones with positive and negative values for a selected PanPhon feature. Scaled versions of this direction are added to selected phone frames and resynthesized through a custom Vocos model.</p>
+
+<p>The generated audio is evaluated using measurements including formants, bandwidth, harmonicity, spectral center of gravity, zero-crossing rate, and RMS behavior. Both SSL representations and an MFCC baseline are supported.</p>
+
+<h3 id="plot_everythingpy">
+<a class="anchor" href="#plot_everythingpy" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">plot_everything.py</code>
+</h3>
+
+<p>Generates the publication figures. It compares:</p>
+
+<ul>
+  <li>Models and representation layers</li>
+  <li>TIMIT and VoxAngeles</li>
+  <li>Feature slicing and audio slicing</li>
+  <li>Consonants and vowels</li>
+  <li>SSL models and spectral baselines</li>
+  <li>Synthesis effects</li>
+  <li>Phonological Consistency Scores</li>
+</ul>
+
+<h3 id="plot_synthpy">
+<a class="anchor" href="#plot_synthpy" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">plot_synth.py</code>
+</h3>
+
+<p>Generates the demonstration audio and spectrograms stored in <code class="language-plaintext highlighter-rouge">examples/</code>.</p>
+
+<h2 id="data-conventions">
+<a class="anchor" href="#data-conventions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Conventions</h2>
+
+<p>Most intermediate files are expected under an uncommitted <code class="language-plaintext highlighter-rouge">feats/</code> directory:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Artifact</th>
+      <th>Naming convention</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dataset metadata</td>
+      <td><code class="language-plaintext highlighter-rouge">feats/{dataset}.csv</code></td>
+    </tr>
+    <tr>
+      <td>Embeddings</td>
+      <td><code class="language-plaintext highlighter-rouge">feats/{dataset}-{model}-{layer}-{slice}.pkl</code></td>
+    </tr>
+    <tr>
+      <td>Similarity results</td>
+      <td><code class="language-plaintext highlighter-rouge">feats/similarities-{dataset}-{model}-{slice}.pkl</code></td>
+    </tr>
+    <tr>
+      <td>PCS results</td>
+      <td><code class="language-plaintext highlighter-rouge">feats/pcs-{dataset}-{model}.pkl</code></td>
+    </tr>
+    <tr>
+      <td>Synthesis measurements</td>
+      <td>CSV names containing the dataset, model, phone class, and feature</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Figures are written under <code class="language-plaintext highlighter-rouge">plots/</code>. Selected demonstration PNG and WAV files are committed under <code class="language-plaintext highlighter-rouge">examples/</code>.</p>
+
+<h2 id="dependencies-and-execution">
+<a class="anchor" href="#dependencies-and-execution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies and Execution</h2>
+
+<p>The documented environment targets Python 3.10. Major dependencies include:</p>
+
+<ul>
+  <li>PyTorch and Transformers</li>
+  <li>librosa</li>
+  <li>pandas and NumPy</li>
+  <li>SciPy and scikit-learn</li>
+  <li>PanPhon</li>
+  <li>PraatIO and Parselmouth</li>
+  <li>Hugging Face Datasets</li>
+  <li>tqdm and Matplotlib</li>
+</ul>
+
+<p>Synthesis additionally requires the custom <code class="language-plaintext highlighter-rouge">wavlm</code> branch of Vocos. GPU acceleration is optional for basic feature extraction but is effectively expected for large-model and synthesis experiments.</p>
+
+<h2 id="engineering-notes">
+<a class="anchor" href="#engineering-notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Engineering Notes</h2>
+
+<ul>
+  <li>The repository contains approximately 2,000 lines across seven Python scripts.</li>
+  <li>There are no automated tests, packaging metadata, lockfile, continuous-integration configuration, or formal dependency file.</li>
+  <li>Scripts depend on fixed directory and filename conventions.</li>
+  <li>Plot generation assumes that a nearly complete collection of intermediate artifacts has already been produced.</li>
+  <li>Several experimental assumptions are hard-coded, including 16 kHz SSL audio, model strides, model layer counts, a 50-example phone cutoff, and exactly 95 VoxAngeles languages.</li>
+  <li>Intermediate representations use Python pickle files and should only be loaded from trusted sources.</li>
+</ul>
+
+<p>See <code class="language-plaintext highlighter-rouge">README.md</code> for installation instructions and example commands for running the complete pipeline.</p>
+
+  </div><a class="u-url" href="/notes/phonetic-arithmetic/codex/2026/08/02/phonetic-arithmetic-codebase.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

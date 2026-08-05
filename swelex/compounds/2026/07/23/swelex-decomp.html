@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Swelex compound decomposition | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Swelex compound decomposition" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Incomplete" />
+<meta property="og:description" content="Incomplete" />
+<link rel="canonical" href="https://jimregan.github.io/notes/swelex/compounds/2026/07/23/swelex-decomp.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/swelex/compounds/2026/07/23/swelex-decomp.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-07-23T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/swelex/compounds/2026/07/23/swelex-decomp.html","@type":"BlogPosting","headline":"Swelex compound decomposition","dateModified":"2026-07-23T00:00:00-05:00","datePublished":"2026-07-23T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/swelex/compounds/2026/07/23/swelex-decomp.html"},"description":"Incomplete","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Swelex compound decomposition</h1><p class="page-description">Incomplete</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-07-23T00:00:00-05:00" itemprop="datePublished">
+        Jul 23, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      20 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#swelex">swelex</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#compounds">compounds</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2026-07-23-swelex-decomp.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2026-07-23-swelex-decomp.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2026-07-23-swelex-decomp.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2026-07-23-swelex-decomp.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="n">decomp</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;svlex.json&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+        <span class="n">orth</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;orthography&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">orth</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">decomposition</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;decomp&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">decomposition</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">decomposition</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">decomposition</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">decomp</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">orth</span><span class="p">,</span> <span class="n">decomposition</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">decomp</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[(&#39;-barnsmamman&#39;, [&#39;-barn&#39;, &#39;s&#39;, &#39;mamman&#39;]),
+ (&#39;-barnsmor&#39;, [&#39;-&#39;, &#39;barn&#39;, &#39;s&#39;, &#39;mor&#39;]),
+ (&#39;-barnsspappan&#39;, [&#39;-&#39;, &#39;barns&#39;, &#39;s&#39;, &#39;pappan&#39;]),
+ (&#39;-dagarsvecka&#39;, [&#39;-&#39;, &#39;dagar&#39;, &#39;s&#39;, &#39;vecka&#39;]),
+ (&#39;-del&#39;, [&#39;-&#39;, &#39;del&#39;]),
+ (&#39;-delar&#39;, [&#39;-&#39;, &#39;delar&#39;]),
+ (&#39;-dels&#39;, [&#39;-&#39;, &#39;dels&#39;]),
+ (&#39;-dygnsprognos&#39;, [&#39;-&#39;, &#39;dygn&#39;, &#39;s&#39;, &#39;prognos&#39;]),
+ (&#39;-dörrarsversion&#39;, [&#39;-&#39;, &#39;dörrar&#39;, &#39;s&#39;, &#39;version&#39;]),
+ (&#39;-dörrarsversionen&#39;, [&#39;-&#39;, &#39;dörrar&#39;, &#39;s&#39;, &#39;versionen&#39;]),
+ (&#39;-kronorsgränsen&#39;, [&#39;-&#39;, &#39;kronor&#39;, &#39;s&#39;, &#39;gränsen&#39;]),
+ (&#39;-lapp&#39;, [&#39;-&#39;, &#39;lapp&#39;]),
+ (&#39;-målsskytt&#39;, [&#39;-&#39;, &#39;mål&#39;, &#39;s&#39;, &#39;skytt&#39;]),
+ (&#39;-ndel&#39;, [&#39;-&#39;, &#39;n&#39;, &#39;del&#39;]),
+ (&#39;-partisystem&#39;, [&#39;-&#39;, &#39;parti&#39;, &#39;system&#39;]),
+ (&#39;-procentspärren&#39;, [&#39;-&#39;, &#39;procent&#39;, &#39;spärren&#39;]),
+ (&#39;-procentsspärren&#39;, [&#39;-&#39;, &#39;procent&#39;, &#39;s&#39;, &#39;spärren&#39;]),
+ (&#39;-rummare&#39;, [&#39;-&#39;, &#39;rummare&#39;]),
+ (&#39;-tal&#39;, [&#39;-&#39;, &#39;tal&#39;]),
+ (&#39;-talet&#39;, [&#39;-&#39;, &#39;talet&#39;]),
+ (&#39;-talets&#39;, [&#39;-&#39;, &#39;talets&#39;]),
+ (&#39;-talisten&#39;, [&#39;-&#39;, &#39;talisten&#39;]),
+ (&#39;-tals&#39;, [&#39;-&#39;, &#39;tal&#39;, &#39;s&#39;]),
+ (&#39;-talsthriller&#39;, [&#39;-&#39;, &#39;tal&#39;, &#39;s&#39;, &#39;thriller&#39;]),
+ (&#39;-talstyp&#39;, [&#39;-&#39;, &#39;tal&#39;, &#39;s&#39;, &#39;typ&#39;]),
+ (&#39;-tiden&#39;, [&#39;-&#39;, &#39;tiden&#39;]),
+ (&#39;-våningstorn&#39;, [&#39;-&#39;, &#39;våning&#39;, &#39;s&#39;, &#39;torn&#39;]),
+ (&#39;-årig&#39;, [&#39;-&#39;, &#39;årig&#39;]),
+ (&#39;-åriga&#39;, [&#39;-&#39;, &#39;åriga&#39;]),
+ (&#39;-årige&#39;, [&#39;-&#39;, &#39;årige&#39;]),
+ (&#39;-årigt&#39;, [&#39;-&#39;, &#39;årigt&#39;]),
+ (&#39;-åring&#39;, [&#39;-&#39;, &#39;åring&#39;]),
+ (&#39;-åringar&#39;, [&#39;-&#39;, &#39;åringar&#39;]),
+ (&#39;-åringarna&#39;, [&#39;-&#39;, &#39;åringarna&#39;]),
+ (&#39;-åringen&#39;, [&#39;-&#39;, &#39;åringen&#39;]),
+ (&#39;-årsdag&#39;, [&#39;-&#39;, &#39;år&#39;, &#39;s&#39;, &#39;dag&#39;]),
+ (&#39;-årsgala&#39;, [&#39;-&#39;, &#39;år&#39;, &#39;s&#39;, &#39;gala&#39;]),
+ (&#39;-årskalaset&#39;, [&#39;-&#39;, &#39;år&#39;, &#39;s&#39;, &#39;kalaset&#39;]),
+ (&#39;-årslopp&#39;, [&#39;-&#39;, &#39;år&#39;, &#39;s&#39;, &#39;lopp&#39;]),
+ (&#39;-årsminnet&#39;, [&#39;-&#39;, &#39;år&#39;, &#39;s&#39;, &#39;minnet&#39;]),
+ (&#39;-årsperiod&#39;, [&#39;-&#39;, &#39;år&#39;, &#39;s&#39;, &#39;period&#39;]),
+ (&#39;-årsverksamhet&#39;, [&#39;-&#39;, &#39;år&#39;, &#39;s&#39;, &#39;verksamhet&#39;]),
+ (&#39;-årsåldern&#39;, [&#39;-&#39;, &#39;år&#39;, &#39;s&#39;, &#39;åldern&#39;]),
+ (&#39;-öring&#39;, [&#39;-&#39;, &#39;öring&#39;]),
+ (&#39;7-eleven&#39;, [&#39;7&#39;, &#39;-&#39;, &#39;eleven&#39;]),
+ (&#39;A-VM&#39;, [&#39;A&#39;, &#39;-&#39;, &#39;VM&#39;]),
+ (&#39;A-ekonomi&#39;, [&#39;A&#39;, &#39;-&#39;, &#39;ekonomi&#39;]),
+ (&#39;A-kasseersättning&#39;, [&#39;!A-kasse&#39;, &#39;ersättning&#39;]),
+ (&#39;A-kasseersättningen&#39;, [&#39;!A-kasse&#39;, &#39;ersättningen&#39;]),
+ (&#39;A-trupp&#39;, [&#39;A&#39;, &#39;-&#39;, &#39;trupp&#39;]),
+ (&#39;A-truppen&#39;, [&#39;A&#39;, &#39;-&#39;, &#39;truppen&#39;]),
+ (&#39;A4-sidor&#39;, [&#39;A4&#39;, &#39;-&#39;, &#39;sidor&#39;]),
+ (&#39;ABB-chefen&#39;, [&#39;ABB&#39;, &#39;-&#39;, &#39;chefen&#39;]),
+ (&#39;ABB-koncernen&#39;, [&#39;ABB&#39;, &#39;-&#39;, &#39;koncernen&#39;]),
+ (&#39;ABC-nytt&#39;, [&#39;ABC&#39;, &#39;-&#39;, &#39;nytt&#39;]),
+ (&#39;ABF-huset&#39;, [&#39;ABF&#39;, &#39;-&#39;, &#39;huset&#39;]),
+ (&#39;ABS-bromsar&#39;, [&#39;ABS&#39;, &#39;-&#39;, &#39;bromsar&#39;]),
+ (&#39;AIK-Nytt&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;Nytt&#39;]),
+ (&#39;AIK-backen&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;backen&#39;]),
+ (&#39;AIK-fans&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;fans&#39;]),
+ (&#39;AIK-fansen&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;fansen&#39;]),
+ (&#39;AIK-ledningen&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;ledningen&#39;]),
+ (&#39;AIK-målet&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;målet&#39;]),
+ (&#39;AIK-målvakten&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;mål&#39;, &#39;vakten&#39;]),
+ (&#39;AIK-spelarna&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;spelarna&#39;]),
+ (&#39;AIK-tränaren&#39;, [&#39;AIK&#39;, &#39;-&#39;, &#39;tränaren&#39;]),
+ (&#39;ALU-jobb&#39;, [&#39;ALU&#39;, &#39;-&#39;, &#39;jobb&#39;]),
+ (&#39;AMS-chefen&#39;, [&#39;AMS&#39;, &#39;-&#39;, &#39;chefen&#39;]),
+ (&#39;AMS-pengar&#39;, [&#39;AMS&#39;, &#39;-&#39;, &#39;pengar&#39;]),
+ (&#39;AMS-utbildning&#39;, [&#39;AMS&#39;, &#39;-&#39;, &#39;utbildning&#39;]),
+ (&#39;AMS-åtgärder&#39;, [&#39;AMS&#39;, &#39;-&#39;, &#39;åtgärder&#39;]),
+ (&#39;AMU-gruppen&#39;, [&#39;AMU&#39;, &#39;-&#39;, &#39;gruppen&#39;]),
+ (&#39;ANC-anhängare&#39;, [&#39;ANC&#39;, &#39;-&#39;, &#39;an&#39;, &#39;hängare&#39;]),
+ (&#39;ANC-ledare&#39;, [&#39;ANC&#39;, &#39;-&#39;, &#39;ledare&#39;]),
+ (&#39;AP-fondens&#39;, [&#39;AP&#39;, &#39;-&#39;, &#39;fondens&#39;]),
+ (&#39;ARE-bolagen&#39;, [&#39;ARE&#39;, &#39;-&#39;, &#39;bolagen&#39;]),
+ (&#39;ATG-ombud&#39;, [&#39;ATG&#39;, &#39;-&#39;, &#39;ombud&#39;]),
+ (&#39;ATP-rankingen&#39;, [&#39;ATP&#39;, &#39;-&#39;, &#39;rankingen&#39;]),
+ (&#39;ATP-slutspelet&#39;, [&#39;ATP&#39;, &#39;-&#39;, &#39;slut&#39;, &#39;spelet&#39;]),
+ (&#39;ATP-system&#39;, [&#39;ATP&#39;, &#39;-&#39;, &#39;system&#39;]),
+ (&#39;ATP-systemet&#39;, [&#39;ATP&#39;, &#39;-&#39;, &#39;systemet&#39;]),
+ (&#39;ATP-touren&#39;, [&#39;ATP&#39;, &#39;-&#39;, &#39;touren&#39;]),
+ (&#39;ATP-turnering&#39;, [&#39;ATP&#39;, &#39;-&#39;, &#39;turnering&#39;]),
+ (&#39;ATP-turneringar&#39;, [&#39;ATP&#39;, &#39;-&#39;, &#39;turneringar&#39;]),
+ (&#39;ATP-turneringen&#39;, [&#39;ATP&#39;, &#39;-&#39;, &#39;turneringen&#39;]),
+ (&#39;Abbedissavägen&#39;, [&#39;Abbedissa&#39;, &#39;vägen&#39;]),
+ (&#39;Abbekåsgatan&#39;, [&#39;Abbekås&#39;, &#39;gatan&#39;]),
+ (&#39;Abborregatan&#39;, [&#39;Abborre&#39;, &#39;gatan&#39;]),
+ (&#39;Abborrgatan&#39;, [&#39;Abborr&#39;, &#39;gatan&#39;]),
+ (&#39;Abborrgränd&#39;, [&#39;Abborr&#39;, &#39;gränd&#39;]),
+ (&#39;Abborrstigen&#39;, [&#39;Abborr&#39;, &#39;stigen&#39;]),
+ (&#39;Abborrtorpsvägen&#39;, [&#39;Abborr&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Abborrträsk&#39;, [&#39;!Abborr&#39;, &#39;träsk&#39;]),
+ (&#39;Abborrträsks&#39;, [&#39;!Abborr&#39;, &#39;träsks&#39;]),
+ (&#39;Abborrvägen&#39;, [&#39;Abborr&#39;, &#39;vägen&#39;]),
+ (&#39;Abbotvägen&#39;, [&#39;Abbot&#39;, &#39;vägen&#39;]),
+ (&#39;Abiskovägen&#39;, [&#39;Abisko&#39;, &#39;vägen&#39;]),
+ (&#39;Abmoträsket&#39;, [&#39;Abmo&#39;, &#39;träsket&#39;]),
+ (&#39;Abmoträskets&#39;, [&#39;Abmo&#39;, &#39;träskets&#39;]),
+ (&#39;Abraham_Bäckgatan&#39;, [&#39;Abraham_Bäck&#39;, &#39;gatan&#39;]),
+ (&#39;Abrahamsbergs&#39;, [&#39;Abraham&#39;, &#39;s&#39;, &#39;bergs&#39;]),
+ (&#39;Abrahamsbergsvägen&#39;, [&#39;Abraham&#39;, &#39;s&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Abrahamsvägen&#39;, [&#39;Abraham&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Ackordscentralen&#39;, [&#39;Ackord&#39;, &#39;s&#39;, &#39;centralen&#39;]),
+ (&#39;Ackordscentralens&#39;, [&#39;Ackord&#39;, &#39;s&#39;, &#39;centralens&#39;]),
+ (&#39;Adams-Ray&#39;, [&#39;Adams&#39;, &#39;-&#39;, &#39;Ray&#39;]),
+ (&#39;Adamstorpsvägen&#39;, [&#39;Adam&#39;, &#39;s&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Adelbert&#39;, [&#39;Adel&#39;, &#39;bert&#39;]),
+ (&#39;Adelboden&#39;, [&#39;Adel&#39;, &#39;boden&#39;]),
+ (&#39;Adelgatan&#39;, [&#39;Adel&#39;, &#39;gatan&#39;]),
+ (&#39;Adelgren&#39;, [&#39;Adel&#39;, &#39;gren&#39;]),
+ (&#39;Adelman&#39;, [&#39;Adel&#39;, &#39;man&#39;]),
+ (&#39;Adelsbergsvägen&#39;, [&#39;Adel&#39;, &#39;s&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Adelsgatan&#39;, [&#39;Adel&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Adelsköld&#39;, [&#39;Adel&#39;, &#39;sköld&#39;]),
+ (&#39;Adelsnäs&#39;, [&#39;Adel&#39;, &#39;s&#39;, &#39;näs&#39;]),
+ (&#39;Adelstorpsvägen&#39;, [&#39;Adel&#39;, &#39;s&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Adelswärdsvägen&#39;, [&#39;Adelswärd&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Adelsö&#39;, [&#39;Adel&#39;, &#39;s&#39;, &#39;ö&#39;]),
+ (&#39;Adelsös&#39;, [&#39;Adel&#39;, &#39;s&#39;, &#39;ös&#39;]),
+ (&#39;Adjunktsgatan&#39;, [&#39;Adjunkt&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Adjunktsvägen&#39;, [&#39;Adjunkt&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Adler-Karlsson&#39;, [&#39;Adler&#39;, &#39;-&#39;, &#39;Karlsson&#39;]),
+ (&#39;Adlerbethsgatan&#39;, [&#39;Adlerbeth&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Adolf_Andersohnsgatan&#39;, [&#39;Adolf_Andersohn&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Adolf_Fredriks_Kyrkogata&#39;, [&#39;Adolf_Fredriks_!Kyrk&#39;, &#39;o&#39;, &#39;gata&#39;]),
+ (&#39;Adolf_Hedinsvägen&#39;, [&#39;Adolf_Hedin&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Adolfsbergs&#39;, [&#39;Adolf&#39;, &#39;s&#39;, &#39;bergs&#39;]),
+ (&#39;Adolfsbergsvägen&#39;, [&#39;Adolf&#39;, &#39;s&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Adventsvägen&#39;, [&#39;Advent&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Advokatbacken&#39;, [&#39;Advokat&#39;, &#39;backen&#39;]),
+ (&#39;Advokatsamfundet&#39;, [&#39;Advokat&#39;, &#39;samfundet&#39;]),
+ (&#39;Advokatsamfundets&#39;, [&#39;Advokat&#39;, &#39;samfundets&#39;]),
+ (&#39;Affärsgatan&#39;, [&#39;Affär&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Affärsvägen&#39;, [&#39;Affär&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Afrikaresa&#39;, [&#39;Afrika&#39;, &#39;resa&#39;]),
+ (&#39;Afrikaresan&#39;, [&#39;Afrika&#39;, &#39;resan&#39;]),
+ (&#39;Afrikaresans&#39;, [&#39;Afrika&#39;, &#39;resans&#39;]),
+ (&#39;Afrikaresas&#39;, [&#39;Afrika&#39;, &#39;resas&#39;]),
+ (&#39;Afrikaresor&#39;, [&#39;Afrika&#39;, &#39;resor&#39;]),
+ (&#39;Afrikaresorna&#39;, [&#39;Afrika&#39;, &#39;resorna&#39;]),
+ (&#39;Afrikaresornas&#39;, [&#39;Afrika&#39;, &#39;resornas&#39;]),
+ (&#39;Afrikaresors&#39;, [&#39;Afrika&#39;, &#39;resors&#39;]),
+ (&#39;Aftonbladet&#39;, [&#39;Afton&#39;, &#39;bladet&#39;]),
+ (&#39;Aftonbladets&#39;, [&#39;Afton&#39;, &#39;bladets&#39;]),
+ (&#39;Aftonbrisvägen&#39;, [&#39;Afton&#39;, &#39;bris&#39;, &#39;vägen&#39;]),
+ (&#39;Aftongatan&#39;, [&#39;Afton&#39;, &#39;gatan&#39;]),
+ (&#39;Aftonvägen&#39;, [&#39;Afton&#39;, &#39;vägen&#39;]),
+ (&#39;Afzeliivägen&#39;, [&#39;Afzelii&#39;, &#39;vägen&#39;]),
+ (&#39;Agardhsgatan&#39;, [&#39;Agardhs&#39;, &#39;gatan&#39;]),
+ (&#39;Agavägen&#39;, [&#39;Aga&#39;, &#39;vägen&#39;]),
+ (&#39;Aglaiavägen&#39;, [&#39;Aglaia&#39;, &#39;vägen&#39;]),
+ (&#39;Agnegatan&#39;, [&#39;Agne&#39;, &#39;gatan&#39;]),
+ (&#39;Agnesberg&#39;, [&#39;Agnes&#39;, &#39;berg&#39;]),
+ (&#39;Agnesbergs&#39;, [&#39;Agne&#39;, &#39;s&#39;, &#39;bergs&#39;]),
+ (&#39;Agnesborgsvägen&#39;, [&#39;Agne&#39;, &#39;s&#39;, &#39;borg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Agnesfridsvägen&#39;, [&#39;Agne&#39;, &#39;s&#39;, &#39;frid&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Agneshögsgatan&#39;, [&#39;Agne&#39;, &#39;s&#39;, &#39;hög&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Agnetorp&#39;, [&#39;Agne&#39;, &#39;torp&#39;]),
+ (&#39;Agnetorps&#39;, [&#39;Agne&#39;, &#39;torps&#39;]),
+ (&#39;Agnevägen&#39;, [&#39;Agne&#39;, &#39;vägen&#39;]),
+ (&#39;Agrarpartiet&#39;, [&#39;Agrar&#39;, &#39;partiet&#39;]),
+ (&#39;Agronomvägen&#39;, [&#39;Agronom&#39;, &#39;vägen&#39;]),
+ (&#39;Aguéligatan&#39;, [&#39;Aguéli&#39;, &#39;gatan&#39;]),
+ (&#39;Ahasjön&#39;, [&#39;Aha&#39;, &#39;sjön&#39;]),
+ (&#39;Ahasjöns&#39;, [&#39;Aha&#39;, &#39;sjöns&#39;]),
+ (&#39;Ahlmansgatan&#39;, [&#39;Ahlman&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Ahlsellvägen&#39;, [&#39;Ahlsell&#39;, &#39;vägen&#39;]),
+ (&#39;Ahrenbergsgatan&#39;, [&#39;Ahrenberg&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Akabaviken&#39;, [&#39;Akaba&#39;, &#39;viken&#39;]),
+ (&#39;Akabavikens&#39;, [&#39;Akaba&#39;, &#39;vikens&#39;]),
+ (&#39;Akademibokhandeln&#39;, [&#39;Akademi&#39;, &#39;bok&#39;, &#39;handeln&#39;]),
+ (&#39;Akademivägen&#39;, [&#39;Akademi&#39;, &#39;vägen&#39;]),
+ (&#39;Aklejavägen&#39;, [&#39;Akleja&#39;, &#39;vägen&#39;]),
+ (&#39;Aktergatan&#39;, [&#39;Akter&#39;, &#39;gatan&#39;]),
+ (&#39;Aktervägen&#39;, [&#39;Akter&#39;, &#39;vägen&#39;]),
+ (&#39;Aktrisgatan&#39;, [&#39;Aktris&#39;, &#39;gatan&#39;]),
+ (&#39;Akvamaringatan&#39;, [&#39;Akvamarin&#39;, &#39;gatan&#39;]),
+ (&#39;Akvarievägen&#39;, [&#39;Akvarie&#39;, &#39;vägen&#39;]),
+ (&#39;Aladdinsvägen&#39;, [&#39;Aladdin&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Alavägen&#39;, [&#39;Al&#39;, &#39;a&#39;, &#39;vägen&#39;]),
+ (&#39;Albacken&#39;, [&#39;Al&#39;, &#39;backen&#39;]),
+ (&#39;Albacksgatan&#39;, [&#39;Al&#39;, &#39;back&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Albanovägen&#39;, [&#39;Albano&#39;, &#39;vägen&#39;]),
+ (&#39;Albatrossvägen&#39;, [&#39;Albatross&#39;, &#39;vägen&#39;]),
+ (&#39;Albavägen&#39;, [&#39;Alba&#39;, &#39;vägen&#39;]),
+ (&#39;Albertsvägen&#39;, [&#39;Albert&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Albinsrogatan&#39;, [&#39;Albin&#39;, &#39;s&#39;, &#39;ro&#39;, &#39;gatan&#39;]),
+ (&#39;Albogatan&#39;, [&#39;Albo&#39;, &#39;gatan&#39;]),
+ (&#39;Albovägen&#39;, [&#39;Albo&#39;, &#39;vägen&#39;]),
+ (&#39;Albrektsvägen&#39;, [&#39;Albrekt&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Albrogatan&#39;, [&#39;Al&#39;, &#39;bro&#39;, &#39;gatan&#39;]),
+ (&#39;Albygatan&#39;, [&#39;Al&#39;, &#39;by&#39;, &#39;gatan&#39;]),
+ (&#39;Albyvägen&#39;, [&#39;Al&#39;, &#39;by&#39;, &#39;vägen&#39;]),
+ (&#39;Albäck&#39;, [&#39;Al&#39;, &#39;bäck&#39;]),
+ (&#39;Albäcksgatan&#39;, [&#39;Al&#39;, &#39;bäck&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Albåge&#39;, [&#39;Al&#39;, &#39;båge&#39;]),
+ (&#39;Aleberg&#39;, [&#39;Al&#39;, &#39;e&#39;, &#39;berg&#39;]),
+ (&#39;Alebom&#39;, [&#39;Al&#39;, &#39;e&#39;, &#39;bom&#39;]),
+ (&#39;Alebrunnsvägen&#39;, [&#39;Al&#39;, &#39;e&#39;, &#39;brunn&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Alegatan&#39;, [&#39;Al&#39;, &#39;e&#39;, &#39;gatan&#39;]),
+ (&#39;Alegren&#39;, [&#39;Al&#39;, &#39;e&#39;, &#39;gren&#39;]),
+ (&#39;Alegränd&#39;, [&#39;Al&#39;, &#39;e&#39;, &#39;gränd&#39;]),
+ (&#39;Alekärrsvägen&#39;, [&#39;Al&#39;, &#39;e&#39;, &#39;kärr&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Alevägen&#39;, [&#39;Al&#39;, &#39;e&#39;, &#39;vägen&#39;]),
+ (&#39;Alf-Erik&#39;, [&#39;Alf&#39;, &#39;-&#39;, &#39;Erik&#39;]),
+ (&#39;Alf-Göran&#39;, [&#39;Alf&#39;, &#39;-&#39;, &#39;Göran&#39;]),
+ (&#39;Alf-Åke&#39;, [&#39;Alf&#39;, &#39;-&#39;, &#39;Åke&#39;]),
+ (&#39;Alfa-Laval&#39;, [&#39;Alfa&#39;, &#39;-&#39;, &#39;Laval&#39;]),
+ (&#39;Alfavägen&#39;, [&#39;Alfa&#39;, &#39;vägen&#39;]),
+ (&#39;Alfeltsgatan&#39;, [&#39;Alfelt&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alfhemsgatan&#39;, [&#39;Alf&#39;, &#39;hem&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alfhemsvägen&#39;, [&#39;Alf&#39;, &#39;hem&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Alforsgatan&#39;, [&#39;Al&#39;, &#39;fors&#39;, &#39;gatan&#39;]),
+ (&#39;Alfredshem&#39;, [&#39;Alfred&#39;, &#39;s&#39;, &#39;hem&#39;]),
+ (&#39;Alfshög&#39;, [&#39;Alf&#39;, &#39;s&#39;, &#39;hög&#39;]),
+ (&#39;Alfshögs&#39;, [&#39;Alf&#39;, &#39;s&#39;, &#39;högs&#39;]),
+ (&#39;Alftavägen&#39;, [&#39;Alfta&#39;, &#39;vägen&#39;]),
+ (&#39;Algatan&#39;, [&#39;Al&#39;, &#39;gatan&#39;]),
+ (&#39;Algutsbo&#39;, [&#39;Algut&#39;, &#39;s&#39;, &#39;bo&#39;]),
+ (&#39;Algutsboda&#39;, [&#39;Algut&#39;, &#39;s&#39;, &#39;boda&#39;]),
+ (&#39;Algutsrum&#39;, [&#39;Algut&#39;, &#39;s&#39;, &#39;rum&#39;]),
+ (&#39;Algutsrums&#39;, [&#39;Algut&#39;, &#39;s&#39;, &#39;rums&#39;]),
+ (&#39;Algutstorp&#39;, [&#39;Algut&#39;, &#39;s&#39;, &#39;torp&#39;]),
+ (&#39;Algutstorps&#39;, [&#39;Algut&#39;, &#39;s&#39;, &#39;torps&#39;]),
+ (&#39;Algö&#39;, [&#39;Alg&#39;, &#39;ö&#39;]),
+ (&#39;Algös&#39;, [&#39;Alg&#39;, &#39;ös&#39;]),
+ (&#39;Alhagsvägen&#39;, [&#39;Al&#39;, &#39;!hag&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Alidebergsgatan&#39;, [&#39;Alideberg&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Aliforsgatan&#39;, [&#39;Alifors&#39;, &#39;gatan&#39;]),
+ (&#39;Alingsåker&#39;, [&#39;Aling&#39;, &#39;s&#39;, &#39;åker&#39;]),
+ (&#39;Alingsåsvägen&#39;, [&#39;Alingsås&#39;, &#39;vägen&#39;]),
+ (&#39;Alkalievägen&#39;, [&#39;Alkalie&#39;, &#39;vägen&#39;]),
+ (&#39;Alkoholinspektionen&#39;, [&#39;Alkohol&#39;, &#39;inspektionen&#39;]),
+ (&#39;Alkottsgatan&#39;, [&#39;Alkott&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alkvist&#39;, [&#39;Al&#39;, &#39;kvist&#39;]),
+ (&#39;Allansgatan&#39;, [&#39;Allans&#39;, &#39;gatan&#39;]),
+ (&#39;Allarpsvägen&#39;, [&#39;Allarp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Allberg&#39;, [&#39;All&#39;, &#39;berg&#39;]),
+ (&#39;Allbogatan&#39;, [&#39;Allbo&#39;, &#39;gatan&#39;]),
+ (&#39;Allbom&#39;, [&#39;All&#39;, &#39;bom&#39;]),
+ (&#39;Allbotorget&#39;, [&#39;Allbo&#39;, &#39;torget&#39;]),
+ (&#39;Allerum&#39;, [&#39;!All&#39;, &#39;e&#39;, &#39;rum&#39;]),
+ (&#39;Allfargatan&#39;, [&#39;All&#39;, &#39;far&#39;, &#39;gatan&#39;]),
+ (&#39;Allfarvägen&#39;, [&#39;All&#39;, &#39;far&#39;, &#39;vägen&#39;]),
+ (&#39;Allgunås&#39;, [&#39;Allgun&#39;, &#39;ås&#39;]),
+ (&#39;Allhelgonagatan&#39;, [&#39;All&#39;, &#39;helgona&#39;, &#39;gatan&#39;]),
+ (&#39;Allhelgonavägen&#39;, [&#39;All&#39;, &#39;helgona&#39;, &#39;vägen&#39;]),
+ (&#39;Alliansvägen&#39;, [&#39;Allians&#39;, &#39;vägen&#39;]),
+ (&#39;Allmogegatan&#39;, [&#39;Allmoge&#39;, &#39;gatan&#39;]),
+ (&#39;Allmogevägen&#39;, [&#39;Allmoge&#39;, &#39;vägen&#39;]),
+ (&#39;Allmänningbo&#39;, [&#39;Allmänning&#39;, &#39;bo&#39;]),
+ (&#39;Allmänningsvägen&#39;, [&#39;Allmänning&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Allström&#39;, [&#39;All&#39;, &#39;ström&#39;]),
+ (&#39;Alltinget&#39;, [&#39;Allt&#39;, &#39;inget&#39;]),
+ (&#39;Allvädersgränd&#39;, [&#39;All&#39;, &#39;väder&#39;, &#39;s&#39;, &#39;gränd&#39;]),
+ (&#39;Allégatan&#39;, [&#39;Allé&#39;, &#39;gatan&#39;]),
+ (&#39;Allévägen&#39;, [&#39;Allé&#39;, &#39;vägen&#39;]),
+ (&#39;Alma-Ata&#39;, [&#39;Alma&#39;, &#39;-&#39;, &#39;Ata&#39;]),
+ (&#39;Almbacksgatan&#39;, [&#39;Alm&#39;, &#39;!back&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Almberg&#39;, [&#39;Alm&#39;, &#39;berg&#39;]),
+ (&#39;Almblad&#39;, [&#39;Alm&#39;, &#39;blad&#39;]),
+ (&#39;Almborg&#39;, [&#39;Alm&#39;, &#39;borg&#39;]),
+ (&#39;Almby&#39;, [&#39;Alm&#39;, &#39;by&#39;]),
+ (&#39;Almedalen&#39;, [&#39;Alm&#39;, &#39;e&#39;, &#39;dalen&#39;]),
+ (&#39;Almedalsgatan&#39;, [&#39;Almedal&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Almedalsvägen&#39;, [&#39;Almedal&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Almegård&#39;, [&#39;Alm&#39;, &#39;e&#39;, &#39;gård&#39;]),
+ (&#39;Almekärrsvägen&#39;, [&#39;Almekärr&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Almgatan&#39;, [&#39;Alm&#39;, &#39;gatan&#39;]),
+ (&#39;Almgren&#39;, [&#39;Alm&#39;, &#39;gren&#39;]),
+ (&#39;Almgrens&#39;, [&#39;Alm&#39;, &#39;grens&#39;]),
+ (&#39;Almhagen&#39;, [&#39;Alm&#39;, &#39;hagen&#39;]),
+ (&#39;Almkvist&#39;, [&#39;Alm&#39;, &#39;kvist&#39;]),
+ (&#39;Almkvists&#39;, [&#39;Alm&#39;, &#39;kvists&#39;]),
+ (&#39;Almlöv&#39;, [&#39;Alm&#39;, &#39;löv&#39;]),
+ (&#39;Almnäs&#39;, [&#39;Alm&#39;, &#39;näs&#39;]),
+ (&#39;Almnäsvägen&#39;, [&#39;Alm&#39;, &#39;näs&#39;, &#39;vägen&#39;]),
+ (&#39;Almqvistgatan&#39;, [&#39;Almqvist&#39;, &#39;gatan&#39;]),
+ (&#39;Almrot&#39;, [&#39;Alm&#39;, &#39;rot&#39;]),
+ (&#39;Almrots&#39;, [&#39;Alm&#39;, &#39;rots&#39;]),
+ (&#39;Almstigen&#39;, [&#39;Alm&#39;, &#39;stigen&#39;]),
+ (&#39;Almstrand&#39;, [&#39;Alm&#39;, &#39;strand&#39;]),
+ (&#39;Almström&#39;, [&#39;Alm&#39;, &#39;ström&#39;]),
+ (&#39;Almtorget&#39;, [&#39;Alm&#39;, &#39;torget&#39;]),
+ (&#39;Almvik&#39;, [&#39;Alm&#39;, &#39;vik&#39;]),
+ (&#39;Almviksvägen&#39;, [&#39;Alm&#39;, &#39;vik&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Almvägen&#39;, [&#39;Alm&#39;, &#39;vägen&#39;]),
+ (&#39;Alnarpsgatan&#39;, [&#39;Alnarp&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alnarpsvägen&#39;, [&#39;Alnarp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Alnängsgatan&#39;, [&#39;Aln&#39;, &#39;äng&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alnö&#39;, [&#39;Aln&#39;, &#39;ö&#39;]),
+ (&#39;Alnögatan&#39;, [&#39;Alnö&#39;, &#39;gatan&#39;]),
+ (&#39;Alnövägen&#39;, [&#39;Alnö&#39;, &#39;vägen&#39;]),
+ (&#39;Alpgatan&#39;, [&#39;Alp&#39;, &#39;gatan&#39;]),
+ (&#39;Alphyddevägen&#39;, [&#39;Alp&#39;, &#39;!hydd&#39;, &#39;e&#39;, &#39;vägen&#39;]),
+ (&#39;Alprosvägen&#39;, [&#39;Alp&#39;, &#39;ros&#39;, &#39;vägen&#39;]),
+ (&#39;Alpsten&#39;, [&#39;Alp&#39;, &#39;sten&#39;]),
+ (&#39;Alpstigen&#39;, [&#39;Alp&#39;, &#39;stigen&#39;]),
+ (&#39;Alpvägen&#39;, [&#39;Alp&#39;, &#39;vägen&#39;]),
+ (&#39;Alriksgatan&#39;, [&#39;Al&#39;, &#39;!rik&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alsjöholm&#39;, [&#39;Al&#39;, &#39;sjö&#39;, &#39;!holm&#39;]),
+ (&#39;Alsjöholms&#39;, [&#39;Al&#39;, &#39;sjö&#39;, &#39;!holms&#39;]),
+ (&#39;Alskog&#39;, [&#39;Al&#39;, &#39;skog&#39;]),
+ (&#39;Alstad&#39;, [&#39;Al&#39;, &#39;stad&#39;]),
+ (&#39;Alsterberg&#39;, [&#39;Alster&#39;, &#39;berg&#39;]),
+ (&#39;Alsterbros&#39;, [&#39;Alster&#39;, &#39;bros&#39;]),
+ (&#39;Alstergren&#39;, [&#39;Alster&#39;, &#39;gren&#39;]),
+ (&#39;Alsterlind&#39;, [&#39;Alster&#39;, &#39;lind&#39;]),
+ (&#39;Alsterlund&#39;, [&#39;Alster&#39;, &#39;lund&#39;]),
+ (&#39;Alstermark&#39;, [&#39;Alster&#39;, &#39;mark&#39;]),
+ (&#39;Alstersgatan&#39;, [&#39;Alster&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alstersvik&#39;, [&#39;Alster&#39;, &#39;s&#39;, &#39;vik&#39;]),
+ (&#39;Alstervägen&#39;, [&#39;Alster&#39;, &#39;vägen&#39;]),
+ (&#39;Alsteråvägen&#39;, [&#39;Alster&#39;, &#39;å&#39;, &#39;vägen&#39;]),
+ (&#39;Alstigen&#39;, [&#39;Al&#39;, &#39;stigen&#39;]),
+ (&#39;Alström&#39;, [&#39;Al&#39;, &#39;ström&#39;]),
+ (&#39;Alströmergatan&#39;, [&#39;Alströmer&#39;, &#39;gatan&#39;]),
+ (&#39;Alströmersgatan&#39;, [&#39;Alströmer&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alströmervägen&#39;, [&#39;Alströmer&#39;, &#39;vägen&#39;]),
+ (&#39;Alströms&#39;, [&#39;Al&#39;, &#39;ströms&#39;]),
+ (&#39;Alsätravägen&#39;, [&#39;Alsätra&#39;, &#39;vägen&#39;]),
+ (&#39;Alsättersgatan&#39;, [&#39;Alsätter&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Altarvägen&#39;, [&#39;!Altar&#39;, &#39;vägen&#39;]),
+ (&#39;Altberg&#39;, [&#39;Alt&#39;, &#39;berg&#39;]),
+ (&#39;Altfiolvägen&#39;, [&#39;Alt&#39;, &#39;fiol&#39;, &#39;vägen&#39;]),
+ (&#39;Altman&#39;, [&#39;Alt&#39;, &#39;man&#39;]),
+ (&#39;Altmans&#39;, [&#39;Alt&#39;, &#39;mans&#39;]),
+ (&#39;Altorpsvägen&#39;, [&#39;Al&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Altvägen&#39;, [&#39;Alt&#39;, &#39;vägen&#39;]),
+ (&#39;Aluddsvägen&#39;, [&#39;Al&#39;, &#39;udd&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Aluminiumvägen&#39;, [&#39;Aluminium&#39;, &#39;vägen&#39;]),
+ (&#39;Alunvägen&#39;, [&#39;Alun&#39;, &#39;vägen&#39;]),
+ (&#39;Alvarsdal&#39;, [&#39;Alvar&#39;, &#39;s&#39;, &#39;dal&#39;]),
+ (&#39;Alvastragatan&#39;, [&#39;Alvastra&#39;, &#39;gatan&#39;]),
+ (&#39;Alvastrahus&#39;, [&#39;Alvastra&#39;, &#39;hus&#39;]),
+ (&#39;Alvedsjö&#39;, [&#39;Al&#39;, &#39;ved&#39;, &#39;sjö&#39;]),
+ (&#39;Alvestagatan&#39;, [&#39;Alvesta&#39;, &#39;gatan&#39;]),
+ (&#39;Alvestavägen&#39;, [&#39;Alvesta&#39;, &#39;vägen&#39;]),
+ (&#39;Alvetorp&#39;, [&#39;Alve&#39;, &#39;torp&#39;]),
+ (&#39;Alvgatan&#39;, [&#39;Alv&#39;, &#39;gatan&#39;]),
+ (&#39;Alvhem&#39;, [&#39;Alv&#39;, &#39;hem&#39;]),
+ (&#39;Alvik&#39;, [&#39;Al&#39;, &#39;vik&#39;]),
+ (&#39;Alviks&#39;, [&#39;Al&#39;, &#39;viks&#39;]),
+ (&#39;Alviksgatan&#39;, [&#39;Al&#39;, &#39;vik&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Alviksskolan&#39;, [&#39;Alvik&#39;, &#39;s&#39;, &#39;skolan&#39;]),
+ (&#39;Alviksträsk&#39;, [&#39;Alvik&#39;, &#39;s&#39;, &#39;träsk&#39;]),
+ (&#39;Alviksvägen&#39;, [&#39;Al&#39;, &#39;vik&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Alvägen&#39;, [&#39;Al&#39;, &#39;vägen&#39;]),
+ (&#39;Amaliagatan&#39;, [&#39;Amalia&#39;, &#39;gatan&#39;]),
+ (&#39;Amaryllisvägen&#39;, [&#39;Amaryllis&#39;, &#39;vägen&#39;]),
+ (&#39;Amasonfloden&#39;, [&#39;Amason&#39;, &#39;floden&#39;]),
+ (&#39;Amasonflodens&#39;, [&#39;Amason&#39;, &#39;flodens&#39;]),
+ (&#39;Amatörvägen&#39;, [&#39;Amatör&#39;, &#39;vägen&#39;]),
+ (&#39;Ambjörnsvägen&#39;, [&#39;Ambjörn&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Ambultsgatan&#39;, [&#39;Ambult&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Amerikakoffert&#39;, [&#39;Amerika&#39;, &#39;koffert&#39;]),
+ (&#39;Amerikakoffertar&#39;, [&#39;Amerika&#39;, &#39;koffertar&#39;]),
+ (&#39;Amerikakoffertarna&#39;, [&#39;Amerika&#39;, &#39;koffertarna&#39;]),
+ (&#39;Amerikakoffertarnas&#39;, [&#39;Amerika&#39;, &#39;koffertarnas&#39;]),
+ (&#39;Amerikakoffertars&#39;, [&#39;Amerika&#39;, &#39;koffertars&#39;]),
+ (&#39;Amerikakofferten&#39;, [&#39;Amerika&#39;, &#39;kofferten&#39;]),
+ (&#39;Amerikakoffertens&#39;, [&#39;Amerika&#39;, &#39;koffertens&#39;]),
+ (&#39;Amerikakofferts&#39;, [&#39;Amerika&#39;, &#39;kofferts&#39;]),
+ (&#39;Amerikalinjen&#39;, [&#39;Amerika&#39;, &#39;linjen&#39;]),
+ (&#39;Amerikavägen&#39;, [&#39;Amerika&#39;, &#39;vägen&#39;]),
+ (&#39;Aminogatan&#39;, [&#39;Amino&#39;, &#39;gatan&#39;]),
+ (&#39;Amiralitetsgatan&#39;, [&#39;Amiralitet&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Amiralitetstorget&#39;, [&#39;Amiralitet&#39;, &#39;s&#39;, &#39;torget&#39;]),
+ (&#39;Amiralsgatan&#39;, [&#39;Amiral&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Amiralsvägen&#39;, [&#39;Amiral&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Amorgränd&#39;, [&#39;Amor&#39;, &#39;gränd&#39;]),
+ (&#39;Amorvägen&#39;, [&#39;Amor&#39;, &#39;vägen&#39;]),
+ (&#39;Amsterdamfördraget&#39;, [&#39;Amsterdam&#39;, &#39;fördraget&#39;]),
+ (&#39;Amundövik&#39;, [&#39;Amund&#39;, &#39;ö&#39;, &#39;vik&#39;]),
+ (&#39;Ananasvägen&#39;, [&#39;Ananas&#39;, &#39;vägen&#39;]),
+ (&#39;Anarisvägen&#39;, [&#39;Anaris&#39;, &#39;vägen&#39;]),
+ (&#39;Anbudsvägen&#39;, [&#39;Anbud&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Anc-ledaren&#39;, [&#39;Anc&#39;, &#39;-&#39;, &#39;ledaren&#39;]),
+ (&#39;Andbergsgatan&#39;, [&#39;And&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Andebodavägen&#39;, [&#39;Andeboda&#39;, &#39;vägen&#39;]),
+ (&#39;Andersbergsringen&#39;, [&#39;Anders&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;ringen&#39;]),
+ (&#39;Andersbovägen&#39;, [&#39;Anders&#39;, &#39;bo&#39;, &#39;vägen&#39;]),
+ (&#39;Andersdotter&#39;, [&#39;Anders&#39;, &#39;dotter&#39;]),
+ (&#39;Anderslöv&#39;, [&#39;Anders&#39;, &#39;löv&#39;]),
+ (&#39;Anderslövs&#39;, [&#39;Anders&#39;, &#39;lövs&#39;]),
+ (&#39;Andersson-Edin&#39;, [&#39;Andersson&#39;, &#39;-&#39;, &#39;Edin&#39;]),
+ (&#39;Anderssvedja&#39;, [&#39;Anders&#39;, &#39;svedja&#39;]),
+ (&#39;Anderstorg&#39;, [&#39;Anders&#39;, &#39;torg&#39;]),
+ (&#39;Anderstorp&#39;, [&#39;Anders&#39;, &#39;torp&#39;]),
+ (&#39;Anderstorps&#39;, [&#39;Anders&#39;, &#39;torps&#39;]),
+ (&#39;Anderstorpsvägen&#39;, [&#39;Anders&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Andersvattnet&#39;, [&#39;Anders&#39;, &#39;vattnet&#39;]),
+ (&#39;Andersvedja&#39;, [&#39;Ander&#39;, &#39;svedja&#39;]),
+ (&#39;Andersviksberg&#39;, [&#39;Anders&#39;, &#39;vik&#39;, &#39;s&#39;, &#39;berg&#39;]),
+ (&#39;Andersvägen&#39;, [&#39;Anders&#39;, &#39;vägen&#39;]),
+ (&#39;Andgatan&#39;, [&#39;And&#39;, &#39;gatan&#39;]),
+ (&#39;Andgränd&#39;, [&#39;And&#39;, &#39;gränd&#39;]),
+ (&#39;Andra_Långgatan&#39;, [&#39;Andra_Lång&#39;, &#39;gatan&#39;]),
+ (&#39;Andra_Tvärgatan&#39;, [&#39;Andra_Tvär&#39;, &#39;gatan&#39;]),
+ (&#39;Andra_Villagatan&#39;, [&#39;Andra_Villa&#39;, &#39;gatan&#39;]),
+ (&#39;Andreottis&#39;, [&#39;!Andre&#39;, &#39;ottis&#39;]),
+ (&#39;Andréegatan&#39;, [&#39;Andrée&#39;, &#39;gatan&#39;]),
+ (&#39;Andréevägen&#39;, [&#39;Andrée&#39;, &#39;vägen&#39;]),
+ (&#39;Andrégatan&#39;, [&#39;André&#39;, &#39;gatan&#39;]),
+ (&#39;Andstigen&#39;, [&#39;And&#39;, &#39;stigen&#39;]),
+ (&#39;Andviken&#39;, [&#39;And&#39;, &#39;viken&#39;]),
+ (&#39;Andvägen&#39;, [&#39;And&#39;, &#39;vägen&#39;]),
+ (&#39;Aneberg&#39;, [&#39;Ane&#39;, &#39;berg&#39;]),
+ (&#39;Anekdotgatan&#39;, [&#39;Anekdot&#39;, &#39;gatan&#39;]),
+ (&#39;Anemongatan&#39;, [&#39;Anemon&#39;, &#39;gatan&#39;]),
+ (&#39;Anemonvägen&#39;, [&#39;Anemon&#39;, &#39;vägen&#39;]),
+ (&#39;Angantyrvägen&#39;, [&#39;Angantyr&#39;, &#39;vägen&#39;]),
+ (&#39;Angelbosvägen&#39;, [&#39;Angelbos&#39;, &#39;vägen&#39;]),
+ (&#39;Angelikagränd&#39;, [&#39;Angelika&#39;, &#39;gränd&#39;]),
+ (&#39;Angeredsteatern&#39;, [&#39;Angered&#39;, &#39;s&#39;, &#39;teatern&#39;]),
+ (&#39;Angersteinvägen&#39;, [&#39;Angerstein&#39;, &#39;vägen&#39;]),
+ (&#39;Angsjön&#39;, [&#39;Ang&#39;, &#39;sjön&#39;]),
+ (&#39;Angskär&#39;, [&#39;Ang&#39;, &#39;skär&#39;]),
+ (&#39;Anhaltsvägen&#39;, [&#39;Anhalt&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Aniaravägen&#39;, [&#39;Aniara&#39;, &#39;vägen&#39;]),
+ (&#39;Anisgatan&#39;, [&#39;Anis&#39;, &#39;gatan&#39;]),
+ (&#39;Anisgränd&#39;, [&#39;Anis&#39;, &#39;gränd&#39;]),
+ (&#39;Anisstigen&#39;, [&#39;Anis&#39;, &#39;stigen&#39;]),
+ (&#39;Anisvägen&#39;, [&#39;Anis&#39;, &#39;vägen&#39;]),
+ (&#39;Ankarberg&#39;, [&#39;!Ankar&#39;, &#39;berg&#39;]),
+ (&#39;Ankargatan&#39;, [&#39;!Ankar&#39;, &#39;gatan&#39;]),
+ (&#39;Ankarhjelmsvägen&#39;, [&#39;Ankarhjelm&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Ankarskatavägen&#39;, [&#39;!Ankar&#39;, &#39;skata&#39;, &#39;vägen&#39;]),
+ (&#39;Ankarsrum&#39;, [&#39;!Ankar&#39;, &#39;s&#39;, &#39;rum&#39;]),
+ (&#39;Ankarsrums&#39;, [&#39;!Ankar&#39;, &#39;s&#39;, &#39;rums&#39;]),
+ (&#39;Ankarstrand&#39;, [&#39;!Ankar&#39;, &#39;strand&#39;]),
+ (&#39;Ankarsvik&#39;, [&#39;!Ankar&#39;, &#39;s&#39;, &#39;vik&#39;]),
+ (&#39;Ankarsviks&#39;, [&#39;!Ankar&#39;, &#39;s&#39;, &#39;viks&#39;]),
+ (&#39;Ankarudden&#39;, [&#39;!Ankar&#39;, &#39;udden&#39;]),
+ (&#39;Ankarvägen&#39;, [&#39;!Ankar&#39;, &#39;vägen&#39;]),
+ (&#39;Ankdammsgatan&#39;, [&#39;!Ank&#39;, &#39;damm&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Ann-Brith&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Brith&#39;]),
+ (&#39;Ann-Britt&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Britt-Ann-Britt-Ann-Britt&#39;]),
+ (&#39;Ann-Britts&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Britts&#39;]),
+ (&#39;Ann-Caroline&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Caroline&#39;]),
+ (&#39;Ann-Catherine&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Catherine&#39;]),
+ (&#39;Ann-Cathrin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Cathrin&#39;]),
+ (&#39;Ann-Cathrine&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Cathrine&#39;]),
+ (&#39;Ann-Catrin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Catrin&#39;]),
+ (&#39;Ann-Catrine&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Catrine&#39;]),
+ (&#39;Ann-Charlott&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Charlott&#39;]),
+ (&#39;Ann-Charlotte&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Charlotte&#39;]),
+ (&#39;Ann-Charlottes&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Charlottes&#39;]),
+ (&#39;Ann-Chatrin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Chatrin&#39;]),
+ (&#39;Ann-Chatrine&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Chatrine&#39;]),
+ (&#39;Ann-Christin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Christin&#39;]),
+ (&#39;Ann-Christines&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Christines&#39;]),
+ (&#39;Ann-Christins&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Christins&#39;]),
+ (&#39;Ann-Cristin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Cristin&#39;]),
+ (&#39;Ann-Gerd&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Gerd&#39;]),
+ (&#39;Ann-Gret&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Gret&#39;]),
+ (&#39;Ann-Greth&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Greth&#39;]),
+ (&#39;Ann-Helen&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Helen&#39;]),
+ (&#39;Ann-Helene&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Helene&#39;]),
+ (&#39;Ann-Helén&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Helén&#39;]),
+ (&#39;Ann-Jeanette&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Jeanette&#39;]),
+ (&#39;Ann-Karin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Karin&#39;]),
+ (&#39;Ann-Kathrin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Kathrin&#39;]),
+ (&#39;Ann-Kathrine&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Kathrine&#39;]),
+ (&#39;Ann-Katrin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Katrin&#39;]),
+ (&#39;Ann-Katrine&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Katrine&#39;]),
+ (&#39;Ann-Katrins&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Katrins&#39;]),
+ (&#39;Ann-Kersti&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Kersti&#39;]),
+ (&#39;Ann-Kristin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Kristin&#39;]),
+ (&#39;Ann-Kristin&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Kristin&#39;]),
+ (&#39;Ann-Kristine&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Kristine&#39;]),
+ (&#39;Ann-Kristins&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Kristins&#39;]),
+ (&#39;Ann-Lis&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Lis&#39;]),
+ (&#39;Ann-Louice&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Louice&#39;]),
+ (&#39;Ann-Louise&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Louise&#39;]),
+ (&#39;Ann-Maj&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Maj&#39;]),
+ (&#39;Ann-Margaret&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Margaret&#39;]),
+ (&#39;Ann-Margret&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Margret&#39;]),
+ (&#39;Ann-Margreth&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Margreth&#39;]),
+ (&#39;Ann-Margrets&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Margrets&#39;]),
+ (&#39;Ann-Mari&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Mari&#39;]),
+ (&#39;Ann-Marie&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Marie&#39;]),
+ (&#39;Ann-Maries&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Maries&#39;]),
+ (&#39;Ann-Otti&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Otti&#39;]),
+ (&#39;Ann-Rita&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Rita&#39;]),
+ (&#39;Ann-Sofi&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Sofi&#39;]),
+ (&#39;Ann-Sofie&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Sofie&#39;]),
+ (&#39;Ann-Sofies&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Sofies&#39;]),
+ (&#39;Ann-Sophie&#39;, [&#39;Ann&#39;, &#39;-&#39;, &#39;Sophie&#39;]),
+ (&#39;AnnCharlotte&#39;, [&#39;Ann&#39;, &#39;Charlotte&#39;]),
+ (&#39;Anna-Brita&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Brita&#39;]),
+ (&#39;Anna-Britt&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Britt&#39;]),
+ (&#39;Anna-Britta&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Britta&#39;]),
+ (&#39;Anna-Carin&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Carin&#39;]),
+ (&#39;Anna-Christina&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Christina&#39;]),
+ (&#39;Anna-Clara&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Clara&#39;]),
+ (&#39;Anna-Greta&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Greta&#39;]),
+ (&#39;Anna-Gretas&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Gretas&#39;]),
+ (&#39;Anna-Gretha&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Gretha&#39;]),
+ (&#39;Anna-Kajsa&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Kajsa&#39;]),
+ (&#39;Anna-Kari&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Kari&#39;]),
+ (&#39;Anna-Karin&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Karin&#39;]),
+ (&#39;Anna-Karins&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Karins&#39;]),
+ (&#39;Anna-Kerstin&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Kerstin&#39;]),
+ (&#39;Anna-Klara&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Klara&#39;]),
+ (&#39;Anna-Kristina&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Kristina&#39;]),
+ (&#39;Anna-Lena&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Lena&#39;]),
+ (&#39;Anna-Lenas&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Lenas&#39;]),
+ (&#39;Anna-Liisa&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Liisa&#39;]),
+ (&#39;Anna-Lill&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Lill&#39;]),
+ (&#39;Anna-Lisa&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Lisa&#39;]),
+ (&#39;Anna-Lisas&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Lisas&#39;]),
+ (&#39;Anna-Lotta&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Lotta&#39;]),
+ (&#39;Anna-Maija&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Maija&#39;]),
+ (&#39;Anna-Maj&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Maj&#39;]),
+ (&#39;Anna-Maja&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Maja&#39;]),
+ (&#39;Anna-Maria&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Maria&#39;]),
+ (&#39;Anna-Marias&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Marias&#39;]),
+ (&#39;Anna-Marie&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Marie&#39;]),
+ (&#39;Anna-May&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;May&#39;]),
+ (&#39;Anna-Mia&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Mia&#39;]),
+ (&#39;Anna-Mias&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Mias&#39;]),
+ (&#39;Anna-Märta&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Märta&#39;]),
+ (&#39;Anna-Märtha&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Märtha&#39;]),
+ (&#39;Anna-Pia&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Pia&#39;]),
+ (&#39;Anna-Sara&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Sara&#39;]),
+ (&#39;Anna-Sofia&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Sofia&#39;]),
+ (&#39;Anna-Stina&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Stina&#39;]),
+ (&#39;Anna-Stinas&#39;, [&#39;Anna&#39;, &#39;-&#39;, &#39;Stinas&#39;]),
+ (&#39;AnnaCarin&#39;, [&#39;Anna&#39;, &#39;Carin&#39;]),
+ (&#39;AnnaKarin&#39;, [&#39;Anna&#39;, &#39;Karin&#39;]),
+ (&#39;AnnaLena&#39;, [&#39;Anna&#39;, &#39;Lena&#39;]),
+ (&#39;Annacarin&#39;, [&#39;Anna&#39;, &#39;carin&#39;]),
+ (&#39;Annagatan&#39;, [&#39;Anna&#39;, &#39;gatan&#39;]),
+ (&#39;Annagreta&#39;, [&#39;Anna&#39;, &#39;greta&#39;]),
+ (&#39;Annakarin&#39;, [&#39;Anna&#39;, &#39;karin&#39;]),
+ (&#39;Annalena&#39;, [&#39;Anna&#39;, &#39;lena&#39;]),
+ (&#39;Annalisa&#39;, [&#39;Anna&#39;, &#39;lisa&#39;]),
+ (&#39;Annamaria&#39;, [&#39;Anna&#39;, &#39;maria&#39;]),
+ (&#39;Annandagsgatan&#39;, [&#39;Annan&#39;, &#39;dag&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Annasara&#39;, [&#39;Anna&#39;, &#39;sara&#39;]),
+ (&#39;Annasofia&#39;, [&#39;Anna&#39;, &#39;sofia&#39;]),
+ (&#39;Annastina&#39;, [&#39;Anna&#39;, &#39;stina&#39;]),
+ (&#39;Annavägen&#39;, [&#39;Anna&#39;, &#39;vägen&#39;]),
+ (&#39;Annbacksvägen&#39;, [&#39;Annback&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Annbritt&#39;, [&#39;Ann&#39;, &#39;britt&#39;]),
+ (&#39;Annbritts&#39;, [&#39;Ann&#39;, &#39;britts&#39;]),
+ (&#39;Anncaroline&#39;, [&#39;Ann&#39;, &#39;caroline&#39;]),
+ (&#39;Anncharlott&#39;, [&#39;Ann&#39;, &#39;charlott&#39;]),
+ (&#39;Anncharlotte&#39;, [&#39;Ann&#39;, &#39;charlotte&#39;]),
+ (&#39;Annchristin&#39;, [&#39;Ann&#39;, &#39;christin&#39;]),
+ (&#39;Annchristine&#39;, [&#39;Ann&#39;, &#39;christine&#39;]),
+ (&#39;Anne-Britt&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Britt&#39;]),
+ (&#39;Anne-Catherine&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Catherine&#39;]),
+ (&#39;Anne-Cathrine&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Cathrine&#39;]),
+ (&#39;Anne-Charlotte&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Charlotte&#39;]),
+ (&#39;Anne-Chatrine&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Chatrine&#39;]),
+ (&#39;Anne-Christin&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Christin&#39;]),
+ (&#39;Anne-Christine&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Christine&#39;]),
+ (&#39;Anne-Greta&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Greta&#39;]),
+ (&#39;Anne-Gretas&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Gretas&#39;]),
+ (&#39;Anne-Lee&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Lee&#39;]),
+ (&#39;Anne-Li&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Li&#39;]),
+ (&#39;Anne-Lie&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Lie&#39;]),
+ (&#39;Anne-Lis&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Lis&#39;]),
+ (&#39;Anne-Lise&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Lise&#39;]),
+ (&#39;Anne-Louise&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Louise&#39;]),
+ (&#39;Anne-Maj&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Maj&#39;]),
+ (&#39;Anne-Mari&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Mari&#39;]),
+ (&#39;Anne-Maria&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Maria&#39;]),
+ (&#39;Anne-Marie&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Marie&#39;]),
+ (&#39;Anne-May&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;May&#39;]),
+ (&#39;Anne-Sofie&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Sofie&#39;]),
+ (&#39;Anne-Sophie&#39;, [&#39;Anne&#39;, &#39;-&#39;, &#39;Sophie&#39;]),
+ (&#39;Anneberg&#39;, [&#39;Anne&#39;, &#39;berg&#39;]),
+ (&#39;Annebergsgatan&#39;, [&#39;Anne&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Annebergsvägen&#39;, [&#39;Anne&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Annebodavägen&#39;, [&#39;Anne&#39;, &#39;boda&#39;, &#39;vägen&#39;]),
+ (&#39;Annebovägen&#39;, [&#39;Anne&#39;, &#39;bo&#39;, &#39;vägen&#39;]),
+ (&#39;Annedalsgatan&#39;, [&#39;Anne&#39;, &#39;dal&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Annedalsvägen&#39;, [&#39;Anne&#39;, &#39;dal&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Annefors&#39;, [&#39;Anne&#39;, &#39;fors&#39;]),
+ (&#39;Anneforsvägen&#39;, [&#39;Anne&#39;, &#39;fors&#39;, &#39;vägen&#39;]),
+ (&#39;Annegit&#39;, [&#39;Anne&#39;, &#39;git&#39;]),
+ (&#39;Anneliese&#39;, [&#39;Anne&#39;, &#39;liese&#39;]),
+ (&#39;Annelise&#39;, [&#39;Anne&#39;, &#39;lise&#39;]),
+ (&#39;Annelund&#39;, [&#39;Anne&#39;, &#39;lund&#39;]),
+ (&#39;Annelunds&#39;, [&#39;Anne&#39;, &#39;lunds&#39;]),
+ (&#39;Annelundsgatan&#39;, [&#39;Anne&#39;, &#39;lund&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Annelundsvägen&#39;, [&#39;Anne&#39;, &#39;lund&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Annemaj&#39;, [&#39;Anne&#39;, &#39;maj&#39;]),
+ (&#39;Annemarie&#39;, [&#39;Anne&#39;, &#39;marie&#39;]),
+ (&#39;Annemor&#39;, [&#39;Anne&#39;, &#39;mor&#39;]),
+ (&#39;Annemors&#39;, [&#39;Anne&#39;, &#39;mors&#39;]),
+ (&#39;Annerovägen&#39;, [&#39;Anne&#39;, &#39;ro&#39;, &#39;vägen&#39;]),
+ (&#39;Annestorpsvägen&#39;, [&#39;Anne&#39;, &#39;s&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Annexgatan&#39;, [&#39;Annex&#39;, &#39;gatan&#39;]),
+ (&#39;Annhild&#39;, [&#39;Ann&#39;, &#39;hild&#39;]),
+ (&#39;Annie-Marie&#39;, [&#39;Annie&#39;, &#39;-&#39;, &#39;Marie&#39;]),
+ (&#39;Annifrid&#39;, [&#39;Anni&#39;, &#39;frid&#39;]),
+ (&#39;Annkatrin&#39;, [&#39;Ann&#39;, &#39;katrin&#39;]),
+ (&#39;Annkristin&#39;, [&#39;Ann&#39;, &#39;kristin&#39;]),
+ (&#39;Annlis&#39;, [&#39;Ann&#39;, &#39;lis&#39;]),
+ (&#39;Annlouise&#39;, [&#39;Ann&#39;, &#39;louise&#39;]),
+ (&#39;Annmari&#39;, [&#39;Ann&#39;, &#39;mari&#39;]),
+ (&#39;Annmarie&#39;, [&#39;Ann&#39;, &#39;marie&#39;]),
+ (&#39;Annsofi&#39;, [&#39;Ann&#39;, &#39;sofi&#39;]),
+ (&#39;Annsofie&#39;, [&#39;Ann&#39;, &#39;sofie&#39;]),
+ (&#39;Antenngatan&#39;, [&#39;Antenn&#39;, &#39;gatan&#39;]),
+ (&#39;Antennvägen&#39;, [&#39;Antenn&#39;, &#39;vägen&#39;]),
+ (&#39;Antikvarievägen&#39;, [&#39;Antikvarie&#39;, &#39;vägen&#39;]),
+ (&#39;Anundsgatan&#39;, [&#39;Anund&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Anundsvägen&#39;, [&#39;Anund&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Apelbergsgatan&#39;, [&#39;Apelberg&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Apelgatan&#39;, [&#39;Apel&#39;, &#39;gatan&#39;]),
+ (&#39;Apelgren&#39;, [&#39;Apel&#39;, &#39;gren&#39;]),
+ (&#39;Apelkvist&#39;, [&#39;Apel&#39;, &#39;kvist&#39;]),
+ (&#39;Apelsingatan&#39;, [&#39;Apelsin&#39;, &#39;gatan&#39;]),
+ (&#39;Apelsinmannen&#39;, [&#39;Apelsin&#39;, &#39;mannen&#39;]),
+ (&#39;Apelsinvägen&#39;, [&#39;Apelsin&#39;, &#39;vägen&#39;]),
+ (&#39;Apelstav&#39;, [&#39;Apel&#39;, &#39;stav&#39;]),
+ (&#39;Apelstigen&#39;, [&#39;Apel&#39;, &#39;stigen&#39;]),
+ (&#39;Apelvik&#39;, [&#39;Apel&#39;, &#39;vik&#39;]),
+ (&#39;Apelviken&#39;, [&#39;Apel&#39;, &#39;viken&#39;]),
+ (&#39;Apelviksvägen&#39;, [&#39;Apel&#39;, &#39;vik&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Apelvägen&#39;, [&#39;Apel&#39;, &#39;vägen&#39;]),
+ (&#39;Aplungstorp&#39;, [&#39;Aplung&#39;, &#39;s&#39;, &#39;torp&#39;]),
+ (&#39;Apollo-revyn&#39;, [&#39;Apollo&#39;, &#39;-&#39;, &#39;revyn&#39;]),
+ (&#39;Apollorevyn&#39;, [&#39;Apollo&#39;, &#39;revyn&#39;]),
+ (&#39;Apollovägen&#39;, [&#39;Apollo&#39;, &#39;vägen&#39;]),
+ (&#39;Apostlagärningarna&#39;, [&#39;!Apost&#39;, &#39;la&#39;, &#39;gärningarna&#39;]),
+ (&#39;Apotekaregatan&#39;, [&#39;Apotekare&#39;, &#39;gatan&#39;]),
+ (&#39;Apotekarevägen&#39;, [&#39;Apotekare&#39;, &#39;vägen&#39;]),
+ (&#39;Apoteksbolaget&#39;, [&#39;Apotek&#39;, &#39;s&#39;, &#39;bolaget&#39;]),
+ (&#39;Apoteksbolagets&#39;, [&#39;Apotek&#39;, &#39;s&#39;, &#39;bolagets&#39;]),
+ (&#39;Apoteksgatan&#39;, [&#39;Apotek&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Apoteksvägen&#39;, [&#39;Apotek&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Appelbergsvägen&#39;, [&#39;Appelberg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Appelkvist&#39;, [&#39;!App&#39;, &#39;el&#39;, &#39;kvist&#39;]),
+ (&#39;Appellstigen&#39;, [&#39;Appell&#39;, &#39;stigen&#39;]),
+ (&#39;Aprikosgatan&#39;, [&#39;Aprikos&#39;, &#39;gatan&#39;]),
+ (&#39;Aprikosgränd&#39;, [&#39;Aprikos&#39;, &#39;gränd&#39;]),
+ (&#39;Aprikosvägen&#39;, [&#39;Aprikos&#39;, &#39;vägen&#39;]),
+ (&#39;Aprilgatan&#39;, [&#39;April&#39;, &#39;gatan&#39;]),
+ (&#39;Aprilvägen&#39;, [&#39;April&#39;, &#39;vägen&#39;]),
+ (&#39;Arabemiraten&#39;, [&#39;Arab&#39;, &#39;emiraten&#39;]),
+ (&#39;Arabförbundet&#39;, [&#39;Arab&#39;, &#39;förbundet&#39;]),
+ (&#39;Arabievägen&#39;, [&#39;Arabie&#39;, &#39;vägen&#39;]),
+ (&#39;Arabygatan&#39;, [&#39;Ara&#39;, &#39;by&#39;, &#39;gatan&#39;]),
+ (&#39;Aralsjön&#39;, [&#39;Aral&#39;, &#39;sjön&#39;]),
+ (&#39;Aralsjöns&#39;, [&#39;Aral&#39;, &#39;sjöns&#39;]),
+ (&#39;Aratorpsvägen&#39;, [&#39;Ara&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Arbeiderpartiet&#39;, [&#39;Arbeider&#39;, &#39;partiet&#39;]),
+ (&#39;Arbeiderpartiets&#39;, [&#39;Arbeider&#39;, &#39;partiets&#39;]),
+ (&#39;Arbetaregatan&#39;, [&#39;Arbetare&#39;, &#39;gatan&#39;]),
+ (&#39;Arbetargatan&#39;, [&#39;Arbetar&#39;, &#39;gatan&#39;]),
+ (&#39;Arbetarpartiet&#39;, [&#39;!Arbetar&#39;, &#39;partiet&#39;]),
+ (&#39;Arbetarskyddsstyrelsen&#39;, [&#39;!Arbetar&#39;, &#39;skydd&#39;, &#39;s&#39;, &#39;styrelsen&#39;]),
+ (&#39;Arbetarskyddsstyrelsens&#39;, [&#39;Arbetar&#39;, &#39;skydd&#39;, &#39;s&#39;, &#39;styrelsens&#39;]),
+ (&#39;Arbetsdomstolens&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;dom&#39;, &#39;stolens&#39;]),
+ (&#39;Arbetsgivareföreningens&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;givare&#39;, &#39;föreningens&#39;]),
+ (&#39;Arbetsgivarföreningen&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;!givar&#39;, &#39;föreningen&#39;]),
+ (&#39;Arbetsgivarorganisationen&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;!givar&#39;, &#39;organisationen&#39;]),
+ (&#39;Arbetslivsinstitutet&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;liv&#39;, &#39;s&#39;, &#39;institutet&#39;]),
+ (&#39;Arbetsmarknadsstyrelsens&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;marknad&#39;, &#39;s&#39;, &#39;styrelsens&#39;]),
+ (&#39;Arbetsmarknadsverkets&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;marknad&#39;, &#39;s&#39;, &#39;verkets&#39;]),
+ (&#39;Arbetsmiljöfonden&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;miljö&#39;, &#39;fonden&#39;]),
+ (&#39;Arbetsmiljöinstitutet&#39;, [&#39;!Arbet&#39;, &#39;s&#39;, &#39;miljö&#39;, &#39;institutet&#39;]),
+ (&#39;Arbogagatan&#39;, [&#39;Arboga&#39;, &#39;gatan&#39;]),
+ (&#39;Ardennergatan&#39;, [&#39;Ardenner&#39;, &#39;gatan&#39;]),
+ (&#39;Ardennervägen&#39;, [&#39;Ardenner&#39;, &#39;vägen&#39;]),
+ (&#39;Arenavägen&#39;, [&#39;Arena&#39;, &#39;vägen&#39;]),
+ (&#39;Arendalsvägen&#39;, [&#39;Arendal&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Arent_Grapegatan&#39;, [&#39;Arent_Grape&#39;, &#39;gatan&#39;]),
+ (&#39;Arentvägen&#39;, [&#39;Arent&#39;, &#39;vägen&#39;]),
+ (&#39;Argongatan&#39;, [&#39;Argon&#39;, &#39;gatan&#39;]),
+ (&#39;Arholmagatan&#39;, [&#39;Arholma&#39;, &#39;gatan&#39;]),
+ (&#39;Arholmavägen&#39;, [&#39;Arholma&#39;, &#39;vägen&#39;]),
+ (&#39;Arildsgatan&#39;, [&#39;Arild&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Aringsåsvägen&#39;, [&#39;Aringsås&#39;, &#39;vägen&#39;]),
+ (&#39;Arkadvägen&#39;, [&#39;Arkad&#39;, &#39;vägen&#39;]),
+ (&#39;Arkelstorps&#39;, [&#39;Arkel&#39;, &#39;s&#39;, &#39;torps&#39;]),
+ (&#39;Arkelstorpsvägen&#39;, [&#39;Arkel&#39;, &#39;s&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Arkenvägen&#39;, [&#39;Arken&#39;, &#39;vägen&#39;]),
+ (&#39;Arkeologvägen&#39;, [&#39;Arkeolog&#39;, &#39;vägen&#39;]),
+ (&#39;Arkitektgatan&#39;, [&#39;Arkitekt&#39;, &#39;gatan&#39;]),
+ (&#39;Arkitektvägen&#39;, [&#39;Arkitekt&#39;, &#39;vägen&#39;]),
+ (&#39;Arkivgatan&#39;, [&#39;Arkiv&#39;, &#39;gatan&#39;]),
+ (&#39;Arkivvägen&#39;, [&#39;Arkiv&#39;, &#39;vägen&#39;]),
+ (&#39;Arklimästaregatan&#39;, [&#39;Arklimästare&#39;, &#39;gatan&#39;]),
+ (&#39;Arklöv&#39;, [&#39;Ark&#39;, &#39;löv&#39;]),
+ (&#39;Arkö&#39;, [&#39;Ark&#39;, &#39;ö&#39;]),
+ (&#39;Arkös&#39;, [&#39;Ark&#39;, &#39;ös&#39;]),
+ (&#39;Arkösund&#39;, [&#39;Ark&#39;, &#39;ö&#39;, &#39;sund&#39;]),
+ (&#39;Arkösunds&#39;, [&#39;Arkö&#39;, &#39;sunds&#39;]),
+ (&#39;Arkövägen&#39;, [&#39;Ark&#39;, &#39;ö&#39;, &#39;vägen&#39;]),
+ (&#39;Arlagatan&#39;, [&#39;Arla&#39;, &#39;gatan&#39;]),
+ (&#39;Arlanda-korridorens&#39;, [&#39;Arlanda&#39;, &#39;-&#39;, &#39;korridorens&#39;]),
+ (&#39;Arlandapolisen&#39;, [&#39;Arlanda&#39;, &#39;polisen&#39;]),
+ (&#39;Arlandastad&#39;, [&#39;Arlanda&#39;, &#39;stad&#39;]),
+ (&#39;Arlavägen&#39;, [&#39;Arla&#39;, &#39;vägen&#39;]),
+ (&#39;Armaturvägen&#39;, [&#39;Armatur&#39;, &#39;vägen&#39;]),
+ (&#39;Armborstvägen&#39;, [&#39;Armborst&#39;, &#39;vägen&#39;]),
+ (&#39;Armbro&#39;, [&#39;Arm&#39;, &#39;bro&#39;]),
+ (&#39;Armfeltsgatan&#39;, [&#39;Armfelts&#39;, &#39;gatan&#39;]),
+ (&#39;Armlängdsgatan&#39;, [&#39;Armlängd&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Armégatan&#39;, [&#39;Armé&#39;, &#39;gatan&#39;]),
+ (&#39;Armévägen&#39;, [&#39;Armé&#39;, &#39;vägen&#39;]),
+ (&#39;Arnebovägen&#39;, [&#39;Arnebo&#39;, &#39;vägen&#39;]),
+ (&#39;Arneby&#39;, [&#39;Arne&#39;, &#39;by&#39;]),
+ (&#39;Arnemark&#39;, [&#39;Arne&#39;, &#39;mark&#39;]),
+ (&#39;Arnesdotter&#39;, [&#39;Arne&#39;, &#39;s&#39;, &#39;dotter&#39;]),
+ (&#39;Arnesdotters&#39;, [&#39;Arne&#39;, &#39;s&#39;, &#39;dotters&#39;]),
+ (&#39;Arnäsvalls&#39;, [&#39;Arnäs&#39;, &#39;valls&#39;]),
+ (&#39;Arnöviken&#39;, [&#39;Arn&#39;, &#39;ö&#39;, &#39;viken&#39;]),
+ (&#39;Arnövägen&#39;, [&#39;Arnö&#39;, &#39;vägen&#39;]),
+ (&#39;Aromavägen&#39;, [&#39;Aroma&#39;, &#39;vägen&#39;]),
+ (&#39;Aronsvägen&#39;, [&#39;Aron&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Arosvägen&#39;, [&#39;Aros&#39;, &#39;vägen&#39;]),
+ (&#39;Arrendatorsvägen&#39;, [&#39;Arrendator&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Arrendegatan&#39;, [&#39;Arrende&#39;, &#39;gatan&#39;]),
+ (&#39;Arrendegången&#39;, [&#39;Arrende&#39;, &#39;gången&#39;]),
+ (&#39;Arrendevägen&#39;, [&#39;Arrende&#39;, &#39;vägen&#39;]),
+ (&#39;Arrheniusgatan&#39;, [&#39;Arrhenius&#39;, &#39;gatan&#39;]),
+ (&#39;Arsenalsgatan&#39;, [&#39;Arsenal&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Artemisgatan&#39;, [&#39;Artemis&#39;, &#39;gatan&#39;]),
+ (&#39;Artillerigatan&#39;, [&#39;Artilleri&#39;, &#39;gatan&#39;]),
+ (&#39;Artistvägen&#39;, [&#39;Artist&#39;, &#39;vägen&#39;]),
+ (&#39;Arvaby&#39;, [&#39;Arv&#39;, &#39;a&#39;, &#39;by&#39;]),
+ (&#39;Arvesgärde&#39;, [&#39;Arv&#39;, &#39;es&#39;, &#39;gärde&#39;]),
+ (&#39;Arvidsberg&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;berg&#39;]),
+ (&#39;Arvidsbo&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;bo&#39;]),
+ (&#39;Arvidsborgsvägen&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;borg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Arvidsgatan&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Arvidsliden&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;liden&#39;]),
+ (&#39;Arvidslund&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;lund&#39;]),
+ (&#39;Arvidstorp&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;torp&#39;]),
+ (&#39;Arvidstorpsvägen&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Arvidsträsk&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;träsk&#39;]),
+ (&#39;Arvidsvik&#39;, [&#39;Arvid&#39;, &#39;s&#39;, &#39;vik&#39;]),
+ (&#39;Arvikafestivalen&#39;, [&#39;Arvika&#39;, &#39;festivalen&#39;]),
+ (&#39;Arvikagatan&#39;, [&#39;Arvika&#39;, &#39;gatan&#39;]),
+ (&#39;Arvikavägen&#39;, [&#39;Arvika&#39;, &#39;vägen&#39;]),
+ (&#39;Arvodesvägen&#39;, [&#39;Arvodes&#39;, &#39;vägen&#39;]),
+ (&#39;Arvträsk&#39;, [&#39;Arv&#39;, &#39;träsk&#39;]),
+ (&#39;Arågränd&#39;, [&#39;Arå&#39;, &#39;gränd&#39;]),
+ (&#39;Aröds_Industriväg&#39;, [&#39;Aröds_Industri&#39;, &#39;väg&#39;]),
+ (&#39;Asarvegatan&#39;, [&#39;Asarve&#39;, &#39;gatan&#39;]),
+ (&#39;Asavägen&#39;, [&#39;Asa&#39;, &#39;vägen&#39;]),
+ (&#39;Aschebergsgatan&#39;, [&#39;Ascheberg&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Asgård&#39;, [&#39;As&#39;, &#39;gård&#39;]),
+ (&#39;Asienfrossa&#39;, [&#39;Asien&#39;, &#39;frossa&#39;]),
+ (&#39;Askberg&#39;, [&#39;Ask&#39;, &#39;berg&#39;]),
+ (&#39;Askebygatan&#39;, [&#39;Askeby&#39;, &#39;gatan&#39;]),
+ (&#39;Askebykroken&#39;, [&#39;Askeby&#39;, &#39;kroken&#39;]),
+ (&#39;Askensten&#39;, [&#39;Asken&#39;, &#39;sten&#39;]),
+ (&#39;Askersgatan&#39;, [&#39;Askers&#39;, &#39;gatan&#39;]),
+ (&#39;Askersundsgatan&#39;, [&#39;Askersund&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Askersundsvägen&#39;, [&#39;Askersund&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Askerö&#39;, [&#39;Ask&#39;, &#39;er&#39;, &#39;ö&#39;]),
+ (&#39;Askeröd&#39;, [&#39;Ask&#39;, &#39;e&#39;, &#39;röd&#39;]),
+ (&#39;Askeröds&#39;, [&#39;Ask&#39;, &#39;e&#39;, &#39;röds&#39;]),
+ (&#39;Askerös&#39;, [&#39;Ask&#39;, &#39;er&#39;, &#39;ös&#39;]),
+ (&#39;Askgatan&#39;, [&#39;Ask&#39;, &#39;gatan&#39;]),
+ (&#39;Askhagsvägen&#39;, [&#39;Ask&#39;, &#39;!hag&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Askims_domarringsvägen&#39;, [&#39;Askims_!domar&#39;, &#39;ring&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Asklund&#39;, [&#39;Ask&#39;, &#39;lund&#39;]),
+ (&#39;Asklunds&#39;, [&#39;Ask&#39;, &#39;lunds&#39;]),
+ (&#39;Asklöv&#39;, [&#39;Ask&#39;, &#39;löv&#39;]),
+ (&#39;Askman&#39;, [&#39;Ask&#39;, &#39;man&#39;]),
+ (&#39;Askrikegatan&#39;, [&#39;Askrike&#39;, &#39;gatan&#39;]),
+ (&#39;Askrikevägen&#39;, [&#39;Askrike&#39;, &#39;vägen&#39;]),
+ (&#39;Askungen&#39;, [&#39;!Ask&#39;, &#39;ungen&#39;]),
+ (&#39;Askungens&#39;, [&#39;!Ask&#39;, &#39;ungens&#39;]),
+ (&#39;Askungevägen&#39;, [&#39;Askunge&#39;, &#39;vägen&#39;]),
+ (&#39;Askvägen&#39;, [&#39;Ask&#39;, &#39;vägen&#39;]),
+ (&#39;Asmundtorp&#39;, [&#39;Asmund&#39;, &#39;torp&#39;]),
+ (&#39;Asmundtorps&#39;, [&#39;Asmund&#39;, &#39;torps&#39;]),
+ (&#39;Aspabruk&#39;, [&#39;Asp&#39;, &#39;a&#39;, &#39;bruk&#39;]),
+ (&#39;Aspabruks&#39;, [&#39;Asp&#39;, &#39;a&#39;, &#39;bruks&#39;]),
+ (&#39;Aspavägen&#39;, [&#39;Aspa&#39;, &#39;vägen&#39;]),
+ (&#39;Aspberget&#39;, [&#39;Asp&#39;, &#39;berget&#39;]),
+ (&#39;Aspeborg&#39;, [&#39;Asp&#39;, &#39;e&#39;, &#39;borg&#39;]),
+ (&#39;Aspedalsgatan&#39;, [&#39;Asp&#39;, &#39;e&#39;, &#39;dal&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Aspegren&#39;, [&#39;Asp&#39;, &#39;e&#39;, &#39;gren&#39;]),
+ (&#39;Aspegrens&#39;, [&#39;Asp&#39;, &#39;e&#39;, &#39;grens&#39;]),
+ (&#39;Aspelin&#39;, [&#39;Asp&#39;, &#39;e&#39;, &#39;lin&#39;]),
+ (&#39;Aspelundsvägen&#39;, [&#39;Asp&#39;, &#39;e&#39;, &#39;lund&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Aspenbergs&#39;, [&#39;Aspen&#39;, &#39;bergs&#39;]),
+ (&#39;Aspenström&#39;, [&#39;Aspen&#39;, &#39;ström&#39;]),
+ (&#39;Aspenvägen&#39;, [&#39;Aspen&#39;, &#39;vägen&#39;]),
+ (&#39;Aspenäs&#39;, [&#39;Asp&#39;, &#39;e&#39;, &#39;näs&#39;]),
+ (&#39;Aspenäs&#39;, [&#39;Asp&#39;, &#39;e&#39;, &#39;näs&#39;]),
+ (&#39;Asperö&#39;, [&#39;Asp&#39;, &#39;er&#39;, &#39;ö&#39;]),
+ (&#39;Asperögatan&#39;, [&#39;Asperö&#39;, &#39;gatan&#39;]),
+ (&#39;Aspfors&#39;, [&#39;Asp&#39;, &#39;fors&#39;]),
+ (&#39;Aspgatan&#39;, [&#39;Asp&#39;, &#39;!gatan&#39;]),
+ (&#39;Aspgren&#39;, [&#39;Asp&#39;, &#39;gren&#39;]),
+ (&#39;Asphagsvägen&#39;, [&#39;Asp&#39;, &#39;!hag&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Aspholm&#39;, [&#39;Asp&#39;, &#39;holm&#39;]),
+ (&#39;Aspholmsvägen&#39;, [&#39;Asp&#39;, &#39;!holm&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Asphyttegatan&#39;, [&#39;Asp&#39;, &#39;!hytt&#39;, &#39;e&#39;, &#39;gatan&#39;]),
+ (&#39;Asplind&#39;, [&#39;Asp&#39;, &#39;lind&#39;]),
+ (&#39;Asplund&#39;, [&#39;Asp&#39;, &#39;lund&#39;]),
+ (&#39;Asplunds&#39;, [&#39;Asp&#39;, &#39;lunds&#39;]),
+ (&#39;Asplundsgatan&#39;, [&#39;Asp&#39;, &#39;lund&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Asplundsvägen&#39;, [&#39;Asp&#39;, &#39;lund&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Asplyckevägen&#39;, [&#39;Asp&#39;, &#39;!lyck&#39;, &#39;e&#39;, &#39;vägen&#39;]),
+ (&#39;Asplövsgränd&#39;, [&#39;Asp&#39;, &#39;löv&#39;, &#39;s&#39;, &#39;gränd&#39;]),
+ (&#39;Aspman&#39;, [&#39;Asp&#39;, &#39;man&#39;]),
+ (&#39;Aspnäsgatan&#39;, [&#39;Asp&#39;, &#39;näs&#39;, &#39;gatan&#39;]),
+ (&#39;Aspnäsvägen&#39;, [&#39;Asp&#39;, &#39;näs&#39;, &#39;vägen&#39;]),
+ (&#39;Aspstigen&#39;, [&#39;Asp&#39;, &#39;stigen&#39;]),
+ (&#39;Aspsätravägen&#39;, [&#39;Aspsätra&#39;, &#39;vägen&#39;]),
+ (&#39;Aspudden&#39;, [&#39;Asp&#39;, &#39;udden&#39;]),
+ (&#39;Aspuddens&#39;, [&#39;Asp&#39;, &#39;uddens&#39;]),
+ (&#39;Aspvik&#39;, [&#39;Asp&#39;, &#39;vik&#39;]),
+ (&#39;Aspvretsgatan&#39;, [&#39;Aspvret&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Aspvägen&#39;, [&#39;Asp&#39;, &#39;vägen&#39;]),
+ (&#39;Aspängsvägen&#39;, [&#39;Asp&#39;, &#39;äng&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Aspås&#39;, [&#39;Asp&#39;, &#39;ås&#39;]),
+ (&#39;Aspås&#39;, [&#39;Asp&#39;, &#39;ås&#39;]),
+ (&#39;Aspåsgatan&#39;, [&#39;Asp&#39;, &#39;ås&#39;, &#39;gatan&#39;]),
+ (&#39;Aspåsvägen&#39;, [&#39;Asp&#39;, &#39;ås&#39;, &#39;vägen&#39;]),
+ (&#39;Aspö&#39;, [&#39;Asp&#39;, &#39;ö&#39;]),
+ (&#39;Aspövägen&#39;, [&#39;Asp&#39;, &#39;ö&#39;, &#39;vägen&#39;]),
+ (&#39;Assemblégatan&#39;, [&#39;Assemblé&#39;, &#39;gatan&#39;]),
+ (&#39;Assessorsgatan&#39;, [&#39;Assessor&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Assistentvägen&#39;, [&#39;Assistent&#39;, &#39;vägen&#39;]),
+ (&#39;Asta-Marie&#39;, [&#39;Asta&#39;, &#39;-&#39;, &#39;Marie&#39;]),
+ (&#39;Astergatan&#39;, [&#39;Aster&#39;, &#39;gatan&#39;]),
+ (&#39;Asterngatan&#39;, [&#39;Astern&#39;, &#39;gatan&#39;]),
+ (&#39;Astervägen&#39;, [&#39;Aster&#39;, &#39;vägen&#39;]),
+ (&#39;AstraZeneca&#39;, [&#39;Astra&#39;, &#39;Zeneca&#39;]),
+ (&#39;Astrakangatan&#39;, [&#39;Astrakan&#39;, &#39;gatan&#39;]),
+ (&#39;Astrakanstigen&#39;, [&#39;Astrakan&#39;, &#39;stigen&#39;]),
+ (&#39;Astrakanvägen&#39;, [&#39;Astrakan&#39;, &#39;vägen&#39;]),
+ (&#39;Astronomgatan&#39;, [&#39;Astronom&#39;, &#39;gatan&#39;]),
+ (&#39;Astronomivägen&#39;, [&#39;Astronomi&#39;, &#39;vägen&#39;]),
+ (&#39;Ateljévägen&#39;, [&#39;Ateljé&#39;, &#39;vägen&#39;]),
+ (&#39;Atlasgatan&#39;, [&#39;Atlas&#39;, &#39;gatan&#39;]),
+ (&#39;Atlasvägen&#39;, [&#39;Atlas&#39;, &#39;vägen&#39;]),
+ (&#39;Atletvägen&#39;, [&#39;Atlet&#39;, &#39;vägen&#39;]),
+ (&#39;Atmosfärgatan&#39;, [&#39;Atmosfär&#39;, &#39;gatan&#39;]),
+ (&#39;Attarpsvägen&#39;, [&#39;Attarp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Atterbergsvägen&#39;, [&#39;Atterberg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Atterbomsgatan&#39;, [&#39;Atterbom&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Atterbomsvägen&#39;, [&#39;Atterbom&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Attundavägen&#39;, [&#39;Attunda&#39;, &#39;vägen&#39;]),
+ (&#39;Attungsgatan&#39;, [&#39;Attungs&#39;, &#39;gatan&#39;]),
+ (&#39;Augustbergsgatan&#39;, [&#39;August&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Augustenborg&#39;, [&#39;August&#39;, &#39;en&#39;, &#39;borg&#39;]),
+ (&#39;Augustenborgsgatan&#39;, [&#39;Augusten&#39;, &#39;borg&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Augustendal&#39;, [&#39;August&#39;, &#39;en&#39;, &#39;dal&#39;]),
+ (&#39;Augustendalsvägen&#39;, [&#39;Augusten&#39;, &#39;dal&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Augustigatan&#39;, [&#39;Augusti&#39;, &#39;gatan&#39;]),
+ (&#39;Augustivägen&#39;, [&#39;Augusti&#39;, &#39;vägen&#39;]),
+ (&#39;Aulingatan&#39;, [&#39;Aulin&#39;, &#39;gatan&#39;]),
+ (&#39;Auravägen&#39;, [&#39;Aura&#39;, &#39;vägen&#39;]),
+ (&#39;Auroragatan&#39;, [&#39;Aurora&#39;, &#39;gatan&#39;]),
+ (&#39;Auroravägen&#39;, [&#39;Aurora&#39;, &#39;vägen&#39;]),
+ (&#39;Australienresan&#39;, [&#39;Australien&#39;, &#39;resan&#39;]),
+ (&#39;Australöarna&#39;, [&#39;!Austral&#39;, &#39;öarna&#39;]),
+ (&#39;Australöarnas&#39;, [&#39;!Austral&#39;, &#39;öarnas&#39;]),
+ (&#39;Avenboksvägen&#39;, [&#39;Avenbok&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Aveskärsgatan&#39;, [&#39;Aveskär&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Avstyckningsvägen&#39;, [&#39;Av&#39;, &#39;styckning&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Axberg&#39;, [&#39;Ax&#39;, &#39;berg&#39;]),
+ (&#39;Axbergs&#39;, [&#39;Ax&#39;, &#39;bergs&#39;]),
+ (&#39;Axbergsgränd&#39;, [&#39;Ax&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;gränd&#39;]),
+ (&#39;Axbom&#39;, [&#39;Ax&#39;, &#39;bom&#39;]),
+ (&#39;Axbyplan&#39;, [&#39;Ax&#39;, &#39;by&#39;, &#39;plan&#39;]),
+ (&#39;Axel-Uno&#39;, [&#39;Axel&#39;, &#39;-&#39;, &#39;Uno&#39;]),
+ (&#39;Axeldal&#39;, [&#39;Axel&#39;, &#39;dal&#39;]),
+ (&#39;Axelfors&#39;, [&#39;Axel&#39;, &#39;fors&#39;]),
+ (&#39;Axelfors&#39;, [&#39;Axel&#39;, &#39;fors&#39;]),
+ (&#39;Axelman&#39;, [&#39;Axel&#39;, &#39;man&#39;]),
+ (&#39;Axelmans&#39;, [&#39;Axel&#39;, &#39;mans&#39;]),
+ (&#39;Axelsberg&#39;, [&#39;Axel&#39;, &#39;s&#39;, &#39;berg&#39;]),
+ (&#39;Axelssonsvägen&#39;, [&#39;Axelsson&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Axgatan&#39;, [&#39;Ax&#39;, &#39;gatan&#39;]),
+ (&#39;Axgränd&#39;, [&#39;Ax&#39;, &#39;gränd&#39;]),
+ (&#39;Axlund&#39;, [&#39;Ax&#39;, &#39;lund&#39;]),
+ (&#39;Axman&#39;, [&#39;Ax&#39;, &#39;man&#39;]),
+ (&#39;Axsjövägen&#39;, [&#39;Ax&#39;, &#39;sjö&#39;, &#39;vägen&#39;]),
+ (&#39;Axtorpsvägen&#39;, [&#39;Ax&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Axvall&#39;, [&#39;Ax&#39;, &#39;vall&#39;]),
+ (&#39;Axvall&#39;, [&#39;Ax&#39;, &#39;vall&#39;]),
+ (&#39;Axvall&#39;, [&#39;Ax&#39;, &#39;vall&#39;]),
+ (&#39;Axvallagatan&#39;, [&#39;Ax&#39;, &#39;vall&#39;, &#39;a&#39;, &#39;gatan&#39;]),
+ (&#39;Axvalls&#39;, [&#39;Ax&#39;, &#39;valls&#39;]),
+ (&#39;Axvallsvägen&#39;, [&#39;Ax&#39;, &#39;vall&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Axvägen&#39;, [&#39;Ax&#39;, &#39;vägen&#39;]),
+ (&#39;B-aktien&#39;, [&#39;B&#39;, &#39;-&#39;, &#39;aktien&#39;]),
+ (&#39;BNP-tillväxt&#39;, [&#39;BNP&#39;, &#39;-&#39;, &#39;till&#39;, &#39;växt&#39;]),
+ (&#39;BNP-tillväxten&#39;, [&#39;BNP&#39;, &#39;-&#39;, &#39;till&#39;, &#39;växten&#39;]),
+ (&#39;BNP-ökning&#39;, [&#39;BNP&#39;, &#39;-&#39;, &#39;ökning&#39;]),
+ (&#39;Baazgatan&#39;, [&#39;Baaz&#39;, &#39;gatan&#39;]),
+ (&#39;Babelstorn&#39;, [&#39;Babel&#39;, &#39;s&#39;, &#39;torn&#39;]),
+ (&#39;Babordsgatan&#39;, [&#39;Babord&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Babordsgången&#39;, [&#39;Babord&#39;, &#39;s&#39;, &#39;gången&#39;]),
+ (&#39;Babordsvägen&#39;, [&#39;Babord&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Backabo&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;bo&#39;]),
+ (&#39;Backabovägen&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;bo&#39;, &#39;vägen&#39;]),
+ (&#39;Backabro&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;bro&#39;]),
+ (&#39;Backadalsgatan&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;dal&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Backafall&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;fall&#39;]),
+ (&#39;Backafors&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;fors&#39;]),
+ (&#39;Backagatan&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;gatan&#39;]),
+ (&#39;Backagärde&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;gärde&#39;]),
+ (&#39;Backagårdsvägen&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;gård&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Backaliden&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;liden&#39;]),
+ (&#39;Backamo&#39;, [&#39;!Backa&#39;, &#39;mo&#39;]),
+ (&#39;Backanäs&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;näs&#39;]),
+ (&#39;Backanäsgatan&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;näs&#39;, &#39;gatan&#39;]),
+ (&#39;Backateatern&#39;, [&#39;Backa&#39;, &#39;teatern&#39;]),
+ (&#39;Backatorp&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;torp&#39;]),
+ (&#39;Backavägen&#39;, [&#39;!Back&#39;, &#39;a&#39;, &#39;vägen&#39;]),
+ (&#39;Backberg&#39;, [&#39;!Back&#39;, &#39;berg&#39;]),
+ (&#39;Backberg&#39;, [&#39;!Back&#39;, &#39;berg&#39;]),
+ (&#39;Backbergs&#39;, [&#39;!Back&#39;, &#39;bergs&#39;]),
+ (&#39;Backbergsvägen&#39;, [&#39;!Back&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Backby&#39;, [&#39;!Back&#39;, &#39;by&#39;]),
+ (&#39;Backbyvägen&#39;, [&#39;!Back&#39;, &#39;by&#39;, &#39;vägen&#39;]),
+ (&#39;Backebergshälla&#39;, [&#39;Backe&#39;, &#39;berg&#39;, &#39;s&#39;, &#39;hälla&#39;]),
+ (&#39;Backebo&#39;, [&#39;Backe&#39;, &#39;bo&#39;]),
+ (&#39;Backebogatan&#39;, [&#39;Backe&#39;, &#39;bo&#39;, &#39;gatan&#39;]),
+ (&#39;Backebovägen&#39;, [&#39;Backe&#39;, &#39;bo&#39;, &#39;vägen&#39;]),
+ (&#39;Backegatan&#39;, [&#39;Backe&#39;, &#39;gatan&#39;]),
+ (&#39;Backegårdsgatan&#39;, [&#39;Backe&#39;, &#39;gård&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Backenvägen&#39;, [&#39;Backen&#39;, &#39;vägen&#39;]),
+ (&#39;Backetorp&#39;, [&#39;Backe&#39;, &#39;torp&#39;]),
+ (&#39;Backevägen&#39;, [&#39;Backe&#39;, &#39;vägen&#39;]),
+ (&#39;Backfors&#39;, [&#39;!Back&#39;, &#39;fors&#39;]),
+ (&#39;Backgatan&#39;, [&#39;Back&#39;, &#39;gatan&#39;]),
+ (&#39;Backgränd&#39;, [&#39;Back&#39;, &#39;gränd&#39;]),
+ (&#39;Backgård&#39;, [&#39;!Back&#39;, &#39;gård&#39;]),
+ (&#39;Backgårdsgatan&#39;, [&#39;Back&#39;, &#39;gård&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Backgårdsvägen&#39;, [&#39;Back&#39;, &#39;gård&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Backhans&#39;, [&#39;!Back&#39;, &#39;hans&#39;]),
+ (&#39;Backhausgatan&#39;, [&#39;Backhaus&#39;, &#39;gatan&#39;]),
+ (&#39;Backholm&#39;, [&#39;!Back&#39;, &#39;holm&#39;]),
+ (&#39;Backhult&#39;, [&#39;!Back&#39;, &#39;hult&#39;]),
+ (&#39;Backliden&#39;, [&#39;!Back&#39;, &#39;liden&#39;]),
+ (&#39;Backlund&#39;, [&#39;!Back&#39;, &#39;lund&#39;]),
+ (&#39;Backlunds&#39;, [&#39;!Back&#39;, &#39;lunds&#39;]),
+ (&#39;Backluravägen&#39;, [&#39;Back&#39;, &#39;lur&#39;, &#39;a&#39;, &#39;vägen&#39;]),
+ (&#39;Backlöksvägen&#39;, [&#39;Back&#39;, &#39;lök&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Backmans&#39;, [&#39;!Back&#39;, &#39;mans&#39;]),
+ (&#39;Backmansgatan&#39;, [&#39;Back&#39;, &#39;man&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Backmansvägen&#39;, [&#39;Back&#39;, &#39;man&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Backmark&#39;, [&#39;!Back&#39;, &#39;mark&#39;]),
+ (&#39;Backmo&#39;, [&#39;!Back&#39;, &#39;mo&#39;]),
+ (&#39;Backrundan&#39;, [&#39;Back&#39;, &#39;rundan&#39;]),
+ (&#39;Backsippevägen&#39;, [&#39;Back&#39;, &#39;!sipp&#39;, &#39;e&#39;, &#39;vägen&#39;]),
+ (&#39;Backsippsgatan&#39;, [&#39;Back&#39;, &#39;!sipp&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Backsjön&#39;, [&#39;!Back&#39;, &#39;sjön&#39;]),
+ (&#39;Backslingan&#39;, [&#39;Back&#39;, &#39;slingan&#39;]),
+ (&#39;Backsläntsgatan&#39;, [&#39;Back&#39;, &#39;slänt&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Backstigen&#39;, [&#39;Back&#39;, &#39;stigen&#39;]),
+ (&#39;Backström&#39;, [&#39;!Back&#39;, &#39;ström&#39;]),
+ (&#39;Backströms&#39;, [&#39;!Back&#39;, &#39;ströms&#39;]),
+ (&#39;Backstugan&#39;, [&#39;!Back&#39;, &#39;stugan&#39;]),
+ (&#39;Backstugeliden&#39;, [&#39;!Back&#39;, &#39;!stug&#39;, &#39;e&#39;, &#39;liden&#39;]),
+ (&#39;Backstugevägen&#39;, [&#39;Back&#39;, &#39;!stug&#39;, &#39;e&#39;, &#39;vägen&#39;]),
+ (&#39;Backsvalevägen&#39;, [&#39;Back&#39;, &#39;!sval&#39;, &#39;e&#39;, &#39;vägen&#39;]),
+ (&#39;Backträsk&#39;, [&#39;!Back&#39;, &#39;träsk&#39;]),
+ (&#39;Backviken&#39;, [&#39;!Back&#39;, &#39;viken&#39;]),
+ (&#39;Backvindeln&#39;, [&#39;Back&#39;, &#39;vindeln&#39;]),
+ (&#39;Backvägen&#39;, [&#39;Back&#39;, &#39;vägen&#39;]),
+ (&#39;Backängen&#39;, [&#39;Back&#39;, &#39;ängen&#39;]),
+ (&#39;Backås&#39;, [&#39;!Back&#39;, &#39;ås&#39;]),
+ (&#39;Badgatan&#39;, [&#39;Bad&#39;, &#39;gatan&#39;]),
+ (&#39;Badhusberget&#39;, [&#39;Bad&#39;, &#39;hus&#39;, &#39;berget&#39;]),
+ (&#39;Badhusgatan&#39;, [&#39;Bad&#39;, &#39;hus&#39;, &#39;gatan&#39;]),
+ (&#39;Badhusvägen&#39;, [&#39;Bad&#39;, &#39;hus&#39;, &#39;vägen&#39;]),
+ (&#39;Badman&#39;, [&#39;Bad&#39;, &#39;man&#39;]),
+ (&#39;Badstigen&#39;, [&#39;Bad&#39;, &#39;stigen&#39;]),
+ (&#39;Badstrandsvägen&#39;, [&#39;Bad&#39;, &#39;strand&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Badstugatan&#39;, [&#39;Bad&#39;, &#39;!stu&#39;, &#39;gatan&#39;]),
+ (&#39;Badviken&#39;, [&#39;Bad&#39;, &#39;viken&#39;]),
+ (&#39;Badviksvägen&#39;, [&#39;Bad&#39;, &#39;vik&#39;, &#39;s&#39;, &#39;vägen&#39;]),
+ (&#39;Badvädersgatan&#39;, [&#39;Bad&#39;, &#39;väder&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Badvägen&#39;, [&#39;Bad&#39;, &#39;vägen&#39;]),
+ (&#39;Bagarbo&#39;, [&#39;!Bagar&#39;, &#39;bo&#39;]),
+ (&#39;Bagarbyvägen&#39;, [&#39;!Bagar&#39;, &#39;by&#39;, &#39;vägen&#39;]),
+ (&#39;Bagaregatan&#39;, [&#39;Bagare&#39;, &#39;gatan&#39;]),
+ (&#39;Bagaregårdsgatan&#39;, [&#39;Bagare&#39;, &#39;gård&#39;, &#39;s&#39;, &#39;gatan&#39;]),
+ (&#39;Bagareliden&#39;, [&#39;Bagare&#39;, &#39;liden&#39;]),
+ (&#39;Bagarevägen&#39;, [&#39;Bagare&#39;, &#39;vägen&#39;]),
+ (&#39;Bagarfruvägen&#39;, [&#39;!Bagar&#39;, &#39;fru&#39;, &#39;vägen&#39;]),
+ (&#39;Bagargatan&#39;, [&#39;!Bagar&#39;, &#39;gatan&#39;]),
+ (&#39;Bagargränd&#39;, [&#39;!Bagar&#39;, &#39;gränd&#39;]),
+ (&#39;Bagarmossen&#39;, [&#39;!Bagar&#39;, &#39;mossen&#39;]),
+ (&#39;Bagarmossen&#39;, [&#39;!Bagar&#39;, &#39;mossen&#39;]),
+ (&#39;Bagarmossen&#39;, [&#39;!Bagar&#39;, &#39;mossen&#39;]),
+ (&#39;Bagarsvängen&#39;, [&#39;!Bagar&#39;, &#39;svängen&#39;]),
+ (&#39;Bagartorpsringen&#39;, [&#39;!Bagar&#39;, &#39;torp&#39;, &#39;s&#39;, &#39;ringen&#39;]),
+ (&#39;Bagarvägen&#39;, [&#39;!Bagar&#39;, &#39;vägen&#39;]),
+ ...]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/swelex/compounds/2026/07/23/swelex-decomp.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

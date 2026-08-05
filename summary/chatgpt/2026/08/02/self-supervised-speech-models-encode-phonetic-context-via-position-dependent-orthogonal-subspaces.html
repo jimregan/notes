@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT paper summary" />
+<meta property="og:description" content="ChatGPT paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/summary/chatgpt/2026/08/02/self-supervised-speech-models-encode-phonetic-context-via-position-dependent-orthogonal-subspaces.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/summary/chatgpt/2026/08/02/self-supervised-speech-models-encode-phonetic-context-via-position-dependent-orthogonal-subspaces.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-08-02T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/summary/chatgpt/2026/08/02/self-supervised-speech-models-encode-phonetic-context-via-position-dependent-orthogonal-subspaces.html","@type":"BlogPosting","headline":"Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces","dateModified":"2026-08-02T00:00:00-05:00","datePublished":"2026-08-02T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/summary/chatgpt/2026/08/02/self-supervised-speech-models-encode-phonetic-context-via-position-dependent-orthogonal-subspaces.html"},"description":"ChatGPT paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces</h1><p class="page-description">ChatGPT paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-08-02T00:00:00-05:00" itemprop="datePublished">
+        Aug 2, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      11 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#self-supervised-speech-models-encode-phonetic-context-via-position-dependent-orthogonal-subspaces">Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#central-idea">Central idea</a></li>
+<li class="toc-entry toc-h2"><a href="#models-data-and-baseline-representations">Models, data, and baseline representations</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#1-is-phonological-structure-present-in-a-single-frame">1. Is phonological structure present in a single frame?</a></li>
+<li class="toc-entry toc-h1"><a href="#2-does-that-single-frame-encode-neighbouring-phones">2. Does that single frame encode neighbouring phones?</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#effective-context">Effective context</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#3-position-dependent-phonological-subspaces">3. Position-dependent phonological subspaces</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#ermid-p0text-voiced">E[r\mid p^0\text{ voiced}]</a></li>
+<li class="toc-entry toc-h2"><a href="#ermid-p-1text-voiced">E[r\mid p^{-1}\text{ voiced}]</a></li>
+<li class="toc-entry toc-h2"><a href="#within-each-positional-space">Within each positional space</a></li>
+<li class="toc-entry toc-h2"><a href="#between-positional-spaces">Between positional spaces</a></li>
+<li class="toc-entry toc-h2"><a href="#information-appears-to-decay-with-distance">Information appears to decay with distance</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#4-the-positional-representation-follows-phone-boundaries">4. The positional representation follows phone boundaries</a></li>
+<li class="toc-entry toc-h1"><a href="#5-connection-to-masked-prediction">5. Connection to masked prediction</a></li>
+<li class="toc-entry toc-h1"><a href="#interpretation">Interpretation</a></li>
+<li class="toc-entry toc-h1"><a href="#main-implications-and-limits-of-the-evidence">Main implications and limits of the evidence</a></li>
+</ul><h1 id="self-supervised-speech-models-encode-phonetic-context-via-position-dependent-orthogonal-subspaces">
+<a class="anchor" href="#self-supervised-speech-models-encode-phonetic-context-via-position-dependent-orthogonal-subspaces" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces</em>
+</h1>
+
+<p>Kwanghee Choi, Eunjung Yeo, Cheol Jun Cho, David R. Mortensen, and David Harwath, 2026.</p>
+
+<h2 id="central-idea">
+<a class="anchor" href="#central-idea" aria-hidden="true"><span class="octicon octicon-link"></span></a>Central idea</h2>
+
+<p>The paper asks what it actually means for Transformer-based self-supervised speech models (S3Ms) to produce <strong>contextualized frame representations</strong>.</p>
+
+<p>Its proposed answer is quite specific. A representation at one time step does not merely encode the phone acoustically aligned with that frame. It contains phonological information about a <strong>sequence of phones around that frame</strong>, but keeps information about different relative positions separate.</p>
+
+<p>Schematically, a frame within phone (p^0) is proposed to contain something like</p>
+
+<p>[
+r_t
+\approx
+v^{-1}<em>{p^{-1}}
++
+v^0</em>{p^0}
++
+v^{+1}_{p^{+1}}
++\cdots
+]</p>
+
+<p>where the superscript indicates relative phone position. Crucially,</p>
+
+<p>[
+v_{\text{voice}}^{-1}
+]</p>
+
+<p>and</p>
+
+<p>[
+v_{\text{voice}}^{0}
+]</p>
+
+<p>are not simply the same voicing vector added twice. The authors argue that phonological information for different relative positions occupies approximately <strong>orthogonal subspaces</strong>. Thus the representation can distinguish “the previous phone is voiced” from “the current phone is voiced.”</p>
+
+<p>The second major claim is that those relative positions are defined with respect to <strong>phonetic segments</strong>, rather than fixed amounts of elapsed time. As the signal crosses a phone boundary, the same underlying phone changes from “current” to “previous,” etc., and the corresponding representation shifts between positional subspaces. The resulting changes line up with manually annotated phone boundaries.</p>
+
+<p>So the intended representational picture is:</p>
+
+<p>[
+\text{one frame}
+================</p>
+
+<p>\text{phonology of current phone}
++
+\text{phonology of neighbouring phones},
+]</p>
+
+<p>with each phone-position combination represented in its own approximately orthogonal coordinate system.</p>
+
+<hr>
+
+<h2 id="models-data-and-baseline-representations">
+<a class="anchor" href="#models-data-and-baseline-representations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Models, data, and baseline representations</h2>
+
+<p>They analyse the LARGE versions of three English-trained S3Ms:</p>
+
+<ul>
+  <li>wav2vec 2.0 (<code class="language-plaintext highlighter-rouge">facebook/wav2vec2-large-lv60</code>)</li>
+  <li>HuBERT (<code class="language-plaintext highlighter-rouge">facebook/hubert-large-ll60k</code>)</li>
+  <li>WavLM (<code class="language-plaintext highlighter-rouge">microsoft/wavlm-large</code>)</li>
+</ul>
+
+<p>All have a convolutional feature encoder followed by a Transformer context network. MFCC and log-mel representations serve as non-contextual spectral baselines.</p>
+
+<p>The datasets are <strong>TIMIT</strong>, manually segmented English speech, and <strong>VoxAngeles</strong>, manually segmented speech from 95 non-English languages. The latter is particularly useful because the tested S3Ms were trained on English, so it tests whether the proposed structure extends to phonetic inventories outside the models’ training language.</p>
+
+<p>Their principal diagnostic is <strong>phonological vector arithmetic</strong>, with analogies automatically generated from PanPhon features. For example, if the relevant representation geometry is linear, a relationship such as</p>
+
+<p>[
+[b]-[d]+[t]\approx[p]
+]</p>
+
+<p>should hold.</p>
+
+<p>An analogy counts as successful when the cosine similarity between the target and arithmetic approximation falls between a different-phone lower baseline and a same-phone upper baseline. They estimate similarities using 1,000 samples with replacement and construct 99% confidence intervals from 10 independent repetitions.</p>
+
+<p>Phones occurring fewer than 50 times are excluded for these analogy experiments, leaving 43 TIMIT phones and 57 VoxAngeles phones, producing respectively <strong>236 and 468 valid phonological quadruplets</strong>.</p>
+
+<hr>
+
+<h1 id="1-is-phonological-structure-present-in-a-single-frame">
+<a class="anchor" href="#1-is-phonological-structure-present-in-a-single-frame" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Is phonological structure present in a single frame?</h1>
+
+<p>The first experiment establishes that the earlier phonological-vector results are not an artefact of averaging representations across an entire phone.</p>
+
+<p>They compare:</p>
+
+<ul>
+  <li>
+<strong>mean pooling</strong>: average all S3M frames corresponding to the phone;</li>
+  <li>
+<strong>center pooling</strong>: take only the single frame at the temporal centre of the phone.</li>
+</ul>
+
+<p>Surprisingly, center-frame representations perform at least as well as mean-pooled representations and frequently perform better. The effect appears for both TIMIT and VoxAngeles and across the S3Ms, although the layerwise behaviour varies considerably by model.</p>
+
+<p>This supports the claim that phonological compositionality genuinely exists at the <strong>individual Transformer frame level</strong>: it is not necessary to average several frames to reveal something resembling a stable phone representation.</p>
+
+<p>Spectral MFCC/log-mel representations do not show the same strong behaviour.</p>
+
+<hr>
+
+<h1 id="2-does-that-single-frame-encode-neighbouring-phones">
+<a class="anchor" href="#2-does-that-single-frame-encode-neighbouring-phones" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Does that single frame encode neighbouring phones?</h1>
+
+<p>The key experiment then changes what the analogy is <em>about</em>.</p>
+
+<p>Suppose the local phone sequence is</p>
+
+<p>[
+[p^{-2},p^{-1},p^0,p^{+1},p^{+2}]
+]</p>
+
+<p>and the representation examined is a single center frame belonging to (p^0).</p>
+
+<p>Instead of asking only whether that frame supports an analogy concerning (p^0), they ask whether its representation supports analogies concerning each of the five relative positions.</p>
+
+<p>In other words, can a frame sitting inside one phone encode distinctions such as:</p>
+
+<ul>
+  <li>“the <strong>previous</strong> phone is voiced”;</li>
+  <li>“the <strong>current</strong> phone is voiced”;</li>
+  <li>“the <strong>next</strong> phone is voiced”?</li>
+</ul>
+
+<p>It can, particularly in later S3M layers.</p>
+
+<p>The strongest analogy success occurs for (p^0), as expected, but useful phonological information also appears for (p^{-1}) and (p^{+1}). Positions (p^{-2}) and (p^{+2}) generally show little success by this metric.</p>
+
+<p>This is therefore not just a conventional receptive-field result showing that the Transformer has access to neighbouring audio. The claim is that the information about neighbouring segments occurs in a representation sufficiently regular to support <strong>the same kind of phonological vector arithmetic</strong> used for the current segment.</p>
+
+<h3 id="effective-context">
+<a class="anchor" href="#effective-context" aria-hidden="true"><span class="octicon octicon-link"></span></a>Effective context</h3>
+
+<p>They examine this more finely by randomly selecting individual frames at normalized positions through each phone from (p^{-2}) to (p^{+2}).</p>
+
+<p><strong>WavLM gives the clearest result:</strong> a broad trapezoidal context profile. Information about the target phone is strong inside that phone, weaker in the immediately adjacent phones, and approaches zero farther away. HuBERT behaves similarly on TIMIT but less clearly on VoxAngeles; wav2vec 2.0 shows substantially weaker contextual effects.</p>
+
+<p>MFCC and mel features behave as expected for acoustic-local representations: their useful information is essentially restricted to the target phone.</p>
+
+<p>Thus contextualization is strongest in WavLM, then less consistently apparent in HuBERT and wav2vec 2.0.</p>
+
+<hr>
+
+<h1 id="3-position-dependent-phonological-subspaces">
+<a class="anchor" href="#3-position-dependent-phonological-subspaces" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Position-dependent phonological subspaces</h1>
+
+<p>The central problem is now obvious.</p>
+
+<p>Suppose a frame encodes:</p>
+
+<ul>
+  <li>current phone = voiced;</li>
+  <li>previous phone = voiced.</li>
+</ul>
+
+<p>If both are represented by simply adding the same vector (v_{\text{voice}}), the representation cannot say <em>which phone</em> is voiced.</p>
+
+<p>The authors therefore hypothesize separate positional versions:</p>
+
+<p>[
+v^{-1}<em>{\text{voice}},\qquad
+v^0</em>{\text{voice}},\qquad
+v^{+1}_{\text{voice}}.
+]</p>
+
+<p>They construct such vectors through differences of class means. For example,</p>
+
+<p>[
+v^0_{\text{voice}}
+==================</p>
+
+<h2 id="ermid-p0text-voiced">
+<a class="anchor" href="#ermid-p0text-voiced" aria-hidden="true"><span class="octicon octicon-link"></span></a>E[r\mid p^0\text{ voiced}]</h2>
+
+<p>E[r\mid p^0\text{ unvoiced}]
+]</p>
+
+<p>where (r) is still the center-frame representation of (p^0).</p>
+
+<p>For the previous-phone version,</p>
+
+<p>[
+v^{-1}_{\text{voice}}
+=====================</p>
+
+<h2 id="ermid-p-1text-voiced">
+<a class="anchor" href="#ermid-p-1text-voiced" aria-hidden="true"><span class="octicon octicon-link"></span></a>E[r\mid p^{-1}\text{ voiced}]</h2>
+
+<p>E[r\mid p^{-1}\text{ unvoiced}].
+]</p>
+
+<p>Notice something important: <strong>both vectors are extracted from representations at the same temporal location</strong>. The grouping criterion changes according to which surrounding phone possesses the feature.</p>
+
+<p>They do this for eight features:</p>
+
+<ul>
+  <li>vowel: high, low, back, round;</li>
+  <li>consonant: nasal, sonorant, strident, voice.</li>
+</ul>
+
+<p>The main analysis uses final-layer WavLM.</p>
+
+<h2 id="within-each-positional-space">
+<a class="anchor" href="#within-each-positional-space" aria-hidden="true"><span class="octicon octicon-link"></span></a>Within each positional space</h2>
+
+<p>The expected phonological geometry is preserved. For instance:</p>
+
+<ul>
+  <li>high and low vectors are strongly negatively correlated;</li>
+  <li>nasal, sonorant and voice are positively related;</li>
+  <li>strident shows negative relationships with several sonorant-type features;</li>
+  <li>vowel and consonant vectors are approximately orthogonal.</li>
+</ul>
+
+<p>This structure is similar in TIMIT and VoxAngeles.</p>
+
+<p>More importantly, a broadly similar pattern appears independently for (p^{-2}, p^{-1}, p^0, p^{+1}, p^{+2}).</p>
+
+<h2 id="between-positional-spaces">
+<a class="anchor" href="#between-positional-spaces" aria-hidden="true"><span class="octicon octicon-link"></span></a>Between positional spaces</h2>
+
+<p>Vectors belonging to different relative positions have much smaller cosine similarities.</p>
+
+<p>Thus</p>
+
+<p>[
+\cos(v^0<em>{\text{voice}},v^{-1}</em>{\text{voice}})
+]</p>
+
+<p>is much lower than similarities among phonological vectors derived for the same relative position.</p>
+
+<p>The paper calls this <strong>positional orthogonality</strong>: roughly the same phonological system appears to be replicated in largely separate representational directions for each neighbouring phone position.</p>
+
+<p>The effect also appears across layers and across all three models when comparing average absolute cosine similarity for same-position versus different-position vector pairs.</p>
+
+<p>One qualification is important: the paper does <strong>not</strong> estimate complete linear subspaces and measure their principal angles. “Orthogonal subspaces” is inferred from the relatively low cosine similarities between sets of difference-of-means phonological vectors. The empirical result is therefore more directly “position-indexed phonological directions are approximately orthogonal” than a proof that the full representational spaces are mathematically orthogonal.</p>
+
+<hr>
+
+<h2 id="information-appears-to-decay-with-distance">
+<a class="anchor" href="#information-appears-to-decay-with-distance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Information appears to decay with distance</h2>
+
+<p>There is an interesting discrepancy between the two diagnostics.</p>
+
+<p>The direct analogy test finds little evidence at ±2 phones. Yet the difference-of-means method still recovers recognizable position-dependent phonological structure at ±2.</p>
+
+<p>The authors argue that the analogy success metric is therefore relatively insensitive: contextual information from several sources is superposed within a frame and individual-vector arithmetic becomes noisy.</p>
+
+<p>Supporting this interpretation, the <strong>L2 norms</strong> of position-dependent phonological vectors decline approximately as</p>
+
+<p>[
+0 &gt; |\pm1| &gt; |\pm2|.
+]</p>
+
+<p>So representations apparently contain weaker traces of progressively more distant phones rather than abruptly cutting off after the immediate neighbours.</p>
+
+<hr>
+
+<h1 id="4-the-positional-representation-follows-phone-boundaries">
+<a class="anchor" href="#4-the-positional-representation-follows-phone-boundaries" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. The positional representation follows phone boundaries</h1>
+
+<p>The paper’s next claim is stronger than “the Transformer has an effective temporal window.”</p>
+
+<p>If (p^{-1},p^0,p^{+1}) really refer to <em>phones</em>, then the model must in some sense track where phones begin and end. Otherwise the positional encoding could merely correspond to something like ±100 or ±200 ms.</p>
+
+<p>They therefore examine <strong>11 consecutive S3M frames around manually annotated TIMIT phone boundaries</strong>: five before the boundary, the boundary frame, and five afterwards.</p>
+
+<p>They select boundaries where a particular phonological feature changes. For instance,</p>
+
+<p>[
+[-\text{voice}] \rightarrow [+ \text{voice}].
+]</p>
+
+<p>Before the boundary, a vector meaning approximately <strong>“the next phone is voiced”</strong> should provide evidence for the upcoming voiced phone. After crossing the boundary, that same segment is now current, so <strong>“the current phone is voiced”</strong> should dominate.</p>
+
+<p>That is approximately what happens.</p>
+
+<p>Across the eight tested features, the cosine curves representing neighbouring and current positional vectors cross <strong>around the manually annotated TIMIT boundary</strong>. The reverse transition occurs at segment offsets: information formerly encoded as current becomes information about the preceding phone.</p>
+
+<p>The visualisation on page 7 makes the intended result especially clear. Across an entire TIMIT sentence, cosine similarities to the (-2,-1,0,+1,+2) feature vectors form a <strong>staircase-like pattern</strong>, with abrupt transitions repeatedly lining up with phone boundaries.</p>
+
+<p>The authors therefore argue that the relevant contextual representation is more like:</p>
+
+<blockquote>
+  <p>previous segment / current segment / following segment</p>
+</blockquote>
+
+<p>than:</p>
+
+<blockquote>
+  <p>100 ms ago / now / 100 ms later.</p>
+</blockquote>
+
+<p>A necessary qualification is that this is not itself an unsupervised segmentation evaluation. Ground-truth TIMIT boundaries are used both to define the positions and to aggregate the analysis. What they show is that a representational signal changes in systematic alignment with those boundaries, which could potentially be exploited by a future unsupervised segmenter.</p>
+
+<hr>
+
+<h1 id="5-connection-to-masked-prediction">
+<a class="anchor" href="#5-connection-to-masked-prediction" aria-hidden="true"><span class="octicon octicon-link"></span></a>5. Connection to masked prediction</h1>
+
+<p>The paper also offers a possible reason why this structure emerges.</p>
+
+<p>wav2vec-style S3Ms use context to predict masked input. Because speech is coarticulated, reconstructing a missing region benefits from knowing phonetic information on either side.</p>
+
+<p>They test mask reconstruction by comparing representations produced from an intact signal with representations for the same region when it has been masked. The default mask length is <strong>10 frames, approximately 205 ms</strong>. Since Transformer spaces are anisotropic, they first perform ZCA whitening before computing cosine similarities.</p>
+
+<p>For HuBERT and WavLM, similarity between the true and context-reconstructed representations steadily improves through the network. wav2vec 2.0 instead reaches its best reconstruction similarity in an intermediate layer and then deteriorates.</p>
+
+<p>This qualitatively resembles the models’ different layerwise phonological-context behaviour. The authors therefore suggest—not demonstrate causally—that masked-prediction training may encourage frames to store structured information about neighbouring phones because that information aids reconstruction.</p>
+
+<hr>
+
+<h1 id="interpretation">
+<a class="anchor" href="#interpretation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Interpretation</h1>
+
+<p>The paper proposes a fairly concrete picture of Transformer contextualization in speech:</p>
+
+<p>[
+r_t \approx
+\sum_{j=-k}^{k}
+V_j,\phi(p^{j})
+]</p>
+
+<p>where (\phi(p^j)) is something like the phonological feature content of the phone at relative position (j), and (V_j) places that content into a <strong>position-specific representational subspace</strong>.</p>
+
+<p>This accounts simultaneously for several observations:</p>
+
+<ol>
+  <li>A single S3M frame contains much more than its local acoustics.</li>
+  <li>It preserves phonological structure for the segment containing that frame.</li>
+  <li>It also contains weaker structured information about neighbouring segments.</li>
+  <li>The model can avoid confusing identical features belonging to different phones because relative positions are represented approximately orthogonally.</li>
+  <li>These positional assignments appear to change at phonetic boundaries rather than at fixed elapsed-time intervals.</li>
+</ol>
+
+<p>The authors compare this informally with <strong>context-dependent triphones</strong> in traditional ASR: self-supervised models may effectively be rediscovering a richer continuous analogue of explicit left/current/right phonetic context.</p>
+
+<hr>
+
+<h1 id="main-implications-and-limits-of-the-evidence">
+<a class="anchor" href="#main-implications-and-limits-of-the-evidence" aria-hidden="true"><span class="octicon octicon-link"></span></a>Main implications and limits of the evidence</h1>
+
+<p>The result potentially gives a mechanistic explanation for several otherwise loosely connected properties of S3Ms: why learned discrete units resemble phonetic categories, why contextual S3M embeddings work well for phonetic tasks, why allophonic environment can be decoded, and why speech boundaries can emerge from otherwise unsupervised models.</p>
+
+<p>The authors suggest applications to interpretable speech representations, unsupervised segmentation, structured discrete speech units, and architectures that explicitly disentangle context-independent from context-dependent information. They also speculate that phonetic position may be one example of a broader principle whereby S3Ms place different kinds of information—phonology, speaker identity, acoustics—into approximately separated linear subspaces.</p>
+
+<p>The evidence nevertheless supports a narrower claim than the title might initially suggest. The strongest analyses concentrate on <strong>final-layer WavLM</strong>, particularly the orthogonality and boundary experiments; contextual analogy results are considerably weaker for wav2vec 2.0 and partly dataset-dependent for HuBERT. The “subspaces” are diagnosed through a small set of eight PanPhon-derived difference vectors rather than by characterizing all dimensions of a true subspace. And the apparent segmentation is evaluated relative to existing manual phone segmentation rather than obtained independently.</p>
+
+<p>Within those qualifications, the paper’s main result is quite striking: <strong>individual S3M frames appear to contain a structured representation of a short phonetic sequence, indexed by relative segment position, rather than merely a context-smoothed representation of the locally aligned phone.</strong></p>
+
+  </div><a class="u-url" href="/notes/summary/chatgpt/2026/08/02/self-supervised-speech-models-encode-phonetic-context-via-position-dependent-orthogonal-subspaces.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

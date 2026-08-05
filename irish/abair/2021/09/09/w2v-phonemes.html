@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>wav2vec phonemes | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="wav2vec phonemes" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Incomplete, Irish" />
+<meta property="og:description" content="Incomplete, Irish" />
+<link rel="canonical" href="https://jimregan.github.io/notes/irish/abair/2021/09/09/w2v-phonemes.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/irish/abair/2021/09/09/w2v-phonemes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-09T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/irish/abair/2021/09/09/w2v-phonemes.html","@type":"BlogPosting","headline":"wav2vec phonemes","dateModified":"2021-09-09T00:00:00-05:00","datePublished":"2021-09-09T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/irish/abair/2021/09/09/w2v-phonemes.html"},"description":"Incomplete, Irish","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">wav2vec phonemes</h1><p class="page-description">Incomplete, Irish</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-09-09T00:00:00-05:00" itemprop="datePublished">
+        Sep 9, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#irish">irish</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#abair">abair</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2021-09-09-w2v-phonemes.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2021-09-09-w2v-phonemes.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2021-09-09-w2v-phonemes.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-09-09-w2v-phonemes.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">datasets</span> <span class="kn">import</span> <span class="n">load_dataset</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dirs</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">cmg_ga_mu_corpusbeag</span>
+<span class="s2">pmg_ga_co/RCPiarsachALL</span>
+<span class="s2">nnc_ga_mu/CDNamedEntities01</span>
+<span class="s2">nnc_ga_mu/CDAn_tOileanach_part3_newLTS</span>
+<span class="s2">nnc_ga_mu/CDAn_tOileanach_part4_newLTS</span>
+<span class="s2">nnc_ga_mu/CDNamedEntities02</span>
+<span class="s2">nnc_ga_mu/CDAlphabet</span>
+<span class="s2">nnc_ga_mu/CDAn_tOileanach_part2_newLTS</span>
+<span class="s2">nnc_ga_mu/corpas_beag_newLTS</span>
+<span class="s2">nnc_ga_mu/CDSaytime</span>
+<span class="s2">nnc_ga_mu/CDAn_tOileanach_part1_newLTS</span>
+<span class="s2">cmg_ga_mu/CMGOther</span>
+<span class="s2">cmg_ga_mu/CMGCorpusBeag</span>
+<span class="s2">anb_ga_ul/new_text02</span>
+<span class="s2">anb_ga_ul/text01-004</span>
+<span class="s2">anb_ga_ul/text01</span>
+<span class="s2">anb_ga_ul/text01-001</span>
+<span class="s2">anb_ga_ul/text02</span>
+<span class="s2">anb_ga_ul/named-entities</span>
+<span class="s2">nnc_en_ie</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dirl</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">dirs</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">a</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">script</span> <span class="o">=</span> <span class="s2">&quot;abairxml.py&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span> <span class="o">=</span> <span class="n">load_dataset</span><span class="p">(</span><span class="n">script</span><span class="p">,</span> <span class="n">data_dir</span><span class="o">=</span><span class="s2">&quot;/home/jim/tmp/cmg_ga_mu/CMGOther&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Using custom data configuration default-3a69a91aa0b88fa1
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>DatasetDict({
+    train: Dataset({
+        features: [&#39;file_id&#39;, &#39;words&#39;, &#39;phonemes&#39;, &#39;audio&#39;, &#39;dialect&#39;, &#39;language&#39;, &#39;speaker_id&#39;, &#39;audio_set&#39;],
+        num_rows: 737
+    })
+})</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span><span class="p">[</span><span class="s1">&#39;train&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;file_id&#39;: &#39;CI0002CMGNamedEntities01_0202&#39;,
+ &#39;words&#39;: &#39;gaeilge na halban&#39;,
+ &#39;phonemes&#39;: [&#39;g&#39;,
+  &#39;ee&#39;,
+  &#39;lj&#39;,
+  &#39;gj&#39;,
+  &#39;@&#39;,
+  &#39;n&#39;,
+  &#39;@&#39;,
+  &#39;h&#39;,
+  &#39;a&#39;,
+  &#39;l&#39;,
+  &#39;@&#39;,
+  &#39;b&#39;,
+  &#39;@&#39;,
+  &#39;n&#39;],
+ &#39;audio&#39;: &#39;/home/jim/tmp/cmg_ga_mu/CMGOther/wav16_trimmed/CI0002CMGNamedEntities01_0202.wav&#39;,
+ &#39;dialect&#39;: &#39;mu&#39;,
+ &#39;language&#39;: &#39;ga&#39;,
+ &#39;speaker_id&#39;: &#39;cmg&#39;,
+ &#39;audio_set&#39;: &#39;CMGOther&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="k">def</span> <span class="nf">check_paths</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">audio_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;audio&quot;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">audio_path</span><span class="o">.</span><span class="n">is_file</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">check_paths</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-fd1748b2b209eed2.arrow
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>DatasetDict({
+    train: Dataset({
+        features: [&#39;file_id&#39;, &#39;words&#39;, &#39;phonemes&#39;, &#39;audio&#39;, &#39;dialect&#39;, &#39;language&#39;, &#39;speaker_id&#39;, &#39;audio_set&#39;],
+        num_rows: 737
+    })
+})</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sets</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="nb">dir</span> <span class="ow">in</span> <span class="n">dirl</span><span class="p">:</span>
+    <span class="n">sets</span><span class="p">[</span><span class="nb">dir</span><span class="p">]</span> <span class="o">=</span> <span class="n">load_dataset</span><span class="p">(</span><span class="n">script</span><span class="p">,</span> <span class="n">data_dir</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;/home/jim/tmp/</span><span class="si">{</span><span class="nb">dir</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Using custom data configuration default-187ee4831f664a6d
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-187ee4831f664a6d/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-aa8abe91265ea5f3
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-aa8abe91265ea5f3/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-7667bb9aedbb818e
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7667bb9aedbb818e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-7a61ec2b352637f4
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7a61ec2b352637f4/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-da3752ae2db10e54
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-da3752ae2db10e54/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-bc83211c090696b1
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-bc83211c090696b1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-8a5c6623ef11cf95
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8a5c6623ef11cf95/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-8898f01d8441980f
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8898f01d8441980f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-f3018c93372fbb3e
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-f3018c93372fbb3e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-394fefcb2267b139
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-394fefcb2267b139/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-e19a455adb1dd118
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-e19a455adb1dd118/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-3a69a91aa0b88fa1
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-be79e07535743a6e
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-be79e07535743a6e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-417c6e27426f3437
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-417c6e27426f3437/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-43028c0e5f2c58ca
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-43028c0e5f2c58ca/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-a06c04423430a170
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-a06c04423430a170/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-47dd039cf717a18f
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-47dd039cf717a18f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-157f875646b8e11f
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-157f875646b8e11f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-5889ff1f5cce90e0
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-5889ff1f5cce90e0/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+Using custom data configuration default-336db2235fd49907
+Reusing dataset utterance_xml_dataset (/home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-336db2235fd49907/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="k">def</span> <span class="nf">check_paths</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">audio_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;audio&quot;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">audio_path</span><span class="o">.</span><span class="n">is_file</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="nb">dir</span> <span class="ow">in</span> <span class="n">dirl</span><span class="p">:</span>
+    <span class="n">sets</span><span class="p">[</span><span class="nb">dir</span><span class="p">][</span><span class="s2">&quot;train&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sets</span><span class="p">[</span><span class="nb">dir</span><span class="p">][</span><span class="s2">&quot;train&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">check_paths</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-187ee4831f664a6d/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-96d34247636a824d.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-aa8abe91265ea5f3/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-7018f164471d5b99.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7667bb9aedbb818e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-4ae746a5bb8ab867.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7a61ec2b352637f4/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-65a1ed1f06c66730.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-da3752ae2db10e54/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-f85df38cd0c18760.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-bc83211c090696b1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-a78531c403493484.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8a5c6623ef11cf95/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-9ac80223370644e8.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8898f01d8441980f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-8ba453ba495337c2.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-f3018c93372fbb3e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-f4d3a1c2d91a3cbc.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-394fefcb2267b139/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-6bbe18519e4dc0d0.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-e19a455adb1dd118/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-884ba0c370db2771.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-fd1748b2b209eed2.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-be79e07535743a6e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-b0de8317eeb157fe.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-417c6e27426f3437/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-4ec6f50627536c4a.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-43028c0e5f2c58ca/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-25508f353dffe5a4.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-a06c04423430a170/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-6b89d3ce1380a94e.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-47dd039cf717a18f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-eaa23f6d212ea43c.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-157f875646b8e11f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-d43c63ec8d4cb897.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-5889ff1f5cce90e0/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-3347d4b8bca7b86e.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-336db2235fd49907/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-84a411d0343a3512.arrow
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install torchaudio
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Keyring is skipped due to an exception: Item does not exist!
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: torchaudio in /home/jim/.local/lib/python3.6/site-packages (0.9.0)
+Requirement already satisfied: torch==1.9.0 in /home/jim/.local/lib/python3.6/site-packages (from torchaudio) (1.9.0)
+Requirement already satisfied: dataclasses in /usr/local/lib/python3.6/dist-packages (from torch==1.9.0-&gt;torchaudio) (0.8)
+Requirement already satisfied: typing-extensions in /usr/local/lib/python3.6/dist-packages (from torch==1.9.0-&gt;torchaudio) (3.7.4.3)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torchaudio</span>
+
+<span class="k">def</span> <span class="nf">speech_file_to_array_fn</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">speech_array</span><span class="p">,</span> <span class="n">sampling_rate</span> <span class="o">=</span> <span class="n">torchaudio</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;audio&quot;</span><span class="p">])</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">speech_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sampling_rate</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;target_text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;words&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">batch</span>
+
+<span class="k">for</span> <span class="nb">dir</span> <span class="ow">in</span> <span class="n">dirl</span><span class="p">:</span>
+    <span class="n">sets</span><span class="p">[</span><span class="nb">dir</span><span class="p">][</span><span class="s2">&quot;train&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sets</span><span class="p">[</span><span class="nb">dir</span><span class="p">][</span><span class="s2">&quot;train&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">speech_file_to_array_fn</span><span class="p">,</span> <span class="n">remove_columns</span><span class="o">=</span><span class="n">sets</span><span class="p">[</span><span class="nb">dir</span><span class="p">][</span><span class="s2">&quot;train&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">column_names</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-187ee4831f664a6d/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-18df1d089931c98b.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-aa8abe91265ea5f3/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-0eaad84bca78a073.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7667bb9aedbb818e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-3c31f68123fd7809.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7a61ec2b352637f4/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-57b4fd0b447303a2.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-da3752ae2db10e54/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-73c2eff8b5378aab.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-bc83211c090696b1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-da5ca26a2d03ecdc.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8a5c6623ef11cf95/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-2a1a8dd5ed530678.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8898f01d8441980f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-aaf3b67f0e27c4a6.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-f3018c93372fbb3e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-2af0e4d1625ddf67.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-394fefcb2267b139/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-ea40fec907410ed4.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-e19a455adb1dd118/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-7398224424cce64c.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-7c7e8160e8406935.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-be79e07535743a6e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-ae73b888f9fe20f5.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-417c6e27426f3437/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-a9963450e3885f8e.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-43028c0e5f2c58ca/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-b76ed6fa3fb8afe1.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-a06c04423430a170/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-bbb66523817ad4df.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-47dd039cf717a18f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-ca76c6c18b4abf91.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-157f875646b8e11f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-1af7e68fe08b5207.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-5889ff1f5cce90e0/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-ff6b9124b076f8e5.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-336db2235fd49907/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-14f81baac928b43a.arrow
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Something has gone wrong with <code>anb_ga_ul/text02</code></p>
+<p>Audio is in <code>wav_trimmed/</code></p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">librosa</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="k">def</span> <span class="nf">resample</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;duration&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">get_duration</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">],</span> <span class="n">sr</span><span class="o">=</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">16_000</span><span class="p">:</span>
+        <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">]),</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">],</span> <span class="mi">16_000</span><span class="p">)</span>
+        <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">16_000</span>
+
+    <span class="k">return</span> <span class="n">batch</span>
+
+<span class="k">for</span> <span class="nb">dir</span> <span class="ow">in</span> <span class="n">dirl</span><span class="p">:</span>
+    <span class="n">sets</span><span class="p">[</span><span class="nb">dir</span><span class="p">][</span><span class="s2">&quot;train&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sets</span><span class="p">[</span><span class="nb">dir</span><span class="p">][</span><span class="s2">&quot;train&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">resample</span><span class="p">,</span> <span class="n">num_proc</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-187ee4831f664a6d/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-da006be1caebfb5b.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-187ee4831f664a6d/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-c2641d558f05e8f1.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-187ee4831f664a6d/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-8d515b7aebd171c2.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-187ee4831f664a6d/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-7b97b92998e9a71e.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-aa8abe91265ea5f3/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-b930ee8e08c75d17.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-aa8abe91265ea5f3/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-16fc7e0af6cdfbfe.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-aa8abe91265ea5f3/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-3e197422dcab423a.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-aa8abe91265ea5f3/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-0bbffbb7006c1760.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7667bb9aedbb818e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-ddf707dfe4b7d23d.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7667bb9aedbb818e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-7945f9aa2bbe78be.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7667bb9aedbb818e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-aa80776b825505d5.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7667bb9aedbb818e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-3f20a852f448150e.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7a61ec2b352637f4/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-020554618c0473da.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7a61ec2b352637f4/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-80c4a8247db8a5f0.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7a61ec2b352637f4/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-3faf7bd55f7b23b8.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-7a61ec2b352637f4/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-f0ae75f51af33439.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-da3752ae2db10e54/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-04a363fa350e2d0e.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-da3752ae2db10e54/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-2abb738d8bc4459c.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-da3752ae2db10e54/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-3cdfa94b1df3c632.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-da3752ae2db10e54/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-0fc4b55b3a4a2747.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-bc83211c090696b1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-ea4959f2bba4dea2.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-bc83211c090696b1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-900f99bfe0821493.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-bc83211c090696b1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-ccf6b5fa58f6adc9.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-bc83211c090696b1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-6b04de2ba84f5c1e.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8a5c6623ef11cf95/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-cbe5a0628979048a.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8a5c6623ef11cf95/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-e13656197518a3f6.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8a5c6623ef11cf95/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-177a6afeba2748dc.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8a5c6623ef11cf95/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-95436c45266b6c27.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8898f01d8441980f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-af5bb7875287b69a.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8898f01d8441980f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-00a080c84b760bd7.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8898f01d8441980f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-4afdde4b44ec1887.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-8898f01d8441980f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-99504b4627c17479.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-f3018c93372fbb3e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-b30d932595452bbc.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-f3018c93372fbb3e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-fa12130562cc624b.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-f3018c93372fbb3e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-37d2947aed3d9622.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-f3018c93372fbb3e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-34ddde6cc95cac6a.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-394fefcb2267b139/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-dcded5d4eedfd04d.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-394fefcb2267b139/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-bd1b787e7a143ed9.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-394fefcb2267b139/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-bb045d0847c313cf.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-394fefcb2267b139/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-fcb22388e1a65bcb.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-e19a455adb1dd118/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-83fd8971f21f0642.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-e19a455adb1dd118/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-4b82451aaabf6f8a.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-e19a455adb1dd118/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-224175b2f73773b6.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-e19a455adb1dd118/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-4ad7b01211873d7f.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-b7a0c5aa39c78ae6.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-27eecbb93ff48548.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-c6ab1d3a70bb51dd.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-3a69a91aa0b88fa1/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-3b74a87459f4bb04.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-be79e07535743a6e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-5f5e02953a0c6c6b.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-be79e07535743a6e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-8587b9046b2a82a2.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-be79e07535743a6e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-376ba06e76353015.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-be79e07535743a6e/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-7d11fe2d6553624f.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-417c6e27426f3437/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-a4be9ba595044bad.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-417c6e27426f3437/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-427ef18cc67eebae.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-417c6e27426f3437/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-99c6205ccc49b25c.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-417c6e27426f3437/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-e7f0518821b0b9e6.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-43028c0e5f2c58ca/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-e0c7add3e9eea943.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-43028c0e5f2c58ca/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-9e455766f23deb5c.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-43028c0e5f2c58ca/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-2a43a708bcd6125b.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-43028c0e5f2c58ca/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-e4d637a438294fc6.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-a06c04423430a170/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-97a05d3db37ee5cd.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-a06c04423430a170/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-c1c7825e1bc02b5a.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-a06c04423430a170/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-465919010ff30a72.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-a06c04423430a170/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-c64d38a0849d0bc5.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-47dd039cf717a18f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-58500e78ee38aaea.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-47dd039cf717a18f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-b36050bc7f2ec07b.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-47dd039cf717a18f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-c268deaf2f939914.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-47dd039cf717a18f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-edcdf3391c08e5da.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-157f875646b8e11f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-24c570fcca1b464c.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-157f875646b8e11f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-9f75694b34c4f231.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-157f875646b8e11f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-071b3ece1c6a120d.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-157f875646b8e11f/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-fd2a4a2145768b59.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-5889ff1f5cce90e0/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-5c2fb0a2f108d581.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-5889ff1f5cce90e0/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-57b57bae7ef6f535.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-5889ff1f5cce90e0/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-02dc0c3842a1ad9e.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-5889ff1f5cce90e0/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-3f5ba5d5a78eb5ca.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-336db2235fd49907/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-881af4492aebe81a.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-336db2235fd49907/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-7aedf943d48feded.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-336db2235fd49907/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-6f33f192208438a7.arrow
+Loading cached processed dataset at /home/jim/.cache/huggingface/datasets/utterance_xml_dataset/default-336db2235fd49907/1.1.0/2ab4d5a39b76b2b213d176be1f94b8bb2c34198ea2fabf4b281e0784782b2d2b/cache-7ca896c968beb535.arrow
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/irish/abair/2021/09/09/w2v-phonemes.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

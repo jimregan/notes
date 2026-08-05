@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Augmentations for PSST | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Augmentations for PSST" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="From 2022 LREC workshop paper" />
+<meta property="og:description" content="From 2022 LREC workshop paper" />
+<link rel="canonical" href="https://jimregan.github.io/notes/lrec/augmentation/2022/04/06/augment.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/lrec/augmentation/2022/04/06/augment.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-04-06T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/lrec/augmentation/2022/04/06/augment.html","@type":"BlogPosting","headline":"Augmentations for PSST","dateModified":"2022-04-06T00:00:00-05:00","datePublished":"2022-04-06T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/lrec/augmentation/2022/04/06/augment.html"},"description":"From 2022 LREC workshop paper","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Augmentations for PSST</h1><p class="page-description">From 2022 LREC workshop paper</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-04-06T00:00:00-05:00" itemprop="datePublished">
+        Apr 6, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#lrec">lrec</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#augmentation">augmentation</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2022-04-06-augment.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2022-04-06-augment.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2022-04-06-augment.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-04-06-augment.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">audiomentations</span> <span class="kn">import</span> <span class="n">ApplyImpulseResponse</span><span class="p">,</span> <span class="n">AddGaussianNoise</span><span class="p">,</span> <span class="n">TimeStretch</span><span class="p">,</span> <span class="n">PitchShift</span><span class="p">,</span> <span class="n">Compose</span>
+<span class="kn">import</span> <span class="nn">itertools</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">augmentations</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;timestretch&quot;</span><span class="p">:</span> <span class="n">TimeStretch</span><span class="p">(</span><span class="n">min_rate</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">max_rate</span><span class="o">=</span><span class="mf">2.0</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">leave_length_unchanged</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span>
+    <span class="s2">&quot;pitchshift&quot;</span><span class="p">:</span> <span class="n">PitchShift</span><span class="p">(</span><span class="n">min_semitones</span><span class="o">=-</span><span class="mi">8</span><span class="p">,</span> <span class="n">max_semitones</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mf">1.0</span><span class="p">),</span>
+    <span class="s2">&quot;gaussian&quot;</span><span class="p">:</span> <span class="n">AddGaussianNoise</span><span class="p">(</span><span class="n">min_amplitude</span><span class="o">=</span><span class="mf">0.001</span><span class="p">,</span> <span class="n">max_amplitude</span><span class="o">=</span><span class="mf">0.015</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mf">1.0</span><span class="p">),</span>
+    <span class="s2">&quot;rir&quot;</span><span class="p">:</span> <span class="n">ApplyImpulseResponse</span><span class="p">(</span><span class="n">ir_path</span><span class="o">=</span><span class="s2">&quot;/home/joregan/.psst/rir&quot;</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mf">1.0</span><span class="p">),</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/home/joregan/miniconda3/envs/fs2/lib/python3.8/site-packages/audiomentations/augmentations/apply_impulse_response.py:48: UserWarning: The default value of leave_length_unchanged will change from False to True in a future version of audiomentations. You can set the value explicitly to remove this warning for now.
+  warnings.warn(
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">all2</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">combinations_with_replacement</span><span class="p">(</span><span class="n">augmentations</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="mi">2</span><span class="p">))</span>
+<span class="n">all3</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">combinations_with_replacement</span><span class="p">(</span><span class="n">augmentations</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">all2</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">all2</span> <span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">all3</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">all3</span> <span class="k">if</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> <span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="ow">and</span> <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">])]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">combinations</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">all2</span><span class="p">:</span>
+    <span class="n">key</span> <span class="o">=</span> <span class="s2">&quot;-&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+    <span class="n">val</span> <span class="o">=</span> <span class="n">Compose</span><span class="p">([</span><span class="n">augmentations</span><span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">0</span><span class="p">]],</span> <span class="n">augmentations</span><span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]]])</span>
+    <span class="n">combinations</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">val</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">all3</span><span class="p">:</span>
+    <span class="n">key</span> <span class="o">=</span> <span class="s2">&quot;-&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+    <span class="n">val</span> <span class="o">=</span> <span class="n">Compose</span><span class="p">([</span><span class="n">augmentations</span><span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">0</span><span class="p">]],</span> <span class="n">augmentations</span><span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]],</span> <span class="n">augmentations</span><span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">2</span><span class="p">]]])</span>
+    <span class="n">combinations</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">val</span>
+<span class="n">combinations</span><span class="p">[</span><span class="s2">&quot;-&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">augmentations</span><span class="o">.</span><span class="n">keys</span><span class="p">())]</span> <span class="o">=</span> <span class="n">Compose</span><span class="p">([</span><span class="n">v</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">augmentations</span><span class="o">.</span><span class="n">values</span><span class="p">()])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">combinations</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;timestretch-pitchshift&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e47100&gt;,
+ &#39;timestretch-gaussian&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e47f10&gt;,
+ &#39;timestretch-rir&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e47fa0&gt;,
+ &#39;pitchshift-gaussian&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e27430&gt;,
+ &#39;pitchshift-rir&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e27880&gt;,
+ &#39;gaussian-rir&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e272b0&gt;,
+ &#39;timestretch-pitchshift-gaussian&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e47970&gt;,
+ &#39;timestretch-pitchshift-rir&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e275b0&gt;,
+ &#39;timestretch-gaussian-rir&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e27340&gt;,
+ &#39;pitchshift-gaussian-rir&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc658e27160&gt;,
+ &#39;timestretch-pitchshift-gaussian-rir&#39;: &lt;audiomentations.core.composition.Compose at 0x7fc65bee4190&gt;}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">_DIR</span> <span class="o">=</span> <span class="s2">&quot;/home/joregan/psst-data/psst-data-2022-03-02/train&quot;</span>
+<span class="n">_TSV</span> <span class="o">=</span> <span class="s2">&quot;/home/joregan/.psst/out/data/psst-fairseq/train.tsv&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">TIMITFILES</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">_TSV</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;TEST/&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;TRAIN/&quot;</span><span class="p">):</span>
+            <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">TIMITFILES</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="n">_DIR_PATH</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">_DIR</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">soundfile</span> <span class="k">as</span> <span class="nn">sf</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">check</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;TRAIN/&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;TEST/&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">TIMITFILES</span><span class="p">]</span>
+<span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">check</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">check</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">all</span> <span class="o">=</span> <span class="p">{</span><span class="o">**</span><span class="n">augmentations</span><span class="p">,</span> <span class="o">**</span><span class="n">combinations</span><span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">_TSV_DIR</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/home/joregan/.psst/out/data/psst-fairseq/&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">COMMON_PATH</span> <span class="o">=</span> <span class="s2">&quot;/home/joregan/psst-data/psst-data-2022-03-02/train/&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">TIMITFILES</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">file</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;TRAIN/&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">file</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;TEST/&quot;</span><span class="p">)):</span>
+        <span class="k">continue</span>
+    <span class="n">filepath</span> <span class="o">=</span> <span class="n">_DIR_PATH</span> <span class="o">/</span> <span class="n">file</span>
+    <span class="n">filestr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">filepath</span><span class="p">)</span>
+    <span class="n">raw_audio</span><span class="p">,</span> <span class="n">sr</span> <span class="o">=</span> <span class="n">sf</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">filestr</span><span class="p">)</span>
+    <span class="n">orig_audio</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">raw_audio</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">aug</span> <span class="ow">in</span> <span class="nb">all</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="n">out_tsv</span> <span class="o">=</span> <span class="n">_TSV_DIR</span> <span class="o">/</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">aug</span><span class="p">)</span><span class="si">}</span><span class="s2">.tsv&quot;</span>
+        <span class="k">if</span> <span class="s2">&quot;/TRAIN/&quot;</span> <span class="ow">in</span> <span class="n">filestr</span><span class="p">:</span>
+            <span class="n">outfile</span> <span class="o">=</span> <span class="n">filestr</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;/TRAIN/&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;/</span><span class="si">{</span><span class="n">aug</span><span class="si">}</span><span class="s2">/&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="s2">&quot;/TEST/&quot;</span> <span class="ow">in</span> <span class="n">filestr</span><span class="p">:</span>
+            <span class="n">outfile</span> <span class="o">=</span> <span class="n">filestr</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;/TEST/&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;/</span><span class="si">{</span><span class="n">aug</span><span class="si">}</span><span class="s2">/&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error reading file: </span><span class="si">{</span><span class="n">filestr</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="n">outpath</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">outfile</span><span class="p">)</span>
+        <span class="n">outpath</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">augmenter</span> <span class="o">=</span> <span class="nb">all</span><span class="p">[</span><span class="n">aug</span><span class="p">]</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">newaudio</span> <span class="o">=</span> <span class="n">augmenter</span><span class="p">(</span><span class="n">samples</span><span class="o">=</span><span class="n">orig_audio</span><span class="p">,</span> <span class="n">sample_rate</span><span class="o">=</span><span class="n">sr</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">AttributeError</span><span class="p">(</span><span class="s2">&quot;Error with augmentation&quot;</span><span class="p">,</span> <span class="n">aug</span><span class="p">)</span>
+        <span class="n">out_frames</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">newaudio</span><span class="p">)</span>
+        <span class="n">writable_filestr</span> <span class="o">=</span> <span class="n">outfile</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">COMMON_PATH</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">out_tsv</span><span class="p">,</span> <span class="s2">&quot;a&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">tsvf</span><span class="p">:</span>
+            <span class="n">tsvf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">writable_filestr</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">out_frames</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">sf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">outfile</span><span class="p">,</span> <span class="n">newaudio</span><span class="p">,</span> <span class="n">sr</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">all_the_things</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">gaussian-rir</span>
+<span class="s2">gaussian</span>
+<span class="s2">pitchshift-gaussian-rir</span>
+<span class="s2">pitchshift-gaussian</span>
+<span class="s2">pitchshift-rir</span>
+<span class="s2">pitchshift</span>
+<span class="s2">rir</span>
+<span class="s2">timestretch-gaussian-rir</span>
+<span class="s2">timestretch-gaussian</span>
+<span class="s2">timestretch-pitchshift-gaussian-rir</span>
+<span class="s2">timestretch-pitchshift-gaussian</span>
+<span class="s2">timestretch-pitchshift-rir</span>
+<span class="s2">timestretch-pitchshift</span>
+<span class="s2">timestretch-rir</span>
+<span class="s2">timestretch</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> runner.sh
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">gaussian</span><span class="o">-</span><span class="n">rir</span> \
+<span class="n">gaussian</span> \
+<span class="n">pitchshift</span><span class="o">-</span><span class="n">gaussian</span><span class="o">-</span><span class="n">rir</span> \
+<span class="n">pitchshift</span><span class="o">-</span><span class="n">gaussian</span> \
+<span class="n">pitchshift</span><span class="o">-</span><span class="n">rir</span> \
+<span class="n">pitchshift</span> \
+<span class="n">rir</span> \
+<span class="n">timestretch</span><span class="o">-</span><span class="n">gaussian</span><span class="o">-</span><span class="n">rir</span> \
+<span class="n">timestretch</span><span class="o">-</span><span class="n">gaussian</span> \
+<span class="n">timestretch</span><span class="o">-</span><span class="n">pitchshift</span><span class="o">-</span><span class="n">gaussian</span><span class="o">-</span><span class="n">rir</span> \
+<span class="n">timestretch</span><span class="o">-</span><span class="n">pitchshift</span><span class="o">-</span><span class="n">gaussian</span> \
+<span class="n">timestretch</span><span class="o">-</span><span class="n">pitchshift</span><span class="o">-</span><span class="n">rir</span> \
+<span class="n">timestretch</span><span class="o">-</span><span class="n">pitchshift</span> \
+<span class="n">timestretch</span><span class="o">-</span><span class="n">rir</span> \
+<span class="n">timestretch</span><span class="p">;</span> <span class="n">do</span>
+    <span class="c1">#mkdir $i</span>
+    <span class="n">cp</span> <span class="n">psst</span><span class="o">-</span><span class="n">fairseq</span><span class="o">/*.</span><span class="n">ltr</span> <span class="err">$</span><span class="n">i</span><span class="o">/</span>
+    <span class="n">cp</span> <span class="n">psst</span><span class="o">-</span><span class="n">fairseq</span><span class="o">/</span><span class="n">test</span><span class="o">.</span><span class="n">tsv</span> <span class="n">psst</span><span class="o">-</span><span class="n">fairseq</span><span class="o">/</span><span class="n">valid</span><span class="o">.</span><span class="n">tsv</span> <span class="err">$</span><span class="n">i</span><span class="o">/</span>
+    <span class="n">head</span> <span class="o">-</span><span class="n">n</span> <span class="mi">2299</span> <span class="n">psst</span><span class="o">-</span><span class="n">fairseq</span><span class="o">/</span><span class="n">train</span><span class="o">.</span><span class="n">tsv</span> <span class="o">&gt;</span> <span class="err">$</span><span class="n">i</span><span class="o">/</span><span class="n">train</span><span class="o">.</span><span class="n">tsv</span>
+    <span class="n">cat</span> <span class="n">psst</span><span class="o">-</span><span class="n">fairseq</span><span class="o">/</span><span class="err">$</span><span class="n">i</span><span class="o">.</span><span class="n">tsv</span> <span class="o">|</span><span class="n">sed</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;s#/home/joregan/psst-data/psst-data-2022-03-02/train/##&#39;</span> <span class="o">&gt;&gt;</span> <span class="err">$</span><span class="n">i</span><span class="o">/</span><span class="n">train</span><span class="o">.</span><span class="n">tsv</span>
+<span class="n">done</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torch</span>
+<span class="kn">import</span> <span class="nn">glob</span>
+<span class="k">for</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;out/models/**/*last.pt&quot;</span><span class="p">):</span>
+    <span class="n">mymodel</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">map_location</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">device</span><span class="p">(</span><span class="s1">&#39;cpu&#39;</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">mymodel</span><span class="p">[</span><span class="s1">&#39;args&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/home/joregan/miniconda3/envs/fs2/lib/python3.8/site-packages/tqdm/auto.py:22: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>out/models/psst-04_06_2022_21_18/checkpoint_last.pt ./out/data/gaussian-rir
+out/models/psst-04_07_2022_08_45/checkpoint_last.pt ./out/data/timestretch-pitchshift
+out/models/psst-04_05_2022_17_43/checkpoint_last.pt ./out/data/psst-fairseq
+out/models/psst-04_06_2022_21_26/checkpoint_last.pt ./out/data/timestretch-pitchshift
+out/models/psst-04_05_2022_16_00/checkpoint_last.pt ./out/data/psst-fairseq
+out/models/psst-04_07_2022_00_14/checkpoint_last.pt ./out/data/timestretch-rir
+out/models/psst-04_07_2022_08_43/checkpoint_last.pt ./out/data/gaussian-rir
+out/models/psst-04_07_2022_00_10/checkpoint_last.pt ./out/data/pitchshift
+out/models/psst-04_07_2022_08_44/checkpoint_last.pt ./out/data/timestretch-pitchshift-gaussian-rir
+out/models/psst-04_06_2022_21_23/checkpoint_last.pt ./out/data/rir
+out/models/psst-04_07_2022_00_17/checkpoint_last.pt ./out/data/timestretch-pitchshift-rir
+out/models/psst-04_06_2022_21_22/checkpoint_last.pt ./out/data/pitchshift-rir
+out/models/psst-baseline/checkpoint_last.pt ./out/data/timestretch-pitchshift
+out/models/psst-04_06_2022_21_24/checkpoint_last.pt ./out/data/timestretch-gaussian
+out/models/psst-04_05_2022_16_43/checkpoint_last.pt ./out/data/psst-fairseq
+out/models/psst-04_07_2022_07_39/checkpoint_last.pt ./out/data/pitchshift-gaussian
+out/models/psst-04_07_2022_00_09/checkpoint_last.pt ./out/data/timestretch-gaussian-rir
+out/models/psst-04_07_2022_00_04/checkpoint_last.pt ./out/data/gaussian
+out/models/psst-04_05_2022_15_43/checkpoint_last.pt ./out/data/psst-fairseq
+out/models/psst-04_06_2022_21_21/checkpoint_last.pt ./out/data/pitchshift-gaussian-rir
+out/models/psst-04_06_2022_21_25/checkpoint_last.pt ./out/data/timestretch-pitchshift-gaussian
+out/models/psst-04_06_2022_21_15/checkpoint_last.pt ./out/data/timestretch
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/lrec/augmentation/2022/04/06/augment.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

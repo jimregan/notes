@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Generated paper summary | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Generated paper summary" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Harnessing Whisper for Prosodic Stress Analysis" />
+<meta property="og:description" content="Harnessing Whisper for Prosodic Stress Analysis" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/summary/whisper/prosody/stress/2026/07/22/whisper-prosodic-stress.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/summary/whisper/prosody/stress/2026/07/22/whisper-prosodic-stress.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-07-22T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/summary/whisper/prosody/stress/2026/07/22/whisper-prosodic-stress.html","@type":"BlogPosting","headline":"Generated paper summary","dateModified":"2026-07-22T00:00:00-05:00","datePublished":"2026-07-22T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/summary/whisper/prosody/stress/2026/07/22/whisper-prosodic-stress.html"},"description":"Harnessing Whisper for Prosodic Stress Analysis","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Generated paper summary</h1><p class="page-description">Harnessing Whisper for Prosodic Stress Analysis</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-07-22T00:00:00-05:00" itemprop="datePublished">
+        Jul 22, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      29 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#whisper">whisper</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#prosody">prosody</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#stress">stress</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Comparison of two related papers:</p>
+
+<p><a href="https://aclanthology.org/2025.findings-acl.1331/">Harnessing Whisper for Prosodic Stress Analysis</a></p>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">sohn-etal-2025-harnessing</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">"Harnessing Whisper for Prosodic Stress Analysis"</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">"Sohn, Samuel S.  and
+      Knutsen, Sten  and
+      Stromswold, Karin"</span><span class="p">,</span>
+    <span class="na">editor</span> <span class="p">=</span> <span class="s">"Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher"</span><span class="p">,</span>
+    <span class="na">booktitle</span> <span class="p">=</span> <span class="s">"Findings of the Association for Computational Linguistics: ACL 2025"</span><span class="p">,</span>
+    <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">"2025"</span><span class="p">,</span>
+    <span class="na">address</span> <span class="p">=</span> <span class="s">"Vienna, Austria"</span><span class="p">,</span>
+    <span class="na">publisher</span> <span class="p">=</span> <span class="s">"Association for Computational Linguistics"</span><span class="p">,</span>
+    <span class="na">url</span> <span class="p">=</span> <span class="s">"https://aclanthology.org/2025.findings-acl.1331/"</span><span class="p">,</span>
+    <span class="na">doi</span> <span class="p">=</span> <span class="s">"10.18653/v1/2025.findings-acl.1331"</span><span class="p">,</span>
+    <span class="na">pages</span> <span class="p">=</span> <span class="s">"25931--25942"</span><span class="p">,</span>
+    <span class="na">ISBN</span> <span class="p">=</span> <span class="s">"979-8-89176-256-5"</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>and <a href="https://arxiv.org/pdf/2503.02907">Fine-Tuning Whisper for Inclusive Prosodic Stress Analysis</a></p>
+
+<h2 id="joint-summary">Joint summary</h2>
+
+<p>Both papers ask whether <strong>Whisper large-v2 can be repurposed from ordinary transcription into an automatic annotator of prosodic stress</strong>. Rather than adding a separate classifier to frozen speech representations, the authors fine-tune Whisper so that the transcription itself encodes the intended prosodic contrast—for example, <code class="language-plaintext highlighter-rouge">INsult</code> versus <code class="language-plaintext highlighter-rouge">inSULT</code>, or <code class="language-plaintext highlighter-rouge">BLACK cow</code> versus <code class="language-plaintext highlighter-rouge">black COW</code>. The work covers three kinds of English stress:</p>
+
+<ul>
+  <li><strong>Phrasal stress:</strong> compound versus adjective–noun constructions, such as <em>greenhouse</em> versus <em>green house</em>.</li>
+  <li><strong>Lexical stress:</strong> segmentally similar words distinguished by stress placement, such as noun–verb stress alternations.</li>
+  <li><strong>Contrastive stress:</strong> emphasis on one member of a phrase, such as <em>BLACK cow</em> versus <em>black COW</em>.</li>
+</ul>
+
+<p>The central finding is that a large pretrained ASR model can learn these distinctions from a <strong>small, speaker-annotated dataset</strong>, generalize to unseen speakers, and outperform conventional classifiers built from manually selected acoustic features.</p>
+
+<h3 id="data-and-training-setup">Data and training setup</h3>
+
+<p>The underlying recordings come from a controlled production experiment with native English-speaking university students from the mid-Atlantic United States. Participants produced 16 minimal-pair items for each stress type. Three trained human coders independently judged the stress patterns, providing a human-performance benchmark and, indirectly, evidence about ambiguous or incorrectly produced trials.</p>
+
+<p>The workshop/arXiv paper describes the full sample of <strong>66 speakers</strong>:</p>
+
+<ul>
+  <li>18 neurotypical men</li>
+  <li>18 neurotypical women</li>
+  <li>12 autistic men</li>
+  <li>18 autistic women</li>
+</ul>
+
+<p>Its stress-transfer experiments, however, are described as applying to the <strong>neurotypical participants</strong>, while the autism data are used primarily for the separate speaker-classification task. The later Findings paper concentrates on the <strong>36 neurotypical speakers</strong>, evenly divided between men and women, and abandons the neurotype-classification branch in favour of a substantially deeper analysis of stress recognition.</p>
+
+<p>Models were fine-tuned for five epochs and evaluated with five-fold cross-validation in which speakers, rather than individual recordings, were divided across folds. That is important: the reported results measure generalization to <strong>unseen speakers</strong>, not merely to unseen utterances from speakers already encountered during training.</p>
+
+<h3 id="transfer-between-stress-types">Transfer between stress types</h3>
+
+<p>The core experiment shared almost verbatim by both papers examines whether training on one type of stress helps Whisper recognize another.</p>
+
+<p>A small <strong>control model</strong> is first trained on all three stress types from one participant. This teaches Whisper the unusual output conventions—especially capitalization indicating stress—without giving it enough data to learn robust stress patterns. Separate models are then trained on phrasal, lexical or contrastive stress, and each is tested on all three types. An additional model is trained jointly on all stress types.</p>
+
+<p>The control model performs:</p>
+
+<ul>
+  <li><strong>70.7%</strong> on phrasal stress</li>
+  <li><strong>39.5%</strong> on lexical stress</li>
+  <li><strong>49.7%</strong> on contrastive stress</li>
+</ul>
+
+<p>The relatively high phrasal result is partly an orthographic artefact: Whisper already distinguishes forms such as <em>greenhouse</em> and <em>green house</em> in ordinary text, whereas capitalization such as <code class="language-plaintext highlighter-rouge">INsult</code> and <code class="language-plaintext highlighter-rouge">inSULT</code> is an artificial annotation scheme.</p>
+
+<p>Training and testing on the same stress type produces strong results:</p>
+
+<ul>
+  <li>Phrasal → phrasal: <strong>90.2%</strong></li>
+  <li>Lexical → lexical: <strong>86.6%</strong></li>
+  <li>Contrastive → contrastive: <strong>88.7%</strong></li>
+</ul>
+
+<p>More interestingly, there is substantial <strong>bidirectional transfer between lexical and contrastive stress</strong>:</p>
+
+<ul>
+  <li>Lexical training → contrastive testing: <strong>77.5%</strong></li>
+  <li>Contrastive training → lexical testing: <strong>71.9%</strong></li>
+</ul>
+
+<p>This suggests that the two distinctions share acoustic structure that Whisper can reuse—presumably some combination of relative pitch, amplitude and duration across the two constituents.</p>
+
+<p>Phrasal stress behaves differently. Training on phrasal stress does little for lexical stress and actively hurts contrastive-stress performance; training on contrastive stress likewise hurts phrasal performance. The authors interpret this as evidence that phrasal and contrastive stress involve at least partially conflicting patterns when learned separately. Phrasal stress in this dataset depends particularly heavily on duration and inter-word pausing, whereas lexical and contrastive stress rely more strongly on redistributing prominence between constituents.</p>
+
+<p>Joint training avoids much of this interference. The all-stress model reaches <strong>90.2%, 86.6% and 88.7%</strong>, respectively—close to the human coders’ <strong>91.9%, 88.8% and 91.6%</strong>, and above Random Forest baselines of <strong>86.4%, 83.9% and 83.7%</strong>.</p>
+
+<h2 id="what-the-arxivworkshop-paper-adds">What the arXiv/workshop paper adds</h2>
+
+<p>The four-page arXiv paper frames the work around <strong>inclusivity and speech diversity</strong>. Alongside the stress-transfer experiment, it asks whether Whisper can classify a speaker from a single phrasal-stress recording into:</p>
+
+<ul>
+  <li>neurotypical man</li>
+  <li>neurotypical woman</li>
+  <li>autistic man</li>
+  <li>autistic woman</li>
+  <li>unknown or ambiguous</li>
+</ul>
+
+<p>The recordings average only about <strong>1.7 seconds</strong>. The model is deliberately conservative: it assigns many cases to the unknown class, producing only <strong>55.4% overall known-class recall</strong>, but reportedly near-perfect precision when it does make a known-class prediction. Recall is particularly poor for autistic men, the smallest group in the dataset.</p>
+
+<p>The paper treats this as evidence that short prosodic samples contain information associated with gender and diagnostic grouping, and argues that such adaptation might support more inclusive ASR.</p>
+
+<p>That claim needs some caution. The experiment establishes separability <strong>within this small, demographically narrow dataset</strong>, not a general or clinically meaningful ability to identify autism. Because all data come from one experimental population and one elicitation protocol, the classifier might exploit speaker, recording, task or cohort correlates rather than stable neurotype-specific prosody. The “near-perfect precision” formulation is also achieved partly by abstaining on a very large proportion of examples.</p>
+
+<h2 id="what-the-findings-paper-adds">What the Findings paper adds</h2>
+
+<p>The later Findings paper retains the same transfer experiment and essentially the same numerical results, but changes the research emphasis. It removes the autism/gender category classifier and develops the prosodic-analysis side in three major directions.</p>
+
+<h3 id="1-amount-and-location-of-acoustic-context">1. Amount and location of acoustic context</h3>
+
+<p>The authors test Whisper with progressively different portions of each recording:</p>
+
+<ul>
+  <li>first syllable or word alone</li>
+  <li>second syllable or word alone</li>
+  <li>the complete stress-bearing region</li>
+  <li>preceding context plus the region</li>
+  <li>following context plus the region</li>
+  <li>the entire sentence</li>
+</ul>
+
+<p>The <strong>second constituent is consistently more informative than the first</strong>, especially for contrastive stress. For example, using only the second constituent gives roughly a ten-point improvement over the first for contrastive stress.</p>
+
+<p>Full or extended context generally improves performance. With the entire sentence, Whisper reaches:</p>
+
+<ul>
+  <li><strong>92.6%</strong> for phrasal stress</li>
+  <li><strong>92.8%</strong> for contrastive stress</li>
+</ul>
+
+<p>These are approximately human-level overall and, in some gender-specific conditions, slightly above the average coder benchmark. Lexical items were produced in isolation, so corresponding sentence-context experiments were unavailable.</p>
+
+<p>The result means that stress is not represented solely by the locally “stressed” word or syllable. Whisper benefits from broader relative information—baseline pitch, amplitude, rhythm, phrase-final effects or the acoustic shape of the surrounding utterance.</p>
+
+<h3 id="2-gender-conditioned-performance">2. Gender-conditioned performance</h3>
+
+<p>The Findings paper gives much more attention to differences between male and female speakers. It relates Whisper’s results to the earlier acoustic study from which the recordings were taken, where pitch, amplitude and duration had different relative importance by gender and stress type.</p>
+
+<p>The simple Random Forest models generally classified men’s productions more accurately, apparently because the measured cues were less variable. Whisper narrows or reverses some of those differences, particularly when broader context is available. The paper therefore argues that Whisper learns richer, partly gender-specific patterns rather than merely reproducing a single fixed rule such as “higher pitch means stress.”</p>
+
+<p>The evidence supports <strong>different model behaviour across the two speaker groups</strong>, although “gender-specific stress patterns” is somewhat stronger language than the experimental design strictly warrants: the study compares two relatively small groups labelled men and women, without establishing which physiological, social or stylistic factors cause the differences.</p>
+
+<h3 id="3-black-box-acoustic-perturbation-analysis">3. Black-box acoustic perturbation analysis</h3>
+
+<p>The most substantial new contribution is a method for probing Whisper’s decision boundary without accessing or interpreting its internal representations.</p>
+
+<p>The authors take recordings from the “stress-first” class and systematically modify:</p>
+
+<ul>
+  <li>mean pitch of each constituent</li>
+  <li>amplitude of each constituent</li>
+  <li>pause duration between them</li>
+</ul>
+
+<p>Perturbation sizes are based on empirical differences between the stress-first and stress-final recordings. They then observe where Whisper’s classification changes.</p>
+
+<p>The resulting response surfaces broadly agree with the conventional acoustic analysis:</p>
+
+<ul>
+  <li><strong>Phrasal stress</strong> is especially sensitive to pause duration.</li>
+  <li><strong>Lexical stress</strong> is strongly affected by changes in relative pitch and amplitude.</li>
+  <li><strong>Contrastive stress</strong> is also sensitive to pitch redistribution, particularly changes involving the second constituent.</li>
+  <li>Men’s and women’s response surfaces differ, indicating that the model is not applying exactly the same acoustic boundary to both groups.</li>
+</ul>
+
+<p>This is presented as a general black-box interpretability technique: instead of asking which hidden units encode stress, it asks which controlled transformations of an utterance cause the model to cross from one prosodic interpretation to another.</p>
+
+<h2 id="combined-interpretation">Combined interpretation</h2>
+
+<p>Taken together, the papers demonstrate three things.</p>
+
+<p>First, <strong>Whisper retains usable prosodic information despite being pretrained mainly to collapse acoustic variation into ordinary orthographic transcription</strong>. Fine-tuning can make distinctions that were previously irrelevant to its output become explicit.</p>
+
+<p>Second, prosodic stress is not a single transferable category. <strong>Lexical and contrastive stress share substantial learnable structure, while phrasal stress is more distinct</strong>, particularly because duration and boundary cues play a larger role.</p>
+
+<p>Third, the model’s advantage over a handcrafted Random Forest is not simply greater classifier capacity. Whisper can exploit <strong>longer acoustic context, interactions among cues and speaker-group-dependent distributions</strong> that are difficult to express through three summary measures.</p>
+
+<h2 id="relationship-between-the-two-papers">Relationship between the two papers</h2>
+
+<p>Your impression is correct, but the relationship is slightly more like a <strong>fork followed by expansion</strong> than a straightforward long and short version:</p>
+
+<ul>
+  <li>The <strong>shared core</strong>—dataset design, capitalization scheme, control condition, cross-stress transfer matrix, human benchmark and Random Forest comparison—is effectively the same study.</li>
+  <li>The <strong>arXiv/workshop paper</strong> packages that core together with the gender/neurotype classification experiment and frames the contribution as inclusive ASR.</li>
+  <li>The <strong>Findings paper</strong> discards that classification experiment, narrows the participant set to the 36 neurotypical speakers, and turns the shared stress experiment into a fuller paper through context ablations, gender-separated analysis, cleaned-data evaluation and acoustic perturbation experiments.</li>
+</ul>
+
+<p>So the Findings paper is best understood as a much more developed version of the <strong>prosodic-stress half</strong> of the workshop paper, not as an expanded version of every claim made there.</p>
+
+<hr />
+
+<h1 id="1-outline-of-the-findings-paper">1. Outline of the Findings paper</h1>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>The paper presents four connected claims:</p>
+
+<ol>
+  <li>Whisper large-v2 can be fine-tuned on a small annotated dataset to distinguish phrasal, lexical and contrastive stress.</li>
+  <li>Its performance approaches or sometimes exceeds trained human annotation and surpasses Random Forest classifiers based on hand-engineered acoustic features.</li>
+  <li>Learned patterns transfer unevenly between stress types.</li>
+  <li>Acoustic-context ablation and controlled signal perturbation can reveal what information the model uses.</li>
+</ol>
+
+<p>These become the paper’s three principal experimental strands: <strong>acoustic context</strong>, <strong>cross-stress transfer</strong>, and <strong>decision-boundary characterization</strong>.</p>
+
+<hr />
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<h3 id="motivation">Motivation</h3>
+
+<ul>
+  <li>Prosody affects syntactic interpretation, sentence processing, production and pragmatic meaning.</li>
+  <li>Manual prosodic annotation is slow and difficult to scale.</li>
+  <li>An automated annotation method would permit larger studies of interactions between prosody and other linguistic structures.</li>
+</ul>
+
+<h3 id="model-level-problem">Model-level problem</h3>
+
+<ul>
+  <li>Whisper has encountered enormous acoustic variation during pretraining.</li>
+  <li>Ordinary ASR training nevertheless encourages it to map prosodically different realizations to the same text.</li>
+  <li>Fine-tuning can potentially recover those latent distinctions by assigning different textual outputs to different stress patterns.</li>
+</ul>
+
+<h3 id="contributions-announced">Contributions announced</h3>
+
+<ul>
+  <li>Fine-tune Whisper to recognize three stress types.</li>
+  <li>compare performance with human coders and existing acoustic-feature classifiers;</li>
+  <li>study whether information learned for one stress type transfers to another;</li>
+  <li>determine how much local and sentential acoustic context the model uses;</li>
+  <li>characterize its acoustic decision boundaries through controlled perturbations;</li>
+  <li>examine results separately for men and women.</li>
+</ul>
+
+<p>The introduction therefore establishes a much broader objective than the workshop paper: not merely showing that the classifier works, but using it as a tool for <strong>prosodic analysis</strong>.</p>
+
+<hr />
+
+<h2 id="2-preliminaries">2. Preliminaries</h2>
+
+<h3 id="21-pre-training">2.1 Pre-training</h3>
+
+<p>This subsection describes why Whisper is a plausible starting point:</p>
+
+<ul>
+  <li>Transformer encoder–decoder architecture;</li>
+  <li>large-scale weakly supervised pretraining;</li>
+  <li>exposure to different speakers, accents, rates, environments and prosodic realizations;</li>
+  <li>an existing many-to-one mapping from acoustic realizations to conventional text.</li>
+</ul>
+
+<p>The central argument is that Whisper may already represent prosodic variation even though its standard transcription objective does not expose it.</p>
+
+<h3 id="22-fine-tuning">2.2 Fine-tuning</h3>
+
+<h4 id="participants">Participants</h4>
+
+<ul>
+  <li>36 native English-speaking college students;</li>
+  <li>18 men and 18 women;</li>
+  <li>mid-Atlantic United States;</li>
+  <li>speaker-balanced cross-validation.</li>
+</ul>
+
+<h4 id="tasks">Tasks</h4>
+
+<p>Three types of stress are elicited:</p>
+
+<ul>
+  <li><strong>Phrasal:</strong> compound versus adjective–noun pairs, such as <em>greenhouse</em> versus <em>green house</em>.</li>
+  <li><strong>Lexical:</strong> stress alternations such as <code class="language-plaintext highlighter-rouge">INsult</code> versus <code class="language-plaintext highlighter-rouge">inSULT</code>.</li>
+  <li><strong>Contrastive:</strong> stress on the first or second constituent, such as <code class="language-plaintext highlighter-rouge">BLACK cow</code> versus <code class="language-plaintext highlighter-rouge">black COW</code>.</li>
+</ul>
+
+<h4 id="output-encoding">Output encoding</h4>
+
+<ul>
+  <li>Lexical and contrastive stress are encoded through capitalization.</li>
+  <li>Phrasal distinctions use conventional orthographic differences, such as spacing.</li>
+  <li>The two categories are consistently ordered as <strong>stress-first</strong> and <strong>stress-final</strong>.</li>
+</ul>
+
+<h4 id="training-and-evaluation">Training and evaluation</h4>
+
+<ul>
+  <li>Whisper large-v2;</li>
+  <li>five epochs;</li>
+  <li>default fine-tuning hyperparameters;</li>
+  <li>five-fold cross-validation;</li>
+  <li>participant-disjoint folds;</li>
+  <li>gender-balanced folds;</li>
+  <li>five model instances contributing to each reported average.</li>
+</ul>
+
+<p>The speaker-disjoint design is justified as a test of generalization across talker-specific prosodic distributions.</p>
+
+<hr />
+
+<h2 id="3-related-work">3. Related Work</h2>
+
+<p>Rather than presenting a broad survey of computational prosody, this section mainly establishes the <strong>specific experimental baseline</strong> supplied by Knutsen and Stromswold’s earlier analysis of the same recordings.</p>
+
+<h3 id="31-stress-patterns">3.1 Stress Patterns</h3>
+
+<p>The authors summarize the earlier study’s conclusions about acoustic realization.</p>
+
+<h4 id="phrasal-stress">Phrasal stress</h4>
+
+<ul>
+  <li>Dominated by duration and inter-morpheme pausing.</li>
+  <li>Smaller gender differences in the relative importance of pitch and amplitude.</li>
+</ul>
+
+<h4 id="lexical-stress">Lexical stress</h4>
+
+<ul>
+  <li>Amplitude and duration are important for both groups.</li>
+  <li>Pitch contributes more clearly for women in the earlier analyses.</li>
+</ul>
+
+<h4 id="contrastive-stress">Contrastive stress</h4>
+
+<ul>
+  <li>Pitch, amplitude and duration all contribute.</li>
+  <li>The earlier regression analysis found a stronger pitch contribution for women.</li>
+</ul>
+
+<p>This material establishes hypotheses against which Whisper’s behaviour can later be interpreted.</p>
+
+<h3 id="32-benchmarks">3.2 Benchmarks</h3>
+
+<p>Two baselines are defined.</p>
+
+<h4 id="random-forest-classifiers">Random Forest classifiers</h4>
+
+<ul>
+  <li>Built from differences in mean F0, amplitude and duration.</li>
+  <li>Reported separately by stress type and gender.</li>
+  <li>Generally classify men’s productions more accurately than women’s.</li>
+</ul>
+
+<h4 id="human-coders">Human coders</h4>
+
+<ul>
+  <li>Three trained native-English-speaking annotators;</li>
+  <li>blind to the intended target;</li>
+  <li>manually mark constituent boundaries and perceived stress;</li>
+  <li>treated as the paper’s “gold standard.”</li>
+</ul>
+
+<p>The rest of the paper repeatedly compares Whisper against both baselines.</p>
+
+<hr />
+
+<h2 id="4-extent-of-acoustic-context">4. Extent of Acoustic Context</h2>
+
+<p>This is the first major experiment added in the Findings paper.</p>
+
+<h3 id="research-question">Research question</h3>
+
+<p>Does the model recognize stress solely from the local stress-bearing region, or does it use information elsewhere in the utterance?</p>
+
+<h3 id="motivation-1">Motivation</h3>
+
+<p>The Random Forest baseline only uses relative measurements within the two syllables or morphemes of the minimal pair. Whisper can instead accept variable-length audio and potentially use:</p>
+
+<ul>
+  <li>absolute properties of each constituent;</li>
+  <li>preceding speech;</li>
+  <li>following speech;</li>
+  <li>the shape of the entire utterance.</li>
+</ul>
+
+<h3 id="input-conditions">Input conditions</h3>
+
+<p>The model is evaluated with:</p>
+
+<ol>
+  <li>first syllable or morpheme alone;</li>
+  <li>second syllable or morpheme alone;</li>
+  <li>complete region of interest, with no outer context;</li>
+  <li>region plus preceding context;</li>
+  <li>region plus following context;</li>
+  <li>full utterance.</li>
+</ol>
+
+<p>Lexical-stress items were produced in isolation, so only the first three conditions are available for lexical stress.</p>
+
+<h3 id="analyses">Analyses</h3>
+
+<p>Results are reported:</p>
+
+<ul>
+  <li>across all speakers;</li>
+  <li>for men;</li>
+  <li>for women;</li>
+  <li>for all three stress types where applicable;</li>
+  <li>against both human and Random Forest benchmarks.</li>
+</ul>
+
+<h3 id="main-findings">Main findings</h3>
+
+<ul>
+  <li>Both constituents independently contain useful information.</li>
+  <li>The second constituent is consistently more informative than the first.</li>
+  <li>The difference is especially large for contrastive stress.</li>
+  <li>Using the full two-part region is substantially better than either constituent alone.</li>
+  <li>Additional sentential context usually improves phrasal and contrastive classification.</li>
+  <li>Following context is generally more beneficial than preceding context.</li>
+  <li>Men’s phrasal stress is the notable exception: context does not improve the result.</li>
+  <li>Full-context Whisper reaches or exceeds average human performance for phrasal and contrastive stress.</li>
+  <li>Whisper improves more strongly over the Random Forest baseline for women in several conditions.</li>
+</ul>
+
+<h3 id="interpretation">Interpretation</h3>
+
+<p>The authors infer that:</p>
+
+<ul>
+  <li>absolute measurements contain information that is lost when only inter-constituent differences are retained;</li>
+  <li>broader utterance prosody contributes to the interpretation of local stress;</li>
+  <li>preceding and following contexts make asymmetric contributions;</li>
+  <li>Whisper is learning interactions not captured by the three manually selected relative features.</li>
+</ul>
+
+<hr />
+
+<h2 id="5-transfer-between-stress-types">5. Transfer Between Stress Types</h2>
+
+<p>This is the shared experiment inherited from the workshop paper.</p>
+
+<h3 id="research-question-1">Research question</h3>
+
+<p>Does fine-tuning on one stress type improve or impair recognition of another?</p>
+
+<h3 id="control-condition">Control condition</h3>
+
+<ul>
+  <li>Fine-tune on all three stress types from one control participant.</li>
+  <li>This teaches the special output vocabulary and capitalization conventions.</li>
+  <li>It is intended not to provide enough data to learn general stress distinctions.</li>
+</ul>
+
+<h3 id="single-stress-models">Single-stress models</h3>
+
+<p>Train separate models on:</p>
+
+<ul>
+  <li>phrasal stress;</li>
+  <li>lexical stress;</li>
+  <li>contrastive stress.</li>
+</ul>
+
+<p>Test every model on all three stress types, producing a complete training-type × testing-type matrix.</p>
+
+<h3 id="joint-model">Joint model</h3>
+
+<p>Train one model on all three stress types and test it separately on each.</p>
+
+<h3 id="main-results">Main results</h3>
+
+<ul>
+  <li>Same-type training works well for all three stress types.</li>
+  <li>Lexical and contrastive stress show strong bidirectional transfer.</li>
+  <li>Phrasal stress transfers weakly to lexical stress.</li>
+  <li>Phrasal and contrastive training interfere with each other when trained separately.</li>
+  <li>Joint training preserves strong within-type performance without the same degree of conflict.</li>
+  <li>The joint model is near human accuracy and above the Random Forest classifiers.</li>
+</ul>
+
+<h3 id="added-cleaned-data-analysis">Added cleaned-data analysis</h3>
+
+<p>The Findings version introduces an additional robustness analysis:</p>
+
+<ul>
+  <li>remove recordings for which a majority of human coders perceived the opposite stress category;</li>
+  <li>retrain the single-stress and joint models;</li>
+  <li>report results on this less noisy subset;</li>
+  <li>include category-wise precision and recall;</li>
+  <li>show that same-type performance improves substantially;</li>
+  <li>show more modest improvements in lexical–contrastive transfer.</li>
+</ul>
+
+<p>The removed items number:</p>
+
+<ul>
+  <li>56 of 575 phrasal recordings;</li>
+  <li>65 of 575 lexical recordings;</li>
+  <li>73 of 573 contrastive recordings.</li>
+</ul>
+
+<p>This turns disagreement with human coding into an explicit data-quality analysis rather than leaving it absorbed into aggregate accuracy.</p>
+
+<hr />
+
+<h2 id="6-characterizing-decision-boundaries">6. Characterizing Decision Boundaries</h2>
+
+<p>This is the second major new experiment.</p>
+
+<h3 id="problem">Problem</h3>
+
+<p>Random Forests provide feature-importance scores, whereas Whisper is difficult to interpret internally.</p>
+
+<h3 id="proposed-solution">Proposed solution</h3>
+
+<p>Treat the model as a black box and manipulate the acoustic signal itself.</p>
+
+<h3 id="basic-method">Basic method</h3>
+
+<ol>
+  <li>Select recordings from the stress-first category.</li>
+  <li>Estimate how the acoustic distributions differ between stress-first and stress-final productions.</li>
+  <li>Modify stress-first recordings incrementally toward the stress-final distribution.</li>
+  <li>classify every modified recording;</li>
+  <li>measure how stress-first accuracy changes across the perturbation space;</li>
+  <li>interpret falling accuracy as movement toward a decision boundary.</li>
+</ol>
+
+<p>The nominal boundary is where the model becomes equally likely to choose the two classes.</p>
+
+<h3 id="perturbed-features">Perturbed features</h3>
+
+<p>For the first and second constituents:</p>
+
+<ul>
+  <li>mean pitch;</li>
+  <li>mean amplitude;</li>
+  <li>pause duration between constituents.</li>
+</ul>
+
+<h3 id="empirical-calibration">Empirical calibration</h3>
+
+<p>Perturbation values are derived from the observed differences between the two natural categories:</p>
+
+<ul>
+  <li>pitch as semitone differences;</li>
+  <li>amplitude as proportional changes;</li>
+  <li>pause as differences in seconds.</li>
+</ul>
+
+<p>The authors:</p>
+
+<ul>
+  <li>remove outliers using the 1.5-IQR rule;</li>
+  <li>select the 10th, 30th, 50th, 70th and 90th percentiles;</li>
+  <li>cap problematic pitch manipulations at a ±4-semitone grid;</li>
+  <li>exclude lexical pause manipulation because lexical pauses are almost always zero;</li>
+  <li>consider only positive pause extensions for computational simplicity.</li>
+</ul>
+
+<h3 id="evaluation">Evaluation</h3>
+
+<ul>
+  <li>Create two-dimensional grids combining first- and second-constituent perturbations.</li>
+  <li>Repeat for pitch and amplitude.</li>
+  <li>inspect selected pause-duration settings;</li>
+  <li>plot stress-first accuracy as heatmaps;</li>
+  <li>separate results for men and women;</li>
+  <li>exclude modified samples that Whisper no longer recognizes as either target category from the accuracy calculation;</li>
+  <li>report recognition rates separately in the appendix.</li>
+</ul>
+
+<h3 id="main-findings-1">Main findings</h3>
+
+<ul>
+  <li>Phrasal stress is especially sensitive to pause manipulation.</li>
+  <li>Lexical stress is sensitive to coordinated pitch and amplitude redistribution.</li>
+  <li>Contrastive stress shows similar sensitivity, particularly involving the second constituent.</li>
+  <li>Reducing prominence on the first constituent while increasing it on the second moves predictions toward stress-final.</li>
+  <li>The inverse manipulation can exaggerate stress-first classification beyond performance on the unmodified recordings.</li>
+  <li>Men’s and women’s response surfaces differ.</li>
+  <li>The resulting surfaces reveal interactions and continua that simple feature rankings do not show.</li>
+</ul>
+
+<hr />
+
+<h2 id="7-discussion">7. Discussion</h2>
+
+<p>The discussion is structured around the three experiments.</p>
+
+<h3 id="acoustic-context">Acoustic Context</h3>
+
+<ul>
+  <li>Stress classification depends on more than relative local features.</li>
+  <li>The second constituent is consistently especially informative.</li>
+  <li>Full and following context improve recognition.</li>
+  <li>Contextual asymmetry is interpreted as evidence relating to anticipatory and retrospective planning.</li>
+  <li>Whisper particularly improves classification of women’s speech relative to the Random Forest baseline.</li>
+  <li>The authors present the system as a scalable alternative to manual coding.</li>
+</ul>
+
+<h3 id="stress-transfer">Stress Transfer</h3>
+
+<ul>
+  <li>Lexical and contrastive stress appear to share substantial acoustic structure.</li>
+  <li>Phrasal stress is more distinct because it depends much more heavily on duration.</li>
+  <li>Joint training allows the model to learn several stress types without simply applying one universal stress representation.</li>
+  <li>Whisper retains its transcription framework, unlike a dedicated Random Forest classifier.</li>
+</ul>
+
+<h3 id="decision-boundaries">Decision Boundaries</h3>
+
+<ul>
+  <li>The perturbation method partially closes the interpretability gap between Whisper and conventional classifiers.</li>
+  <li>It confirms broad findings from the earlier acoustic analysis.</li>
+  <li>It also reveals interactions between first- and second-constituent cues.</li>
+  <li>The paper emphasizes a continuum between stress-first and stress-final rather than treating them as acoustically isolated categories.</li>
+</ul>
+
+<hr />
+
+<h2 id="8-conclusion">8. Conclusion</h2>
+
+<p>The authors conclude that Whisper can:</p>
+
+<ul>
+  <li>recognize several kinds of prosodic stress;</li>
+  <li>reach near-human or above-average-human performance under some conditions;</li>
+  <li>use variable-length acoustic context;</li>
+  <li>transfer patterns between related stress types;</li>
+  <li>outperform conventional classifiers;</li>
+  <li>support black-box analysis through controlled perturbations.</li>
+</ul>
+
+<p>They propose the approach as a basis for larger-scale and potentially cross-linguistic prosody research. Model weights are released for both the full and cleaned all-stress datasets.</p>
+
+<hr />
+
+<h2 id="9-limitations">9. Limitations</h2>
+
+<p>The paper identifies three principal limitations.</p>
+
+<h3 id="limited-lexical-coverage">Limited lexical coverage</h3>
+
+<ul>
+  <li>Only 24 minimal pairs are used.</li>
+  <li>Speaker-disjoint evaluation does not establish generalization to unseen lexical items.</li>
+  <li>Every fold contains all item types.</li>
+</ul>
+
+<h3 id="fixed-control-participant">Fixed control participant</h3>
+
+<ul>
+  <li>The control participant is not varied.</li>
+  <li>Fully varying that choice would require approximately 900 fine-tuned model instances.</li>
+  <li>Consequently, the transfer matrix may partly depend on the selected participant.</li>
+</ul>
+
+<h3 id="perturbation-limitations">Perturbation limitations</h3>
+
+<ul>
+  <li>The same perturbation distributions are applied to men and women.</li>
+  <li>Some transformations move recordings outside the distribution of natural speech.</li>
+  <li>Pitch, amplitude and pause manipulation do not capture every acoustic distinction between the categories.</li>
+  <li>More nuanced, potentially group-conditioned signal transformations are needed.</li>
+</ul>
+
+<hr />
+
+<h2 id="appendix">Appendix</h2>
+
+<p>The appendix supplies supporting material rather than a separate argument. It includes:</p>
+
+<ul>
+  <li>additional perturbation heatmaps;</li>
+  <li>recognition rates showing when manipulated audio ceased to be transcribed as either target category;</li>
+  <li>results for additional pause conditions;</li>
+  <li>fuller results from the less noisy dataset;</li>
+  <li>precision and recall for both stress-first and stress-final categories.</li>
+</ul>
+
+<p>The appendix is important because the main-text perturbation accuracy excludes unrecognized outputs; the appendix shows where the apparent classification surface is accompanied by degradation of the underlying signal.</p>
+
+<hr />
+
+<h1 id="2-how-the-shared-experiment-was-expanded">2. How the shared experiment was expanded</h1>
+
+<p>The workshop paper already contained the <strong>cross-stress transfer matrix</strong>. The Findings paper did not primarily expand it by collecting a larger stress dataset or inventing a new model. Instead, it placed that experiment inside a more comprehensive chain of analysis:</p>
+
+<blockquote>
+  <p><strong>Establish performance → isolate the available evidence → test transfer → clean ambiguous observations → manipulate hypothesized cues → compare the results with prior linguistic analysis.</strong></p>
+</blockquote>
+
+<p>That sequence can be turned into the following instructions.</p>
+
+<h2 id="a-retain-a-clearly-defined-core-experiment">A. Retain a clearly defined core experiment</h2>
+
+<p>Start with one compact result that can stand on its own.</p>
+
+<ol>
+  <li>Define several related classification phenomena.</li>
+  <li>encode each distinction in a model-compatible output representation;</li>
+  <li>train one model per phenomenon;</li>
+  <li>test every model on every phenomenon;</li>
+  <li>include a minimal-control model that learns the output convention without receiving enough data to learn the task generally;</li>
+  <li>train a joint model over all phenomena;</li>
+  <li>compare against human judgements and an interpretable conventional baseline.</li>
+</ol>
+
+<p>The original transfer matrix remains the central organizing result. The later paper does not replace it; it gives it explanatory support.</p>
+
+<hr />
+
+<h2 id="b-expand-the-methodological-account-before-adding-experiments">B. Expand the methodological account before adding experiments</h2>
+
+<p>The workshop paper compresses the setup into a short dataset section. The Findings paper turns this into separate preliminaries and related-work sections.</p>
+
+<p>Follow this pattern:</p>
+
+<ol>
+  <li>Explain why the pretrained model could contain relevant information despite not being trained for the target annotation.</li>
+  <li>explain exactly how the target distinction is represented in its output;</li>
+  <li>describe participants, elicitation tasks and labels separately;</li>
+  <li>state whether cross-validation separates speakers, items or recordings;</li>
+  <li>explain why that split corresponds to the intended generalization claim;</li>
+  <li>reconstruct the strongest prior baseline on the same dataset;</li>
+  <li>summarize what that baseline says about the underlying phenomenon, not just its accuracy.</li>
+</ol>
+
+<p>This allows every later experiment to answer a specific limitation of the prior method.</p>
+
+<hr />
+
+<h2 id="c-add-an-input-evidence-ablation">C. Add an input-evidence ablation</h2>
+
+<p>The first new question should be:</p>
+
+<blockquote>
+  <p><strong>What information is sufficient for the model to make the original distinction?</strong></p>
+</blockquote>
+
+<p>For a temporally structured speech task:</p>
+
+<ol>
+  <li>Identify the smallest theoretically relevant region.</li>
+  <li>divide it into meaningful subregions;</li>
+  <li>evaluate each subregion independently;</li>
+  <li>evaluate the complete local region;</li>
+  <li>add preceding context;</li>
+  <li>add following context;</li>
+  <li>evaluate the complete utterance;</li>
+  <li>keep the trained model and evaluation split otherwise comparable;</li>
+  <li>report results for each phenomenon and relevant speaker group;</li>
+  <li>compare every condition against human and conventional-model baselines.</li>
+</ol>
+
+<p>This converts “the model classifies the phenomenon” into a stronger empirical account of <strong>where the usable evidence resides</strong>.</p>
+
+<p>The Findings paper’s specific sequence was:</p>
+
+<ul>
+  <li>constituent 1;</li>
+  <li>constituent 2;</li>
+  <li>both constituents;</li>
+  <li>front context plus both;</li>
+  <li>both plus back context;</li>
+  <li>full utterance.</li>
+</ul>
+
+<p>A corresponding expansion in another study need not use exactly these units. The units should follow the structure of the target phenomenon.</p>
+
+<hr />
+
+<h2 id="d-test-absolute-information-as-well-as-relational-information">D. Test absolute information as well as relational information</h2>
+
+<p>The earlier Random Forest experiment used differences between the two constituents. The Findings paper tests the constituents separately and discovers that each has independent predictive value.</p>
+
+<p>General instruction:</p>
+
+<ol>
+  <li>Do not assume that a contrast is encoded only through a difference score.</li>
+  <li>evaluate each component independently;</li>
+  <li>compare component-only performance with relative-feature performance;</li>
+  <li>test whether one component is consistently more diagnostic;</li>
+  <li>determine whether a baseline discards useful absolute information through normalization or subtraction.</li>
+</ol>
+
+<p>This is a particularly useful expansion when the original method reduces a structured observation to a few relative summary statistics.</p>
+
+<hr />
+
+<h2 id="e-treat-surrounding-context-as-part-of-the-phenomenon">E. Treat surrounding context as part of the phenomenon</h2>
+
+<p>When the target occurs inside a larger sequence:</p>
+
+<ol>
+  <li>do not automatically crop everything outside the labelled region;</li>
+  <li>construct nested or directional context conditions;</li>
+  <li>distinguish preceding from following context;</li>
+  <li>avoid treating “more context” as a single undifferentiated condition;</li>
+  <li>interpret asymmetry only after showing that the context windows differ in both position and amount;</li>
+  <li>state when a task cannot support the same comparison because the original recordings lack context.</li>
+</ol>
+
+<p>The Findings paper properly leaves the lexical-context cells unavailable rather than manufacturing comparable conditions.</p>
+
+<hr />
+
+<h2 id="f-preserve-subgroup-analysis-throughout">F. Preserve subgroup analysis throughout</h2>
+
+<p>The workshop paper introduced gender and neurotype as a separate classification target. The Findings paper instead uses gender as a <strong>stratification variable in the target task itself</strong>.</p>
+
+<p>The more defensible procedure is:</p>
+
+<ol>
+  <li>identify a grouping variable motivated by earlier evidence;</li>
+  <li>balance it in train/test partitions;</li>
+  <li>report both pooled and subgroup results;</li>
+  <li>compare the size of improvement over each baseline within each group;</li>
+  <li>inspect whether ablation and perturbation patterns differ, not merely aggregate accuracy;</li>
+  <li>avoid assuming that different performance proves a single causal explanation.</li>
+</ol>
+
+<p>In other words, ask:</p>
+
+<blockquote>
+  <p>Does the proposed method work equally well across groups, and does it use the same evidence?</p>
+</blockquote>
+
+<p>rather than:</p>
+
+<blockquote>
+  <p>Can the speech recording be used to classify the speaker’s group?</p>
+</blockquote>
+
+<p>This is one of the most important changes in emphasis between the papers.</p>
+
+<hr />
+
+<h2 id="g-add-a-label-quality-or-ambiguity-analysis">G. Add a label-quality or ambiguity analysis</h2>
+
+<p>The original experiment uses intended labels even where participants may have produced the opposite contrast. The Findings paper adds a cleaned subset based on human perception.</p>
+
+<p>Follow this procedure:</p>
+
+<ol>
+  <li>distinguish <strong>experimental target</strong> from <strong>perceived realization</strong>;</li>
+  <li>identify cases where independent annotators agree that the realized category contradicts the intended one;</li>
+  <li>retain the complete dataset as the principal evaluation unless there is a reason not to;</li>
+  <li>repeat the analysis on a clearly defined lower-noise subset;</li>
+  <li>report exactly how many observations are removed from each class or condition;</li>
+  <li>
+    <p>compare whether cleaning primarily affects:</p>
+
+    <ul>
+      <li>within-task accuracy,</li>
+      <li>cross-task transfer,</li>
+      <li>class balance,</li>
+      <li>precision,</li>
+      <li>recall;</li>
+    </ul>
+  </li>
+  <li>interpret improved performance as sensitivity to label noise, not automatically as evidence that the cleaned result is the only valid result.</li>
+</ol>
+
+<p>This is especially relevant to any corpus created from prompts, canonical forms or intended productions: an instruction label is not necessarily an acoustic ground truth.</p>
+
+<hr />
+
+<h2 id="h-go-beyond-aggregate-accuracy">H. Go beyond aggregate accuracy</h2>
+
+<p>The workshop paper largely reports accuracy. The Findings expansion adds precision and recall for each side of the contrast in the cleaned-data analysis.</p>
+
+<p>A fuller study should report:</p>
+
+<ol>
+  <li>accuracy with variability across folds;</li>
+  <li>per-category precision and recall;</li>
+  <li>confusion direction;</li>
+  <li>subgroup results;</li>
+  <li>human agreement or human performance;</li>
+  <li>conventional baseline performance;</li>
+  <li>significance relative to the appropriate control;</li>
+  <li>sample or recognition attrition caused by preprocessing or perturbation.</li>
+</ol>
+
+<p>This guards against an apparently strong result being driven by one category, one group or model abstention.</p>
+
+<hr />
+
+<h2 id="i-build-an-interpretability-experiment-from-prior-domain-knowledge">I. Build an interpretability experiment from prior domain knowledge</h2>
+
+<p>The paper does not begin with arbitrary perturbations. It uses the acoustic variables already identified by the earlier phonetic analysis.</p>
+
+<p>The reusable procedure is:</p>
+
+<ol>
+  <li>identify features supported by prior domain analysis;</li>
+  <li>measure their natural distributions in each target class;</li>
+  <li>calculate class-to-class shifts;</li>
+  <li>remove extreme observations according to a declared rule;</li>
+  <li>choose representative shift magnitudes from the empirical distribution;</li>
+  <li>modify examples from one class incrementally toward the other;</li>
+  <li>apply changes separately to structurally meaningful components;</li>
+  <li>combine component-wise changes into a grid;</li>
+  <li>run the unchanged classifier on every modified example;</li>
+  <li>visualize the resulting response surface.</li>
+</ol>
+
+<p>This makes the perturbation experiment a test of a concrete hypothesis:</p>
+
+<blockquote>
+  <p>Does moving the signal along a naturally observed acoustic dimension move the model toward the opposing interpretation?</p>
+</blockquote>
+
+<hr />
+
+<h2 id="j-manipulate-components-jointly-not-only-one-feature-at-a-time">J. Manipulate components jointly, not only one feature at a time</h2>
+
+<p>Stress depends on the relationship between two constituents. The paper therefore varies the first and second components independently along two axes.</p>
+
+<p>For an analogous study:</p>
+
+<ol>
+  <li>identify components whose relationship defines the distinction;</li>
+  <li>perturb component A and component B independently;</li>
+  <li>evaluate their Cartesian product;</li>
+  <li>include the unmodified condition in the grid;</li>
+  <li>inspect interactions rather than just marginal feature effects;</li>
+  <li>test both movement toward the opposite category and exaggeration of the original category.</li>
+</ol>
+
+<p>A one-dimensional feature sweep would not show, for example, that lowering the first constituent and raising the second jointly produces a much stronger change than either manipulation alone.</p>
+
+<hr />
+
+<h2 id="k-ground-perturbation-ranges-in-observed-data">K. Ground perturbation ranges in observed data</h2>
+
+<p>Do not choose transformation strengths merely because they produce a visually clear result.</p>
+
+<p>Use the paper’s logic:</p>
+
+<ol>
+  <li>estimate the empirical shift between categories;</li>
+  <li>derive perturbation levels from distributional percentiles;</li>
+  <li>document any clipping imposed to prevent artefacts;</li>
+  <li>distinguish empirically derived values from manually substituted values;</li>
+  <li>justify omitted dimensions;</li>
+  <li>acknowledge when computational simplification makes the tested transformation asymmetric.</li>
+</ol>
+
+<p>The paper departs from its empirical values where large pitch shifts create artefacts and explicitly substitutes a bounded grid. That exception belongs in the method, not hidden in implementation details.</p>
+
+<hr />
+
+<h2 id="l-measure-whether-the-perturbation-remains-valid">L. Measure whether the perturbation remains valid</h2>
+
+<p>The Findings paper does something important but imperfect: when Whisper no longer recognizes a modified signal as either target string, it excludes that example from classification accuracy and separately reports recognition percentages.</p>
+
+<p>The better general instruction is:</p>
+
+<ol>
+  <li>define a validity criterion for every manipulated sample;</li>
+  <li>
+    <p>report both:</p>
+
+    <ul>
+      <li>conditional classification among valid samples;</li>
+      <li>the proportion of samples remaining valid;</li>
+    </ul>
+  </li>
+  <li>never present conditional classification alone;</li>
+  <li>inspect whether apparent decision-boundary effects coincide with signal degradation;</li>
+  <li>provide examples or diagnostics for out-of-distribution transformations;</li>
+  <li>treat lost validity as a limitation of the perturbation method.</li>
+</ol>
+
+<p>In a stronger replication, one might report a three-way outcome:</p>
+
+<ul>
+  <li>original category;</li>
+  <li>opposing category;</li>
+  <li>invalid or unrecognized.</li>
+</ul>
+
+<p>That would make the boundary surface harder to overinterpret.</p>
+
+<hr />
+
+<h2 id="m-triangulate-model-behaviour-with-the-earlier-interpretable-baseline">M. Triangulate model behaviour with the earlier interpretable baseline</h2>
+
+<p>After obtaining ablations and perturbation surfaces:</p>
+
+<ol>
+  <li>compare them with the feature rankings from the conventional model;</li>
+  <li>identify agreements;</li>
+  <li>identify additional interactions visible only in the larger model;</li>
+  <li>distinguish confirmation from genuinely new evidence;</li>
+  <li>avoid claiming that similar model sensitivity establishes the causal basis of human production.</li>
+</ol>
+
+<p>The Findings paper’s central triangulation is:</p>
+
+<ul>
+  <li>the acoustic baseline says phrasal stress is dominated by duration;</li>
+  <li>the perturbation experiment finds phrasal classification strongly sensitive to pausing;</li>
+  <li>the baseline says lexical and contrastive stress use pitch and amplitude;</li>
+  <li>the corresponding model boundaries respond to redistribution of those cues.</li>
+</ul>
+
+<hr />
+
+<h2 id="n-organize-the-resulting-full-paper-as-an-explanatory-progression">N. Organize the resulting full paper as an explanatory progression</h2>
+
+<p>A direct template derived from the Findings paper would be:</p>
+
+<ol>
+  <li>
+    <p><strong>Introduction</strong></p>
+
+    <ul>
+      <li>task significance;</li>
+      <li>limitation of manual analysis;</li>
+      <li>reason the pretrained model may help;</li>
+      <li>full contribution list.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Model and data preliminaries</strong></p>
+
+    <ul>
+      <li>pretraining relevance;</li>
+      <li>annotation encoding;</li>
+      <li>corpus and split design.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Prior analysis and benchmarks</strong></p>
+
+    <ul>
+      <li>established domain findings;</li>
+      <li>conventional model;</li>
+      <li>human benchmark.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Evidence-location experiment</strong></p>
+
+    <ul>
+      <li>component ablations;</li>
+      <li>local versus full context;</li>
+      <li>subgroup analysis.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Cross-phenomenon transfer</strong></p>
+
+    <ul>
+      <li>control;</li>
+      <li>single-task matrix;</li>
+      <li>joint training;</li>
+      <li>cleaned-label replication.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Model-behaviour experiment</strong></p>
+
+    <ul>
+      <li>empirically grounded perturbations;</li>
+      <li>multidimensional response surfaces;</li>
+      <li>validity or recognition diagnostics.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Integrated discussion</strong></p>
+
+    <ul>
+      <li>context;</li>
+      <li>transfer;</li>
+      <li>interpretability;</li>
+      <li>agreement with domain knowledge.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Conclusion</strong></p>
+  </li>
+  <li>
+    <p><strong>Limitations</strong></p>
+
+    <ul>
+      <li>item generalization;</li>
+      <li>control sensitivity;</li>
+      <li>perturbation validity.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Appendix</strong></p>
+
+    <ul>
+      <li>full class metrics;</li>
+      <li>secondary perturbation conditions;</li>
+      <li>attrition/recognition plots;</li>
+      <li>cleaned-data results.</li>
+    </ul>
+  </li>
+</ol>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/summary/whisper/prosody/stress/2026/07/22/whisper-prosodic-stress.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
