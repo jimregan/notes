@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-hidden: true
+hidden: false
 description: Misc. interesting things.
 title: Interesting links, 29/07/2026
 categories: [links]
