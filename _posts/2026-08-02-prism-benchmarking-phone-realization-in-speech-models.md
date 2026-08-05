@@ -10,7 +10,7 @@ categories: [summary, chatgpt]
 ```bibtex
 @inproceedings{
 anonymous2026prism,
-title={{PR}i{SM}: Benchmarking Phone Realization in Speech Models},
+title={ {PR}i{SM}: Benchmarking Phone Realization in Speech Models},
 author={Anonymous},
 booktitle={Submitted to ACL Rolling Review - January 2026},
 year={2026},
