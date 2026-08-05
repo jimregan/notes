@@ -612,11 +612,6 @@ good  be-COND.3SG   this-ACC  PV-discuss-INF
 
 Okay...
 
-```text
-Oké...
-okay
-```
-
 **Szóval figyelj! Elkezdtem dumálni egy sráccal, bekövetett Instagramon, miután belájkoltam egy sztoriját.**
 
 So listen! I started chatting with a guy; he followed me on Instagram after I liked one of his stories.
